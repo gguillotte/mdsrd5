@@ -32,7 +32,7 @@ Initial release, containing all content except the Monsters and Magic Items sect
 
 -   Monsters and magic items aren't yet included.
 -   There are no links. This won't happen until all content is included.
--   Most references to spells and magic items are not yet properly italicized.
+-   Most references to spells and magic items aren't yet properly italicized.
 -   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of tables in the source material. This Markdown file is generated from a copy that uses Pandoc's `multiline_tables` extension.
 -   PDF output uses `wktohtml` for now, leading to some poor formatting results, especially with page-spanning tables.
 -   Spell descriptions suffered the most in the text conversion process and need another proofing pass.
