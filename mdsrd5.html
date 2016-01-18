@@ -9,271 +9,63 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
+<script src="./jets.min.js"></script>
 </head>
 <body>
+<header>
+<h1>The Markdown SRD5 (HTML output)</h1><p>Source: <a href='http://dnd.wizards.com/articles/features/systems-reference-document-srd'>The original publisher's website</a>, used here in accordance with the <a href='./Legal_Information.htm'>Open Gaming LIcense (OGL),</a></p><p>Also available in <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf'>bookmarked PDF</a>, <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub'>epub 2</a>, and <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md'>Markdown</a> formats. <a href='https://github.com/gguillotte/mdsrd5'>Grab a fork on GitHub.</a></p>
+</header>
 <nav id="TOC">
+<p>Search table of contents:</p>
+<input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})">
 <ul>
 <li><a href="#legal-information">Legal Information</a></li>
 <li><a href="#races">Races</a><ul>
-<li><a href="#racial-traits">Racial Traits</a><ul>
-<li><a href="#ability-score-increase">Ability Score Increase</a></li>
-<li><a href="#age">Age</a></li>
-<li><a href="#alignment">Alignment</a></li>
-<li><a href="#size">Size</a></li>
-<li><a href="#speed">Speed</a></li>
-<li><a href="#languages">Languages</a></li>
-<li><a href="#subraces">Subraces</a></li>
-</ul></li>
-<li><a href="#dragonborn">Dragonborn</a><ul>
-<li><a href="#dragonborn-traits">Dragonborn Traits</a></li>
-</ul></li>
-<li><a href="#dwarf">Dwarf</a><ul>
-<li><a href="#dwarf-traits">Dwarf Traits</a></li>
-</ul></li>
-<li><a href="#elf">Elf</a><ul>
-<li><a href="#elf-traits">Elf Traits</a></li>
-</ul></li>
-<li><a href="#gnome">Gnome</a><ul>
-<li><a href="#gnome-traits">Gnome Traits</a></li>
-</ul></li>
-<li><a href="#half-elf">Half-Elf</a><ul>
-<li><a href="#half-elf-traits">Half-Elf Traits</a></li>
-</ul></li>
-<li><a href="#half-orc">Half-Orc</a><ul>
-<li><a href="#half-orc-traits">Half-Orc Traits</a></li>
-</ul></li>
-<li><a href="#halfling">Halfling</a><ul>
-<li><a href="#halfling-traits">Halfling Traits</a></li>
-</ul></li>
-<li><a href="#human">Human</a><ul>
-<li><a href="#human-traits">Human Traits</a></li>
-</ul></li>
-<li><a href="#tiefling">Tiefling</a><ul>
-<li><a href="#tiefling-traits">Tiefling Traits</a></li>
-</ul></li>
+<li><a href="#racial-traits">Racial Traits</a></li>
+<li><a href="#dragonborn">Dragonborn</a></li>
+<li><a href="#dwarf">Dwarf</a></li>
+<li><a href="#elf">Elf</a></li>
+<li><a href="#gnome">Gnome</a></li>
+<li><a href="#half-elf">Half-Elf</a></li>
+<li><a href="#half-orc">Half-Orc</a></li>
+<li><a href="#halfling">Halfling</a></li>
+<li><a href="#human">Human</a></li>
+<li><a href="#tiefling">Tiefling</a></li>
 </ul></li>
 <li><a href="#classes">Classes</a><ul>
-<li><a href="#barbarian">Barbarian</a><ul>
-<li><a href="#class-features">Class Features</a></li>
-<li><a href="#rage">Rage</a></li>
-<li><a href="#unarmored-defense">Unarmored Defense</a></li>
-<li><a href="#reckless-attack">Reckless Attack</a></li>
-<li><a href="#danger-sense">Danger Sense</a></li>
-<li><a href="#primal-path">Primal Path</a></li>
-<li><a href="#ability-score-improvement">Ability Score Improvement</a></li>
-<li><a href="#extra-attack">Extra Attack</a></li>
-<li><a href="#fast-movement">Fast Movement</a></li>
-<li><a href="#feral-instinct">Feral Instinct</a></li>
-<li><a href="#brutal-critical">Brutal Critical</a></li>
-<li><a href="#relentless-rage">Relentless Rage</a></li>
-<li><a href="#persistent-rage">Persistent Rage</a></li>
-<li><a href="#indomitable-might">Indomitable Might</a></li>
-<li><a href="#primal-champion">Primal Champion</a></li>
-</ul></li>
-<li><a href="#barbarian-paths">Barbarian Paths</a><ul>
-<li><a href="#path-of-the-berserker">Path of the Berserker</a></li>
-</ul></li>
-<li><a href="#bard">Bard</a><ul>
-<li><a href="#class-features-1">Class Features</a></li>
-<li><a href="#spellcasting">Spellcasting</a></li>
-<li><a href="#bardic-inspiration">Bardic Inspiration</a></li>
-<li><a href="#jack-of-all-trades">Jack of All Trades</a></li>
-<li><a href="#song-of-rest">Song of Rest</a></li>
-<li><a href="#bard-college">Bard College</a></li>
-<li><a href="#expertise">Expertise</a></li>
-<li><a href="#ability-score-improvement-1">Ability Score Improvement</a></li>
-<li><a href="#font-of-inspiration">Font of Inspiration</a></li>
-<li><a href="#countercharm">Countercharm</a></li>
-<li><a href="#magical-secrets">Magical Secrets</a></li>
-<li><a href="#superior-inspiration">Superior Inspiration</a></li>
-</ul></li>
-<li><a href="#bard-colleges">Bard Colleges</a><ul>
-<li><a href="#college-of-lore">College of Lore</a></li>
-</ul></li>
-<li><a href="#cleric">Cleric</a><ul>
-<li><a href="#class-features-2">Class Features</a></li>
-<li><a href="#equipment-2">Equipment</a></li>
-<li><a href="#spellcasting-1">Spellcasting</a></li>
-<li><a href="#divine-domain">Divine Domain</a></li>
-<li><a href="#channel-divinity">Channel Divinity</a></li>
-<li><a href="#ability-score-improvement-2">Ability Score Improvement</a></li>
-<li><a href="#destroy-undead">Destroy Undead</a></li>
-<li><a href="#divine-intervention">Divine Intervention</a></li>
-</ul></li>
-<li><a href="#domains">Domains</a><ul>
-<li><a href="#life-domain">Life Domain</a></li>
-</ul></li>
-<li><a href="#druid">Druid</a><ul>
-<li><a href="#class-features-3">Class Features</a></li>
-<li><a href="#druidic">Druidic</a></li>
-<li><a href="#spellcasting-2">Spellcasting</a></li>
-<li><a href="#wild-shape">Wild Shape</a></li>
-<li><a href="#druid-circle">Druid Circle</a></li>
-<li><a href="#timeless-body">Timeless Body</a></li>
-<li><a href="#ability-score-improvement-3">Ability Score Improvement</a></li>
-<li><a href="#beast-spells">Beast Spells</a></li>
-<li><a href="#archdruid">Archdruid</a></li>
-</ul></li>
-<li><a href="#druid-circles">Druid Circles</a><ul>
-<li><a href="#circle-of-the-land">Circle of the Land</a></li>
-</ul></li>
-<li><a href="#fighter">Fighter</a><ul>
-<li><a href="#class-features-4">Class Features</a></li>
-<li><a href="#fighting-style">Fighting Style</a></li>
-<li><a href="#second-wind">Second Wind</a></li>
-<li><a href="#action-surge">Action Surge</a></li>
-<li><a href="#martial-archetype">Martial Archetype</a></li>
-<li><a href="#ability-score-improvement-4">Ability Score Improvement</a></li>
-<li><a href="#extra-attack-1">Extra Attack</a></li>
-<li><a href="#indomitable">Indomitable</a></li>
-</ul></li>
-<li><a href="#martial-archetypes">Martial Archetypes</a><ul>
-<li><a href="#champion">Champion</a></li>
-</ul></li>
-<li><a href="#monk">Monk</a><ul>
-<li><a href="#class-features-5">Class Features</a></li>
-<li><a href="#unarmored-defense-1">Unarmored Defense</a></li>
-<li><a href="#martial-arts">Martial Arts</a></li>
-<li><a href="#ki">Ki</a></li>
-<li><a href="#unarmored-movement">Unarmored Movement</a></li>
-<li><a href="#monastic-tradition">Monastic Tradition</a></li>
-<li><a href="#deflect-missiles">Deflect Missiles</a></li>
-<li><a href="#ability-score-improvement-5">Ability Score Improvement</a></li>
-<li><a href="#slow-fall">Slow Fall</a></li>
-<li><a href="#extra-attack-2">Extra Attack</a></li>
-<li><a href="#timeless-body-1">Timeless Body</a></li>
-<li><a href="#stunning-strike">Stunning Strike</a></li>
-<li><a href="#ki-empowered-strikes">Ki-Empowered Strikes</a></li>
-<li><a href="#evasion">Evasion</a></li>
-<li><a href="#stillness-of-mind">Stillness of Mind</a></li>
-<li><a href="#purity-of-body">Purity of Body</a></li>
-<li><a href="#tongue-of-the-sun-and-moon">Tongue of the Sun and Moon</a></li>
-<li><a href="#diamond-soul">Diamond Soul</a></li>
-<li><a href="#empty-body">Empty Body</a></li>
-<li><a href="#perfect-self">Perfect Self</a></li>
-</ul></li>
-<li><a href="#monastic-traditions">Monastic Traditions</a><ul>
-<li><a href="#way-of-the-open-hand">Way of the Open Hand</a></li>
-</ul></li>
-<li><a href="#paladin">Paladin</a><ul>
-<li><a href="#class-features-6">Class Features</a></li>
-<li><a href="#divine-sense">Divine Sense</a></li>
-<li><a href="#lay-on-hands">Lay on Hands</a></li>
-<li><a href="#fighting-style-1">Fighting Style</a></li>
-<li><a href="#spellcasting-3">Spellcasting</a></li>
-<li><a href="#spellcasting-focus-3">Spellcasting Focus</a></li>
-<li><a href="#divine-smite">Divine Smite</a></li>
-<li><a href="#divine-health">Divine Health</a></li>
-<li><a href="#sacred-oath">Sacred Oath</a></li>
-<li><a href="#ability-score-improvement-6">Ability Score Improvement</a></li>
-<li><a href="#extra-attack-3">Extra Attack</a></li>
-<li><a href="#aura-of-protection">Aura of Protection</a></li>
-<li><a href="#aura-of-courage">Aura of Courage</a></li>
-<li><a href="#improved-divine-smite">Improved Divine Smite</a></li>
-<li><a href="#cleansing-touch">Cleansing Touch</a></li>
-</ul></li>
-<li><a href="#sacred-oaths">Sacred Oaths</a><ul>
-<li><a href="#oath-of-devotion">Oath of Devotion</a></li>
-</ul></li>
-<li><a href="#ranger">Ranger</a><ul>
-<li><a href="#class-features-7">Class Features</a></li>
-<li><a href="#favored-enemy">Favored Enemy</a></li>
-<li><a href="#natural-explorer">Natural Explorer</a></li>
-<li><a href="#fighting-style-2">Fighting Style</a></li>
-<li><a href="#spellcasting-4">Spellcasting</a></li>
-<li><a href="#ranger-archetype">Ranger Archetype</a></li>
-<li><a href="#primeval-awareness">Primeval Awareness</a></li>
-<li><a href="#ability-score-improvement-7">Ability Score Improvement</a></li>
-<li><a href="#extra-attack-4">Extra Attack</a></li>
-<li><a href="#lands-stride-1">Land's Stride</a></li>
-<li><a href="#hide-in-plain-sight">Hide in Plain Sight</a></li>
-<li><a href="#vanish">Vanish</a></li>
-<li><a href="#feral-senses">Feral Senses</a></li>
-<li><a href="#foe-slayer">Foe Slayer</a></li>
-</ul></li>
-<li><a href="#ranger-archetypes">Ranger Archetypes</a><ul>
-<li><a href="#hunter">Hunter</a></li>
-</ul></li>
-<li><a href="#rogue">Rogue</a><ul>
-<li><a href="#class-features-8">Class Features</a></li>
-<li><a href="#expertise-1">Expertise</a></li>
-<li><a href="#sneak-attack">Sneak Attack</a></li>
-<li><a href="#thieves-cant">Thieves' Cant</a></li>
-<li><a href="#cunning-action">Cunning Action</a></li>
-<li><a href="#roguish-archetype">Roguish Archetype</a></li>
-<li><a href="#ability-score-improvement-8">Ability Score Improvement</a></li>
-<li><a href="#uncanny-dodge">Uncanny Dodge</a></li>
-<li><a href="#evasion-1">Evasion</a></li>
-<li><a href="#reliable-talent">Reliable Talent</a></li>
-<li><a href="#blindsense">Blindsense</a></li>
-<li><a href="#slippery-mind">Slippery Mind</a></li>
-<li><a href="#elusive">Elusive</a></li>
-<li><a href="#stroke-of-luck">Stroke of Luck</a></li>
-</ul></li>
-<li><a href="#roguish-archetypes">Roguish Archetypes</a><ul>
-<li><a href="#thief">Thief</a></li>
-</ul></li>
-<li><a href="#sorcerer">Sorcerer</a><ul>
-<li><a href="#class-features-9">Class Features</a></li>
-<li><a href="#spellcasting-5">Spellcasting</a></li>
-<li><a href="#sorcerous-origin">Sorcerous Origin</a></li>
-<li><a href="#font-of-magic">Font of Magic</a></li>
-<li><a href="#metamagic">Metamagic</a></li>
-<li><a href="#ability-score-improvement-9">Ability Score Improvement</a></li>
-<li><a href="#sorcerous-restoration">Sorcerous Restoration</a></li>
-</ul></li>
-<li><a href="#sorcerous-origins">Sorcerous Origins</a><ul>
-<li><a href="#draconic-bloodline">Draconic Bloodline</a></li>
-</ul></li>
-<li><a href="#warlock">Warlock</a><ul>
-<li><a href="#class-features-10">Class Features</a></li>
-<li><a href="#otherworldly-patron">Otherworldly Patron</a></li>
-<li><a href="#pact-magic">Pact Magic</a></li>
-<li><a href="#eldritch-invocations">Eldritch Invocations</a></li>
-<li><a href="#pact-boon">Pact Boon</a></li>
-<li><a href="#ability-score-improvement-10">Ability Score Improvement</a></li>
-<li><a href="#mystic-arcanum">Mystic Arcanum</a></li>
-<li><a href="#eldritch-master">Eldritch Master</a></li>
-</ul></li>
+<li><a href="#barbarian">Barbarian</a></li>
+<li><a href="#barbarian-paths">Barbarian Paths</a></li>
+<li><a href="#bard">Bard</a></li>
+<li><a href="#bard-colleges">Bard Colleges</a></li>
+<li><a href="#cleric">Cleric</a></li>
+<li><a href="#domains">Domains</a></li>
+<li><a href="#druid">Druid</a></li>
+<li><a href="#druid-circles">Druid Circles</a></li>
+<li><a href="#fighter">Fighter</a></li>
+<li><a href="#martial-archetypes">Martial Archetypes</a></li>
+<li><a href="#monk">Monk</a></li>
+<li><a href="#monastic-traditions">Monastic Traditions</a></li>
+<li><a href="#paladin">Paladin</a></li>
+<li><a href="#sacred-oaths">Sacred Oaths</a></li>
+<li><a href="#ranger">Ranger</a></li>
+<li><a href="#ranger-archetypes">Ranger Archetypes</a></li>
+<li><a href="#rogue">Rogue</a></li>
+<li><a href="#roguish-archetypes">Roguish Archetypes</a></li>
+<li><a href="#sorcerer">Sorcerer</a></li>
+<li><a href="#sorcerous-origins">Sorcerous Origins</a></li>
+<li><a href="#warlock">Warlock</a></li>
 <li><a href="#eldritch-invocations-1">Eldritch Invocations</a></li>
-<li><a href="#otherworldly-patrons">Otherworldly Patrons</a><ul>
-<li><a href="#the-fiend">The Fiend</a></li>
-</ul></li>
-<li><a href="#wizard">Wizard</a><ul>
-<li><a href="#class-features-11">Class Features</a></li>
-<li><a href="#spellcasting-6">Spellcasting</a></li>
-<li><a href="#arcane-recovery">Arcane Recovery</a></li>
-<li><a href="#arcane-tradition">Arcane Tradition</a></li>
-<li><a href="#ability-score-improvement-11">Ability Score Improvement</a></li>
-<li><a href="#spell-mastery">Spell Mastery</a></li>
-<li><a href="#signature-spells">Signature Spells</a></li>
-</ul></li>
-<li><a href="#arcane-traditions">Arcane Traditions</a><ul>
-<li><a href="#school-of-evocation">School of Evocation</a></li>
-</ul></li>
+<li><a href="#otherworldly-patrons">Otherworldly Patrons</a></li>
+<li><a href="#wizard">Wizard</a></li>
+<li><a href="#arcane-traditions">Arcane Traditions</a></li>
 </ul></li>
 <li><a href="#beyond-1st-level">Beyond 1st Level</a><ul>
 <li><a href="#character-advancement">Character Advancement</a></li>
-<li><a href="#backgrounds">Backgrounds</a><ul>
-<li><a href="#components-of-a-background">Components of a Background</a></li>
-<li><a href="#acolyte">Acolyte</a></li>
-</ul></li>
-<li><a href="#multiclassing">Multiclassing</a><ul>
-<li><a href="#prerequisites">Prerequisites</a></li>
-<li><a href="#experience-points">Experience Points</a></li>
-<li><a href="#hit-points-and-hit-dice">Hit Points and Hit Dice</a></li>
-<li><a href="#proficiency-bonus">Proficiency Bonus</a></li>
-<li><a href="#proficiencies-13">Proficiencies</a></li>
-<li><a href="#class-features-12">Class Features</a></li>
-</ul></li>
-<li><a href="#alignment-1">Alignment</a><ul>
-<li><a href="#alignment-in-the-multiverse">Alignment in the Multiverse</a></li>
-</ul></li>
+<li><a href="#backgrounds">Backgrounds</a></li>
+<li><a href="#multiclassing">Multiclassing</a></li>
+<li><a href="#alignment-1">Alignment</a></li>
 <li><a href="#languages-2">Languages</a></li>
-<li><a href="#inspiration">Inspiration</a><ul>
-<li><a href="#gaining-inspiration">Gaining Inspiration</a></li>
-<li><a href="#using-inspiration">Using Inspiration</a></li>
-</ul></li>
+<li><a href="#inspiration">Inspiration</a></li>
 </ul></li>
 <li><a href="#equipment-13">Equipment</a><ul>
 <li><a href="#currency">Currency</a></li>
@@ -282,23 +74,10 @@
 <li><a href="#tools">Tools</a></li>
 <li><a href="#mounts-and-vehicles">Mounts and Vehicles</a></li>
 <li><a href="#trade-goods">Trade Goods</a></li>
-<li><a href="#expenses">Expenses</a><ul>
-<li><a href="#lifestyle-expenses">Lifestyle Expenses</a></li>
-<li><a href="#food-drink-and-lodging">Food, Drink, and Lodging</a></li>
-</ul></li>
-<li><a href="#services">Services</a><ul>
-<li><a href="#spellcasting-services">Spellcasting Services</a></li>
-</ul></li>
-<li><a href="#armor">Armor</a><ul>
-<li><a href="#light-armor">Light Armor</a></li>
-<li><a href="#medium-armor">Medium Armor</a></li>
-<li><a href="#heavy-armor">Heavy Armor</a></li>
-<li><a href="#getting-into-and-out-of-armor">Getting Into and Out of Armor</a></li>
-</ul></li>
-<li><a href="#weapons">Weapons</a><ul>
-<li><a href="#weapon-proficiency">Weapon Proficiency</a></li>
-<li><a href="#weapon-properties">Weapon Properties</a></li>
-</ul></li>
+<li><a href="#expenses">Expenses</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#armor">Armor</a></li>
+<li><a href="#weapons">Weapons</a></li>
 </ul></li>
 <li><a href="#feats">Feats</a><ul>
 <li><a href="#grappler">Grappler</a></li>
@@ -307,399 +86,47 @@
 <li><a href="#ability-scores-and-modifiers">Ability Scores and Modifiers</a></li>
 <li><a href="#advantage-and-disadvantage">Advantage and Disadvantage</a></li>
 <li><a href="#proficiency-bonus-1">Proficiency Bonus</a></li>
-<li><a href="#ability-checks">Ability Checks</a><ul>
-<li><a href="#contests">Contests</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#passive-checks">Passive Checks</a></li>
-<li><a href="#working-together">Working Together</a></li>
-</ul></li>
-<li><a href="#using-each-ability">Using Each Ability</a><ul>
-<li><a href="#strength-1">Strength</a></li>
-<li><a href="#dexterity-1">Dexterity</a></li>
-<li><a href="#constitution">Constitution</a></li>
-<li><a href="#intelligence-1">Intelligence</a></li>
-<li><a href="#wisdom-1">Wisdom</a></li>
-<li><a href="#charisma-1">Charisma</a></li>
-</ul></li>
+<li><a href="#ability-checks">Ability Checks</a></li>
+<li><a href="#using-each-ability">Using Each Ability</a></li>
 <li><a href="#saving-throws">Saving Throws</a></li>
 </ul></li>
 <li><a href="#adventuring">Adventuring</a><ul>
 <li><a href="#time">Time</a></li>
-<li><a href="#movement">Movement</a><ul>
-<li><a href="#speed-1">Speed</a></li>
-<li><a href="#special-types-of-movement">Special Types of Movement</a></li>
-</ul></li>
-<li><a href="#environment">Environment</a><ul>
-<li><a href="#falling">Falling</a></li>
-<li><a href="#suffocating">Suffocating</a></li>
-<li><a href="#vision-and-light">Vision and Light</a></li>
-<li><a href="#food-and-water">Food and Water</a></li>
-</ul></li>
-<li><a href="#objects">Objects</a><ul>
-<li><a href="#breaking-objects">Breaking Objects</a></li>
-</ul></li>
-<li><a href="#resting">Resting</a><ul>
-<li><a href="#short-rest">Short Rest</a></li>
-<li><a href="#long-rest">Long Rest</a></li>
-</ul></li>
-<li><a href="#between-adventures">Between Adventures</a><ul>
-<li><a href="#lifestyle-expenses-1">Lifestyle Expenses</a></li>
-<li><a href="#downtime-activities">Downtime Activities</a></li>
-</ul></li>
+<li><a href="#movement">Movement</a></li>
+<li><a href="#environment">Environment</a></li>
+<li><a href="#objects">Objects</a></li>
+<li><a href="#resting">Resting</a></li>
+<li><a href="#between-adventures">Between Adventures</a></li>
 <li><a href="#conditions">Conditions</a></li>
-<li><a href="#poisons">Poisons</a><ul>
-<li><a href="#sample-poisons">Sample Poisons</a></li>
-</ul></li>
-<li><a href="#diseases">Diseases</a><ul>
-<li><a href="#sample-diseases">Sample Diseases</a></li>
-</ul></li>
-<li><a href="#madness">Madness</a><ul>
-<li><a href="#going-mad">Going Mad</a></li>
-<li><a href="#madness-effects">Madness Effects</a></li>
-<li><a href="#curing-madness">Curing Madness</a></li>
-</ul></li>
-<li><a href="#traps">Traps</a><ul>
-<li><a href="#traps-in-play">Traps in Play</a></li>
-<li><a href="#sample-traps">Sample Traps</a></li>
-</ul></li>
+<li><a href="#poisons">Poisons</a></li>
+<li><a href="#diseases">Diseases</a></li>
+<li><a href="#madness">Madness</a></li>
+<li><a href="#traps">Traps</a></li>
 </ul></li>
 <li><a href="#combat">Combat</a><ul>
-<li><a href="#the-order-of-combat">The Order of Combat</a><ul>
-<li><a href="#surprise">Surprise</a></li>
-<li><a href="#initiative-1">Initiative</a></li>
-<li><a href="#your-turn">Your Turn</a></li>
-<li><a href="#reactions">Reactions</a></li>
-</ul></li>
-<li><a href="#movement-and-position">Movement and Position</a><ul>
-<li><a href="#breaking-up-your-move">Breaking Up Your Move</a></li>
-<li><a href="#difficult-terrain-1">Difficult Terrain</a></li>
-<li><a href="#being-prone">Being Prone</a></li>
-<li><a href="#moving-around-other-creatures">Moving Around Other Creatures</a></li>
-<li><a href="#flying-movement">Flying Movement</a></li>
-<li><a href="#creature-size">Creature Size</a></li>
-</ul></li>
-<li><a href="#actions-in-combat">Actions in Combat</a><ul>
-<li><a href="#attack">Attack</a></li>
-<li><a href="#cast-a-spell">Cast a Spell</a></li>
-<li><a href="#dash">Dash</a></li>
-<li><a href="#disengage">Disengage</a></li>
-<li><a href="#dodge">Dodge</a></li>
-<li><a href="#help">Help</a></li>
-<li><a href="#hide">Hide</a></li>
-<li><a href="#ready">Ready</a></li>
-<li><a href="#search">Search</a></li>
-<li><a href="#use-an-object">Use an Object</a></li>
-</ul></li>
-<li><a href="#making-an-attack">Making an Attack</a><ul>
-<li><a href="#attack-rolls">Attack Rolls</a></li>
-<li><a href="#unseen-attackers-and-targets">Unseen Attackers and Targets</a></li>
-<li><a href="#ranged-attacks">Ranged Attacks</a></li>
-<li><a href="#ranged-attacks-in-close-combat">Ranged Attacks in Close Combat</a></li>
-<li><a href="#melee-attacks">Melee Attacks</a></li>
-</ul></li>
+<li><a href="#the-order-of-combat">The Order of Combat</a></li>
+<li><a href="#movement-and-position">Movement and Position</a></li>
+<li><a href="#actions-in-combat">Actions in Combat</a></li>
+<li><a href="#making-an-attack">Making an Attack</a></li>
 <li><a href="#cover">Cover</a></li>
-<li><a href="#damage-and-healing">Damage and Healing</a><ul>
-<li><a href="#hit-points-13">Hit Points</a></li>
-<li><a href="#damage-rolls">Damage Rolls</a></li>
-<li><a href="#damage-resistance-and-vulnerability">Damage Resistance and Vulnerability</a></li>
-<li><a href="#healing">Healing</a></li>
-<li><a href="#dropping-to-0-hit-points">Dropping to 0 Hit Points</a></li>
-<li><a href="#knocking-a-creature-out">Knocking a Creature Out</a></li>
-<li><a href="#temporary-hit-points">Temporary Hit Points</a></li>
-</ul></li>
-<li><a href="#mounted-combat">Mounted Combat</a><ul>
-<li><a href="#mounting-and-dismounting">Mounting and Dismounting</a></li>
-<li><a href="#controlling-a-mount">Controlling a Mount</a></li>
-</ul></li>
+<li><a href="#damage-and-healing">Damage and Healing</a></li>
+<li><a href="#mounted-combat">Mounted Combat</a></li>
 <li><a href="#underwater-combat">Underwater Combat</a></li>
 </ul></li>
 <li><a href="#spellcasting-8">Spellcasting</a><ul>
-<li><a href="#what-is-a-spell">What Is a Spell?</a><ul>
-<li><a href="#spell-level">Spell Level</a></li>
-<li><a href="#known-and-prepared-spells">Known and Prepared Spells</a></li>
-<li><a href="#spell-slots-4">Spell Slots</a></li>
-<li><a href="#cantrips-6">Cantrips</a></li>
-<li><a href="#rituals">Rituals</a></li>
-</ul></li>
-<li><a href="#casting-a-spell">Casting a Spell</a><ul>
-<li><a href="#casting-time">Casting Time</a></li>
-<li><a href="#range-1">Range</a></li>
-<li><a href="#components">Components</a></li>
-<li><a href="#duration">Duration</a></li>
-<li><a href="#targets">Targets</a></li>
-<li><a href="#areas-of-effect">Areas of Effect</a></li>
-<li><a href="#saving-throws-1">Saving Throws</a></li>
-<li><a href="#attack-rolls-1">Attack Rolls</a></li>
-<li><a href="#combining-magical-effects">Combining Magical Effects</a></li>
-</ul></li>
-<li><a href="#spell-lists">Spell Lists</a><ul>
-<li><a href="#bard-spells">Bard Spells</a></li>
-<li><a href="#cleric-spells">Cleric Spells</a></li>
-<li><a href="#druid-spells">Druid Spells</a></li>
-<li><a href="#paladin-spells">Paladin Spells</a></li>
-<li><a href="#ranger-spells">Ranger Spells</a></li>
-<li><a href="#sorcerer-spells">Sorcerer Spells</a></li>
-<li><a href="#warlock-spells">Warlock Spells</a></li>
-<li><a href="#wizard-spells">Wizard Spells</a></li>
-</ul></li>
+<li><a href="#what-is-a-spell">What Is a Spell?</a></li>
+<li><a href="#casting-a-spell">Casting a Spell</a></li>
+<li><a href="#spell-lists">Spell Lists</a></li>
 <li><a href="#spell-descriptions">Spell Descriptions</a></li>
 </ul></li>
 <li><a href="#magic-items">Magic Items</a><ul>
-<li><a href="#magic-item-descriptions">Magic Item Descriptions</a><ul>
-<li><a href="#adamantine-armor">Adamantine Armor</a></li>
-<li><a href="#ammunition-1-2-or-3">Ammunition, +1, +2, or +3</a></li>
-<li><a href="#amulet-of-health">Amulet of Health</a></li>
-<li><a href="#amulet-of-proof-against-detection-and-location">Amulet of Proof against Detection and Location</a></li>
-<li><a href="#amulet-of-the-planes">Amulet of the Planes</a></li>
-<li><a href="#animated-shield">Animated Shield</a></li>
-<li><a href="#apparatus-of-the-crab">Apparatus of the Crab</a></li>
-<li><a href="#armor-1-2-or-3">Armor, +1, +2, or +3</a></li>
-<li><a href="#armor-of-invulnerability">Armor of Invulnerability</a></li>
-<li><a href="#armor-of-resistance">Armor of Resistance</a></li>
-<li><a href="#armor-of-vulnerability">Armor of Vulnerability</a></li>
-<li><a href="#arrow-catching-shield">Arrow-Catching Shield</a></li>
-<li><a href="#arrow-of-slaying">Arrow of Slaying</a></li>
-<li><a href="#bag-of-beans">Bag of Beans</a></li>
-<li><a href="#bag-of-devouring">Bag of Devouring</a></li>
-<li><a href="#bag-of-holding">Bag of Holding</a></li>
-<li><a href="#bag-of-tricks">Bag of Tricks</a></li>
-<li><a href="#bead-of-force">Bead of Force</a></li>
-<li><a href="#belt-of-dwarvenkind">Belt of Dwarvenkind</a></li>
-<li><a href="#belt-of-giant-strength">Belt of Giant Strength</a></li>
-<li><a href="#berserker-axe">Berserker Axe</a></li>
-<li><a href="#boots-of-elvenkind">Boots of Elvenkind</a></li>
-<li><a href="#boots-of-levitation">Boots of Levitation</a></li>
-<li><a href="#boots-of-speed">Boots of Speed</a></li>
-<li><a href="#boots-of-striding-and-springing">Boots of Striding and Springing</a></li>
-<li><a href="#boots-of-the-winterlands">Boots of the Winterlands</a></li>
-<li><a href="#bowl-of-commanding-water-elementals">Bowl of Commanding Water Elementals</a></li>
-<li><a href="#bracers-of-archery">Bracers of Archery</a></li>
-<li><a href="#bracers-of-defense">Bracers of Defense</a></li>
-<li><a href="#brazier-of-commanding-fire-elementals">Brazier of Commanding Fire Elementals</a></li>
-<li><a href="#brooch-of-shielding">Brooch of Shielding</a></li>
-<li><a href="#broom-of-flying">Broom of Flying</a></li>
-<li><a href="#candle-of-invocation">Candle of Invocation</a></li>
-<li><a href="#cape-of-the-mountebank">Cape of the Mountebank</a></li>
-<li><a href="#carpet-of-flying">Carpet of Flying</a></li>
-<li><a href="#censer-of-controlling-air-elementals">Censer of Controlling Air Elementals</a></li>
-<li><a href="#chime-of-opening">Chime of Opening</a></li>
-<li><a href="#circlet-of-blasting">Circlet of Blasting</a></li>
-<li><a href="#cloak-of-arachnida">Cloak of Arachnida</a></li>
-<li><a href="#cloak-of-displacement">Cloak of Displacement</a></li>
-<li><a href="#cloak-of-elvenkind">Cloak of Elvenkind</a></li>
-<li><a href="#cloak-of-protection">Cloak of Protection</a></li>
-<li><a href="#cloak-of-the-bat">Cloak of the Bat</a></li>
-<li><a href="#cloak-of-the-manta-ray">Cloak of the Manta Ray</a></li>
-<li><a href="#crystal-ball">Crystal Ball</a></li>
-<li><a href="#cube-of-force">Cube of Force</a></li>
-<li><a href="#cubic-gate">Cubic Gate</a></li>
-<li><a href="#dagger-of-venom">Dagger of Venom</a></li>
-<li><a href="#dancing-sword">Dancing Sword</a></li>
-<li><a href="#decanter-of-endless-water">Decanter of Endless Water</a></li>
-<li><a href="#deck-of-illusions">Deck of Illusions</a></li>
-<li><a href="#deck-of-many-things">Deck of Many Things</a></li>
-<li><a href="#defender">Defender</a></li>
-<li><a href="#demon-armor">Demon Armor</a></li>
-<li><a href="#dimensional-shackles">Dimensional Shackles</a></li>
-<li><a href="#dragon-scale-mail">Dragon Scale Mail</a></li>
-<li><a href="#dragon-slayer">Dragon Slayer</a></li>
-<li><a href="#dust-of-disappearance">Dust of Disappearance</a></li>
-<li><a href="#dust-of-dryness">Dust of Dryness</a></li>
-<li><a href="#dust-of-sneezing-and-choking">Dust of Sneezing and Choking</a></li>
-<li><a href="#dwarven-plate">Dwarven Plate</a></li>
-<li><a href="#dwarven-thrower">Dwarven Thrower</a></li>
-<li><a href="#efficient-quiver">Efficient Quiver</a></li>
-<li><a href="#efreeti-bottle">Efreeti Bottle</a></li>
-<li><a href="#elemental-gem">Elemental Gem</a></li>
-<li><a href="#elven-chain">Elven Chain</a></li>
-<li><a href="#eversmoking-bottle">Eversmoking Bottle</a></li>
-<li><a href="#eyes-of-charming">Eyes of Charming</a></li>
-<li><a href="#eyes-of-minute-seeing">Eyes of Minute Seeing</a></li>
-<li><a href="#eyes-of-the-eagle">Eyes of the Eagle</a></li>
-<li><a href="#feather-token">Feather Token</a></li>
-<li><a href="#figurine-of-wondrous-power">Figurine of Wondrous Power</a></li>
-<li><a href="#flame-tongue">Flame Tongue</a></li>
-<li><a href="#folding-boat">Folding Boat</a></li>
-<li><a href="#frost-brand">Frost Brand</a></li>
-<li><a href="#gem-of-seeing">Gem of Seeing</a></li>
-<li><a href="#giant-slayer">Giant Slayer</a></li>
-<li><a href="#glamoured-studded-leather">Glamoured Studded Leather</a></li>
-<li><a href="#gloves-of-missile-snaring">Gloves of Missile Snaring</a></li>
-<li><a href="#gloves-of-swimming-and-climbing">Gloves of Swimming and Climbing</a></li>
-<li><a href="#goggles-of-night">Goggles of Night</a></li>
-<li><a href="#hammer-of-thunderbolts">Hammer of Thunderbolts</a></li>
-<li><a href="#handy-haversack">Handy Haversack</a></li>
-<li><a href="#hat-of-disguise">Hat of Disguise</a></li>
-<li><a href="#headband-of-intellect">Headband of Intellect</a></li>
-<li><a href="#helm-of-brilliance">Helm of Brilliance</a></li>
-<li><a href="#helm-of-comprehending-languages">Helm of Comprehending Languages</a></li>
-<li><a href="#helm-of-telepathy">Helm of Telepathy</a></li>
-<li><a href="#helm-of-teleportation">Helm of Teleportation</a></li>
-<li><a href="#holy-avenger">Holy Avenger</a></li>
-<li><a href="#horn-of-blasting">Horn of Blasting</a></li>
-<li><a href="#horn-of-valhalla">Horn of Valhalla</a></li>
-<li><a href="#horseshoes-of-speed">Horseshoes of Speed</a></li>
-<li><a href="#horseshoes-of-a-zephyr">Horseshoes of a Zephyr</a></li>
-<li><a href="#immovable-rod">Immovable Rod</a></li>
-<li><a href="#instant-fortress">Instant Fortress</a></li>
-<li><a href="#ioun-stone">Ioun Stone</a></li>
-<li><a href="#iron-bands-of-binding">Iron Bands of Binding</a></li>
-<li><a href="#iron-flask">Iron Flask</a></li>
-<li><a href="#javelin-of-lightning">Javelin of Lightning</a></li>
-<li><a href="#lantern-of-revealing">Lantern of Revealing</a></li>
-<li><a href="#luck-blade">Luck Blade</a></li>
-<li><a href="#mace-of-disruption">Mace of Disruption</a></li>
-<li><a href="#mace-of-smiting">Mace of Smiting</a></li>
-<li><a href="#mace-of-terror">Mace of Terror</a></li>
-<li><a href="#mantle-of-spell-resistance">Mantle of Spell Resistance</a></li>
-<li><a href="#manual-of-bodily-health">Manual of Bodily Health</a></li>
-<li><a href="#manual-of-gainful-exercise">Manual of Gainful Exercise</a></li>
-<li><a href="#manual-of-golems">Manual of Golems</a></li>
-<li><a href="#manual-of-quickness-of-action">Manual of Quickness of Action</a></li>
-<li><a href="#marvelous-pigments">Marvelous Pigments</a></li>
-<li><a href="#medallion-of-thoughts">Medallion of Thoughts</a></li>
-<li><a href="#mirror-of-life-trapping">Mirror of Life Trapping</a></li>
-<li><a href="#mithral-armor">Mithral Armor</a></li>
-<li><a href="#necklace-of-adaptation">Necklace of Adaptation</a></li>
-<li><a href="#necklace-of-fireballs">Necklace of Fireballs</a></li>
-<li><a href="#necklace-of-prayer-beads">Necklace of Prayer Beads</a></li>
-<li><a href="#nine-lives-stealer">Nine Lives Stealer</a></li>
-<li><a href="#oathbow">Oathbow</a></li>
-<li><a href="#oil-of-etherealness">Oil of Etherealness</a></li>
-<li><a href="#oil-of-sharpness">Oil of Sharpness</a></li>
-<li><a href="#oil-of-slipperiness">Oil of Slipperiness</a></li>
-<li><a href="#pearl-of-power">Pearl of Power</a></li>
-<li><a href="#periapt-of-health">Periapt of Health</a></li>
-<li><a href="#periapt-of-proof-against-poison">Periapt of Proof against Poison</a></li>
-<li><a href="#periapt-of-wound-closure">Periapt of Wound Closure</a></li>
-<li><a href="#philter-of-love">Philter of Love</a></li>
-<li><a href="#pipes-of-haunting">Pipes of Haunting</a></li>
-<li><a href="#pipes-of-the-sewers">Pipes of the Sewers</a></li>
-<li><a href="#plate-armor-of-etherealness">Plate Armor of Etherealness</a></li>
-<li><a href="#portable-hole">Portable Hole</a></li>
-<li><a href="#potion-of-animal-friendship">Potion of Animal Friendship</a></li>
-<li><a href="#potion-of-clairvoyance">Potion of Clairvoyance</a></li>
-<li><a href="#potion-of-climbing">Potion of Climbing</a></li>
-<li><a href="#potion-of-diminution">Potion of Diminution</a></li>
-<li><a href="#potion-of-flying">Potion of Flying</a></li>
-<li><a href="#potion-of-gaseous-form">Potion of Gaseous Form</a></li>
-<li><a href="#potion-of-giant-strength">Potion of Giant Strength</a></li>
-<li><a href="#potion-of-growth">Potion of Growth</a></li>
-<li><a href="#potion-of-healing">Potion of Healing</a></li>
-<li><a href="#potion-of-heroism">Potion of Heroism</a></li>
-<li><a href="#potion-of-invisibility">Potion of Invisibility</a></li>
-<li><a href="#potion-of-mind-reading">Potion of Mind Reading</a></li>
-<li><a href="#potion-of-poison">Potion of Poison</a></li>
-<li><a href="#potion-of-resistance">Potion of Resistance</a></li>
-<li><a href="#potion-of-speed">Potion of Speed</a></li>
-<li><a href="#potion-of-water-breathing">Potion of Water Breathing</a></li>
-<li><a href="#restorative-ointment">Restorative Ointment</a></li>
-<li><a href="#ring-of-animal-influence">Ring of Animal Influence</a></li>
-<li><a href="#ring-of-djinni-summoning">Ring of Djinni Summoning</a></li>
-<li><a href="#ring-of-elemental-command">Ring of Elemental Command</a></li>
-<li><a href="#ring-of-evasion">Ring of Evasion</a></li>
-<li><a href="#ring-of-feather-falling">Ring of Feather Falling</a></li>
-<li><a href="#ring-of-free-action">Ring of Free Action</a></li>
-<li><a href="#ring-of-invisibility">Ring of Invisibility</a></li>
-<li><a href="#ring-of-jumping">Ring of Jumping</a></li>
-<li><a href="#ring-of-mind-shielding">Ring of Mind Shielding</a></li>
-<li><a href="#ring-of-protection">Ring of Protection</a></li>
-<li><a href="#ring-of-regeneration">Ring of Regeneration</a></li>
-<li><a href="#ring-of-resistance">Ring of Resistance</a></li>
-<li><a href="#ring-of-shooting-stars">Ring of Shooting Stars</a></li>
-<li><a href="#ring-of-spell-storing">Ring of Spell Storing</a></li>
-<li><a href="#ring-of-spell-turning">Ring of Spell Turning</a></li>
-<li><a href="#ring-of-swimming">Ring of Swimming</a></li>
-<li><a href="#ring-of-telekinesis">Ring of Telekinesis</a></li>
-<li><a href="#ring-of-three-wishes">Ring of Three Wishes</a></li>
-<li><a href="#ring-of-warmth">Ring of Warmth</a></li>
-<li><a href="#ring-of-water-walking">Ring of Water Walking</a></li>
-<li><a href="#ring-of-x-ray-vision">Ring of X-ray Vision</a></li>
-<li><a href="#ring-of-the-ram">Ring of the Ram</a></li>
-<li><a href="#robe-of-eyes">Robe of Eyes</a></li>
-<li><a href="#robe-of-scintillating-colors">Robe of Scintillating Colors</a></li>
-<li><a href="#robe-of-stars">Robe of Stars</a></li>
-<li><a href="#robe-of-useful-items">Robe of Useful Items</a></li>
-<li><a href="#robe-of-the-archmagi">Robe of the Archmagi</a></li>
-<li><a href="#rod-of-absorption">Rod of Absorption</a></li>
-<li><a href="#rod-of-alertness">Rod of Alertness</a></li>
-<li><a href="#rod-of-lordly-might">Rod of Lordly Might</a></li>
-<li><a href="#rod-of-rulership">Rod of Rulership</a></li>
-<li><a href="#rod-of-security">Rod of Security</a></li>
-<li><a href="#rope-of-climbing">Rope of Climbing</a></li>
-<li><a href="#rope-of-entanglement">Rope of Entanglement</a></li>
-<li><a href="#scarab-of-protection">Scarab of Protection</a></li>
-<li><a href="#scimitar-of-speed">Scimitar of Speed</a></li>
-<li><a href="#shield-1-2-or-3">Shield, +1, +2, or +3</a></li>
-<li><a href="#shield-of-missile-attraction">Shield of Missile Attraction</a></li>
-<li><a href="#slippers-of-spider-climbing">Slippers of Spider Climbing</a></li>
-<li><a href="#sovereign-glue">Sovereign Glue</a></li>
-<li><a href="#spell-scroll">Spell Scroll</a></li>
-<li><a href="#spellguard-shield">Spellguard Shield</a></li>
-<li><a href="#sphere-of-annihilation-1">Sphere of Annihilation</a></li>
-<li><a href="#staff-of-charming">Staff of Charming</a></li>
-<li><a href="#staff-of-fire">Staff of Fire</a></li>
-<li><a href="#staff-of-frost">Staff of Frost</a></li>
-<li><a href="#staff-of-healing">Staff of Healing</a></li>
-<li><a href="#staff-of-power">Staff of Power</a></li>
-<li><a href="#staff-of-striking">Staff of Striking</a></li>
-<li><a href="#staff-of-swarming-insects">Staff of Swarming Insects</a></li>
-<li><a href="#staff-of-thunder-and-lightning">Staff of Thunder and Lightning</a></li>
-<li><a href="#staff-of-withering">Staff of Withering</a></li>
-<li><a href="#staff-of-the-magi">Staff of the Magi</a></li>
-<li><a href="#staff-of-the-python">Staff of the Python</a></li>
-<li><a href="#staff-of-the-woodlands">Staff of the Woodlands</a></li>
-<li><a href="#stone-of-controlling-earth-elementals">Stone of Controlling Earth Elementals</a></li>
-<li><a href="#stone-of-good-luck-luckstone">Stone of Good Luck (Luckstone)</a></li>
-<li><a href="#sun-blade">Sun Blade</a></li>
-<li><a href="#sword-of-life-stealing">Sword of Life Stealing</a></li>
-<li><a href="#sword-of-sharpness">Sword of Sharpness</a></li>
-<li><a href="#sword-of-wounding">Sword of Wounding</a></li>
-<li><a href="#talisman-of-pure-good">Talisman of Pure Good</a></li>
-<li><a href="#talisman-of-ultimate-evil">Talisman of Ultimate Evil</a></li>
-<li><a href="#talisman-of-the-sphere">Talisman of the Sphere</a></li>
-<li><a href="#tome-of-clear-thought">Tome of Clear Thought</a></li>
-<li><a href="#tome-of-leadership-and-influence">Tome of Leadership and Influence</a></li>
-<li><a href="#tome-of-understanding">Tome of Understanding</a></li>
-<li><a href="#trident-of-fish-command">Trident of Fish Command</a></li>
-<li><a href="#universal-solvent">Universal Solvent</a></li>
-<li><a href="#vicious-weapon">Vicious Weapon</a></li>
-<li><a href="#vorpal-sword">Vorpal Sword</a></li>
-<li><a href="#wand-of-binding">Wand of Binding</a></li>
-<li><a href="#wand-of-enemy-detection">Wand of Enemy Detection</a></li>
-<li><a href="#wand-of-fear">Wand of Fear</a></li>
-<li><a href="#wand-of-fireballs">Wand of Fireballs</a></li>
-<li><a href="#wand-of-lightning-bolts">Wand of Lightning Bolts</a></li>
-<li><a href="#wand-of-magic-detection">Wand of Magic Detection</a></li>
-<li><a href="#wand-of-magic-missiles">Wand of Magic Missiles</a></li>
-<li><a href="#wand-of-paralysis">Wand of Paralysis</a></li>
-<li><a href="#wand-of-polymorph">Wand of Polymorph</a></li>
-<li><a href="#wand-of-secrets">Wand of Secrets</a></li>
-<li><a href="#wand-of-web">Wand of Web</a></li>
-<li><a href="#wand-of-wonder">Wand of Wonder</a></li>
-<li><a href="#wand-of-the-war-mage-1-2-or-3">Wand of the War Mage, +1, +2, or +3</a></li>
-<li><a href="#weapon-1-2-or-3">Weapon, +1, +2, or +3</a></li>
-<li><a href="#well-of-many-worlds">Well of Many Worlds</a></li>
-<li><a href="#wind-fan">Wind Fan</a></li>
-<li><a href="#winged-boots">Winged Boots</a></li>
-<li><a href="#wings-of-flying">Wings of Flying</a></li>
-</ul></li>
-<li><a href="#sentient-magic-items">Sentient Magic Items</a><ul>
-<li><a href="#creating-sentient-magic-items">Creating Sentient Magic Items</a></li>
-<li><a href="#conflict">Conflict</a></li>
-</ul></li>
-<li><a href="#artifacts">Artifacts</a><ul>
-<li><a href="#orb-of-dragonkind">Orb of Dragonkind</a></li>
-</ul></li>
+<li><a href="#magic-item-descriptions">Magic Item Descriptions</a></li>
+<li><a href="#sentient-magic-items">Sentient Magic Items</a></li>
+<li><a href="#artifacts">Artifacts</a></li>
 </ul></li>
 <li><a href="#the-planes-of-existence">The Planes of Existence</a><ul>
 <li><a href="#the-material-plane">The Material Plane</a></li>
-<li><a href="#beyond-the-material">Beyond the Material</a><ul>
-<li><a href="#planar-travel">Planar Travel</a></li>
-<li><a href="#transitive-planes">Transitive Planes</a></li>
-<li><a href="#inner-planes">Inner Planes</a></li>
-<li><a href="#outer-planes">Outer Planes</a></li>
-</ul></li>
+<li><a href="#beyond-the-material">Beyond the Material</a></li>
 </ul></li>
 <li><a href="#pantheons">Pantheons</a><ul>
 <li><a href="#the-celtic-pantheon">The Celtic Pantheon</a></li>
@@ -711,9 +138,7 @@
 </nav>
 <section id="legal-information" class="level1">
 <h1>Legal Information</h1>
-<p>This material is being released using the Open Gaming License Version 1.0a and you should read and understand the terms of that license before using this material.</p>
-<p>The text of the Open Gaming License itself is not Open Game Content. Instructions on using the License are provided within the License itself.</p>
-<p>No content in The Markdown SRD5 is claimed as Product Identity, and all of The Markdown SRD5 is Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:</p>
+<p>No content in The Markdown SRD5 is claimed as Product Identity. All content in The Markdown SRD5 not covered by another license is Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:</p>
 <p>OPEN GAME LICENSE Version 1.0a</p>
 <p>The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc (&quot;Wizards&quot;). All Rights Reserved.</p>
 <ol type="1">
@@ -734,12 +159,13 @@
 <li><p>COPYRIGHT NOTICE</p></li>
 </ol>
 <p>Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.</p>
+<p>System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.</p>
 <p>System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.</p>
 <p>The Markdown SRD5 Copyright 2016, Garrett Guillotte.</p>
 <p>END OF LICENSE</p>
 <blockquote>
-<p>If you note any errors with the game mechanics or content of this document, please let Wizards of the Coast know by emailing askdnd@wizards.com.</p>
-<p>If you note any problems with the formatting or presentation of this document, please file an issue at <a href="https://github.com/gguillotte/mdsrd5" class="uri">https://github.com/gguillotte/mdsrd5</a>.</p>
+<p>If you note any errors with the game mechanics of this document, please consult the <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">official System Reference Docuemnt</a>.</p>
+<p>If you note any problems with the formatting or presentation of this document, or identify protected content that should be removed, please file an issue at <a href="https://github.com/gguillotte/mdsrd5" class="uri">https://github.com/gguillotte/mdsrd5</a>.</p>
 </blockquote>
 </section>
 <section id="races" class="level1">
@@ -20753,16 +20179,16 @@ Effect</th>
 </section>
 <section id="artifacts" class="level2">
 <h2>Artifacts</h2>
-<section id="orb-of-dragonkind" class="level3">
-<h3>Orb of Dragonkind</h3>
+<section id="orb-of-the-wyrm" class="level3">
+<h3>Orb of the Wyrm</h3>
 <p><em>Wondrous item, artifact (requires attunement)</em></p>
-<p>Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five <em>Orbs of Dragonkind</em> (or <em>Dragon Orbs</em>) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.</p>
+<p>Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five <em>Orbs of the Wyrm</em> (or <em>Wyrm Orbs</em>) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.</p>
 <p>As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.</p>
 <p>Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.</p>
 <p>An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.</p>
 <p>While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.</p>
 <p>While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of a dragon god, or something else the GM decides.</p>
-<p><strong><em>Random Properties.</em></strong> An <em>Orb of Dragonkind</em> has the following random properties:</p>
+<p><strong><em>Random Properties.</em></strong> An <em>Orb of the Wyrm</em> has the following random properties:</p>
 <ul>
 <li>2 minor beneficial properties</li>
 <li>1 minor detrimental property</li>
@@ -20771,7 +20197,7 @@ Effect</th>
 <p><strong><em>Spells.</em></strong> The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).</p>
 <p>You can also use an action to cast the detect magic spell from the orb without using any charges.</p>
 <p><strong><em>Call Dragons.</em></strong> While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.</p>
-<p><strong><em>Destroying an Orb.</em></strong> An <em>Orb of Dragonkind</em> appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.</p>
+<p><strong><em>Destroying an Orb.</em></strong> An <em>Orb of the Wyrm</em> appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.</p>
 </section>
 </section>
 </section>

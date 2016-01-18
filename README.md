@@ -13,7 +13,7 @@ I've got a few goals in doing this:
 
 What this *won't* be is a complete replacement for the roleplaying game system it references, or a repository for third-party content, or an advertising-supported commercial endeavor. This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.org/) by Jans Carton.
 
-> **WARNING:** This is a work in progress. Using it as an source for a product covered by the Open Gaming License might expose you to liability. I am not a lawyer, and this is not legal advice; consult a lawyer before using the OGL. Any terms in this document not owned by me or are not Open Game Content or freely available content are used unintentionally and will be removed immediately on request.
+> **WARNING:** This is a work in progress. Using it as an source for a product covered by the Open Gaming License might expose you to liability. I am not a lawyer, and this is not legal advice; consult a lawyer before using the OGL. Any protected terms in this document not owned by me or that are not Open Game Content or otherwise freely available content are used unintentionally and will be removed immediately on request.
 
 Generic terms
 -------------
@@ -25,6 +25,7 @@ In several places, protected content must be replaced rather than removed. In th
 -   fey plane
 -   shadow plane
 -   Primordial Chaos
+-   Orb of the Wyrm
 
 References to protected deities are changed to real-world mythological entities as listed in the Pantheons section.
 
@@ -38,18 +39,22 @@ Adds Magic Items and continues rooting out protected content.
 #### New content
 
 -   Magic Items, Magic Item Descriptions, Sentient Magic Items, and Artifacts sections.
+-   A citation for the previous System Reference Document, which provides several terms as open content that are not provided or cited by the new System Reference Document.
+-   The completed content so far, as a simple, single-page, GitHub Pages-hosted HTML document. The Table of Contents is searchable using [Jets.js](https://jets.js.org), and you can save the document and use it (and the TOC search) offline.
+-   An epub 2 version, only tested in iBooks.
 
 #### Fixes
 
 -   Remove plane-related protected content.
--   Remove protected creature names. Welcome the hooked hulk and eyestalker!
+-   Remove protected creature, item, and artifact names. Welcome the hooked hulk and eyestalker!
 -   Numerous formatting fixes.
 
 #### Known issues
 
+-   Monsters aren't yet included.
 -   There are no links. This won't happen until all content is included.
 -   Most references to spells and magic items aren't yet properly italicized.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of tables in the source material. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add the source files to this repo.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
 -   PDF output uses `wktohtml` for now, leading to some poor formatting results, especially with page-spanning tables.
 -   Spell descriptions, magic items, and monsters suffered the most in the text conversion process and need additional proofing.
 
@@ -67,4 +72,4 @@ Initial release, containing all content except the Monsters and Magic Items sect
 
 #### Known issues
 
--   Monsters and magic items aren't yet included.
+-   Monsters and magic items weren't yet included.
