@@ -9,63 +9,1160 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-<script src="./jets.min.js"></script>
+<!-- Remote and external CSS -->
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<!-- /Remote and external CSS -->
+
+<style type="text/css">
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+</style>
+
+<style type="text/css">
+/* Base styles (over Normalize.css) */
+html {
+  margin: 1em;
+  font-family: Alegreya, Georgia, Palatino, serif;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: darkred;
+  margin-bottom: 0.25em;
+}
+
+header h1 {
+  font-size: 2.25em;
+  text-align: center;
+  border-bottom: 2px burlywood solid;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid burlywood;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+/* Sidebar styles (as blockquotes) */
+blockquote {
+  background-color: beige;
+  padding: 0.5em;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+blockquote h4 {
+  margin-top: 0;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* Table styles */
+table {
+  margin-top: 0.5em;
+  width: 100% !important;
+  max-width: 750px !important;
+  border-bottom: 1px solid burlywood;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+tr:first-child{
+  border-top: 1px solid burlywood;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+
+tr.header {
+  background-color: white;
+}
+
+td, th {
+  padding: 0.25em 0.5em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+/* TOC collapsing list styles */
+nav ul {
+  padding-left: 1em;
+}
+
+nav ul li {
+  cursor: auto;
+  list-style-type: none;
+}
+
+nav ul li::before {
+  content: ' ';
+  padding-left: 2em;
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen,
+nav ul li.collapsibleListClosed {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+nav ul li.collapsibleListOpen {
+  margin-left: 1px;
+}
+
+nav ul li.collapsibleListOpen::before {
+  content: '▼ ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListClosed::before {
+  content: '► ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen::before,
+nav ul li.collapsibleListClosed::before {
+  padding-left: 1em;
+}
+
+nav ul li a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a#goToTop {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  width: 2em;
+  height: 2em;
+  background-color: rgba(222,184,135,0.5);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+  font-weight: bold;
+}
+
+/* Stat block styles */
+.creature-statblock {
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+.creature-statblock table {
+  width: auto !important;
+}
+
+.creature-statblock tr {
+  border: none
+}
+</style>
+
+<script type="text/javascript">
+/*! Jets.js - v0.6.0 - 2015-12-15
+* http://NeXTs.github.com/Jets.js/
+* Copyright (c) 2015 Denis Lukov; Licensed MIT */
+
+;(function(g,c){"undefined"!=typeof module?module.exports=c():"function"==typeof define&&"object"==typeof define.amd?define(c):this[g]=c()})("Jets",function(){function g(c){if(!(this instanceof g))return new g(c);var a=this;["searchTag","contentTag"].forEach(function(b){var d=b.replace("Tag","");a[d+"_tag"]=document["querySelector"+("contentTag"==b?"All":"")](c[b]);a[d+"_param"]=c[b];if(!a[d+"_tag"])throw Error("Error! Could not find "+b+" element");});var b={searchSelector:"*AND",diacriticsMap:{}};
+a.options={};"columns addImportant searchSelector manualContentHandling diacriticsMap didSearch".split(" ").forEach(function(d){a.options[d]=c[d]||b[d]});if(1<this.options.searchSelector.length){var d=a.options.searchSelector.trim();a.options.searchSelector=d.substr(0,1);a.options.searchSelectorMode=d.substr(1).toUpperCase()}var e,h=function(){e!=(e=a.search_tag.value)&&(a._applyCSS(),a.options.didSearch&&a.options.didSearch(a.search_tag.value))};a._onSearch=function(a){if("keydown"==a.type)return setTimeout(h,
+0);h()};a.destroy=function(){a._processEventListeners("remove");a._destroy()};a._processEventListeners("add");a._addStyleTag();a._setJets();a._applyCSS()}g.prototype={constructor:g,_processEventListeners:function(c){["input","keydown","change"].forEach(function(a){this.search_tag[c+"EventListener"](a,this._onSearch)}.bind(this))},_applyCSS:function(){for(var c=this.replaceDiacritics(this.search_tag.value.trim().toLowerCase().replace(/\s\s+/g," ")),a=this.options.searchSelectorMode?c.split(" ").filter(function(a,
+c,b){return b.indexOf(a)==c}):[c],b="AND"==this.options.searchSelectorMode,d=[],e=0,h=a.length;e<h;e++)d.push((b?this.content_param+">":"")+":not([data-jets"+this.options.searchSelector+'="'+a[e]+'"])');a=(b?"":this.content_param+">")+d.join(b?",":"")+"{display:none"+(this.options.addImportant?"!important":"")+"}";this.styleTag.innerHTML=c.length?a:""},_addStyleTag:function(){this.styleTag=document.createElement("style");document.head.appendChild(this.styleTag)},_getText:function(c){return c&&(c.textContent||
+c.innerText)||""},_getContentTags:function(c){return Array.prototype.slice.call(this.content_tag).reduce(function(a,b){return a.concat(Array.prototype.slice.call(b.querySelectorAll(c||":scope > *")))},[])},_setJets:function(c,a){for(var b=this,d=b._getContentTags(a?"":c),e,h=0,f;f=d[h];h++)if(!f.hasAttribute("data-jets")||a)e=this.options.manualContentHandling?this.options.manualContentHandling(f):b.options.columns&&b.options.columns.length?b.options.columns.map(function(a){return b._getText(f.children[a])}).join(" "):
+b._getText(f),f.setAttribute("data-jets",b.replaceDiacritics(e.trim().replace(/\s+/g," ").toLowerCase()))},replaceDiacritics:function(c){var a=this.options.diacriticsMap,b;for(b in a)if(a.hasOwnProperty(b))for(var d=0,e=a[b].length;d<e;d++)c=c.replace(new RegExp(a[b][d],"g"),b);return c},update:function(c){this._setJets(":scope > :not([data-jets])",c)},_destroy:function(){this.styleTag.parentNode&&document.head.removeChild(this.styleTag);for(var c=this._getContentTags(),a=0,b;b=c[a];a++)b.removeAttribute("data-jets")}};
+(function(c,a){try{c.querySelector(":scope body")}catch(b){["querySelector","querySelectorAll"].forEach(function(b){var e=a[b];a[b]=function(a){if(/(^|,)\s*:scope/.test(a)){var f=this.id;this.id="ID_"+Date.now();a=a.replace(/((^|,)\s*):scope/g,"$1#"+this.id);a=c[b](a);this.id=f;return a}return e.call(this,a)}})}})(window.document,Element.prototype);return g});
+</script>
+<script type="text/javascript">
+/*
+CollapsibleLists.js
+An object allowing lists to dynamically expand and collapse
+Created by Stephen Morley - http://code.stephenmorley.org/ - and released under
+the terms of the CC0 1.0 Universal legal code:
+http://creativecommons.org/publicdomain/zero/1.0/legalcode
+*/
+
+var CollapsibleLists=new function(){function e(e){return function(a){a||(a=window.event);for(var n=a.target?a.target:a.srcElement;"LI"!=n.nodeName;)n=n.parentNode;n==e&&t(e)}}function t(e){for(var t=e.className.match(/(^| )collapsibleListClosed( |$)/),a=e.getElementsByTagName("ul"),n=0;n<a.length;n++){for(var l=a[n];"LI"!=l.nodeName;)l=l.parentNode;l==e&&(a[n].style.display=t?"block":"none")}e.className=e.className.replace(/(^| )collapsibleList(Open|Closed)( |$)/,""),a.length>0&&(e.className+=" collapsibleList"+(t?"Open":"Closed"))}this.apply=function(e){for(var t=document.getElementsByTagName("ul"),a=0;a<t.length;a++)if(t[a].className.match(/(^| )collapsibleList( |$)/)&&(this.applyTo(t[a],!0),!e))for(var n=t[a].getElementsByTagName("ul"),l=0;l<n.length;l++)n[l].className+=" collapsibleList"},this.applyTo=function(a,n){for(var l=a.getElementsByTagName("li"),s=0;s<l.length;s++)n&&a!=l[s].parentNode||(l[s].addEventListener?l[s].addEventListener("mousedown",function(e){e.preventDefault()},!1):l[s].attachEvent("onselectstart",function(){event.returnValue=!1}),l[s].addEventListener?l[s].addEventListener("click",e(l[s]),!1):l[s].attachEvent("onclick",e(l[s])),t(l[s]))}};
+</script>
+<script type="text/javascript">
+  (function(r,u,n){function x(){n=n&&n()}r[u]?(document[u]('DOMContentLoaded',x,0),r[u]('load',x,0)):r.attachEvent('onload',x)})(window,'addEventListener',function(){CollapsibleLists.applyTo(document.querySelector('#TOC ul'))});
+</script>
 </head>
 <body>
+<nav id="top"><a id="goToTop" href="#top">^</a></nav>
 <header>
-<h1>The Markdown SRD5 (HTML output)</h1><p>Source: <a href='http://dnd.wizards.com/articles/features/systems-reference-document-srd'>The original publisher's website</a>, used here in accordance with the <a href='./Legal_Information.htm'>Open Gaming LIcense (OGL),</a></p><p>Also available in <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf'>bookmarked PDF</a>, <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub'>epub 2</a>, and <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md'>Markdown</a> formats. <a href='https://github.com/gguillotte/mdsrd5'>Grab a fork on GitHub.</a></p>
+<h1>The Markdown SRD5 (HTML output)</h1>
+<p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="#legal-information.htm">Open Gaming License (OGL).</a></p>
+<p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
 </header>
-<nav id="TOC">
+<nav id="TOC" class="treeView">
 <p>Search table of contents:</p>
 <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})">
 <ul>
 <li><a href="#legal-information">Legal Information</a></li>
 <li><a href="#races">Races</a><ul>
-<li><a href="#racial-traits">Racial Traits</a></li>
-<li><a href="#dragonborn">Dragonborn</a></li>
-<li><a href="#dwarf">Dwarf</a></li>
-<li><a href="#elf">Elf</a></li>
-<li><a href="#gnome">Gnome</a></li>
-<li><a href="#half-elf">Half-Elf</a></li>
-<li><a href="#half-orc">Half-Orc</a></li>
-<li><a href="#halfling">Halfling</a></li>
-<li><a href="#human">Human</a></li>
-<li><a href="#tiefling">Tiefling</a></li>
+<li><a href="#racial-traits">Racial Traits</a><ul>
+<li><a href="#ability-score-increase">Ability Score Increase</a></li>
+<li><a href="#age">Age</a></li>
+<li><a href="#alignment">Alignment</a></li>
+<li><a href="#size">Size</a></li>
+<li><a href="#speed">Speed</a></li>
+<li><a href="#languages">Languages</a></li>
+<li><a href="#subraces">Subraces</a></li>
+</ul></li>
+<li><a href="#dragonborn">Dragonborn</a><ul>
+<li><a href="#dragonborn-traits">Dragonborn Traits</a></li>
+</ul></li>
+<li><a href="#dwarf">Dwarf</a><ul>
+<li><a href="#dwarf-traits">Dwarf Traits</a><ul>
+<li><a href="#hill-dwarf">Hill Dwarf</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#elf">Elf</a><ul>
+<li><a href="#elf-traits">Elf Traits</a><ul>
+<li><a href="#high-elf">High Elf</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#gnome">Gnome</a><ul>
+<li><a href="#gnome-traits">Gnome Traits</a><ul>
+<li><a href="#rock-gnome">Rock Gnome</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#half-elf">Half-Elf</a><ul>
+<li><a href="#half-elf-traits">Half-Elf Traits</a></li>
+</ul></li>
+<li><a href="#half-orc">Half-Orc</a><ul>
+<li><a href="#half-orc-traits">Half-Orc Traits</a></li>
+</ul></li>
+<li><a href="#halfling">Halfling</a><ul>
+<li><a href="#halfling-traits">Halfling Traits</a><ul>
+<li><a href="#lightfoot">Lightfoot</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#human">Human</a><ul>
+<li><a href="#human-traits">Human Traits</a></li>
+</ul></li>
+<li><a href="#tiefling">Tiefling</a><ul>
+<li><a href="#tiefling-traits">Tiefling Traits</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#classes">Classes</a><ul>
-<li><a href="#barbarian">Barbarian</a></li>
-<li><a href="#barbarian-paths">Barbarian Paths</a></li>
-<li><a href="#bard">Bard</a></li>
-<li><a href="#bard-colleges">Bard Colleges</a></li>
-<li><a href="#cleric">Cleric</a></li>
-<li><a href="#domains">Domains</a></li>
-<li><a href="#druid">Druid</a></li>
-<li><a href="#druid-circles">Druid Circles</a></li>
-<li><a href="#fighter">Fighter</a></li>
-<li><a href="#martial-archetypes">Martial Archetypes</a></li>
-<li><a href="#monk">Monk</a></li>
-<li><a href="#monastic-traditions">Monastic Traditions</a></li>
-<li><a href="#paladin">Paladin</a></li>
-<li><a href="#sacred-oaths">Sacred Oaths</a></li>
-<li><a href="#ranger">Ranger</a></li>
-<li><a href="#ranger-archetypes">Ranger Archetypes</a></li>
-<li><a href="#rogue">Rogue</a></li>
-<li><a href="#roguish-archetypes">Roguish Archetypes</a></li>
-<li><a href="#sorcerer">Sorcerer</a></li>
-<li><a href="#sorcerous-origins">Sorcerous Origins</a></li>
-<li><a href="#warlock">Warlock</a></li>
-<li><a href="#eldritch-invocations-1">Eldritch Invocations</a></li>
-<li><a href="#otherworldly-patrons">Otherworldly Patrons</a></li>
-<li><a href="#wizard">Wizard</a></li>
-<li><a href="#arcane-traditions">Arcane Traditions</a></li>
+<li><a href="#barbarian">Barbarian</a><ul>
+<li><a href="#class-features">Class Features</a><ul>
+<li><a href="#hit-points">Hit Points</a></li>
+<li><a href="#proficiencies">Proficiencies</a></li>
+<li><a href="#equipment">Equipment</a></li>
+</ul></li>
+<li><a href="#rage">Rage</a></li>
+<li><a href="#unarmored-defense">Unarmored Defense</a></li>
+<li><a href="#reckless-attack">Reckless Attack</a></li>
+<li><a href="#danger-sense">Danger Sense</a></li>
+<li><a href="#primal-path">Primal Path</a></li>
+<li><a href="#ability-score-improvement">Ability Score Improvement</a></li>
+<li><a href="#extra-attack">Extra Attack</a></li>
+<li><a href="#fast-movement">Fast Movement</a></li>
+<li><a href="#feral-instinct">Feral Instinct</a></li>
+<li><a href="#brutal-critical">Brutal Critical</a></li>
+<li><a href="#relentless-rage">Relentless Rage</a></li>
+<li><a href="#persistent-rage">Persistent Rage</a></li>
+<li><a href="#indomitable-might">Indomitable Might</a></li>
+<li><a href="#primal-champion">Primal Champion</a></li>
+</ul></li>
+<li><a href="#barbarian-paths">Barbarian Paths</a><ul>
+<li><a href="#path-of-the-berserker">Path of the Berserker</a><ul>
+<li><a href="#frenzy">Frenzy</a></li>
+<li><a href="#mindless-rage">Mindless Rage</a></li>
+<li><a href="#intimidating-presence">Intimidating Presence</a></li>
+<li><a href="#retaliation">Retaliation</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#bard">Bard</a><ul>
+<li><a href="#class-features-1">Class Features</a><ul>
+<li><a href="#hit-points-1">Hit Points</a></li>
+<li><a href="#proficiencies-1">Proficiencies</a></li>
+<li><a href="#equipment-1">Equipment</a></li>
+</ul></li>
+<li><a href="#spellcasting">Spellcasting</a><ul>
+<li><a href="#cantrips">Cantrips</a></li>
+<li><a href="#spell-slots">Spell Slots</a></li>
+<li><a href="#spells-known-of-1st-level-and-higher">Spells Known of 1st Level and Higher</a></li>
+<li><a href="#spellcasting-ability">Spellcasting Ability</a></li>
+<li><a href="#ritual-casting">Ritual Casting</a></li>
+<li><a href="#spellcasting-focus">Spellcasting Focus</a></li>
+</ul></li>
+<li><a href="#bardic-inspiration">Bardic Inspiration</a></li>
+<li><a href="#jack-of-all-trades">Jack of All Trades</a></li>
+<li><a href="#song-of-rest">Song of Rest</a></li>
+<li><a href="#bard-college">Bard College</a></li>
+<li><a href="#expertise">Expertise</a></li>
+<li><a href="#ability-score-improvement-1">Ability Score Improvement</a></li>
+<li><a href="#font-of-inspiration">Font of Inspiration</a></li>
+<li><a href="#countercharm">Countercharm</a></li>
+<li><a href="#magical-secrets">Magical Secrets</a></li>
+<li><a href="#superior-inspiration">Superior Inspiration</a></li>
+</ul></li>
+<li><a href="#bard-colleges">Bard Colleges</a><ul>
+<li><a href="#college-of-lore">College of Lore</a><ul>
+<li><a href="#bonus-proficiencies">Bonus Proficiencies</a></li>
+<li><a href="#cutting-words">Cutting Words</a></li>
+<li><a href="#additional-magical-secrets">Additional Magical Secrets</a></li>
+<li><a href="#peerless-skill">Peerless Skill</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#cleric">Cleric</a><ul>
+<li><a href="#class-features-2">Class Features</a><ul>
+<li><a href="#hit-points-2">Hit Points</a></li>
+<li><a href="#proficiencies-2">Proficiencies</a></li>
+</ul></li>
+<li><a href="#equipment-2">Equipment</a></li>
+<li><a href="#spellcasting-1">Spellcasting</a><ul>
+<li><a href="#cantrips-1">Cantrips</a></li>
+<li><a href="#preparing-and-casting-spells">Preparing and Casting Spells</a></li>
+<li><a href="#spellcasting-ability-1">Spellcasting Ability</a></li>
+<li><a href="#ritual-casting-1">Ritual Casting</a></li>
+<li><a href="#spellcasting-focus-1">Spellcasting Focus</a></li>
+</ul></li>
+<li><a href="#divine-domain">Divine Domain</a><ul>
+<li><a href="#domain-spells">Domain Spells</a></li>
+</ul></li>
+<li><a href="#channel-divinity">Channel Divinity</a><ul>
+<li><a href="#channel-divinity-turn-undead">Channel Divinity: Turn Undead</a></li>
+</ul></li>
+<li><a href="#ability-score-improvement-2">Ability Score Improvement</a></li>
+<li><a href="#destroy-undead">Destroy Undead</a></li>
+<li><a href="#divine-intervention">Divine Intervention</a></li>
+</ul></li>
+<li><a href="#domains">Domains</a><ul>
+<li><a href="#life-domain">Life Domain</a><ul>
+<li><a href="#bonus-proficiency">Bonus Proficiency</a></li>
+<li><a href="#disciple-of-life">Disciple of Life</a></li>
+<li><a href="#channel-divinity-preserve-life">Channel Divinity: Preserve Life</a></li>
+<li><a href="#blessed-healer">Blessed Healer</a></li>
+<li><a href="#divine-strike">Divine Strike</a></li>
+<li><a href="#supreme-healing">Supreme Healing</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#druid">Druid</a><ul>
+<li><a href="#class-features-3">Class Features</a><ul>
+<li><a href="#hit-points-3">Hit Points</a></li>
+<li><a href="#proficiencies-3">Proficiencies</a></li>
+<li><a href="#equipment-3">Equipment</a></li>
+</ul></li>
+<li><a href="#druidic">Druidic</a></li>
+<li><a href="#spellcasting-2">Spellcasting</a><ul>
+<li><a href="#cantrips-2">Cantrips</a></li>
+<li><a href="#preparing-and-casting-spells-1">Preparing and Casting Spells</a></li>
+<li><a href="#spellcasting-ability-2">Spellcasting Ability</a></li>
+<li><a href="#ritual-casting-2">Ritual Casting</a></li>
+<li><a href="#spellcasting-focus-2">Spellcasting Focus</a></li>
+</ul></li>
+<li><a href="#wild-shape">Wild Shape</a></li>
+<li><a href="#druid-circle">Druid Circle</a></li>
+<li><a href="#timeless-body">Timeless Body</a></li>
+<li><a href="#ability-score-improvement-3">Ability Score Improvement</a></li>
+<li><a href="#beast-spells">Beast Spells</a></li>
+<li><a href="#archdruid">Archdruid</a></li>
+</ul></li>
+<li><a href="#druid-circles">Druid Circles</a><ul>
+<li><a href="#circle-of-the-land">Circle of the Land</a><ul>
+<li><a href="#bonus-cantrip">Bonus Cantrip</a></li>
+<li><a href="#natural-recovery">Natural Recovery</a></li>
+<li><a href="#circle-spells">Circle Spells</a></li>
+<li><a href="#lands-stride">Land's Stride</a></li>
+<li><a href="#natures-ward">Nature's Ward</a></li>
+<li><a href="#natures-sanctuary">Nature's Sanctuary</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#fighter">Fighter</a><ul>
+<li><a href="#class-features-4">Class Features</a><ul>
+<li><a href="#hit-points-4">Hit Points</a></li>
+<li><a href="#proficiencies-4">Proficiencies</a></li>
+<li><a href="#equipment-4">Equipment</a></li>
+</ul></li>
+<li><a href="#fighting-style">Fighting Style</a><ul>
+<li><a href="#archery">Archery</a></li>
+<li><a href="#defense">Defense</a></li>
+<li><a href="#dueling">Dueling</a></li>
+<li><a href="#great-weapon-fighting">Great Weapon Fighting</a></li>
+<li><a href="#protection">Protection</a></li>
+<li><a href="#two-weapon-fighting">Two-Weapon Fighting</a></li>
+</ul></li>
+<li><a href="#second-wind">Second Wind</a></li>
+<li><a href="#action-surge">Action Surge</a></li>
+<li><a href="#martial-archetype">Martial Archetype</a></li>
+<li><a href="#ability-score-improvement-4">Ability Score Improvement</a></li>
+<li><a href="#extra-attack-1">Extra Attack</a></li>
+<li><a href="#indomitable">Indomitable</a></li>
+</ul></li>
+<li><a href="#martial-archetypes">Martial Archetypes</a><ul>
+<li><a href="#champion">Champion</a><ul>
+<li><a href="#improved-critical">Improved Critical</a></li>
+<li><a href="#remarkable-athlete">Remarkable Athlete</a></li>
+<li><a href="#additional-fighting-style">Additional Fighting Style</a></li>
+<li><a href="#superior-critical">Superior Critical</a></li>
+<li><a href="#survivor">Survivor</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#monk">Monk</a><ul>
+<li><a href="#class-features-5">Class Features</a><ul>
+<li><a href="#hit-points-5">Hit Points</a></li>
+<li><a href="#proficiencies-5">Proficiencies</a></li>
+<li><a href="#equipment-5">Equipment</a></li>
+</ul></li>
+<li><a href="#unarmored-defense-1">Unarmored Defense</a></li>
+<li><a href="#martial-arts">Martial Arts</a></li>
+<li><a href="#ki">Ki</a><ul>
+<li><a href="#flurry-of-blows">Flurry of Blows</a></li>
+<li><a href="#patient-defense">Patient Defense</a></li>
+<li><a href="#step-of-the-wind">Step of the Wind</a></li>
+</ul></li>
+<li><a href="#unarmored-movement">Unarmored Movement</a></li>
+<li><a href="#monastic-tradition">Monastic Tradition</a></li>
+<li><a href="#deflect-missiles">Deflect Missiles</a></li>
+<li><a href="#ability-score-improvement-5">Ability Score Improvement</a></li>
+<li><a href="#slow-fall">Slow Fall</a></li>
+<li><a href="#extra-attack-2">Extra Attack</a></li>
+<li><a href="#timeless-body-1">Timeless Body</a></li>
+<li><a href="#stunning-strike">Stunning Strike</a></li>
+<li><a href="#ki-empowered-strikes">Ki-Empowered Strikes</a></li>
+<li><a href="#evasion">Evasion</a></li>
+<li><a href="#stillness-of-mind">Stillness of Mind</a></li>
+<li><a href="#purity-of-body">Purity of Body</a></li>
+<li><a href="#tongue-of-the-sun-and-moon">Tongue of the Sun and Moon</a></li>
+<li><a href="#diamond-soul">Diamond Soul</a></li>
+<li><a href="#empty-body">Empty Body</a></li>
+<li><a href="#perfect-self">Perfect Self</a></li>
+</ul></li>
+<li><a href="#monastic-traditions">Monastic Traditions</a><ul>
+<li><a href="#way-of-the-open-hand">Way of the Open Hand</a><ul>
+<li><a href="#open-hand-technique">Open Hand Technique</a></li>
+<li><a href="#wholeness-of-body">Wholeness of Body</a></li>
+<li><a href="#tranquility">Tranquility</a></li>
+<li><a href="#quivering-palm">Quivering Palm</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#paladin">Paladin</a><ul>
+<li><a href="#class-features-6">Class Features</a><ul>
+<li><a href="#hit-points-6">Hit Points</a></li>
+<li><a href="#proficiencies-6">Proficiencies</a></li>
+<li><a href="#equipment-6">Equipment</a></li>
+</ul></li>
+<li><a href="#divine-sense">Divine Sense</a></li>
+<li><a href="#lay-on-hands">Lay on Hands</a></li>
+<li><a href="#fighting-style-1">Fighting Style</a><ul>
+<li><a href="#defense-1">Defense</a></li>
+<li><a href="#dueling-1">Dueling</a></li>
+<li><a href="#great-weapon-fighting-1">Great Weapon Fighting</a></li>
+<li><a href="#protection-1">Protection</a></li>
+</ul></li>
+<li><a href="#spellcasting-3">Spellcasting</a><ul>
+<li><a href="#preparing-and-casting-spells-2">Preparing and Casting Spells</a></li>
+<li><a href="#spellcasting-ability-3">Spellcasting Ability</a></li>
+</ul></li>
+<li><a href="#spellcasting-focus-3">Spellcasting Focus</a></li>
+<li><a href="#divine-smite">Divine Smite</a></li>
+<li><a href="#divine-health">Divine Health</a></li>
+<li><a href="#sacred-oath">Sacred Oath</a><ul>
+<li><a href="#oath-spells">Oath Spells</a></li>
+<li><a href="#channel-divinity-1">Channel Divinity</a></li>
+</ul></li>
+<li><a href="#ability-score-improvement-6">Ability Score Improvement</a></li>
+<li><a href="#extra-attack-3">Extra Attack</a></li>
+<li><a href="#aura-of-protection">Aura of Protection</a></li>
+<li><a href="#aura-of-courage">Aura of Courage</a></li>
+<li><a href="#improved-divine-smite">Improved Divine Smite</a></li>
+<li><a href="#cleansing-touch">Cleansing Touch</a></li>
+</ul></li>
+<li><a href="#sacred-oaths">Sacred Oaths</a><ul>
+<li><a href="#oath-of-devotion">Oath of Devotion</a><ul>
+<li><a href="#tenets-of-devotion">Tenets of Devotion</a></li>
+<li><a href="#oath-spells-1">Oath Spells</a></li>
+<li><a href="#channel-divinity-2">Channel Divinity</a></li>
+<li><a href="#aura-of-devotion">Aura of Devotion</a></li>
+<li><a href="#purity-of-spirit">Purity of Spirit</a></li>
+<li><a href="#holy-nimbus">Holy Nimbus</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#ranger">Ranger</a><ul>
+<li><a href="#class-features-7">Class Features</a><ul>
+<li><a href="#hit-points-7">Hit Points</a></li>
+<li><a href="#proficiencies-7">Proficiencies</a></li>
+<li><a href="#equipment-7">Equipment</a></li>
+</ul></li>
+<li><a href="#favored-enemy">Favored Enemy</a></li>
+<li><a href="#natural-explorer">Natural Explorer</a></li>
+<li><a href="#fighting-style-2">Fighting Style</a><ul>
+<li><a href="#archery-1">Archery</a></li>
+<li><a href="#defense-2">Defense</a></li>
+<li><a href="#dueling-2">Dueling</a></li>
+<li><a href="#two-weapon-fighting-1">Two-Weapon Fighting</a></li>
+</ul></li>
+<li><a href="#spellcasting-4">Spellcasting</a><ul>
+<li><a href="#spell-slots-1">Spell Slots</a></li>
+<li><a href="#spells-known-of-1st-level-and-higher-1">Spells Known of 1st Level and Higher</a></li>
+<li><a href="#spellcasting-ability-4">Spellcasting Ability</a></li>
+</ul></li>
+<li><a href="#ranger-archetype">Ranger Archetype</a></li>
+<li><a href="#primeval-awareness">Primeval Awareness</a></li>
+<li><a href="#ability-score-improvement-7">Ability Score Improvement</a></li>
+<li><a href="#extra-attack-4">Extra Attack</a></li>
+<li><a href="#lands-stride-1">Land's Stride</a></li>
+<li><a href="#hide-in-plain-sight">Hide in Plain Sight</a></li>
+<li><a href="#vanish">Vanish</a></li>
+<li><a href="#feral-senses">Feral Senses</a></li>
+<li><a href="#foe-slayer">Foe Slayer</a></li>
+</ul></li>
+<li><a href="#ranger-archetypes">Ranger Archetypes</a><ul>
+<li><a href="#hunter">Hunter</a><ul>
+<li><a href="#hunters-prey">Hunter's Prey</a></li>
+<li><a href="#defensive-tactics">Defensive Tactics</a></li>
+<li><a href="#multiattack">Multiattack</a></li>
+<li><a href="#superior-hunters-defense">Superior Hunter's Defense</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#rogue">Rogue</a><ul>
+<li><a href="#class-features-8">Class Features</a><ul>
+<li><a href="#hit-points-8">Hit Points</a></li>
+<li><a href="#proficiencies-8">Proficiencies</a></li>
+<li><a href="#equipment-8">Equipment</a></li>
+</ul></li>
+<li><a href="#expertise-1">Expertise</a></li>
+<li><a href="#sneak-attack">Sneak Attack</a></li>
+<li><a href="#thieves-cant">Thieves' Cant</a></li>
+<li><a href="#cunning-action">Cunning Action</a></li>
+<li><a href="#roguish-archetype">Roguish Archetype</a></li>
+<li><a href="#ability-score-improvement-8">Ability Score Improvement</a></li>
+<li><a href="#uncanny-dodge">Uncanny Dodge</a></li>
+<li><a href="#evasion-1">Evasion</a></li>
+<li><a href="#reliable-talent">Reliable Talent</a></li>
+<li><a href="#blindsense">Blindsense</a></li>
+<li><a href="#slippery-mind">Slippery Mind</a></li>
+<li><a href="#elusive">Elusive</a></li>
+<li><a href="#stroke-of-luck">Stroke of Luck</a></li>
+</ul></li>
+<li><a href="#roguish-archetypes">Roguish Archetypes</a><ul>
+<li><a href="#thief">Thief</a><ul>
+<li><a href="#fast-hands">Fast Hands</a></li>
+<li><a href="#second-story-work">Second-Story Work</a></li>
+<li><a href="#supreme-sneak">Supreme Sneak</a></li>
+<li><a href="#use-magic-device">Use Magic Device</a></li>
+<li><a href="#thiefs-reflexes">Thief's Reflexes</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#sorcerer">Sorcerer</a><ul>
+<li><a href="#class-features-9">Class Features</a><ul>
+<li><a href="#hit-points-9">Hit Points</a></li>
+<li><a href="#proficiencies-9">Proficiencies</a></li>
+<li><a href="#equipment-9">Equipment</a></li>
+</ul></li>
+<li><a href="#spellcasting-5">Spellcasting</a><ul>
+<li><a href="#cantrips-3">Cantrips</a></li>
+<li><a href="#spell-slots-2">Spell Slots</a></li>
+<li><a href="#spells-known-of-1st-level-and-higher-2">Spells Known of 1st Level and Higher</a></li>
+<li><a href="#spellcasting-ability-5">Spellcasting Ability</a></li>
+<li><a href="#spellcasting-focus-4">Spellcasting Focus</a></li>
+</ul></li>
+<li><a href="#sorcerous-origin">Sorcerous Origin</a></li>
+<li><a href="#font-of-magic">Font of Magic</a><ul>
+<li><a href="#sorcery-points">Sorcery Points</a></li>
+<li><a href="#flexible-casting">Flexible Casting</a></li>
+</ul></li>
+<li><a href="#metamagic">Metamagic</a><ul>
+<li><a href="#careful-spell">Careful Spell</a></li>
+<li><a href="#distant-spell">Distant Spell</a></li>
+<li><a href="#empowered-spell">Empowered Spell</a></li>
+<li><a href="#extended-spell">Extended Spell</a></li>
+<li><a href="#heightened-spell">Heightened Spell</a></li>
+<li><a href="#quickened-spell">Quickened Spell</a></li>
+<li><a href="#subtle-spell">Subtle Spell</a></li>
+<li><a href="#twinned-spell">Twinned Spell</a></li>
+</ul></li>
+<li><a href="#ability-score-improvement-9">Ability Score Improvement</a></li>
+<li><a href="#sorcerous-restoration">Sorcerous Restoration</a></li>
+</ul></li>
+<li><a href="#sorcerous-origins">Sorcerous Origins</a><ul>
+<li><a href="#draconic-bloodline">Draconic Bloodline</a><ul>
+<li><a href="#dragon-ancestor">Dragon Ancestor</a></li>
+<li><a href="#draconic-resilience">Draconic Resilience</a></li>
+<li><a href="#elemental-affinity">Elemental Affinity</a></li>
+<li><a href="#dragon-wings">Dragon Wings</a></li>
+<li><a href="#draconic-presence">Draconic Presence</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#warlock">Warlock</a><ul>
+<li><a href="#class-features-10">Class Features</a><ul>
+<li><a href="#hit-points-10">Hit Points</a></li>
+<li><a href="#proficiencies-10">Proficiencies</a></li>
+<li><a href="#equipment-10">Equipment</a></li>
+</ul></li>
+<li><a href="#otherworldly-patron">Otherworldly Patron</a></li>
+<li><a href="#pact-magic">Pact Magic</a><ul>
+<li><a href="#cantrips-4">Cantrips</a></li>
+<li><a href="#spell-slots-3">Spell Slots</a></li>
+<li><a href="#spells-known-of-1st-level-and-higher-3">Spells Known of 1st Level and Higher</a></li>
+<li><a href="#spellcasting-ability-6">Spellcasting Ability</a></li>
+<li><a href="#spellcasting-focus-5">Spellcasting Focus</a></li>
+</ul></li>
+<li><a href="#eldritch-invocations">Eldritch Invocations</a></li>
+<li><a href="#pact-boon">Pact Boon</a><ul>
+<li><a href="#pact-of-the-chain">Pact of the Chain</a></li>
+<li><a href="#pact-of-the-blade">Pact of the Blade</a></li>
+<li><a href="#pact-of-the-tome">Pact of the Tome</a></li>
+</ul></li>
+<li><a href="#ability-score-improvement-10">Ability Score Improvement</a></li>
+<li><a href="#mystic-arcanum">Mystic Arcanum</a></li>
+<li><a href="#eldritch-master">Eldritch Master</a></li>
+</ul></li>
+<li><a href="#eldritch-invocations-1">Eldritch Invocations</a><ul>
+<li><a href="#agonizing-blast">Agonizing Blast</a></li>
+<li><a href="#armor-of-shadows">Armor of Shadows</a></li>
+<li><a href="#ascendant-step">Ascendant Step</a></li>
+<li><a href="#beast-speech">Beast Speech</a></li>
+<li><a href="#beguiling-influence">Beguiling Influence</a></li>
+<li><a href="#bewitching-whispers">Bewitching Whispers</a></li>
+<li><a href="#book-of-ancient-secrets">Book of Ancient Secrets</a></li>
+<li><a href="#chains-of-the-deodand">Chains of the Deodand</a></li>
+<li><a href="#devils-sight">Devil's Sight</a></li>
+<li><a href="#dreadful-word">Dreadful Word</a></li>
+<li><a href="#eldritch-sight">Eldritch Sight</a></li>
+<li><a href="#eldritch-spear">Eldritch Spear</a></li>
+<li><a href="#eyes-of-the-rune-keeper">Eyes of the Rune Keeper</a></li>
+<li><a href="#fiendish-vigor">Fiendish Vigor</a></li>
+<li><a href="#gaze-of-two-minds">Gaze of Two Minds</a></li>
+<li><a href="#lifedrinker">Lifedrinker</a></li>
+<li><a href="#mask-of-many-faces">Mask of Many Faces</a></li>
+<li><a href="#master-of-myriad-forms">Master of Myriad Forms</a></li>
+<li><a href="#minions-of-chaos">Minions of Chaos</a></li>
+<li><a href="#mire-the-mind">Mire the Mind</a></li>
+<li><a href="#misty-visions">Misty Visions</a></li>
+<li><a href="#one-with-shadows">One with Shadows</a></li>
+<li><a href="#otherworldly-leap">Otherworldly Leap</a></li>
+<li><a href="#repelling-blast">Repelling Blast</a></li>
+<li><a href="#sculptor-of-flesh">Sculptor of Flesh</a></li>
+<li><a href="#sign-of-ill-omen">Sign of Ill Omen</a></li>
+<li><a href="#thief-of-five-fates">Thief of Five Fates</a></li>
+<li><a href="#thirsting-blade">Thirsting Blade</a></li>
+<li><a href="#visions-of-distant-realms">Visions of Distant Realms</a></li>
+<li><a href="#voice-of-the-chain-master">Voice of the Chain Master</a></li>
+<li><a href="#whispers-of-the-grave">Whispers of the Grave</a></li>
+<li><a href="#witch-sight">Witch Sight</a></li>
+</ul></li>
+<li><a href="#otherworldly-patrons">Otherworldly Patrons</a><ul>
+<li><a href="#the-fiend">The Fiend</a><ul>
+<li><a href="#expanded-spell-list">Expanded Spell List</a></li>
+<li><a href="#dark-ones-blessing">Dark One's Blessing</a></li>
+<li><a href="#dark-ones-own-luck">Dark One's Own Luck</a></li>
+<li><a href="#fiendish-resilience">Fiendish Resilience</a></li>
+<li><a href="#hurl-through-hell">Hurl Through Hell</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#wizard">Wizard</a><ul>
+<li><a href="#class-features-11">Class Features</a><ul>
+<li><a href="#hit-points-11">Hit Points</a></li>
+<li><a href="#proficiencies-11">Proficiencies</a></li>
+<li><a href="#equipment-11">Equipment</a></li>
+</ul></li>
+<li><a href="#spellcasting-6">Spellcasting</a><ul>
+<li><a href="#cantrips-5">Cantrips</a></li>
+<li><a href="#spellbook">Spellbook</a></li>
+<li><a href="#preparing-and-casting-spells-3">Preparing and Casting Spells</a></li>
+<li><a href="#spellcasting-ability-7">Spellcasting Ability</a></li>
+<li><a href="#ritual-casting-3">Ritual Casting</a></li>
+<li><a href="#spellcasting-focus-6">Spellcasting Focus</a></li>
+<li><a href="#learning-spells-of-1st-level-and-higher">Learning Spells of 1st Level and Higher</a></li>
+</ul></li>
+<li><a href="#arcane-recovery">Arcane Recovery</a></li>
+<li><a href="#arcane-tradition">Arcane Tradition</a></li>
+<li><a href="#ability-score-improvement-11">Ability Score Improvement</a></li>
+<li><a href="#spell-mastery">Spell Mastery</a></li>
+<li><a href="#signature-spells">Signature Spells</a></li>
+</ul></li>
+<li><a href="#arcane-traditions">Arcane Traditions</a><ul>
+<li><a href="#school-of-evocation">School of Evocation</a><ul>
+<li><a href="#evocation-savant">Evocation Savant</a></li>
+<li><a href="#sculpt-spells">Sculpt Spells</a></li>
+<li><a href="#potent-cantrip">Potent Cantrip</a></li>
+<li><a href="#empowered-evocation">Empowered Evocation</a></li>
+<li><a href="#overchannel">Overchannel</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="#beyond-1st-level">Beyond 1st Level</a><ul>
 <li><a href="#character-advancement">Character Advancement</a></li>
-<li><a href="#backgrounds">Backgrounds</a></li>
-<li><a href="#multiclassing">Multiclassing</a></li>
-<li><a href="#alignment-1">Alignment</a></li>
+<li><a href="#backgrounds">Backgrounds</a><ul>
+<li><a href="#components-of-a-background">Components of a Background</a><ul>
+<li><a href="#proficiencies-12">Proficiencies</a></li>
+<li><a href="#languages-1">Languages</a></li>
+<li><a href="#equipment-12">Equipment</a></li>
+<li><a href="#suggested-characteristics">Suggested Characteristics</a></li>
+<li><a href="#customizing-a-background">Customizing a Background</a></li>
+</ul></li>
+<li><a href="#acolyte">Acolyte</a><ul>
+<li><a href="#feature-shelter-of-the-faithful">Feature: Shelter of the Faithful</a></li>
+<li><a href="#suggested-characteristics-1">Suggested Characteristics</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#multiclassing">Multiclassing</a><ul>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#experience-points">Experience Points</a></li>
+<li><a href="#hit-points-and-hit-dice">Hit Points and Hit Dice</a></li>
+<li><a href="#proficiency-bonus">Proficiency Bonus</a></li>
+<li><a href="#proficiencies-13">Proficiencies</a></li>
+<li><a href="#class-features-12">Class Features</a><ul>
+<li><a href="#channel-divinity-3">Channel Divinity</a></li>
+<li><a href="#extra-attack-5">Extra Attack</a></li>
+<li><a href="#unarmored-defense-2">Unarmored Defense</a></li>
+<li><a href="#spellcasting-7">Spellcasting</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#alignment-1">Alignment</a><ul>
+<li><a href="#alignment-in-the-multiverse">Alignment in the Multiverse</a></li>
+</ul></li>
 <li><a href="#languages-2">Languages</a></li>
-<li><a href="#inspiration">Inspiration</a></li>
+<li><a href="#inspiration">Inspiration</a><ul>
+<li><a href="#gaining-inspiration">Gaining Inspiration</a></li>
+<li><a href="#using-inspiration">Using Inspiration</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#equipment-13">Equipment</a><ul>
 <li><a href="#currency">Currency</a></li>
@@ -74,10 +1171,27 @@
 <li><a href="#tools">Tools</a></li>
 <li><a href="#mounts-and-vehicles">Mounts and Vehicles</a></li>
 <li><a href="#trade-goods">Trade Goods</a></li>
-<li><a href="#expenses">Expenses</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#armor">Armor</a></li>
-<li><a href="#weapons">Weapons</a></li>
+<li><a href="#expenses">Expenses</a><ul>
+<li><a href="#lifestyle-expenses">Lifestyle Expenses</a></li>
+<li><a href="#food-drink-and-lodging">Food, Drink, and Lodging</a></li>
+</ul></li>
+<li><a href="#services">Services</a><ul>
+<li><a href="#spellcasting-services">Spellcasting Services</a></li>
+</ul></li>
+<li><a href="#armor">Armor</a><ul>
+<li><a href="#light-armor">Light Armor</a></li>
+<li><a href="#medium-armor">Medium Armor</a></li>
+<li><a href="#heavy-armor">Heavy Armor</a></li>
+<li><a href="#getting-into-and-out-of-armor">Getting Into and Out of Armor</a></li>
+</ul></li>
+<li><a href="#weapons">Weapons</a><ul>
+<li><a href="#weapon-proficiency">Weapon Proficiency</a></li>
+<li><a href="#weapon-properties">Weapon Properties</a><ul>
+<li><a href="#improvised-weapons">Improvised Weapons</a></li>
+<li><a href="#silvered-weapons">Silvered Weapons</a></li>
+<li><a href="#special-weapons">Special Weapons</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="#feats">Feats</a><ul>
 <li><a href="#grappler">Grappler</a></li>
@@ -86,53 +1200,994 @@
 <li><a href="#ability-scores-and-modifiers">Ability Scores and Modifiers</a></li>
 <li><a href="#advantage-and-disadvantage">Advantage and Disadvantage</a></li>
 <li><a href="#proficiency-bonus-1">Proficiency Bonus</a></li>
-<li><a href="#ability-checks">Ability Checks</a></li>
-<li><a href="#using-each-ability">Using Each Ability</a></li>
+<li><a href="#ability-checks">Ability Checks</a><ul>
+<li><a href="#contests">Contests</a></li>
+<li><a href="#skills">Skills</a><ul>
+<li><a href="#strength">Strength</a></li>
+<li><a href="#dexterity">Dexterity</a></li>
+<li><a href="#intelligence">Intelligence</a></li>
+<li><a href="#wisdom">Wisdom</a></li>
+<li><a href="#charisma">Charisma</a></li>
+<li><a href="#variant-skills-with-different-abilities">Variant: Skills with Different Abilities</a></li>
+</ul></li>
+<li><a href="#passive-checks">Passive Checks</a></li>
+<li><a href="#working-together">Working Together</a><ul>
+<li><a href="#group-checks">Group Checks</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#using-each-ability">Using Each Ability</a><ul>
+<li><a href="#strength-1">Strength</a><ul>
+<li><a href="#strength-checks">Strength Checks</a></li>
+<li><a href="#attack-rolls-and-damage">Attack Rolls and Damage</a></li>
+<li><a href="#lifting-and-carrying">Lifting and Carrying</a></li>
+<li><a href="#variant-encumbrance">Variant: Encumbrance</a></li>
+</ul></li>
+<li><a href="#dexterity-1">Dexterity</a><ul>
+<li><a href="#dexterity-checks">Dexterity Checks</a></li>
+<li><a href="#attack-rolls-and-damage-1">Attack Rolls and Damage</a></li>
+<li><a href="#armor-class">Armor Class</a></li>
+<li><a href="#initiative">Initiative</a></li>
+</ul></li>
+<li><a href="#constitution">Constitution</a><ul>
+<li><a href="#constitution-checks">Constitution Checks</a></li>
+<li><a href="#hit-points-12">Hit Points</a></li>
+</ul></li>
+<li><a href="#intelligence-1">Intelligence</a><ul>
+<li><a href="#intelligence-checks">Intelligence Checks</a></li>
+<li><a href="#spellcasting-ability-8">Spellcasting Ability</a></li>
+</ul></li>
+<li><a href="#wisdom-1">Wisdom</a><ul>
+<li><a href="#wisdom-checks">Wisdom Checks</a></li>
+<li><a href="#spellcasting-ability-9">Spellcasting Ability</a></li>
+</ul></li>
+<li><a href="#charisma-1">Charisma</a><ul>
+<li><a href="#charisma-checks">Charisma Checks</a></li>
+<li><a href="#spellcasting-ability-10">Spellcasting Ability</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#saving-throws">Saving Throws</a></li>
 </ul></li>
 <li><a href="#adventuring">Adventuring</a><ul>
 <li><a href="#time">Time</a></li>
-<li><a href="#movement">Movement</a></li>
-<li><a href="#environment">Environment</a></li>
-<li><a href="#objects">Objects</a></li>
-<li><a href="#resting">Resting</a></li>
-<li><a href="#between-adventures">Between Adventures</a></li>
-<li><a href="#conditions">Conditions</a></li>
-<li><a href="#poisons">Poisons</a></li>
-<li><a href="#diseases">Diseases</a></li>
-<li><a href="#madness">Madness</a></li>
-<li><a href="#traps">Traps</a></li>
+<li><a href="#movement">Movement</a><ul>
+<li><a href="#speed-1">Speed</a><ul>
+<li><a href="#travel-pace">Travel Pace</a></li>
+<li><a href="#difficult-terrain">Difficult Terrain</a></li>
+</ul></li>
+<li><a href="#special-types-of-movement">Special Types of Movement</a><ul>
+<li><a href="#climbing-swimming-and-crawling">Climbing, Swimming, and Crawling</a></li>
+<li><a href="#jumping">Jumping</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#environment">Environment</a><ul>
+<li><a href="#falling">Falling</a></li>
+<li><a href="#suffocating">Suffocating</a></li>
+<li><a href="#vision-and-light">Vision and Light</a><ul>
+<li><a href="#blindsight">Blindsight</a></li>
+<li><a href="#darkvision">Darkvision</a></li>
+<li><a href="#truesight">Truesight</a></li>
+</ul></li>
+<li><a href="#food-and-water">Food and Water</a><ul>
+<li><a href="#food">Food</a></li>
+<li><a href="#water">Water</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#objects">Objects</a><ul>
+<li><a href="#breaking-objects">Breaking Objects</a><ul>
+<li><a href="#statistics-for-objects">Statistics for Objects</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#resting">Resting</a><ul>
+<li><a href="#short-rest">Short Rest</a></li>
+<li><a href="#long-rest">Long Rest</a></li>
+</ul></li>
+<li><a href="#between-adventures">Between Adventures</a><ul>
+<li><a href="#lifestyle-expenses-1">Lifestyle Expenses</a></li>
+<li><a href="#downtime-activities">Downtime Activities</a><ul>
+<li><a href="#crafting">Crafting</a></li>
+<li><a href="#practicing-a-profession">Practicing a Profession</a></li>
+<li><a href="#recuperating">Recuperating</a></li>
+<li><a href="#researching">Researching</a></li>
+<li><a href="#training">Training</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#conditions">Conditions</a><ul>
+<li><a href="#blinded">Blinded</a></li>
+<li><a href="#charmed">Charmed</a></li>
+<li><a href="#deafened">Deafened</a></li>
+<li><a href="#exhaustion">Exhaustion</a></li>
+<li><a href="#frightened">Frightened</a></li>
+<li><a href="#grappled">Grappled</a></li>
+<li><a href="#incapacitated">Incapacitated</a></li>
+<li><a href="#invisible">Invisible</a></li>
+<li><a href="#paralyzed">Paralyzed</a></li>
+<li><a href="#petrified">Petrified</a></li>
+<li><a href="#poisoned">Poisoned</a></li>
+<li><a href="#prone">Prone</a></li>
+<li><a href="#restrained">Restrained</a></li>
+<li><a href="#stunned">Stunned</a></li>
+<li><a href="#unconscious">Unconscious</a></li>
+</ul></li>
+<li><a href="#poisons">Poisons</a><ul>
+<li><a href="#sample-poisons">Sample Poisons</a></li>
+</ul></li>
+<li><a href="#diseases">Diseases</a><ul>
+<li><a href="#sample-diseases">Sample Diseases</a><ul>
+<li><a href="#cackle-fever">Cackle Fever</a></li>
+<li><a href="#sewer-plague">Sewer Plague</a></li>
+<li><a href="#sight-rot">Sight Rot</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#madness">Madness</a><ul>
+<li><a href="#going-mad">Going Mad</a></li>
+<li><a href="#madness-effects">Madness Effects</a></li>
+<li><a href="#curing-madness">Curing Madness</a></li>
+</ul></li>
+<li><a href="#traps">Traps</a><ul>
+<li><a href="#traps-in-play">Traps in Play</a><ul>
+<li><a href="#triggering-a-trap">Triggering a Trap</a></li>
+<li><a href="#detecting-and-disabling-a-trap">Detecting and Disabling a Trap</a></li>
+<li><a href="#trap-effects">Trap Effects</a></li>
+<li><a href="#complex-traps">Complex Traps</a></li>
+</ul></li>
+<li><a href="#sample-traps">Sample Traps</a><ul>
+<li><a href="#collapsing-roof">Collapsing Roof</a></li>
+<li><a href="#falling-net">Falling Net</a></li>
+<li><a href="#fire-breathing-statue">Fire-Breathing Statue</a></li>
+<li><a href="#pits">Pits</a></li>
+<li><a href="#poison-darts">Poison Darts</a></li>
+<li><a href="#poison-needle">Poison Needle</a></li>
+<li><a href="#rolling-sphere">Rolling Sphere</a></li>
+<li><a href="#sphere-of-annihilation">Sphere of Annihilation</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="#combat">Combat</a><ul>
-<li><a href="#the-order-of-combat">The Order of Combat</a></li>
-<li><a href="#movement-and-position">Movement and Position</a></li>
-<li><a href="#actions-in-combat">Actions in Combat</a></li>
-<li><a href="#making-an-attack">Making an Attack</a></li>
+<li><a href="#the-order-of-combat">The Order of Combat</a><ul>
+<li><a href="#surprise">Surprise</a></li>
+<li><a href="#initiative-1">Initiative</a></li>
+<li><a href="#your-turn">Your Turn</a><ul>
+<li><a href="#bonus-actions">Bonus Actions</a></li>
+<li><a href="#other-activity-on-your-turn">Other Activity on Your Turn</a></li>
+</ul></li>
+<li><a href="#reactions">Reactions</a></li>
+</ul></li>
+<li><a href="#movement-and-position">Movement and Position</a><ul>
+<li><a href="#breaking-up-your-move">Breaking Up Your Move</a><ul>
+<li><a href="#moving-between-attacks">Moving between Attacks</a></li>
+<li><a href="#using-different-speeds">Using Different Speeds</a></li>
+</ul></li>
+<li><a href="#difficult-terrain-1">Difficult Terrain</a></li>
+<li><a href="#being-prone">Being Prone</a></li>
+<li><a href="#moving-around-other-creatures">Moving Around Other Creatures</a></li>
+<li><a href="#flying-movement">Flying Movement</a></li>
+<li><a href="#creature-size">Creature Size</a><ul>
+<li><a href="#space">Space</a></li>
+<li><a href="#squeezing-into-a-smaller-space">Squeezing into a Smaller Space</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#actions-in-combat">Actions in Combat</a><ul>
+<li><a href="#attack">Attack</a></li>
+<li><a href="#cast-a-spell">Cast a Spell</a></li>
+<li><a href="#dash">Dash</a></li>
+<li><a href="#disengage">Disengage</a></li>
+<li><a href="#dodge">Dodge</a></li>
+<li><a href="#help">Help</a></li>
+<li><a href="#hide">Hide</a></li>
+<li><a href="#ready">Ready</a></li>
+<li><a href="#search">Search</a></li>
+<li><a href="#use-an-object">Use an Object</a></li>
+</ul></li>
+<li><a href="#making-an-attack">Making an Attack</a><ul>
+<li><a href="#attack-rolls">Attack Rolls</a><ul>
+<li><a href="#modifiers-to-the-roll">Modifiers to the Roll</a></li>
+<li><a href="#rolling-1-or-20">Rolling 1 or 20</a></li>
+</ul></li>
+<li><a href="#unseen-attackers-and-targets">Unseen Attackers and Targets</a></li>
+<li><a href="#ranged-attacks">Ranged Attacks</a><ul>
+<li><a href="#range">Range</a></li>
+</ul></li>
+<li><a href="#ranged-attacks-in-close-combat">Ranged Attacks in Close Combat</a></li>
+<li><a href="#melee-attacks">Melee Attacks</a><ul>
+<li><a href="#opportunity-attacks">Opportunity Attacks</a></li>
+<li><a href="#two-weapon-fighting-2">Two-Weapon Fighting</a></li>
+<li><a href="#grappling">Grappling</a></li>
+<li><a href="#shoving-a-creature">Shoving a Creature</a></li>
+</ul></li>
+</ul></li>
 <li><a href="#cover">Cover</a></li>
-<li><a href="#damage-and-healing">Damage and Healing</a></li>
-<li><a href="#mounted-combat">Mounted Combat</a></li>
+<li><a href="#damage-and-healing">Damage and Healing</a><ul>
+<li><a href="#hit-points-13">Hit Points</a></li>
+<li><a href="#damage-rolls">Damage Rolls</a><ul>
+<li><a href="#critical-hits">Critical Hits</a></li>
+<li><a href="#damage-types">Damage Types</a></li>
+</ul></li>
+<li><a href="#damage-resistance-and-vulnerability">Damage Resistance and Vulnerability</a></li>
+<li><a href="#healing">Healing</a></li>
+<li><a href="#dropping-to-0-hit-points">Dropping to 0 Hit Points</a><ul>
+<li><a href="#instant-death">Instant Death</a></li>
+<li><a href="#falling-unconscious">Falling Unconscious</a></li>
+<li><a href="#death-saving-throws">Death Saving Throws</a></li>
+<li><a href="#stabilizing-a-creature">Stabilizing a Creature</a></li>
+<li><a href="#monsters-and-death">Monsters and Death</a></li>
+</ul></li>
+<li><a href="#knocking-a-creature-out">Knocking a Creature Out</a></li>
+<li><a href="#temporary-hit-points">Temporary Hit Points</a></li>
+</ul></li>
+<li><a href="#mounted-combat">Mounted Combat</a><ul>
+<li><a href="#mounting-and-dismounting">Mounting and Dismounting</a></li>
+<li><a href="#controlling-a-mount">Controlling a Mount</a></li>
+</ul></li>
 <li><a href="#underwater-combat">Underwater Combat</a></li>
 </ul></li>
 <li><a href="#spellcasting-8">Spellcasting</a><ul>
-<li><a href="#what-is-a-spell">What Is a Spell?</a></li>
-<li><a href="#casting-a-spell">Casting a Spell</a></li>
-<li><a href="#spell-lists">Spell Lists</a></li>
-<li><a href="#spell-descriptions">Spell Descriptions</a></li>
+<li><a href="#what-is-a-spell">What Is a Spell?</a><ul>
+<li><a href="#spell-level">Spell Level</a></li>
+<li><a href="#known-and-prepared-spells">Known and Prepared Spells</a></li>
+<li><a href="#spell-slots-4">Spell Slots</a><ul>
+<li><a href="#casting-a-spell-at-a-higher-level">Casting a Spell at a Higher Level</a></li>
+</ul></li>
+<li><a href="#cantrips-6">Cantrips</a></li>
+<li><a href="#rituals">Rituals</a></li>
+</ul></li>
+<li><a href="#casting-a-spell">Casting a Spell</a><ul>
+<li><a href="#casting-time">Casting Time</a><ul>
+<li><a href="#bonus-action">Bonus Action</a></li>
+<li><a href="#reactions-1">Reactions</a></li>
+<li><a href="#longer-casting-times">Longer Casting Times</a></li>
+</ul></li>
+<li><a href="#range-1">Range</a></li>
+<li><a href="#components">Components</a><ul>
+<li><a href="#verbal-v">Verbal (V)</a></li>
+<li><a href="#somatic-s">Somatic (S)</a></li>
+<li><a href="#material-m">Material (M)</a></li>
+</ul></li>
+<li><a href="#duration">Duration</a><ul>
+<li><a href="#instantaneous">Instantaneous</a></li>
+<li><a href="#concentration">Concentration</a></li>
+</ul></li>
+<li><a href="#targets">Targets</a><ul>
+<li><a href="#a-clear-path-to-the-target">A Clear Path to the Target</a></li>
+<li><a href="#targeting-yourself">Targeting Yourself</a></li>
+</ul></li>
+<li><a href="#areas-of-effect">Areas of Effect</a><ul>
+<li><a href="#cone">Cone</a></li>
+<li><a href="#cube">Cube</a></li>
+<li><a href="#cylinder">Cylinder</a></li>
+<li><a href="#line">Line</a></li>
+<li><a href="#sphere">Sphere</a></li>
+</ul></li>
+<li><a href="#saving-throws-1">Saving Throws</a></li>
+<li><a href="#attack-rolls-1">Attack Rolls</a></li>
+<li><a href="#combining-magical-effects">Combining Magical Effects</a></li>
+</ul></li>
+<li><a href="#spell-lists">Spell Lists</a><ul>
+<li><a href="#bard-spells">Bard Spells</a><ul>
+<li><a href="#bard-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#bard-1st-level">1st Level</a></li>
+<li><a href="#bard-2nd-level">2nd Level</a></li>
+<li><a href="#bard-3rd-level">3rd Level</a></li>
+<li><a href="#bard-4th-level">4th Level</a></li>
+<li><a href="#bard-5th-level">5th Level</a></li>
+<li><a href="#bard-6th-level">6th Level</a></li>
+<li><a href="#bard-7th-level">7th Level</a></li>
+<li><a href="#bard-8th-level">8th Level</a></li>
+<li><a href="#bard-9th-level">9th Level</a></li>
+</ul></li>
+<li><a href="#cleric-spells">Cleric Spells</a><ul>
+<li><a href="#cleric-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#cleric-1st-level">1st Level</a></li>
+<li><a href="#cleric-2nd-level">2nd Level</a></li>
+<li><a href="#cleric-3rd-level">3rd Level</a></li>
+<li><a href="#cleric-4th-level">4th Level</a></li>
+<li><a href="#cleric-5th-level">5th Level</a></li>
+<li><a href="#cleric-6th-level">6th Level</a></li>
+<li><a href="#cleric-7th-level">7th Level</a></li>
+<li><a href="#cleric-8th-level">8th Level</a></li>
+<li><a href="#cleric-9th-level">9th Level</a></li>
+</ul></li>
+<li><a href="#druid-spells">Druid Spells</a><ul>
+<li><a href="#druid-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#druid-1st-level">1st Level</a></li>
+<li><a href="#druid-2nd-level">2nd Level</a></li>
+<li><a href="#druid-3rd-level">3rd Level</a></li>
+<li><a href="#druid-4th-level">4th Level</a></li>
+<li><a href="#druid-5th-level">5th Level</a></li>
+<li><a href="#druid-6th-level">6th Level</a></li>
+<li><a href="#druid-7th-level">7th Level</a></li>
+<li><a href="#druid-8th-level">8th Level</a></li>
+<li><a href="#druid-9th-level">9th Level</a></li>
+</ul></li>
+<li><a href="#paladin-spells">Paladin Spells</a><ul>
+<li><a href="#paladin-1st-level">1st Level</a></li>
+<li><a href="#paladin-2nd-level">2nd Level</a></li>
+<li><a href="#paladin-3rd-level">3rd Level</a></li>
+<li><a href="#paladin-4th-level">4th Level</a></li>
+<li><a href="#paladin-5th-level">5th Level</a></li>
+</ul></li>
+<li><a href="#ranger-spells">Ranger Spells</a><ul>
+<li><a href="#ranger-1st-level">1st Level</a></li>
+<li><a href="#ranger-2nd-level">2nd Level</a></li>
+<li><a href="#ranger-3rd-level">3rd Level</a></li>
+<li><a href="#ranger-4th-level">4th Level</a></li>
+<li><a href="#ranger-5th-level">5th Level</a></li>
+</ul></li>
+<li><a href="#sorcerer-spells">Sorcerer Spells</a><ul>
+<li><a href="#sorcerer-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#sorcerer-1st-level">1st Level</a></li>
+<li><a href="#sorcerer-2nd-level">2nd Level</a></li>
+<li><a href="#sorcerer-3rd-level">3rd Level</a></li>
+<li><a href="#sorcerer-4th-level">4th Level</a></li>
+<li><a href="#sorcerer-5th-level">5th Level</a></li>
+<li><a href="#sorcerer-6th-level">6th Level</a></li>
+<li><a href="#sorcerer-7th-level">7th Level</a></li>
+<li><a href="#sorcerer-8th-level">8th Level</a></li>
+<li><a href="#sorcerer-9th-level">9th Level</a></li>
+</ul></li>
+<li><a href="#warlock-spells">Warlock Spells</a><ul>
+<li><a href="#warlock-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#warlock-1st-level">1st Level</a></li>
+<li><a href="#warlock-2nd-level">2nd Level</a></li>
+<li><a href="#warlock-3rd-level">3rd Level</a></li>
+<li><a href="#warlock-4th-level">4th Level</a></li>
+<li><a href="#warlock-5th-level">5th Level</a></li>
+<li><a href="#warlock-6th-level">6th Level</a></li>
+<li><a href="#warlock-7th-level">7th Level</a></li>
+<li><a href="#warlock-8th-level">8th Level</a></li>
+<li><a href="#warlock-9th-level">9th Level</a></li>
+</ul></li>
+<li><a href="#wizard-spells">Wizard Spells</a><ul>
+<li><a href="#wizard-0-level">Cantrips (0 Level)</a></li>
+<li><a href="#wizard-1st-level">1st Level</a></li>
+<li><a href="#wizard-2nd-level">2nd Level</a></li>
+<li><a href="#wizard-3rd-level">3rd Level</a></li>
+<li><a href="#wizard-4th-level">4th Level</a></li>
+<li><a href="#wizard-5th-level">5th Level</a></li>
+<li><a href="#wizard-6th-level">6th Level</a></li>
+<li><a href="#wizard-7th-level">7th Level</a></li>
+<li><a href="#wizard-8th-level">8th Level</a></li>
+<li><a href="#wizard-9th-level">9th Level</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#spell-descriptions">Spell Descriptions</a><ul>
+<li><a href="#acid-arrow">Acid Arrow</a></li>
+<li><a href="#acid-splash">Acid Splash</a></li>
+<li><a href="#aid">Aid</a></li>
+<li><a href="#alarm">Alarm</a></li>
+<li><a href="#alter-self">Alter Self</a></li>
+<li><a href="#animal-messenger">Animal Messenger</a></li>
+<li><a href="#animal-shapes">Animal Shapes</a></li>
+<li><a href="#animate-dead">Animate Dead</a></li>
+<li><a href="#animate-objects">Animate Objects</a></li>
+<li><a href="#antilife-shell">Antilife Shell</a></li>
+<li><a href="#antimagic-field">Antimagic Field</a></li>
+<li><a href="#antipathysympathy">Antipathy/Sympathy</a></li>
+<li><a href="#arcane-eye">Arcane Eye</a></li>
+<li><a href="#arcane-hand">Arcane Hand</a></li>
+<li><a href="#arcane-lock">Arcane Lock</a></li>
+<li><a href="#arcane-sword">Arcane Sword</a></li>
+<li><a href="#arcanists-magic-aura">Arcanist's Magic Aura</a></li>
+<li><a href="#astral-projection">Astral Projection</a></li>
+<li><a href="#augury">Augury</a></li>
+<li><a href="#awaken">Awaken</a></li>
+<li><a href="#bane">Bane</a></li>
+<li><a href="#banishment">Banishment</a></li>
+<li><a href="#barkskin">Barkskin</a></li>
+<li><a href="#beacon-of-hope">Beacon of Hope</a></li>
+<li><a href="#bestow-curse">Bestow Curse</a></li>
+<li><a href="#black-tentacles">Black Tentacles</a></li>
+<li><a href="#blade-barrier">Blade Barrier</a></li>
+<li><a href="#bless">Bless</a></li>
+<li><a href="#blight">Blight</a></li>
+<li><a href="#blindnessdeafness">Blindness/Deafness</a></li>
+<li><a href="#blink">Blink</a></li>
+<li><a href="#blur">Blur</a></li>
+<li><a href="#burning-hands">Burning Hands</a></li>
+<li><a href="#call-lightning">Call Lightning</a></li>
+<li><a href="#calm-emotions">Calm Emotions</a></li>
+<li><a href="#chain-lightning">Chain Lightning</a></li>
+<li><a href="#charm-person">Charm Person</a></li>
+<li><a href="#chill-touch">Chill Touch</a></li>
+<li><a href="#circle-of-death">Circle of Death</a></li>
+<li><a href="#clairvoyance">Clairvoyance</a></li>
+<li><a href="#clone">Clone</a></li>
+<li><a href="#cloudkill">Cloudkill</a></li>
+<li><a href="#color-spray">Color Spray</a></li>
+<li><a href="#command">Command</a></li>
+<li><a href="#commune">Commune</a></li>
+<li><a href="#commune-with-nature">Commune with Nature</a></li>
+<li><a href="#comprehend-languages">Comprehend Languages</a></li>
+<li><a href="#cone-of-cold">Cone of Cold</a></li>
+<li><a href="#confusion">Confusion</a></li>
+<li><a href="#conjure-animals">Conjure Animals</a></li>
+<li><a href="#conjure-celestial">Conjure Celestial</a></li>
+<li><a href="#conjure-elemental">Conjure Elemental</a></li>
+<li><a href="#conjure-fey">Conjure Fey</a></li>
+<li><a href="#conjure-minor-elementals">Conjure Minor Elementals</a></li>
+<li><a href="#conjure-woodland-beings">Conjure Woodland Beings</a></li>
+<li><a href="#contact-other-plane">Contact Other Plane</a></li>
+<li><a href="#contagion">Contagion</a></li>
+<li><a href="#contingency">Contingency</a></li>
+<li><a href="#continual-flame">Continual Flame</a></li>
+<li><a href="#control-water">Control Water</a></li>
+<li><a href="#control-weather">Control Weather</a></li>
+<li><a href="#create-food-and-water">Create Food and Water</a></li>
+<li><a href="#create-undead">Create Undead</a></li>
+<li><a href="#create-or-destroy-water">Create or Destroy Water</a></li>
+<li><a href="#creation">Creation</a></li>
+<li><a href="#cure-wounds">Cure Wounds</a></li>
+<li><a href="#dancing-lights">Dancing Lights</a></li>
+<li><a href="#darkness">Darkness</a></li>
+<li><a href="#darkvision-1">Darkvision</a></li>
+<li><a href="#daylight">Daylight</a></li>
+<li><a href="#death-ward">Death Ward</a></li>
+<li><a href="#delayed-blast-fireball">Delayed Blast Fireball</a></li>
+<li><a href="#demiplane">Demiplane</a></li>
+<li><a href="#detect-evil-and-good">Detect Evil and Good</a></li>
+<li><a href="#detect-magic">Detect Magic</a></li>
+<li><a href="#detect-poison-and-disease">Detect Poison and Disease</a></li>
+<li><a href="#detect-thoughts">Detect Thoughts</a></li>
+<li><a href="#dimension-door">Dimension Door</a></li>
+<li><a href="#disguise-self">Disguise Self</a></li>
+<li><a href="#disintegrate">Disintegrate</a></li>
+<li><a href="#dispel-evil-and-good">Dispel Evil and Good</a></li>
+<li><a href="#dispel-magic">Dispel Magic</a></li>
+<li><a href="#divination">Divination</a></li>
+<li><a href="#divine-favor">Divine Favor</a></li>
+<li><a href="#divine-word">Divine Word</a></li>
+<li><a href="#dominate-beast">Dominate Beast</a></li>
+<li><a href="#dominate-monster">Dominate Monster</a></li>
+<li><a href="#dominate-person">Dominate Person</a></li>
+<li><a href="#dream">Dream</a></li>
+<li><a href="#earthquake">Earthquake</a></li>
+<li><a href="#enhance-ability">Enhance Ability</a></li>
+<li><a href="#enlargereduce">Enlarge/Reduce</a></li>
+<li><a href="#entangle">Entangle</a></li>
+<li><a href="#enthrall">Enthrall</a></li>
+<li><a href="#etherealness">Etherealness</a></li>
+<li><a href="#expeditious-retreat">Expeditious Retreat</a></li>
+<li><a href="#eyebite">Eyebite</a></li>
+<li><a href="#fabricate">Fabricate</a></li>
+<li><a href="#faerie-fire">Faerie Fire</a></li>
+<li><a href="#faithful-hound">Faithful Hound</a></li>
+<li><a href="#false-life">False Life</a></li>
+<li><a href="#fear">Fear</a></li>
+<li><a href="#feather-fall">Feather Fall</a></li>
+<li><a href="#feeblemind">Feeblemind</a></li>
+<li><a href="#find-steed">Find Steed</a></li>
+<li><a href="#find-traps">Find Traps</a></li>
+<li><a href="#find-the-path">Find the Path</a></li>
+<li><a href="#finger-of-death">Finger of Death</a></li>
+<li><a href="#fire-shield">Fire Shield</a></li>
+<li><a href="#fire-storm">Fire Storm</a></li>
+<li><a href="#fireball">Fireball</a></li>
+<li><a href="#flame-blade">Flame Blade</a></li>
+<li><a href="#flame-strike">Flame Strike</a></li>
+<li><a href="#flaming-sphere">Flaming Sphere</a></li>
+<li><a href="#flesh-to-stone">Flesh to Stone</a></li>
+<li><a href="#floating-disk">Floating Disk</a></li>
+<li><a href="#fly">Fly</a></li>
+<li><a href="#fog-cloud">Fog Cloud</a></li>
+<li><a href="#forbiddance">Forbiddance</a></li>
+<li><a href="#forcecage">Forcecage</a></li>
+<li><a href="#foresight">Foresight</a></li>
+<li><a href="#freedom-of-movement">Freedom of Movement</a></li>
+<li><a href="#freezing-sphere">Freezing Sphere</a></li>
+<li><a href="#gaseous-form">Gaseous Form</a></li>
+<li><a href="#gate">Gate</a></li>
+<li><a href="#geas">Geas</a></li>
+<li><a href="#gentle-repose">Gentle Repose</a></li>
+<li><a href="#giant-insect">Giant Insect</a></li>
+<li><a href="#glibness">Glibness</a></li>
+<li><a href="#globe-of-invulnerability">Globe of Invulnerability</a></li>
+<li><a href="#glyph-of-warding">Glyph of Warding</a></li>
+<li><a href="#grease">Grease</a></li>
+<li><a href="#greater-invisibility">Greater Invisibility</a></li>
+<li><a href="#greater-restoration">Greater Restoration</a></li>
+<li><a href="#guards-and-wards">Guards and Wards</a></li>
+<li><a href="#guidance">Guidance</a></li>
+<li><a href="#guiding-bolt">Guiding Bolt</a></li>
+<li><a href="#gust-of-wind">Gust of Wind</a></li>
+<li><a href="#hallow">Hallow</a></li>
+<li><a href="#hallucinatory-terrain">Hallucinatory Terrain</a></li>
+<li><a href="#harm">Harm</a></li>
+<li><a href="#haste">Haste</a></li>
+<li><a href="#heal">Heal</a></li>
+<li><a href="#healing-word">Healing Word</a></li>
+<li><a href="#heat-metal">Heat Metal</a></li>
+<li><a href="#heroes-feast">Heroes' Feast</a></li>
+<li><a href="#heroism">Heroism</a></li>
+<li><a href="#hideous-laughter">Hideous Laughter</a></li>
+<li><a href="#hold-monster">Hold Monster</a></li>
+<li><a href="#hold-person">Hold Person</a></li>
+<li><a href="#holy-aura">Holy Aura</a></li>
+<li><a href="#hypnotic-pattern">Hypnotic Pattern</a></li>
+<li><a href="#ice-storm">Ice Storm</a></li>
+<li><a href="#identify">Identify</a></li>
+<li><a href="#illusory-script">Illusory Script</a></li>
+<li><a href="#imprisonment">Imprisonment</a></li>
+<li><a href="#incendiary-cloud">Incendiary Cloud</a></li>
+<li><a href="#inflict-wounds">Inflict Wounds</a></li>
+<li><a href="#insect-plague">Insect Plague</a></li>
+<li><a href="#instant-summons">Instant Summons</a></li>
+<li><a href="#invisibility">Invisibility</a></li>
+<li><a href="#irresistible-dance">Irresistible Dance</a></li>
+<li><a href="#jump">Jump</a></li>
+<li><a href="#knock">Knock</a></li>
+<li><a href="#legend-lore">Legend Lore</a></li>
+<li><a href="#lesser-restoration">Lesser Restoration</a></li>
+<li><a href="#levitate">Levitate</a></li>
+<li><a href="#light">Light</a></li>
+<li><a href="#lightning-bolt">Lightning Bolt</a></li>
+<li><a href="#locate-animals-or-plants">Locate Animals or Plants</a></li>
+<li><a href="#locate-creature">Locate Creature</a></li>
+<li><a href="#locate-object">Locate Object</a></li>
+<li><a href="#longstrider">Longstrider</a></li>
+<li><a href="#mage-armor">Mage Armor</a></li>
+<li><a href="#mage-hand">Mage Hand</a></li>
+<li><a href="#magic-circle">Magic Circle</a></li>
+<li><a href="#magic-jar">Magic Jar</a></li>
+<li><a href="#magic-missile">Magic Missile</a></li>
+<li><a href="#magic-mouth">Magic Mouth</a></li>
+<li><a href="#magic-weapon">Magic Weapon</a></li>
+<li><a href="#magnificent-mansion">Magnificent Mansion</a></li>
+<li><a href="#major-image">Major Image</a></li>
+<li><a href="#mass-cure-wounds">Mass Cure Wounds</a></li>
+<li><a href="#mass-heal">Mass Heal</a></li>
+<li><a href="#mass-healing-word">Mass Healing Word</a></li>
+<li><a href="#mass-suggestion">Mass Suggestion</a></li>
+<li><a href="#maze">Maze</a></li>
+<li><a href="#meld-into-stone">Meld into Stone</a></li>
+<li><a href="#mending">Mending</a></li>
+<li><a href="#message">Message</a></li>
+<li><a href="#meteor-swarm">Meteor Swarm</a></li>
+<li><a href="#mind-blank">Mind Blank</a></li>
+<li><a href="#minor-illusion">Minor Illusion</a></li>
+<li><a href="#mirage-arcane">Mirage Arcane</a></li>
+<li><a href="#mirror-image">Mirror Image</a></li>
+<li><a href="#mislead">Mislead</a></li>
+<li><a href="#misty-step">Misty Step</a></li>
+<li><a href="#modify-memory">Modify Memory</a></li>
+<li><a href="#moonbeam">Moonbeam</a></li>
+<li><a href="#move-earth">Move Earth</a></li>
+<li><a href="#nondetection">Nondetection</a></li>
+<li><a href="#pass-without-trace">Pass without Trace</a></li>
+<li><a href="#passwall">Passwall</a></li>
+<li><a href="#phantasmal-killer">Phantasmal Killer</a></li>
+<li><a href="#phantom-steed">Phantom Steed</a></li>
+<li><a href="#planar-ally">Planar Ally</a></li>
+<li><a href="#planar-binding">Planar Binding</a></li>
+<li><a href="#plane-shift">Plane Shift</a></li>
+<li><a href="#plant-growth">Plant Growth</a></li>
+<li><a href="#polymorph">Polymorph</a></li>
+<li><a href="#power-word-kill">Power Word Kill</a></li>
+<li><a href="#power-word-stun">Power Word Stun</a></li>
+<li><a href="#prayer-of-healing">Prayer of Healing</a></li>
+<li><a href="#prestidigitation">Prestidigitation</a></li>
+<li><a href="#prismatic-spray">Prismatic Spray</a></li>
+<li><a href="#prismatic-wall">Prismatic Wall</a></li>
+<li><a href="#private-sanctum">Private Sanctum</a></li>
+<li><a href="#produce-flame">Produce Flame</a></li>
+<li><a href="#programmed-illusion">Programmed Illusion</a></li>
+<li><a href="#project-image">Project Image</a></li>
+<li><a href="#protection-from-energy">Protection from Energy</a></li>
+<li><a href="#protection-from-evil-and-good">Protection from Evil and Good</a></li>
+<li><a href="#protection-from-poison">Protection from Poison</a></li>
+<li><a href="#purify-food-and-drink">Purify Food and Drink</a></li>
+<li><a href="#raise-dead">Raise Dead</a></li>
+<li><a href="#ray-of-enfeeblement">Ray of Enfeeblement</a></li>
+<li><a href="#ray-of-frost">Ray of Frost</a></li>
+<li><a href="#regenerate">Regenerate</a></li>
+<li><a href="#reincarnate">Reincarnate</a></li>
+<li><a href="#remove-curse">Remove Curse</a></li>
+<li><a href="#resilient-sphere">Resilient Sphere</a></li>
+<li><a href="#resistance">Resistance</a></li>
+<li><a href="#resurrection">Resurrection</a></li>
+<li><a href="#reverse-gravity">Reverse Gravity</a></li>
+<li><a href="#revivify">Revivify</a></li>
+<li><a href="#rope-trick">Rope Trick</a></li>
+<li><a href="#sacred-flame">Sacred Flame</a></li>
+<li><a href="#sanctuary">Sanctuary</a></li>
+<li><a href="#scorching-ray">Scorching Ray</a></li>
+<li><a href="#scrying">Scrying</a></li>
+<li><a href="#secret-chest">Secret Chest</a></li>
+<li><a href="#see-invisibility">See Invisibility</a></li>
+<li><a href="#seeming">Seeming</a></li>
+<li><a href="#sending">Sending</a></li>
+<li><a href="#sequester">Sequester</a></li>
+<li><a href="#shapechange">Shapechange</a></li>
+<li><a href="#shield">Shield</a></li>
+<li><a href="#shield-of-faith">Shield of Faith</a></li>
+<li><a href="#shillelagh">Shillelagh</a></li>
+<li><a href="#shocking-grasp">Shocking Grasp</a></li>
+<li><a href="#silence">Silence</a></li>
+<li><a href="#silent-image">Silent Image</a></li>
+<li><a href="#simulacrum">Simulacrum</a></li>
+<li><a href="#sleep">Sleep</a></li>
+<li><a href="#sleet-storm">Sleet Storm</a></li>
+<li><a href="#slow">Slow</a></li>
+<li><a href="#speak-with-animals">Speak with Animals</a></li>
+<li><a href="#speak-with-dead">Speak with Dead</a></li>
+<li><a href="#speak-with-plants">Speak with Plants</a></li>
+<li><a href="#spider-climb">Spider Climb</a></li>
+<li><a href="#spike-growth">Spike Growth</a></li>
+<li><a href="#spirit-guardians">Spirit Guardians</a></li>
+<li><a href="#spiritual-weapon">Spiritual Weapon</a></li>
+<li><a href="#stinking-cloud">Stinking Cloud</a></li>
+<li><a href="#stone-shape">Stone Shape</a></li>
+<li><a href="#stoneskin">Stoneskin</a></li>
+<li><a href="#storm-of-vengeance">Storm of Vengeance</a></li>
+<li><a href="#suggestion">Suggestion</a></li>
+<li><a href="#sunbeam">Sunbeam</a></li>
+<li><a href="#sunburst">Sunburst</a></li>
+<li><a href="#symbol">Symbol</a></li>
+<li><a href="#telekinesis">Telekinesis</a></li>
+<li><a href="#telepathic-bond">Telepathic Bond</a></li>
+<li><a href="#teleport">Teleport</a></li>
+<li><a href="#teleportation-circle">Teleportation Circle</a></li>
+<li><a href="#thaumaturgy">Thaumaturgy</a></li>
+<li><a href="#thunderwave">Thunderwave</a></li>
+<li><a href="#time-stop">Time Stop</a></li>
+<li><a href="#tiny-hut">Tiny Hut</a></li>
+<li><a href="#tongues">Tongues</a></li>
+<li><a href="#transport-via-plants">Transport via Plants</a></li>
+<li><a href="#tree-stride">Tree Stride</a></li>
+<li><a href="#true-polymorph">True Polymorph</a></li>
+<li><a href="#true-resurrection">True Resurrection</a></li>
+<li><a href="#true-seeing">True Seeing</a></li>
+<li><a href="#true-strike">True Strike</a></li>
+<li><a href="#unseen-servant">Unseen Servant</a></li>
+<li><a href="#vampiric-touch">Vampiric Touch</a></li>
+<li><a href="#wall-of-fire">Wall of Fire</a></li>
+<li><a href="#wall-of-force">Wall of Force</a></li>
+<li><a href="#wall-of-ice">Wall of Ice</a></li>
+<li><a href="#wall-of-stone">Wall of Stone</a></li>
+<li><a href="#wall-of-thorns">Wall of Thorns</a></li>
+<li><a href="#warding-bond">Warding Bond</a></li>
+<li><a href="#water-breathing">Water Breathing</a></li>
+<li><a href="#water-walk">Water Walk</a></li>
+<li><a href="#web">Web</a></li>
+<li><a href="#weird">Weird</a></li>
+<li><a href="#wind-walk">Wind Walk</a></li>
+<li><a href="#wind-wall">Wind Wall</a></li>
+<li><a href="#wish">Wish</a></li>
+<li><a href="#word-of-recall">Word of Recall</a></li>
+<li><a href="#zone-of-truth">Zone of Truth</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#magic-items">Magic Items</a><ul>
-<li><a href="#magic-item-descriptions">Magic Item Descriptions</a></li>
-<li><a href="#sentient-magic-items">Sentient Magic Items</a></li>
-<li><a href="#artifacts">Artifacts</a></li>
+<li><a href="#magic-item-descriptions">Magic Item Descriptions</a><ul>
+<li><a href="#adamantine-armor">Adamantine Armor</a></li>
+<li><a href="#ammunition-1-2-or-3">Ammunition, +1, +2, or +3</a></li>
+<li><a href="#amulet-of-health">Amulet of Health</a></li>
+<li><a href="#amulet-of-proof-against-detection-and-location">Amulet of Proof against Detection and Location</a></li>
+<li><a href="#amulet-of-the-planes">Amulet of the Planes</a></li>
+<li><a href="#animated-shield">Animated Shield</a></li>
+<li><a href="#apparatus-of-the-crab">Apparatus of the Crab</a></li>
+<li><a href="#armor-1-2-or-3">Armor, +1, +2, or +3</a></li>
+<li><a href="#armor-of-invulnerability">Armor of Invulnerability</a></li>
+<li><a href="#armor-of-resistance">Armor of Resistance</a></li>
+<li><a href="#armor-of-vulnerability">Armor of Vulnerability</a></li>
+<li><a href="#arrow-catching-shield">Arrow-Catching Shield</a></li>
+<li><a href="#arrow-of-slaying">Arrow of Slaying</a></li>
+<li><a href="#bag-of-beans">Bag of Beans</a></li>
+<li><a href="#bag-of-devouring">Bag of Devouring</a></li>
+<li><a href="#bag-of-holding">Bag of Holding</a></li>
+<li><a href="#bag-of-tricks">Bag of Tricks</a></li>
+<li><a href="#bead-of-force">Bead of Force</a></li>
+<li><a href="#belt-of-dwarvenkind">Belt of Dwarvenkind</a></li>
+<li><a href="#belt-of-giant-strength">Belt of Giant Strength</a></li>
+<li><a href="#berserker-axe">Berserker Axe</a></li>
+<li><a href="#boots-of-elvenkind">Boots of Elvenkind</a></li>
+<li><a href="#boots-of-levitation">Boots of Levitation</a></li>
+<li><a href="#boots-of-speed">Boots of Speed</a></li>
+<li><a href="#boots-of-striding-and-springing">Boots of Striding and Springing</a></li>
+<li><a href="#boots-of-the-winterlands">Boots of the Winterlands</a></li>
+<li><a href="#bowl-of-commanding-water-elementals">Bowl of Commanding Water Elementals</a></li>
+<li><a href="#bracers-of-archery">Bracers of Archery</a></li>
+<li><a href="#bracers-of-defense">Bracers of Defense</a></li>
+<li><a href="#brazier-of-commanding-fire-elementals">Brazier of Commanding Fire Elementals</a></li>
+<li><a href="#brooch-of-shielding">Brooch of Shielding</a></li>
+<li><a href="#broom-of-flying">Broom of Flying</a></li>
+<li><a href="#candle-of-invocation">Candle of Invocation</a></li>
+<li><a href="#cape-of-the-mountebank">Cape of the Mountebank</a></li>
+<li><a href="#carpet-of-flying">Carpet of Flying</a></li>
+<li><a href="#censer-of-controlling-air-elementals">Censer of Controlling Air Elementals</a></li>
+<li><a href="#chime-of-opening">Chime of Opening</a></li>
+<li><a href="#circlet-of-blasting">Circlet of Blasting</a></li>
+<li><a href="#cloak-of-arachnida">Cloak of Arachnida</a></li>
+<li><a href="#cloak-of-displacement">Cloak of Displacement</a></li>
+<li><a href="#cloak-of-elvenkind">Cloak of Elvenkind</a></li>
+<li><a href="#cloak-of-protection">Cloak of Protection</a></li>
+<li><a href="#cloak-of-the-bat">Cloak of the Bat</a></li>
+<li><a href="#cloak-of-the-manta-ray">Cloak of the Manta Ray</a></li>
+<li><a href="#crystal-ball">Crystal Ball</a></li>
+<li><a href="#cube-of-force">Cube of Force</a></li>
+<li><a href="#cubic-gate">Cubic Gate</a></li>
+<li><a href="#dagger-of-venom">Dagger of Venom</a></li>
+<li><a href="#dancing-sword">Dancing Sword</a></li>
+<li><a href="#decanter-of-endless-water">Decanter of Endless Water</a></li>
+<li><a href="#deck-of-illusions">Deck of Illusions</a></li>
+<li><a href="#deck-of-many-things">Deck of Many Things</a><ul>
+<li><a href="#avatar-of-death">Avatar of Death</a><ul>
+<li><a href="#actions">Actions</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#defender">Defender</a></li>
+<li><a href="#demon-armor">Demon Armor</a></li>
+<li><a href="#dimensional-shackles">Dimensional Shackles</a></li>
+<li><a href="#dragon-scale-mail">Dragon Scale Mail</a></li>
+<li><a href="#dragon-slayer">Dragon Slayer</a></li>
+<li><a href="#dust-of-disappearance">Dust of Disappearance</a></li>
+<li><a href="#dust-of-dryness">Dust of Dryness</a></li>
+<li><a href="#dust-of-sneezing-and-choking">Dust of Sneezing and Choking</a></li>
+<li><a href="#dwarven-plate">Dwarven Plate</a></li>
+<li><a href="#dwarven-thrower">Dwarven Thrower</a></li>
+<li><a href="#efficient-quiver">Efficient Quiver</a></li>
+<li><a href="#efreeti-bottle">Efreeti Bottle</a></li>
+<li><a href="#elemental-gem">Elemental Gem</a></li>
+<li><a href="#elven-chain">Elven Chain</a></li>
+<li><a href="#eversmoking-bottle">Eversmoking Bottle</a></li>
+<li><a href="#eyes-of-charming">Eyes of Charming</a></li>
+<li><a href="#eyes-of-minute-seeing">Eyes of Minute Seeing</a></li>
+<li><a href="#eyes-of-the-eagle">Eyes of the Eagle</a></li>
+<li><a href="#feather-token">Feather Token</a></li>
+<li><a href="#figurine-of-wondrous-power">Figurine of Wondrous Power</a><ul>
+<li><a href="#giant-fly">Giant Fly</a></li>
+</ul></li>
+<li><a href="#flame-tongue">Flame Tongue</a></li>
+<li><a href="#folding-boat">Folding Boat</a></li>
+<li><a href="#frost-brand">Frost Brand</a></li>
+<li><a href="#gem-of-seeing">Gem of Seeing</a></li>
+<li><a href="#giant-slayer">Giant Slayer</a></li>
+<li><a href="#glamoured-studded-leather">Glamoured Studded Leather</a></li>
+<li><a href="#gloves-of-missile-snaring">Gloves of Missile Snaring</a></li>
+<li><a href="#gloves-of-swimming-and-climbing">Gloves of Swimming and Climbing</a></li>
+<li><a href="#goggles-of-night">Goggles of Night</a></li>
+<li><a href="#hammer-of-thunderbolts">Hammer of Thunderbolts</a></li>
+<li><a href="#handy-haversack">Handy Haversack</a></li>
+<li><a href="#hat-of-disguise">Hat of Disguise</a></li>
+<li><a href="#headband-of-intellect">Headband of Intellect</a></li>
+<li><a href="#helm-of-brilliance">Helm of Brilliance</a></li>
+<li><a href="#helm-of-comprehending-languages">Helm of Comprehending Languages</a></li>
+<li><a href="#helm-of-telepathy">Helm of Telepathy</a></li>
+<li><a href="#helm-of-teleportation">Helm of Teleportation</a></li>
+<li><a href="#holy-avenger">Holy Avenger</a></li>
+<li><a href="#horn-of-blasting">Horn of Blasting</a></li>
+<li><a href="#horn-of-valhalla">Horn of Valhalla</a></li>
+<li><a href="#horseshoes-of-speed">Horseshoes of Speed</a></li>
+<li><a href="#horseshoes-of-a-zephyr">Horseshoes of a Zephyr</a></li>
+<li><a href="#immovable-rod">Immovable Rod</a></li>
+<li><a href="#instant-fortress">Instant Fortress</a></li>
+<li><a href="#ioun-stone">Ioun Stone</a></li>
+<li><a href="#iron-bands-of-binding">Iron Bands of Binding</a></li>
+<li><a href="#iron-flask">Iron Flask</a></li>
+<li><a href="#javelin-of-lightning">Javelin of Lightning</a></li>
+<li><a href="#lantern-of-revealing">Lantern of Revealing</a></li>
+<li><a href="#luck-blade">Luck Blade</a></li>
+<li><a href="#mace-of-disruption">Mace of Disruption</a></li>
+<li><a href="#mace-of-smiting">Mace of Smiting</a></li>
+<li><a href="#mace-of-terror">Mace of Terror</a></li>
+<li><a href="#mantle-of-spell-resistance">Mantle of Spell Resistance</a></li>
+<li><a href="#manual-of-bodily-health">Manual of Bodily Health</a></li>
+<li><a href="#manual-of-gainful-exercise">Manual of Gainful Exercise</a></li>
+<li><a href="#manual-of-golems">Manual of Golems</a></li>
+<li><a href="#manual-of-quickness-of-action">Manual of Quickness of Action</a></li>
+<li><a href="#marvelous-pigments">Marvelous Pigments</a></li>
+<li><a href="#medallion-of-thoughts">Medallion of Thoughts</a></li>
+<li><a href="#mirror-of-life-trapping">Mirror of Life Trapping</a></li>
+<li><a href="#mithral-armor">Mithral Armor</a></li>
+<li><a href="#necklace-of-adaptation">Necklace of Adaptation</a></li>
+<li><a href="#necklace-of-fireballs">Necklace of Fireballs</a></li>
+<li><a href="#necklace-of-prayer-beads">Necklace of Prayer Beads</a></li>
+<li><a href="#nine-lives-stealer">Nine Lives Stealer</a></li>
+<li><a href="#oathbow">Oathbow</a></li>
+<li><a href="#oil-of-etherealness">Oil of Etherealness</a></li>
+<li><a href="#oil-of-sharpness">Oil of Sharpness</a></li>
+<li><a href="#oil-of-slipperiness">Oil of Slipperiness</a></li>
+<li><a href="#pearl-of-power">Pearl of Power</a></li>
+<li><a href="#periapt-of-health">Periapt of Health</a></li>
+<li><a href="#periapt-of-proof-against-poison">Periapt of Proof against Poison</a></li>
+<li><a href="#periapt-of-wound-closure">Periapt of Wound Closure</a></li>
+<li><a href="#philter-of-love">Philter of Love</a></li>
+<li><a href="#pipes-of-haunting">Pipes of Haunting</a></li>
+<li><a href="#pipes-of-the-sewers">Pipes of the Sewers</a></li>
+<li><a href="#plate-armor-of-etherealness">Plate Armor of Etherealness</a></li>
+<li><a href="#portable-hole">Portable Hole</a></li>
+<li><a href="#potion-of-animal-friendship">Potion of Animal Friendship</a></li>
+<li><a href="#potion-of-clairvoyance">Potion of Clairvoyance</a></li>
+<li><a href="#potion-of-climbing">Potion of Climbing</a></li>
+<li><a href="#potion-of-diminution">Potion of Diminution</a></li>
+<li><a href="#potion-of-flying">Potion of Flying</a></li>
+<li><a href="#potion-of-gaseous-form">Potion of Gaseous Form</a></li>
+<li><a href="#potion-of-giant-strength">Potion of Giant Strength</a></li>
+<li><a href="#potion-of-growth">Potion of Growth</a></li>
+<li><a href="#potion-of-healing">Potion of Healing</a></li>
+<li><a href="#potion-of-heroism">Potion of Heroism</a></li>
+<li><a href="#potion-of-invisibility">Potion of Invisibility</a></li>
+<li><a href="#potion-of-mind-reading">Potion of Mind Reading</a></li>
+<li><a href="#potion-of-poison">Potion of Poison</a></li>
+<li><a href="#potion-of-resistance">Potion of Resistance</a></li>
+<li><a href="#potion-of-speed">Potion of Speed</a></li>
+<li><a href="#potion-of-water-breathing">Potion of Water Breathing</a></li>
+<li><a href="#restorative-ointment">Restorative Ointment</a></li>
+<li><a href="#ring-of-animal-influence">Ring of Animal Influence</a></li>
+<li><a href="#ring-of-djinni-summoning">Ring of Djinni Summoning</a></li>
+<li><a href="#ring-of-elemental-command">Ring of Elemental Command</a></li>
+<li><a href="#ring-of-evasion">Ring of Evasion</a></li>
+<li><a href="#ring-of-feather-falling">Ring of Feather Falling</a></li>
+<li><a href="#ring-of-free-action">Ring of Free Action</a></li>
+<li><a href="#ring-of-invisibility">Ring of Invisibility</a></li>
+<li><a href="#ring-of-jumping">Ring of Jumping</a></li>
+<li><a href="#ring-of-mind-shielding">Ring of Mind Shielding</a></li>
+<li><a href="#ring-of-protection">Ring of Protection</a></li>
+<li><a href="#ring-of-regeneration">Ring of Regeneration</a></li>
+<li><a href="#ring-of-resistance">Ring of Resistance</a></li>
+<li><a href="#ring-of-shooting-stars">Ring of Shooting Stars</a></li>
+<li><a href="#ring-of-spell-storing">Ring of Spell Storing</a></li>
+<li><a href="#ring-of-spell-turning">Ring of Spell Turning</a></li>
+<li><a href="#ring-of-swimming">Ring of Swimming</a></li>
+<li><a href="#ring-of-telekinesis">Ring of Telekinesis</a></li>
+<li><a href="#ring-of-three-wishes">Ring of Three Wishes</a></li>
+<li><a href="#ring-of-warmth">Ring of Warmth</a></li>
+<li><a href="#ring-of-water-walking">Ring of Water Walking</a></li>
+<li><a href="#ring-of-x-ray-vision">Ring of X-ray Vision</a></li>
+<li><a href="#ring-of-the-ram">Ring of the Ram</a></li>
+<li><a href="#robe-of-eyes">Robe of Eyes</a></li>
+<li><a href="#robe-of-scintillating-colors">Robe of Scintillating Colors</a></li>
+<li><a href="#robe-of-stars">Robe of Stars</a></li>
+<li><a href="#robe-of-useful-items">Robe of Useful Items</a></li>
+<li><a href="#robe-of-the-archmagi">Robe of the Archmagi</a></li>
+<li><a href="#rod-of-absorption">Rod of Absorption</a></li>
+<li><a href="#rod-of-alertness">Rod of Alertness</a></li>
+<li><a href="#rod-of-lordly-might">Rod of Lordly Might</a></li>
+<li><a href="#rod-of-rulership">Rod of Rulership</a></li>
+<li><a href="#rod-of-security">Rod of Security</a></li>
+<li><a href="#rope-of-climbing">Rope of Climbing</a></li>
+<li><a href="#rope-of-entanglement">Rope of Entanglement</a></li>
+<li><a href="#scarab-of-protection">Scarab of Protection</a></li>
+<li><a href="#scimitar-of-speed">Scimitar of Speed</a></li>
+<li><a href="#shield-1-2-or-3">Shield, +1, +2, or +3</a></li>
+<li><a href="#shield-of-missile-attraction">Shield of Missile Attraction</a></li>
+<li><a href="#slippers-of-spider-climbing">Slippers of Spider Climbing</a></li>
+<li><a href="#sovereign-glue">Sovereign Glue</a></li>
+<li><a href="#spell-scroll">Spell Scroll</a></li>
+<li><a href="#spellguard-shield">Spellguard Shield</a></li>
+<li><a href="#sphere-of-annihilation-1">Sphere of Annihilation</a></li>
+<li><a href="#staff-of-charming">Staff of Charming</a></li>
+<li><a href="#staff-of-fire">Staff of Fire</a></li>
+<li><a href="#staff-of-frost">Staff of Frost</a></li>
+<li><a href="#staff-of-healing">Staff of Healing</a></li>
+<li><a href="#staff-of-power">Staff of Power</a></li>
+<li><a href="#staff-of-striking">Staff of Striking</a></li>
+<li><a href="#staff-of-swarming-insects">Staff of Swarming Insects</a></li>
+<li><a href="#staff-of-thunder-and-lightning">Staff of Thunder and Lightning</a></li>
+<li><a href="#staff-of-withering">Staff of Withering</a></li>
+<li><a href="#staff-of-the-magi">Staff of the Magi</a></li>
+<li><a href="#staff-of-the-python">Staff of the Python</a></li>
+<li><a href="#staff-of-the-woodlands">Staff of the Woodlands</a></li>
+<li><a href="#stone-of-controlling-earth-elementals">Stone of Controlling Earth Elementals</a></li>
+<li><a href="#stone-of-good-luck-luckstone">Stone of Good Luck (Luckstone)</a></li>
+<li><a href="#sun-blade">Sun Blade</a></li>
+<li><a href="#sword-of-life-stealing">Sword of Life Stealing</a></li>
+<li><a href="#sword-of-sharpness">Sword of Sharpness</a></li>
+<li><a href="#sword-of-wounding">Sword of Wounding</a></li>
+<li><a href="#talisman-of-pure-good">Talisman of Pure Good</a></li>
+<li><a href="#talisman-of-ultimate-evil">Talisman of Ultimate Evil</a></li>
+<li><a href="#talisman-of-the-sphere">Talisman of the Sphere</a></li>
+<li><a href="#tome-of-clear-thought">Tome of Clear Thought</a></li>
+<li><a href="#tome-of-leadership-and-influence">Tome of Leadership and Influence</a></li>
+<li><a href="#tome-of-understanding">Tome of Understanding</a></li>
+<li><a href="#trident-of-fish-command">Trident of Fish Command</a></li>
+<li><a href="#universal-solvent">Universal Solvent</a></li>
+<li><a href="#vicious-weapon">Vicious Weapon</a></li>
+<li><a href="#vorpal-sword">Vorpal Sword</a></li>
+<li><a href="#wand-of-binding">Wand of Binding</a></li>
+<li><a href="#wand-of-enemy-detection">Wand of Enemy Detection</a></li>
+<li><a href="#wand-of-fear">Wand of Fear</a></li>
+<li><a href="#wand-of-fireballs">Wand of Fireballs</a></li>
+<li><a href="#wand-of-lightning-bolts">Wand of Lightning Bolts</a></li>
+<li><a href="#wand-of-magic-detection">Wand of Magic Detection</a></li>
+<li><a href="#wand-of-magic-missiles">Wand of Magic Missiles</a></li>
+<li><a href="#wand-of-paralysis">Wand of Paralysis</a></li>
+<li><a href="#wand-of-polymorph">Wand of Polymorph</a></li>
+<li><a href="#wand-of-secrets">Wand of Secrets</a></li>
+<li><a href="#wand-of-web">Wand of Web</a></li>
+<li><a href="#wand-of-wonder">Wand of Wonder</a></li>
+<li><a href="#wand-of-the-war-mage-1-2-or-3">Wand of the War Mage, +1, +2, or +3</a></li>
+<li><a href="#weapon-1-2-or-3">Weapon, +1, +2, or +3</a></li>
+<li><a href="#well-of-many-worlds">Well of Many Worlds</a></li>
+<li><a href="#wind-fan">Wind Fan</a></li>
+<li><a href="#winged-boots">Winged Boots</a></li>
+<li><a href="#wings-of-flying">Wings of Flying</a></li>
+</ul></li>
+<li><a href="#sentient-magic-items">Sentient Magic Items</a><ul>
+<li><a href="#creating-sentient-magic-items">Creating Sentient Magic Items</a><ul>
+<li><a href="#abilities">Abilities</a></li>
+<li><a href="#communication">Communication</a></li>
+<li><a href="#senses">Senses</a></li>
+<li><a href="#alignment-2">Alignment</a></li>
+<li><a href="#special-purpose">Special Purpose</a></li>
+</ul></li>
+<li><a href="#conflict">Conflict</a></li>
+</ul></li>
+<li><a href="#artifacts">Artifacts</a><ul>
+<li><a href="#orb-of-the-wyrm">Orb of the Wyrm</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#the-planes-of-existence">The Planes of Existence</a><ul>
 <li><a href="#the-material-plane">The Material Plane</a></li>
-<li><a href="#beyond-the-material">Beyond the Material</a></li>
+<li><a href="#beyond-the-material">Beyond the Material</a><ul>
+<li><a href="#planar-travel">Planar Travel</a></li>
+<li><a href="#transitive-planes">Transitive Planes</a></li>
+<li><a href="#inner-planes">Inner Planes</a></li>
+<li><a href="#outer-planes">Outer Planes</a><ul>
+<li><a href="#planar-alignment">Planar Alignment</a></li>
+<li><a href="#demiplanes">Demiplanes</a></li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li><a href="#pantheons">Pantheons</a><ul>
 <li><a href="#the-celtic-pantheon">The Celtic Pantheon</a></li>
 <li><a href="#the-egyptian-pantheon">The Egyptian Pantheon</a></li>
 <li><a href="#the-greek-pantheon">The Greek Pantheon</a></li>
 <li><a href="#the-norse-pantheon">The Norse Pantheon</a></li>
+</ul></li>
+<li><a href="#monsters">Monsters</a><ul>
+<li><a href="#monster-construction">Monster Construction</a><ul>
+<li><a href="#size-1">Size</a></li>
+<li><a href="#type">Type</a><ul>
+<li><a href="#tags">Tags</a></li>
+<li><a href="#alignment-3">Alignment</a></li>
+</ul></li>
+<li><a href="#armor-class-1">Armor Class</a></li>
+<li><a href="#hit-points-14">Hit Points</a></li>
+<li><a href="#speed-2">Speed</a><ul>
+<li><a href="#burrow">Burrow</a></li>
+<li><a href="#climb">Climb</a></li>
+<li><a href="#fly-1">Fly</a></li>
+<li><a href="#swim">Swim</a></li>
+</ul></li>
+<li><a href="#ability-scores">Ability Scores</a></li>
+<li><a href="#saving-throws-2">Saving Throws</a></li>
+<li><a href="#skills-1">Skills</a></li>
+<li><a href="#vulnerabilities-resistances-and-immunities">Vulnerabilities, Resistances, and Immunities</a></li>
+<li><a href="#senses-1">Senses</a><ul>
+<li><a href="#blindsight-1">Blindsight</a></li>
+<li><a href="#darkvision-2">Darkvision</a></li>
+<li><a href="#tremorsense">Tremorsense</a></li>
+<li><a href="#truesight-1">Truesight</a></li>
+</ul></li>
+<li><a href="#languages-3">Languages</a><ul>
+<li><a href="#telepathy">Telepathy</a></li>
+</ul></li>
+<li><a href="#challenge">Challenge</a><ul>
+<li><a href="#experience-points-1">Experience Points</a></li>
+</ul></li>
+<li><a href="#special-traits">Special Traits</a><ul>
+<li><a href="#innate-spellcasting">Innate Spellcasting</a></li>
+<li><a href="#spellcasting-9">Spellcasting</a></li>
+<li><a href="#psionics">Psionics</a></li>
+</ul></li>
+<li><a href="#actions-1">Actions</a><ul>
+<li><a href="#melee-and-ranged-attacks">Melee and Ranged Attacks</a></li>
+<li><a href="#multiattack-1">Multiattack</a></li>
+<li><a href="#ammunition">Ammunition</a></li>
+<li><a href="#reactions-2">Reactions</a></li>
+</ul></li>
+<li><a href="#limited-usage">Limited Usage</a></li>
+<li><a href="#equipment-14">Equipment</a></li>
+</ul></li>
+<li><a href="#legendary-creatures">Legendary Creatures</a><ul>
+<li><a href="#legendary-actions">Legendary Actions</a></li>
+<li><a href="#a-legendary-creatures-lair">A Legendary Creature's Lair</a><ul>
+<li><a href="#lair-actions">Lair Actions</a></li>
+<li><a href="#regional-effects">Regional Effects</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#nonplayer-characters">Nonplayer Characters</a><ul>
+<li><a href="#customizing-npcs">Customizing NPCs</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -164,7 +2219,7 @@
 <p>The Markdown SRD5 Copyright 2016, Garrett Guillotte.</p>
 <p>END OF LICENSE</p>
 <blockquote>
-<p>If you note any errors with the game mechanics of this document, please consult the <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">official System Reference Docuemnt</a>.</p>
+<p>If you note any errors with the game mechanics of this document, please consult the <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">official System Reference Document</a>.</p>
 <p>If you note any problems with the formatting or presentation of this document, or identify protected content that should be removed, please file an issue at <a href="https://github.com/gguillotte/mdsrd5" class="uri">https://github.com/gguillotte/mdsrd5</a>.</p>
 </blockquote>
 </section>
@@ -408,8 +2463,7 @@
 <p><strong><em>Lucky.</em></strong> When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
 <p><strong><em>Brave.</em></strong> You have advantage on saving throws against being frightened.</p>
 <p><strong><em>Halfling Nimbleness.</em></strong> You can move through the space of any creature that is of a size larger than yours.</p>
-<p><strong><em>Languages.</em></strong> You can speak, read, and write</p>
-<p><strong><em>Common and Halfling.</em></strong> The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p>
+<p><strong><em>Languages.</em></strong> You can speak, read, and write Common and Halfling. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.</p>
 <section id="lightfoot" class="level4">
 <h4>Lightfoot</h4>
 <p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.</p>
@@ -9762,11 +11816,11 @@
 <p>At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.</p>
 <blockquote>
 <h4 id="hiding">Hiding</h4>
-<p>The DM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.</p>
+<p>The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.</p>
 <p>You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.</p>
 <p>An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.</p>
-<p>In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the DM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.</p>
-<p><strong><em>Passive Perception.</em></strong> When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.</p>
+<p>In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.</p>
+<p><strong><em>Passive Perception.</em></strong> When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.</p>
 <p><strong><em>What Can You See?</em></strong> One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see &quot;Adventuring&quot;.)</p>
 </blockquote>
 </section>
@@ -11313,7 +13367,8 @@ Effect</th>
 </section>
 <section id="spellcasting-8" class="level1">
 <h1>Spellcasting</h1>
-<p>Magic permeates fantasy gaming worlds and often appears in the form of a spell. This section provides the rules for casting spells. Different character classes have distinctive ways of learning and preparing their spells, and monsters use spells in unique ways. Regardless of its source, a spell follows the rules here.</p>
+<p>Magic permeates fantasy gaming worlds and often appears in the form of a spell.</p>
+<p>This section provides the rules for casting spells. Different character classes have distinctive ways of learning and preparing their spells, and monsters use spells in unique ways. Regardless of its source, a spell follows the rules here.</p>
 <section id="what-is-a-spell" class="level2">
 <h2>What Is a Spell?</h2>
 <p>A spell is a discrete magical effect, a single shaping of the magical energies that suffuse the multiverse into a specific, limited expression. In casting a spell, a character carefully plucks at the invisible strands of raw magic suffusing the world, pins them in place in a particular pattern, sets them vibrating in a specific way, and then releases them to unleash the desired effect—in most cases, all in the span of seconds.</p>
@@ -20749,6 +22804,646 @@ Effect</th>
 </table>
 <p>Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring—this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did. Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.</p>
 <p>The Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym).</p>
+</section>
+</section>
+<section id="monsters" class="level1">
+<h1>Monsters</h1>
+<p>A monster's statistics, sometimes referred to as its <strong>stat block</strong>, provide the essential information that you need to run the monster.</p>
+<section id="monster-construction" class="level2">
+<h2>Monster Construction</h2>
+<section id="size-1" class="level3">
+<h3>Size</h3>
+<p>A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. See &quot;Movement and Position&quot; for more information on creature size and space.</p>
+<table style="width:78%;">
+<caption>Size Categories</caption>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 33%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Size</th>
+<th style="text-align: left;">Space</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tiny</td>
+<td style="text-align: left;">2½ by 2½ ft.</td>
+<td style="text-align: left;">Imp, sprite</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Small</td>
+<td style="text-align: left;">5 by 5 ft.</td>
+<td style="text-align: left;">Giant rat, goblin</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Medium</td>
+<td style="text-align: left;">5 by 5 ft.</td>
+<td style="text-align: left;">Orc, werewolf</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Large</td>
+<td style="text-align: left;">10 by 10 ft.</td>
+<td style="text-align: left;">Hippogriff, ogre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Huge</td>
+<td style="text-align: left;">15 by 15 ft.</td>
+<td style="text-align: left;">Fire giant, treant</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gargantuan</td>
+<td style="text-align: left;">20 by 20 ft. or larger</td>
+<td style="text-align: left;">Kraken, purple worm</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<h4 id="modifying-creatures">Modifying Creatures</h4>
+<p>You might be at a loss when it comes to finding the perfect creature for part of an adventure. Feel free to tweak an existing creature to make it into something more useful for you, perhaps by borrowing a trait or two from a different monster or by using a variant or template, such as the ones in this book. Keep in mind that modifying a monster, including when you apply a template to it, might change its challenge rating.</p>
+</blockquote>
+</section>
+<section id="type" class="level3">
+<h3>Type</h3>
+<p>A monster's type speaks to its fundamental nature. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type. For example, an <em>arrow of dragon slaying</em> deals extra damage not only to dragons but also other creatures of the dragon type, such as dragon turtles and wyverns.</p>
+<p>The game includes the following monster types, which have no rules of their own.</p>
+<p><strong>Aberrations</strong> are utterly alien beings. Many of them have innate magical abilities drawn from the creature's alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths and slaadi.</p>
+<p><strong>Beasts</strong> are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.</p>
+<p><strong>Celestials</strong> are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity. Celestials include angels, couatls, and pegasi.</p>
+<p><strong>Constructs</strong> are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to certain Outer Planes are constructs shaped from the raw material of the plane by the will of more powerful creatures.</p>
+<p><strong>Dragons</strong> are large reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons.</p>
+<p><strong>Elementals</strong> are creatures native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements, including the creatures simply called elementals. Others have biological forms infused with elemental energy. The races of genies, including djinn and efreet, form the most important civilizations on the elemental planes. Other elemental creatures include azers, invisible stalkers, and water weirds.</p>
+<p><strong>Fey</strong> are magical creatures closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Plane of Fey. Some are also found in the Outer Planes, particularly nature-oriented planes. Fey include dryads, pixies, and satyrs.</p>
+<p><strong>Fiends</strong> are creatures of wickedness that are native to the Lower Planes. A few are the servants of deities, but many more labor under the leadership of archdevils and demon princes. Evil priests and mages sometimes summon fiends to the material world to do their bidding. If an evil celestial is a rarity, a good fiend is almost inconceivable. Fiends include demons, devils, hell hounds, rakshasas, and yugoloths.</p>
+<p><strong>Giants</strong> tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.</p>
+<p><strong>Humanoids</strong> are the main peoples of a fantasy gaming world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+<p><strong>Monstrosities</strong> are monsters in the strictest sense—frightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owlbears), and others are the product of terrible curses (including minotaurs). They defy categorization, and in some sense serve as a catch-all category for creatures that don't fit into any other type.</p>
+<p><strong>Oozes</strong> are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes.</p>
+<p><strong>Plants</strong> in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.</p>
+<p><strong>Undead</strong> are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.</p>
+<section id="tags" class="level4">
+<h4>Tags</h4>
+<p>A monster might have one or more tags appended to its type, in parentheses. For example, an orc has the humanoid (orc) type. The parenthetical tags provide additional categorization for certain creatures. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them. For instance, a spear that is especially effective at fighting demons would work against any monster that has the demon tag.</p>
+</section>
+<section id="alignment-3" class="level4">
+<h4>Alignment</h4>
+<p>A monster's alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas a neutral monster might be willing to negotiate. See &quot;Alignment&quot; for descriptions of the different alignments.</p>
+<p>The alignment specified in a monster's stat block is the default. Feel free to depart from it and change a monster's alignment to suit the needs of your campaign. If you want a good-aligned green dragon or an evil storm giant, there's nothing stopping you.</p>
+<p>Some creatures can have <strong>any alignment.</strong> In other words, you choose the monster's alignment. Some monster's alignment entry indicates a tendency or aversion toward law, chaos, good, or evil. For example, a berserker can be any chaotic alignment (chaotic good, chaotic neutral, or chaotic evil), as befits its wild nature.</p>
+<p>Many creatures of low intelligence have no comprehension of law or chaos, good or evil. They don't make moral or ethical choices, but rather act on instinct. These creatures are <strong>unaligned,</strong> which means they don't have an alignment.</p>
+</section>
+</section>
+<section id="armor-class-1" class="level3">
+<h3>Armor Class</h3>
+<p>A monster that wears armor or carries a shield has an Armor Class (AC) that takes its armor, shield, and Dexterity into account. Otherwise, a monster's AC is based on its Dexterity modifier and natural armor, if any. If a monster has natural armor, wears armor, or carries a shield, this is noted in parentheses after its AC value.</p>
+</section>
+<section id="hit-points-14" class="level3">
+<h3>Hit Points</h3>
+<p>A monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see &quot;Damage and Healing&quot;.</p>
+<p>A monster's hit points are presented both as a die expression and as an average number. For example, a monster with 2d8 hit points has 9 hit points on average (2 × 4 1/2).</p>
+<p>A monster's size determines the die used to calculate its hit points, as shown in the Hit Dice by Size table.</p>
+<table style="width:61%;">
+<caption>Hit Dice by Size</caption>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 13%" />
+<col style="width: 27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Monster Size</th>
+<th style="text-align: center;">Hit Die</th>
+<th style="text-align: center;">Average HP per Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Tiny</td>
+<td style="text-align: center;">d4</td>
+<td style="text-align: center;">2 1/2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Small</td>
+<td style="text-align: center;">d6</td>
+<td style="text-align: center;">3 1/2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Medium</td>
+<td style="text-align: center;">d8</td>
+<td style="text-align: center;">4 1/2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Large</td>
+<td style="text-align: center;">d10</td>
+<td style="text-align: center;">5 1/2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Huge</td>
+<td style="text-align: center;">d12</td>
+<td style="text-align: center;">6 1/2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gargantuan</td>
+<td style="text-align: center;">d20</td>
+<td style="text-align: center;">10 1/2</td>
+</tr>
+</tbody>
+</table>
+<p>A monster's Constitution modifier also affects the number of hit points it has. Its Constitution modifier is multiplied by the number of Hit Dice it possesses, and the result is added to its hit points. For example, if a monster has a Constitution of 12 (+1 modifier) and 2d8 Hit Dice, it has 2d8 + 2 hit points (average 11).</p>
+</section>
+<section id="speed-2" class="level3">
+<h3>Speed</h3>
+<p>A monster's speed tells you how far it can move on its turn. For more information on speed, see &quot;Movement and Position&quot;.</p>
+<p>All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.</p>
+<p>Some creatures have one or more of the following additional movement modes.</p>
+<section id="burrow" class="level4">
+<h4>Burrow</h4>
+<p>A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can't burrow through solid rock unless it has a special trait that allows it to do so.</p>
+</section>
+<section id="climb" class="level4">
+<h4>Climb</h4>
+<p>A monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.</p>
+</section>
+<section id="fly-1" class="level4">
+<h4>Fly</h4>
+<p>A monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to hover, which makes them hard to knock out of the air (see &quot;Movement and Position&quot; for rules on flying). Such a monster stops hovering when it dies.</p>
+</section>
+<section id="swim" class="level4">
+<h4>Swim</h4>
+<p>A monster that has a swimming speed doesn't need to spend extra movement to swim.</p>
+</section>
+</section>
+<section id="ability-scores" class="level3">
+<h3>Ability Scores</h3>
+<p>Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see &quot;Using Ability Scores&quot;.</p>
+</section>
+<section id="saving-throws-2" class="level3">
+<h3>Saving Throws</h3>
+<p>The Saving Throws entry is reserved for creatures that are adept at resisting certain kinds of effects.</p>
+<p>For example, a creature that isn't easily charmed or frightened might gain a bonus on its Wisdom saving throws. Most creatures don't have special saving throw bonuses, in which case this section is absent.</p>
+<p>A saving throw bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challenge Rating table).</p>
+<table style="width:35%;">
+<caption>Proficiency Bonus by Challenge Rating</caption>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Challenge</th>
+<th style="text-align: center;">Proficiency Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1/8</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1/4</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1/2</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">+2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">+3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">+4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">+4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">+4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">+4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">+5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">+5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">+5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">+5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">+6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">+6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">+6</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">+6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">+7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">+7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">+7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">+7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">+8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">+8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">+8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">+8</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">+9</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">+9</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="skills-1" class="level3">
+<h3>Skills</h3>
+<p>The Skills entry is reserved for monsters that are proficient in one or more skills. For example, a monster that is very perceptive and stealthy might have bonuses to Wisdom (Perception) and Dexterity (Stealth) checks.</p>
+<p>A skill bonus is the sum of a monster's relevant ability modifier and its proficiency bonus, which is determined by the monster's challenge rating (as shown in the Proficiency Bonus by Challenge Rating table). Other modifiers might apply. For instance, a monster might have a larger-than-expected bonus (usually double its proficiency bonus) to account for its heightened expertise.</p>
+<blockquote>
+<h4 id="armor-weapon-and-tool-proficiencies">Armor, Weapon, and Tool Proficiencies</h4>
+<p>Assume that a creature is proficient with its armor, weapons, and tools. If you swap them out, you decide whether the creature is proficient with its new equipment.</p>
+<p>For example, a hill giant typically wears hide armor and wields a greatclub. You could equip a hill giant with chain mail and a greataxe instead, and assume the giant is proficient with both, one or the other, or neither.</p>
+<p>See the &quot;Armor&quot; and &quot;Weapons&quot; sections for rules on using armor or weapons without proficiency.</p>
+</blockquote>
+</section>
+<section id="vulnerabilities-resistances-and-immunities" class="level3">
+<h3>Vulnerabilities, Resistances, and Immunities</h3>
+<p>Some creatures have vulnerability, resistance, or immunity to certain types of damage. Particular creatures are even resistant or immune to damage from nonmagical attacks (a magical attack is an attack delivered by a spell, a magic item, or another magical source). In addition, some creatures are immune to certain conditions.</p>
+</section>
+<section id="senses-1" class="level3">
+<h3>Senses</h3>
+<p>The Senses entry notes a monster's passive Wisdom (Perception) score, as well as any special senses the monster might have. Special senses are described below.</p>
+<section id="blindsight-1" class="level4">
+<h4>Blindsight</h4>
+<p>A monster with blindsight can perceive its surroundings without relying on sight, within a specific radius.</p>
+<p>Creatures without eyes, such as grimlocks and gray oozes, typically have this special sense, as do creatures with echolocation or heightened senses, such as bats and true dragons.</p>
+<p>If a monster is naturally blind, it has a parenthetical note to this effect, indicating that the radius of its blindsight defines the maximum range of its perception.</p>
+</section>
+<section id="darkvision-2" class="level4">
+<h4>Darkvision</h4>
+<p>A monster with darkvision can see in the dark within a specific radius. The monster can see in dim light within the radius as if it were bright light, and in darkness as if it were dim light. The monster can't discern color in darkness, only shades of gray. Many creatures that live underground have this special sense.</p>
+</section>
+<section id="tremorsense" class="level4">
+<h4>Tremorsense</h4>
+<p>A monster with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs, have this special sense.</p>
+</section>
+<section id="truesight-1" class="level4">
+<h4>Truesight</h4>
+<p>A monster with truesight can, out to a specific range, see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the monster can see into the Ethereal Plane within the same range.</p>
+</section>
+</section>
+<section id="languages-3" class="level3">
+<h3>Languages</h3>
+<p>The languages that a monster can speak are listed in alphabetical order. Sometimes a monster can understand a language but can't speak it, and this is noted in its entry. A &quot;—&quot; indicates that a creature neither speaks nor understands any language.</p>
+<section id="telepathy" class="level4">
+<h4>Telepathy</h4>
+<p>Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn't need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can't initiate or terminate a telepathic conversation.</p>
+<p>A telepathic monster doesn't need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can't initiate telepathic contact, and any current contact is terminated.</p>
+<p>A creature within the area of an antimagic field or in any other location where magic doesn't function can't send or receive telepathic messages.</p>
+</section>
+</section>
+<section id="challenge" class="level3">
+<h3>Challenge</h3>
+<p>A monster's challenge rating tells you how great a threat the monster is. An appropriately equipped and well-rested party of four adventurers should be able to defeat a monster that has a challenge rating equal to its level without suffering any deaths. For example, a party of four 3rd-level characters should find a monster with a challenge rating of 3 to be a worthy challenge, but not a deadly one.</p>
+<p>Monsters that are significantly weaker than 1st-level characters have a challenge rating lower than 1.</p>
+<p>Monsters with a challenge rating of 0 are insignificant except in large numbers; those with no effective attacks are worth no experience points, while those that have attacks are worth 10 XP each.</p>
+<p>Some monsters present a greater challenge than even a typical 20th-level party can handle. These monsters have a challenge rating of 21 or higher and are specifically designed to test player skill.</p>
+<section id="experience-points-1" class="level4">
+<h4>Experience Points</h4>
+<p>The number of experience points (XP) a monster is worth is based on its challenge rating. Typically, XP is awarded for defeating the monster, although the GM may also award XP for neutralizing the threat posed by the monster in some other manner.</p>
+<p>Unless something tells you otherwise, a monster summoned by a spell or other magical ability is worth the XP noted in its stat block.</p>
+<table style="width:29%;">
+<caption>Experience Points by Challenge Rating</caption>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Challenge</th>
+<th style="text-align: center;">XP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0 or 10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1/8</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1/4</td>
+<td style="text-align: center;">50</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1/2</td>
+<td style="text-align: center;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">200</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">450</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">700</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1,100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1,800</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2,300</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">2,900</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3,900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">5,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">5,900</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">7,200</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">8,400</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">10,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">11,500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">13,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">15,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">18,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">20,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">22,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">25,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">33,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">41,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">50,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">62,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">75,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">90,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">105,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">120,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">135,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">155,000</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="special-traits" class="level3">
+<h3>Special Traits</h3>
+<p>Special traits (which appear after a monster's challenge rating but before any actions or reactions) are characteristics that are likely to be relevant in a combat encounter and that require some explanation.</p>
+<section id="innate-spellcasting" class="level4">
+<h4>Innate Spellcasting</h4>
+<p>A monster with the innate ability to cast spells has the Innate Spellcasting special trait. Unless noted otherwise, an innate spell of 1st level or higher is always cast at its lowest possible level and can't be cast at a higher level. If a monster has a cantrip where its level matters and no level is given, use the monster's challenge rating.</p>
+<p>An innate spell can have special rules or restrictions. For example, a drow mage can innately cast the levitate spell, but the spell has a &quot;self only&quot; restriction, which means that the spell affects only the drow mage.</p>
+<p>A monster's innate spells can't be swapped out with other spells. If a monster's innate spells don't require attack rolls, no attack bonus is given for them.</p>
+</section>
+<section id="spellcasting-9" class="level4">
+<h4>Spellcasting</h4>
+<p>A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (see &quot;Spellcasting&quot;). The spellcaster level is also used for any cantrips included in the feature.</p>
+<p>The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the Divine Domain feature of the cleric or the Druid Circle feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.</p>
+<p>A monster can cast a spell from its list at a higher level if it has the spell slot to do so. For example, a drow mage with the 3rd-level lightning bolt spell can cast it as a 5th-level spell by using one of its 5th-level spell slots.</p>
+<p>You can change the spells that a monster knows or has prepared, replacing any spell on its spell list with a spell of the same level and from the same class list. If you do so, you might cause the monster to be a greater or lesser threat than suggested by its challenge rating.</p>
+</section>
+<section id="psionics" class="level4">
+<h4>Psionics</h4>
+<p>A monster that casts spells using only the power of its mind has the psionics tag added to its Spellcasting or Innate Spellcasting special trait. This tag carries no special rules of its own, but other parts of the game might refer to it. A monster that has this tag typically doesn't require any components to cast its spells.</p>
+</section>
+</section>
+<section id="actions-1" class="level3">
+<h3>Actions</h3>
+<p>When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action (see &quot;Actions in Combat&quot;).</p>
+<section id="melee-and-ranged-attacks" class="level4">
+<h4>Melee and Ranged Attacks</h4>
+<p>The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the &quot;weapon&quot; might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see &quot;Making an Attack&quot;.</p>
+<p><strong><em>Creature vs. Target.</em></strong> The target of a melee or ranged attack is usually either one creature or one target, the difference being that a &quot;target&quot; can be a creature or an object.</p>
+<p><strong><em>Hit.</em></strong> Any damage dealt or other effects that occur as a result of an attack hitting a target are described after the &quot;Hit&quot; notation. You have the option of taking average damage or rolling the damage; for this reason, both the average damage and the die expression are presented.</p>
+<p><strong><em>Miss.</em></strong> If an attack has an effect that occurs on a miss, that information is presented after the &quot;Miss:&quot; notation.</p>
+<blockquote>
+<h4 id="grapple-rules-for-monsters">Grapple Rules for Monsters</h4>
+<p>Many monsters have special attacks that allow them to quickly grapple prey. When a monster hits with such an attack, it doesn't need to make an additional ability check to determine whether the grapple succeeds, unless the attack says otherwise.</p>
+<p>A creature grappled by the monster can use its action to try to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check against the escape DC in the monster's stat block. If no escape DC is given, assume the DC is 10 + the monster's Strength (Athletics) modifier.</p>
+</blockquote>
+</section>
+<section id="multiattack-1" class="level4">
+<h4>Multiattack</h4>
+<p>A creature that can make multiple attacks on its turn has the Multiattack action. A creature can't use Multiattack when making an opportunity attack, which must be a single melee attack.</p>
+</section>
+<section id="ammunition" class="level4">
+<h4>Ammunition</h4>
+<p>A monster carries enough ammunition to make its ranged attacks. You can assume that a monster has 2d4 pieces of ammunition for a thrown weapon attack, and 2d10 pieces of ammunition for a projectile weapon such as a bow or crossbow.</p>
+</section>
+<section id="reactions-2" class="level4">
+<h4>Reactions</h4>
+<p>If a monster can do something special with its reaction, that information is contained here. If a creature has no special reaction, this section is absent.</p>
+</section>
+</section>
+<section id="limited-usage" class="level3">
+<h3>Limited Usage</h3>
+<p>Some special abilities have restrictions on the number of times they can be used.</p>
+<p><strong><em>X/Day.</em></strong> The notation &quot;X/Day&quot; means a special ability can be used X number of times and that a monster must finish a long rest to regain expended uses. For example, &quot;1/Day&quot; means a special ability can be used once and that the monster must finish a long rest to use it again.</p>
+<p><strong><em>Recharge X–Y.</em></strong> The notation &quot;Recharge X–Y&quot; means a monster can use a special ability once and that the ability then has a random chance of recharging during each subsequent round of combat. At the start of each of the monster's turns, roll a d6. If the roll is one of the numbers in the recharge notation, the monster regains the use of the special ability. The ability also recharges when the monster finishes a short or long rest.</p>
+<p>For example, &quot;Recharge 5–6&quot; means a monster can use the special ability once. Then, at the start of the monster's turn, it regains the use of that ability if it rolls a 5 or 6 on a d6.</p>
+<p><strong><em>Recharge after a Short or Long Rest.</em></strong> This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again.</p>
+</section>
+<section id="equipment-14" class="level3">
+<h3>Equipment</h3>
+<p>A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.</p>
+<p>You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster's equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance.</p>
+<p>If a spellcasting monster needs material components to cast its spells, assume that it has the material components it needs to cast the spells in its stat block.</p>
+</section>
+</section>
+<section id="legendary-creatures" class="level2">
+<h2>Legendary Creatures</h2>
+<p>A legendary creature can do things that ordinary creatures can't. It can take special actions outside its turn, and it might exert magical influence for miles around.</p>
+<p>If a creature assumes the form of a legendary creature, such as through a spell, it doesn't gain that form's legendary actions, lair actions, or regional effects.</p>
+<section id="legendary-actions" class="level3">
+<h3>Legendary Actions</h3>
+<p>A legendary creature can take a certain number of special actions—called legendary actions—outside its turn. Only one legendary action option can be used at a time and only at the end of another creature's turn. A creature regains its spent legendary actions at the start of its turn. It can forgo using them, and it can't use them while incapacitated or otherwise unable to take actions. If surprised, it can't use them until after its first turn in the combat.</p>
+</section>
+<section id="a-legendary-creatures-lair" class="level3">
+<h3>A Legendary Creature's Lair</h3>
+<p>A legendary creature might have a section describing its lair and the special effects it can create while there, either by act of will or simply by being present. Such a section applies only to a legendary creature that spends a great deal of time in its lair.</p>
+<section id="lair-actions" class="level4">
+<h4>Lair Actions</h4>
+<p>If a legendary creature has lair actions, it can use them to harness the ambient magic in its lair. On initiative count 20 (losing all initiative ties), it can use one of its lair action options. It can't do so while incapacitated or otherwise unable to take actions. If surprised, it can't use one until after its first turn in the combat.</p>
+</section>
+<section id="regional-effects" class="level4">
+<h4>Regional Effects</h4>
+<p>The mere presence of a legendary creature can have strange and wondrous effects on its environment, as noted in this section. Regional effects end abruptly or dissipate over time when the legendary creature dies.</p>
+</section>
+</section>
+</section>
+</section>
+<section id="nonplayer-characters" class="level1">
+<h1>Nonplayer Characters</h1>
+<p>This section contains statistics for various humanoid nonplayer characters (NPCs) that adventurers might encounter during a campaign, including lowly commoners and mighty archmages.</p>
+<p>These stat blocks can be used to represent both human and nonhuman NPCs.</p>
+<section id="customizing-npcs" class="level2">
+<h2>Customizing NPCs</h2>
+<p>There are many easy ways to customize the NPCs in this appendix for your home campaign.</p>
+<p><strong><em>Racial Traits.</em></strong> You can add racial traits to an NPC. For example, a halfling druid might have a speed of 25 feet and the Lucky trait. Adding racial traits to an NPC doesn't alter its challenge rating. For more on racial traits, see &quot;Races&quot;.</p>
+<p><strong><em>Spell Swaps.</em></strong> One way to customize an NPC spellcaster is to replace one or more of its spells. You can substitute any spell on the NPC's spell list with a different spell of the same level from the same spell list. Swapping spells in this manner doesn't alter an NPC's challenge rating.</p>
+<p><strong><em>Armor and Weapon Swaps.</em></strong> You can upgrade or downgrade an NPC's armor, or add or switch weapons. Adjustments to Armor Class and damage can change an NPC's challenge rating.</p>
+<p><strong><em>Magic Items.</em></strong> The more powerful an NPC, the more likely it has one or more magic items in its possession. An archmage, for example, might have a magic staff or wand, as well as one or more potions and scrolls. Giving an NPC a potent damage-dealing magic item could alter its challenge rating.</p>
 </section>
 </section>
 </body>
