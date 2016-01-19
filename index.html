@@ -9,13 +9,69 @@
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-<script src="./jets.min.js"></script>
+
+<style>
+<style type="text/css">
+
+      .treeView{
+        -moz-user-select:none;
+        position:relative;
+      }
+
+      .treeView ul{
+        margin:0 0 0 -1.5em;
+        padding:0 0 0 1.5em;
+      }
+
+      .treeView ul ul{
+        background:url('list-item-contents.png') repeat-y left;
+      }
+
+      .treeView li.lastChild > ul{
+        background-image:none;
+      }
+
+      .treeView li{
+        margin:0;
+        padding:0.25em 0 0 0;
+        background:url('list-item-root.png') no-repeat top left;
+        list-style-position:inside;
+        list-style-image:url('button.png');
+        cursor:auto;
+      }
+
+      .treeView li.collapsibleListOpen{
+        list-style-image:url('button-open.png');
+        cursor:pointer;
+      }
+
+      .treeView li.collapsibleListClosed{
+        list-style-image:url('button-closed.png');
+        cursor:pointer;
+      }
+
+      .treeView li li{
+        background-image:url('list-item.png');
+        padding-left:1.5em;
+      }
+
+      .treeView li.lastChild{
+        background-image:url('list-item-last.png');
+      }
+    </style>
+<script type="text/javascript" src="./jets.min.js"></script>
+<script type="text/javascript" src="./CollapsibleLists.compressed.js"></script>
+<script type="text/javascript">
+  (function(r,u,n){function x(){n=n&&n()}r[u]?(document[u]('DOMContentLoaded',x,0),r[u]('load',x,0)):r.attachEvent('onload',x)})(window,'addEventListener',function(){CollapsibleLists.applyTo(document.querySelector('#TOC ul'))});
+</script>
 </head>
 <body>
 <header>
-<h1>The Markdown SRD5 (HTML output)</h1><p>Source: <a href='http://dnd.wizards.com/articles/features/systems-reference-document-srd'>The original publisher's website</a>, used here in accordance with the <a href='./Legal_Information.htm'>Open Gaming LIcense (OGL),</a></p><p>Also available in <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf'>bookmarked PDF</a>, <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub'>epub 2</a>, and <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md'>Markdown</a> formats. <a href='https://github.com/gguillotte/mdsrd5'>Grab a fork on GitHub.</a></p>
+<h1>The Markdown SRD5 (HTML output)</h1>
+<p>Source: <a href='http://dnd.wizards.com/articles/features/systems-reference-document-srd'>The original publisher's website</a>, used here in accordance with the <a href='./Legal_Information.htm'>Open Gaming License (OGL).</a></p>
+<p>Also available in <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf'>bookmarked PDF</a>, <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub'>epub 2</a>, and <a href='https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md'>Markdown</a> formats. <a href='https://github.com/gguillotte/mdsrd5'>Grab a fork on GitHub.</a></p>
 </header>
-<nav id="TOC">
+<nav id="TOC" class="treeView">
 <p>Search table of contents:</p>
 <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})">
 <ul>
