@@ -1,7 +1,7 @@
 mdsrd5: The Markdown SRD5
 =========================
 
-The `mdsrd5.md` file in this repo is **The Markdown SRD5**, converted from the [original System Reference Document 5.0 PDF](http://dnd.wizards.com/articles/features/systems-reference-document-srd) to GitHub Flavored Markdown via Pandoc, some clunky scripting, and a bit of text filtering. This is made possible by the [Open Gaming License](./LICENSING.md). You can view and save a single-page, offline-friendly HTML version at <http://gguillotte.github.io/mdsrd5/>, as well as the same content converted to other formats in this repo.
+The `mdsrd5.md` file in this repo is **The Markdown SRD5**, converted from the [original System Reference Document 5.0 PDF](http://dnd.wizards.com/articles/features/systems-reference-document-srd) (copyright 2016 Wizards of the Coast; see LICENSING.md) to GitHub Flavored Markdown via Pandoc, some clunky scripting, and a bit of text filtering. This is made possible by the [Open Gaming License](./LICENSING.md). You can view and save a single-page, offline-friendly HTML version at <http://gguillotte.github.io/mdsrd5/>, as well as the same content converted to other formats in this repo.
 
 I've got a few goals for this project:
 
@@ -31,6 +31,10 @@ References to protected deities are changed to real-world mythological entities 
 
 Release notes
 -------------
+
+### 0.3.1 (2016-01-22)
+
+Fixed repetitive creatures.
 
 ### 0.3 (2016-01-21)
 

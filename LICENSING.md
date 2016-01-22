@@ -1,10 +1,6 @@
 # Legal Information
 
-This material is being released using the Open Gaming License Version 1.0a and you should read and understand the terms of that license before using this material.
-
-The text of the Open Gaming License itself is not Open Game Content. Instructions on using the License are provided within the License itself.
-
-No content in The Markdown SRD5 is claimed as Product Identity, and all of The Markdown SRD5 is Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:
+All rules content in this document is Copyright 2016 Wizards of the Coast and is used here under their declaration of it as Open Game Content in the System Reference Document 5.0, as cited in Section 15 of this reproduction of the license. Terms original to The Markdown SRD5, including hooked hulk, eyestalker, fey plane, shadow plane, Primordial Chaos, and Orb of the Wyrm, are Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:
 
 OPEN GAME LICENSE Version 1.0a
 
@@ -42,12 +38,14 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
+System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+
 System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
 
 The Markdown SRD5 Copyright 2016, Garrett Guillotte.
 
 END OF LICENSE
 
-> If you note any errors with the game mechanics or content of this document, please let Wizards of the Coast know by emailing askdnd@wizards.com.
-> 
-> If you note any problems with the formatting or presentation of this document, please file an issue at <https://github.com/gguillotte/mdsrd5>.
+> If you note any errors with the game mechanics of this document, please consult the [official System Reference Document](http://dnd.wizards.com/articles/features/systems-reference-document-srd).
+>
+> If you note any problems with the formatting or presentation of this document, or identify protected content that should be removed, please file an issue at <https://github.com/gguillotte/mdsrd5>.
