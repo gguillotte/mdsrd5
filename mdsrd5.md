@@ -25058,7 +25058,7 @@ The aboleth can take 3 legendary actions, choosing from the options below. Only 
 
 ***Reaping Scythe.*** The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
 
-#### Azer
+See "Deck of Many Things". \#\#\#\# Azer {.creature-statblock}
 
 *Medium elemental, lawful neutral*
 
@@ -40769,6 +40769,8 @@ A **giant fire beetle** is a nocturnal creature that takes its name from a pair 
 **Senses** darkvision 60 ft., passive Perception 10
 
 **Languages** —
+
+See "Figurine of Wondrous Power".
 
 #### Giant Frog
 
