@@ -1,4 +1,4 @@
-# Legal Information
+# Open Game License
 
 All rules content in this document is Copyright 2016 Wizards of the Coast and is used here under their declaration of it as Open Game Content in the System Reference Document 5.0, as cited in Section 15 of this reproduction of the license. Terms original to The Markdown SRD5, including hooked hulk, eyestalker, fey plane, shadow plane, Primordial Chaos, and Orb of the Wyrm, are Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:
 
@@ -46,6 +46,3 @@ The Markdown SRD5 Copyright 2016, Garrett Guillotte.
 
 END OF LICENSE
 
-> If you note any errors with the game mechanics of this document, please consult the [official System Reference Document](http://dnd.wizards.com/articles/features/systems-reference-document-srd).
->
-> If you note any problems with the formatting or presentation of this document, or identify protected content that should be removed, please file an issue at <https://github.com/gguillotte/mdsrd5>.

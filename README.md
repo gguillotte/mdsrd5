@@ -27,10 +27,38 @@ In several places, protected content must be replaced rather than removed. In th
 -   Primordial Chaos
 -   Orb of the Wyrm
 
-References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and named NPCs used in examples are given more generic names.
+References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and named NPCs used in examples are given more generic names. References to protected spells are replaced with Open Game Content where possible.
 
 Release notes
 -------------
+
+### 0.4 (2016-01-25)
+
+Added links and italicized spells.
+
+#### New content
+
+-   Spells included in the SRD are linked within the markdown source and single-page HTML output. These links appear to work in the epub and PDF versions as well.
+
+#### Fixes
+
+-   The *shatter* spell was missing. This version includes it.
+-   Spells and some magic items are italicized.
+-   Fixed a typo that existed in the source material.
+-   Fixed a table in the Sorcerous Origins section.
+-   Replaced a reference to a protected spell in a Sorcerer class example.
+-   Replaced a reference to a protected spell in the druid NPC spell list with *guidance*.
+-   Replaced a reference to a protected smite spell in the *necklace of prayer beads* with a brief description of its effects.
+-   Replaced protected proper names in generic examples for spells and spellcasting.
+-   Replaced references to a protected spell in a Ranger class example with a different spell.
+-   Replaced references to a protected spell in the *ring of animal influence* and a potion, with *charm animal*, an Open Game Content spell of a similar name and function. Neither spell is documented as Open Game Content for this edition, so the spell is unlinked and statistics aren't provided. The ideal solution is to create or use an open content spell with the same function.
+
+#### Known issues
+
+-   *Counterspell* and *fire bolt* remain unlinked in the Archmage and Mage NPCs because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content in a previous reference document.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now, preventing font embedding and leading to some awkward heading breaks.
 
 ### 0.3.2 (2016-01-22)
 
@@ -40,13 +68,10 @@ Reorganized uncategorized monsters to make them more navigable from the Table of
 
 -   Previously, The Markdown SRD5 organized monsters the same way as the original document, which did not designate the end of a group of monsters. (For instance, the ankheg entry is under the Animated Objects heading, even though it isn't an animated object, because there isn't a 3rd-level heading between it and the rug of smothering.) This version moves unorganized monsters to their own section.
 
-#### Known issues
+#### Known issues (since resolved)
 
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
 -   There are no links.
--   Most references to spells and magic items aren't yet properly italicized.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wktohtml` for now, preventing font embedding and leading to some awkward heading breaks.
+-   Most references to spells weren't yet properly italicized.
 
 ### 0.3.1 (2016-01-22)
 
@@ -130,7 +155,8 @@ Initial release, containing all content except the Monsters and Magic Items sect
 
 -   Magic items weren't yet included.
 
-Credits
--------
+Credits and software licenses
+-----------------------------
 
-The HTML versions use [Jets.js](https://jets.js.org) (MIT license) for TOC search and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) (CC0 1.0) by Stephen Morley.
+The HTML versions use [Jets.js](https://jets.js.org) ([MIT license](https://opensource.org/licenses/MIT)) for TOC search and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) ([CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/legalcode)) by Stephen Morley. The HTML and ePub versions use the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2013 by Juan Pablo del Peral. See LICENSING.md for details.
+

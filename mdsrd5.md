@@ -428,7 +428,7 @@ Tieflings share certain racial traits as a result of their infernal descent.
 
 ***Hellish Resistance.*** You have resistance to fire damage.
 
-***Infernal Legacy.*** You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+***Infernal Legacy.*** You know the [*thaumaturgy*](#thaumaturgy) cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the [*darkness*](#darkness) spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
 
 ***Languages.*** You can speak, read, and write Common and Infernal.
 
@@ -2509,7 +2509,7 @@ The Druid Spell Slots per Level table shows how many spell slots you have to cas
 
 You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [*cure wounds*](#cure-wounds), you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
@@ -2589,7 +2589,7 @@ While you are transformed, the following rules apply:
 
 -   Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.
 -   When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.
--   You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.
+-   You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as [*call lightning*](#call-lightning), that you've already cast.
 -   You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.
 -   You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.
 
@@ -2625,7 +2625,7 @@ Additionally, you can ignore the verbal and somatic components of your druid spe
 
 > #### Druids and the Gods
 >
-> Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.
+> Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in the "Pantheons" section include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.
 
 Druid Circles
 -------------
@@ -2878,7 +2878,7 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 
 Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the [*entangle*](#entangle) spell.
 
 #### Nature's Ward
 
@@ -3489,7 +3489,7 @@ At 6th level, you gain the ability to heal yourself. As an action, you can regai
 
 #### Tranquility
 
-Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a sanctuary spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.
+Beginning at 11th level, you can enter a special meditation that surrounds you with an aura of peace. At the end of a long rest, you gain the effect of a [*sanctuary*](#sanctuary) spell that lasts until the start of your next long rest (the spell can end early as normal). The saving throw DC for the spell equals 8 + your Wisdom modifier + your proficiency bonus.
 
 #### Quivering Palm
 
@@ -3653,7 +3653,7 @@ You start with the following equipment, in addition to the equipment granted by 
 
 ### Divine Sense
 
-The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.
+The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Dracula, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the [*hallow*](#hallow) spell.
 
 You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.
 
@@ -4080,7 +4080,7 @@ At 18th level, the range of this aura increases to 30 feet.
 
 #### Purity of Spirit
 
-Beginning at 15th level, you are always under the effects of a protection from evil and good spell.
+Beginning at 15th level, you are always under the effects of a [*protection from evil and good*](#protection-from-evil-and-good) spell.
 
 #### Holy Nimbus
 
@@ -4529,7 +4529,7 @@ By the time you reach 2nd level, you have learned to use the magical essence of 
 
 The Ranger Spell Slots by Level table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell *animal friendship* and have a 1st-level and a 2nd-level spell slot available, you can cast *animal friendship* using either slot.
+For example, if you know the 1st-level spell [*speak with animals*](#speak-with-animals) and have a 1st-level and a 2nd-level spell slot available, you can cast [*speak with animals*](#speak-with-animals) using either slot.
 
 #### Spells Known of 1st Level and Higher
 
@@ -4577,7 +4577,7 @@ Beginning at 5th level, you can attack twice, instead of once, whenever you take
 
 Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 
-In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.
+In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the [*entangle*](#entangle) spell.
 
 ### Hide in Plain Sight
 
@@ -4858,7 +4858,7 @@ Starting at 5th level, when an attacker that you can see hits you with an attack
 
 ### Evasion
 
-Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an [*ice storm*](#ice-storm) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
 ### Reliable Talent
 
@@ -5145,7 +5145,7 @@ At 1st level, you know four cantrips of your choice from the sorcerer spell list
 
 The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell burning hands and have a 1st-level and a 2nd-level spell slot available, you can cast burning hands using either slot.
+For example, if you know the 1st-level spell [*burning hands*](#burning-hands) and have a 1st-level and a 2nd-level spell slot available, you can cast [*burning hands*](#burning-hands) using either slot.
 
 #### Spells Known of 1st Level and Higher
 
@@ -5279,7 +5279,7 @@ When you cast a spell, you can spend 1 sorcery point to cast it without any soma
 
 When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
 
-To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, magic missile and scorching ray aren't eligible, but ray of frost and chromatic orb are.
+To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, [*magic missile*](#magic-missile) and [*scorching ray*](#scorching-ray) aren't eligible, but [*ray of frost*](#ray-of-frost) and [*finger of death*](#finger-of-death) are.
 
 ### Ability Score Improvement
 
@@ -5316,8 +5316,44 @@ At 1st level, you choose one type of dragon as your ancestor. The damage type as
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Black Blue Brass Bronze Copper Gold Green Red Silver White</td>
-<td align="left">Acid Lightning Fire Lightning Acid Fire Poison Fire Cold Cold</td>
+<td align="left">Black</td>
+<td align="left">Acid</td>
+</tr>
+<tr class="even">
+<td align="left">Blue</td>
+<td align="left">Lightning</td>
+</tr>
+<tr class="odd">
+<td align="left">Brass</td>
+<td align="left">Fire</td>
+</tr>
+<tr class="even">
+<td align="left">Bronze</td>
+<td align="left">Lightning</td>
+</tr>
+<tr class="odd">
+<td align="left">Copper</td>
+<td align="left">Acid</td>
+</tr>
+<tr class="even">
+<td align="left">Gold</td>
+<td align="left">Fire</td>
+</tr>
+<tr class="odd">
+<td align="left">Green</td>
+<td align="left">Poison</td>
+</tr>
+<tr class="even">
+<td align="left">Red</td>
+<td align="left">Fire</td>
+</tr>
+<tr class="odd">
+<td align="left">Silver</td>
+<td align="left">Cold</td>
+</tr>
+<tr class="even">
+<td align="left">White</td>
+<td align="left">Cold</td>
 </tr>
 </tbody>
 </table>
@@ -5787,23 +5823,23 @@ If an eldritch invocation has prerequisites, you must meet them to learn it. You
 
 #### Agonizing Blast
 
-*Prerequisite: *eldritch blast* cantrip*
+*Prerequisite: \[*eldritch blast*\]\[\] cantrip*
 
-When you cast *eldritch blast,* add your Charisma modifier to the damage it deals on a hit.
+When you cast \[*eldritch blast*\]\[\], add your Charisma modifier to the damage it deals on a hit.
 
 #### Armor of Shadows
 
-You can cast *mage armor* on yourself at will, without expending a spell slot or material components.
+You can cast [*mage armor*](#mage-armor) on yourself at will, without expending a spell slot or material components.
 
 #### Ascendant Step
 
 *Prerequisite: 9th level*
 
-You can cast *levitate* on yourself at will, without expending a spell slot or material components.
+You can cast [*levitate*](#levitate) on yourself at will, without expending a spell slot or material components.
 
 #### Beast Speech
 
-You can cast *speak with animals* at will, without expending a spell slot.
+You can cast [*speak with animals*](#speak-with-animals) at will, without expending a spell slot.
 
 #### Beguiling Influence
 
@@ -5813,7 +5849,7 @@ You gain proficiency in the Deception and Persuasion skills.
 
 *Prerequisite: 7th level*
 
-You can cast *compulsion* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast \[*compulsion*\]\[\] once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Book of Ancient Secrets
 
@@ -5827,7 +5863,7 @@ On your adventures, you can add other ritual spells to your Book of Shadows. Whe
 
 *Prerequisite: 15th level, Pact of the Chain feature*
 
-You can cast *hold monster* at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
+You can cast [*hold monster*](#hold-monster) at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.
 
 #### Devil's Sight
 
@@ -5837,17 +5873,17 @@ You can see normally in darkness, both magical and nonmagical, to a distance of 
 
 *Prerequisite: 7th level*
 
-You can cast *confusion* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*confusion*](#confusion) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Eldritch Sight
 
-You can cast *detect magic* at will, without expending a spell slot.
+You can cast [*detect magic*](#detect-magic) at will, without expending a spell slot.
 
 #### Eldritch Spear
 
-*Prerequisite: *eldritch blast* cantrip*
+*Prerequisite: \[*eldritch blast*\]\[\] cantrip*
 
-When you cast *eldritch blast*, its range is 300 feet.
+When you cast \[*eldritch blast*\]\[\], its range is 300 feet.
 
 #### Eyes of the Rune Keeper
 
@@ -5855,7 +5891,7 @@ You can read all writing.
 
 #### Fiendish Vigor
 
-You can cast *false life* on yourself at will as a 1st-level spell, without expending a spell slot or material components.
+You can cast [*false life*](#false-life) on yourself at will as a 1st-level spell, without expending a spell slot or material components.
 
 #### Gaze of Two Minds
 
@@ -5869,29 +5905,29 @@ When you hit a creature with your pact weapon, the creature takes extra necrotic
 
 #### Mask of Many Faces
 
-You can cast *disguise self* at will, without expending a spell slot.
+You can cast [*disguise self*](#disguise-self) at will, without expending a spell slot.
 
 #### Master of Myriad Forms
 
 *Prerequisite: 15th level*
 
-You can cast *alter self* at will, without expending a spell slot.
+You can cast [*alter self*](#alter-self) at will, without expending a spell slot.
 
 #### Minions of Chaos
 
 *Prerequisite: 9th level*
 
-You can cast *conjure elemental* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*conjure elemental*](#conjure-elemental) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Mire the Mind
 
 *Prerequisite: 5th level*
 
-You can cast *slow* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*slow*](#slow) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Misty Visions
 
-You can cast *silent image* at will, without expending a spell slot or material components.
+You can cast [*silent image*](#silent-image) at will, without expending a spell slot or material components.
 
 #### One with Shadows
 
@@ -5903,29 +5939,29 @@ When you are in an area of dim light or darkness, you can use your action to bec
 
 *Prerequisite: 9th level*
 
-You can cast *jump* on yourself at will, without expending a spell slot or material components.
+You can cast [*jump*](#jump) on yourself at will, without expending a spell slot or material components.
 
 #### Repelling Blast
 
-*Prerequisite: *eldritch blast* cantrip*
+*Prerequisite: \[*eldritch blast*\] cantrip*
 
-When you hit a creature with *eldritch blast,* you can push the creature up to 10 feet away from you in a straight line.
+When you hit a creature with \[*eldritch blast,*\]\[\] you can push the creature up to 10 feet away from you in a straight line.
 
 #### Sculptor of Flesh
 
 *Prerequisite: 7th level*
 
-You can cast *polymorph* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*polymorph*](#polymorph) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Sign of Ill Omen
 
 *Prerequisite: 5th level*
 
-You can cast *bestow curse* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*bestow curse*](#bestow-curse) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Thief of Five Fates
 
-You can cast *bane* once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast [*bane*](#bane) once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Thirsting Blade
 
@@ -5937,7 +5973,7 @@ You can attack with your pact weapon twice, instead of once, whenever you take t
 
 *Prerequisite: 15th level*
 
-You can cast *arcane eye* at will, without expending a spell slot.
+You can cast [*arcane eye*](#arcane-eye) at will, without expending a spell slot.
 
 #### Voice of the Chain Master
 
@@ -5949,7 +5985,7 @@ You can communicate telepathically with your familiar and perceive through your 
 
 *Prerequisite: 9th level*
 
-You can cast *speak with dead* at will, without expending a spell slot.
+You can cast [*speak with dead*](#speak-with-dead) at will, without expending a spell slot.
 
 #### Witch Sight
 
@@ -6659,7 +6695,7 @@ The first time you do so, you suffer no adverse effect. If you use this feature 
 >
 > **Illusion** spells deceive the senses or minds of others. They cause people to see things that are not there, to miss things that are there, to hear phantom noises, or to remember things that never happened. Some illusions create phantom images that any creature can see, but the most insidious illusions plant an image directly in the mind of a creature.
 >
-> **Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life. Creating the undead through the use of necromancy spells such as animate dead is not a good act, and only evil casters use such spells frequently.
+> **Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life. Creating the undead through the use of necromancy spells such as [*animate dead*](#animate-dead) is not a good act, and only evil casters use such spells frequently.
 >
 > **Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
 
@@ -7816,7 +7852,7 @@ This section describes items that have special rules or require further explanat
 
 ***Healer's Kit.*** This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
 
-***Holy Symbol.*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. Appendix B lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+***Holy Symbol.*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. The "Pantheons" section lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
 
 ***Holy Water.*** As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
 
@@ -9224,7 +9260,7 @@ Services
 
 Adventurers can pay nonplayer characters to assist them or act on their behalf in a variety of circumstances. Most such hirelings have fairly ordinary skills, while others are masters of a craft or art, and a few are experts with specialized adventuring skills.
 
-Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the secret chest spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.
+Some of the most basic types of hirelings appear on the Services table. Other common hirelings include any of the wide variety of people who inhabit a typical town or city, when the adventurers pay them to perform a specific task. For example, a wizard might pay a carpenter to construct an elaborate chest (and its miniature replica) for use in the [*secret chest*](#secret-chest) spell. A fighter might commission a blacksmith to forge a special sword. A bard might pay a tailor to make exquisite clothing for an upcoming performance in front of the duke.
 
 Other hirelings provide more expert or dangerous services. Mercenary soldiers paid to help the adventurers take on a hobgoblin army are hirelings, as are sages hired to research ancient or esoteric lore. If a high-level adventurer establishes a stronghold of some kind, he or she might hire a whole staff of servants and agents to run the place, from a castellan or steward to menial laborers to keep the stables clean. These hirelings often enjoy a long-term contract that includes a place to live within the stronghold as part of the offered compensation.
 
@@ -9286,7 +9322,7 @@ Skilled hirelings include anyone hired to perform a service that involves a prof
 
 People who are able to cast spells don't fall into the category of ordinary hirelings. It might be possible to find someone willing to cast a spell in exchange for coin or favors, but it is rarely easy and no established pay rates exist. As a rule, the higher the level of the desired spell, the harder it is to find someone who can cast it and the more it costs.
 
-Hiring someone to cast a relatively common spell of 1st or 2nd level, such as cure wounds or identify, is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment—the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.
+Hiring someone to cast a relatively common spell of 1st or 2nd level, such as [*cure wounds*](#cure-wounds) or [*identify*](#identify), is easy enough in a city or town, and might cost 10 to 50 gold pieces (plus the cost of any expensive material components). Finding someone able and willing to cast a higher-level spell might involve traveling to a large city, perhaps one with a university or prominent temple. Once found, the spellcaster might ask for a service instead of payment—the kind of service that only adventurers can provide, such as retrieving a rare item from a dangerous locale or traversing a monster-infested wilderness to deliver something important to a distant settlement.
 
 Armor
 -----
@@ -10463,7 +10499,7 @@ While traveling, a group of adventurers can move at a normal, fast, or slow pace
 
 ***Forced March.*** The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion.
 
-For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see appendix A).
+For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see "Conditions").
 
 ***Mounts and Vehicles.*** For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.
 
@@ -10569,7 +10605,7 @@ The most fundamental tasks of adventuring—noticing danger, finding hidden obje
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
 
-A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see appendix A) when trying to see something in that area.
+A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see "Conditions") when trying to see something in that area.
 
 The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
 
@@ -10593,7 +10629,7 @@ A creature with truesight can, out to a specific range, see in normal and magica
 
 ### Food and Water
 
-Characters who don't eat or drink suffer the effects of exhaustion (see appendix A). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
+Characters who don't eat or drink suffer the effects of exhaustion (see "Conditions"). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
 
 #### Food
 
@@ -10716,7 +10752,7 @@ When time is a factor, you can assign an Armor Class and hit points to a destruc
 
 ***Armor Class.*** An object's Armor Class is a measure of how difficult it is to deal damage to the object when striking it (because the object has no chance of dodging out of the way). The Object Armor Class table provides suggested AC values for various substances.
 
-***Huge and Gargantuan Objects.*** Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an earthquake spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object's hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section's hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.
+***Huge and Gargantuan Objects.*** Normal weapons are of little use against many Huge and Gargantuan objects, such as a colossal statue, towering column of stone, or massive boulder. That said, one torch can burn a Huge tapestry, and an [*earthquake*](#earthquake) spell can reduce a colossus to rubble. You can track a Huge or Gargantuan object's hit points if you like, or you can simply decide how long the object can withstand whatever weapon or force is acting against it. If you track hit points for the object, divide it into Large or smaller sections, and track each section's hit points separately. Destroying one of those sections could ruin the entire object. For example, a Gargantuan statue of a human might topple over when one of its Large legs is reduced to 0 hit points.
 
 ***Objects and Damage Types.*** Objects are immune to poison and psychic damage. You might decide that some damage types are more effective against a particular object or substance than others. For example, bludgeoning damage works well for smashing things but not for cutting through rope or leather. Paper or cloth objects might be vulnerable to fire and lightning damage. A pick can chip away stone but can't effectively cut down a tree. As always, use your best judgment.
 
@@ -10892,7 +10928,7 @@ Finishing a long rest reduces a creature's exhaustion level by 1, provided that 
 
 -   A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.
 -   The condition ends if the grappler is incapacitated (see the condition).
--   The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the *thunderwave* spell.
+-   The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect, such as when a creature is hurled away by the [*thunderwave*](#thunderwave) spell.
 
 #### Incapacitated
 
@@ -11080,7 +11116,7 @@ Each type of poison has its own debilitating effects.
 
 ***Torpor (Ingested).*** A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.
 
-***Truth Serum (Ingested).*** A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.
+***Truth Serum (Ingested).*** A creature subjected to this poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a [*zone of truth*](#zone-of-truth) spell.
 
 ***Wyvern Poison (Injury).*** This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
 
@@ -11253,7 +11289,7 @@ A character afflicted with **long-term madness** is subjected to an effect from 
 </tr>
 <tr class="even">
 <td align="center">86–90</td>
-<td align="left">Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the confusion spell. The confusion effect lasts for 1 minute.</td>
+<td align="left">Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the <a href="#confusion"><em>confusion</em></a> spell. The confusion effect lasts for 1 minute.</td>
 </tr>
 <tr class="odd">
 <td align="center">91–95</td>
@@ -11341,7 +11377,7 @@ Traps
 
 Traps can be found almost anywhere. One wrong step in an ancient tomb might trigger a series of scything blades, which cleave through armor and bone. The seemingly innocuous vines that hang over a cave entrance might grasp and choke anyone who pushes through them. A net hidden among the trees might drop on travelers who pass underneath. In a fantasy game, unwary adventurers can fall to their deaths, be burned alive, or fall under a fusillade of poisoned darts.
 
-A trap can be either mechanical or magical in nature. **Mechanical traps** include pits, arrow traps, falling blocks, water-filled rooms, whirling blades, and anything else that depends on a mechanism to operate. **Magic traps** are either magical device traps or spell traps. Magical device traps initiate spell effects when activated. Spell traps are spells such as glyph of warding and symbol that function as traps.
+A trap can be either mechanical or magical in nature. **Mechanical traps** include pits, arrow traps, falling blocks, water-filled rooms, whirling blades, and anything else that depends on a mechanism to operate. **Magic traps** are either magical device traps or spell traps. Magical device traps initiate spell effects when activated. Spell traps are spells such as [*glyph of warding*](#glyph-of-warding) and [*symbol*](#symbol) that function as traps.
 
 ### Traps in Play
 
@@ -11349,7 +11385,7 @@ When adventurers come across a trap, you need to know how the trap is triggered 
 
 #### Triggering a Trap
 
-Most traps are triggered when a creature goes somewhere or touches something that the trap's creator wanted to protect. Common triggers include stepping on a pressure plate or a false section of floor, pulling a trip wire, turning a doorknob, and using the wrong key in a lock. Magic traps are often set to go off when a creature enters an area or touches an object. Some magic traps (such as the glyph of warding spell) have more complicated trigger conditions, including a password that prevents the trap from activating.
+Most traps are triggered when a creature goes somewhere or touches something that the trap's creator wanted to protect. Common triggers include stepping on a pressure plate or a false section of floor, pulling a trip wire, turning a doorknob, and using the wrong key in a lock. Magic traps are often set to go off when a creature enters an area or touches an object. Some magic traps (such as the [*glyph of warding*](#glyph-of-warding) spell) have more complicated trigger conditions, including a password that prevents the trap from activating.
 
 #### Detecting and Disabling a Trap
 
@@ -11494,7 +11530,7 @@ When the trap is triggered, the net is released, covering a 10-foot-square area.
 
 This trap is activated when an intruder steps on a hidden pressure plate, releasing a magical gout of flame from a nearby statue. The statue can be of anything, including a dragon or a wizard casting a spell.
 
-The DC is 15 to spot the pressure plate, as well as faint scorch marks on the floor and walls. A spell or other effect that can sense the presence of magic, such as detect magic, reveals an aura of evocation magic around the statue.
+The DC is 15 to spot the pressure plate, as well as faint scorch marks on the floor and walls. A spell or other effect that can sense the presence of magic, such as [*detect magic*](#detect-magic), reveals an aura of evocation magic around the statue.
 
 The trap activates when more than 20 pounds of weight is placed on the pressure plate, causing the statue to release a 30-foot cone of fire. Each creature in the fire must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.
 
@@ -11516,7 +11552,7 @@ A successful DC 15 Wisdom (Perception) check discerns an absence of foot traffic
 
 When a creature steps on the cover, it swings open like a trapdoor, causing the intruder to spill into the pit below. The pit is usually 10 or 20 feet deep but can be deeper.
 
-Once the pit trap is detected, an iron spike or similar object can be wedged between the pit's cover and the surrounding floor in such a way as to prevent the cover from opening, thereby making it safe to cross. The cover can also be magically held shut using the arcane lock spell or similar magic.
+Once the pit trap is detected, an iron spike or similar object can be wedged between the pit's cover and the surrounding floor in such a way as to prevent the cover from opening, thereby making it safe to cross. The cover can also be magically held shut using the [*arcane lock*](#arcane-lock) spell or similar magic.
 
 ***Locking Pit.*** This pit trap is identical to a hidden pit trap, with one key exception: the trap door that covers the pit is spring-loaded. After a creature falls into the pit, the cover snaps shut to trap its victim inside.
 
@@ -11865,7 +11901,7 @@ If the d20 roll for an attack is a 1, the attack misses regardless of any modifi
 
 ### Unseen Attackers and Targets
 
-Combatants often try to escape their foes' notice by hiding, casting the invisibility spell, or lurking in darkness.
+Combatants often try to escape their foes' notice by hiding, casting the [*invisibility*](#invisibility) spell, or lurking in darkness.
 
 When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.
 
@@ -11911,7 +11947,7 @@ If either weapon has the thrown property, you can throw the weapon, instead of m
 
 When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see appendix A). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see "Conditions"). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
 ***Escaping a Grapple.*** A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
 
@@ -11943,7 +11979,7 @@ A target with **total cover** can't be targeted directly by an attack or a spell
 Damage and Healing
 ------------------
 
-Injury and the risk of death are constant companions of those who explore fantasy gaming worlds. The thrust of a sword, a well-placed arrow, or a blast of flame from a fireball spell all have the potential to damage, or even kill, the hardiest of creatures.
+Injury and the risk of death are constant companions of those who explore fantasy gaming worlds. The thrust of a sword, a well-placed arrow, or a blast of flame from a [*fireball*](#fireball) spell all have the potential to damage, or even kill, the hardiest of creatures.
 
 ### Hit Points
 
@@ -11959,7 +11995,7 @@ Each weapon, spell, and harmful monster ability specifies the damage it deals. Y
 
 When attacking with a **weapon,** you add your ability modifier—the same modifier used for the attack roll—to the damage. A **spell** tells you which dice to roll for damage and whether to add any modifiers.
 
-If a spell or other effect deals damage to **more than one target** at the same time, roll the damage once for all of them. For example, when a wizard casts *fireball* or a cleric casts *flame strike*, the spell's damage is rolled once for all creatures caught in the blast.
+If a spell or other effect deals damage to **more than one target** at the same time, roll the damage once for all of them. For example, when a wizard casts [*fireball*](#fireball) or a cleric casts [*flame strike*](#flame-strike), the spell's damage is rolled once for all creatures caught in the blast.
 
 #### Critical Hits
 
@@ -11985,7 +12021,7 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Lightning.*** A *lightning bolt* spell and a blue dragon's breath deal lightning damage.
 
-***Necrotic.*** Necrotic damage, dealt by certain undead and a spell such as *chill touch*, withers matter and even the soul.
+***Necrotic.*** Necrotic damage, dealt by certain undead and a spell such as [*chill touch*](#chill-touch), withers matter and even the soul.
 
 ***Piercing.*** Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage.
 
@@ -11993,11 +12029,11 @@ The damage types follow, with examples to help a GM assign a damage type to a ne
 
 ***Psychic.*** Mental abilities, such as a psionic blast, deal psychic damage.
 
-***Radiant.*** Radiant damage, dealt by a cleric's *flame strike* spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power.
+***Radiant.*** Radiant damage, dealt by a cleric's [*flame strike*](#flame-strike) spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power.
 
 ***Slashing.*** Swords, axes, and monsters' claws deal slashing damage.
 
-***Thunder.*** A concussive burst of sound, such as the effect of the *thunderwave* spell, deals thunder damage.
+***Thunder.*** A concussive burst of sound, such as the effect of the [*thunderwave*](#thunderwave) spell, deals thunder damage.
 
 ### Damage Resistance and Vulnerability
 
@@ -12011,11 +12047,11 @@ Multiple instances of resistance or vulnerability that affect the same damage ty
 
 ### Healing
 
-Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points, and magical methods such as a *cure wounds* spell or a *potion of healing* can remove damage in an instant.
+Unless it results in death, damage isn't permanent. Even death is reversible through powerful magic. Rest can restore a creature's hit points, and magical methods such as a [*cure wounds*](#cure-wounds) spell or a *potion of healing* can remove damage in an instant.
 
 When a creature receives healing of any kind, hit points regained are added to its current hit points. A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. For example, a druid grants a ranger 8 hit points of healing. If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8.
 
-A creature that has died can't regain hit points until magic such as the *revivify* spell has restored it to life.
+A creature that has died can't regain hit points until magic such as the [*revivify*](#revivify) spell has restored it to life.
 
 ### Dropping to 0 Hit Points
 
@@ -12029,7 +12065,7 @@ For example, a cleric with a maximum of 12 hit points currently has 6 hit points
 
 #### Falling Unconscious
 
-If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix A). This unconsciousness ends if you regain any hit points.
+If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see "Conditions"). This unconsciousness ends if you regain any hit points.
 
 #### Death Saving Throws
 
@@ -12121,13 +12157,13 @@ What Is a Spell?
 
 A spell is a discrete magical effect, a single shaping of the magical energies that suffuse the multiverse into a specific, limited expression. In casting a spell, a character carefully plucks at the invisible strands of raw magic suffusing the world, pins them in place in a particular pattern, sets them vibrating in a specific way, and then releases them to unleash the desired effect—in most cases, all in the span of seconds.
 
-Spells can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove conditions (see appendix A), drain life energy away, and restore life to the dead.
+Spells can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove conditions (see "Conditions"), drain life energy away, and restore life to the dead.
 
 Uncounted thousands of spells have been created over the course of the multiverse's history, and many of them are long forgotten. Some might yet lie recorded in crumbling spellbooks hidden in ancient ruins or trapped in the minds of dead gods. Or they might someday be reinvented by a character who has amassed enough power and wisdom to do so.
 
 ### Spell Level
 
-Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) magic missile at 1st level and the earth-shaking wish at 9th. Cantrips—simple but powerful spells that characters can cast almost by rote—are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.
+Every spell has a level from 0 to 9. A spell's level is a general indicator of how powerful it is, with the lowly (but still impressive) [*magic missile*](#magic-missile) at 1st level and the earth-shaking [*wish*](#wish) at 9th. Cantrips—simple but powerful spells that characters can cast almost by rote—are level 0. The higher a spell's level, the higher level a spellcaster must be to use that spell.
 
 Spell level and character level don't correspond directly. Typically, a character has to be at least 17th level, not 9th level, to cast a 9th-level spell.
 
@@ -12143,15 +12179,15 @@ In every case, the number of spells a caster can have fixed in mind at any given
 
 Regardless of how many spells a caster knows or prepares, he or she can cast only a limited number of spells before resting. Manipulating the fabric of magic and channeling its energy into even a simple spell is physically and mentally taxing, and higher-level spells are even more so. Thus, each spellcasting class's description (except that of the warlock) includes a table showing how many spell slots of each spell level a character can use at each character level. For example, the 3rd-level wizard Morgana has four 1st-level spell slots and two 2nd-level slots.
 
-When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively "filling" a slot with the spell. You can think of a spell slot as a groove of a certain size—small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Morgana casts magic missile, a 1st-level spell, she spends one of her four 1st-level slots and has three remaining. Finishing a long rest restores any expended spell slots.
+When a character casts a spell, he or she expends a slot of that spell's level or higher, effectively "filling" a slot with the spell. You can think of a spell slot as a groove of a certain size—small for a 1st-level slot, larger for a spell of higher level. A 1st-level spell fits into a slot of any size, but a 9th-level spell fits only in a 9th-level slot. So when Morgana casts [*magic missile*](#magic-missile), a 1st-level spell, she spends one of her four 1st-level slots and has three remaining. Finishing a long rest restores any expended spell slots.
 
 Some characters and monsters have special abilities that let them cast spells without using spell slots. For example, a monk who follows the Way of the Four Elements, a warlock who chooses certain eldritch invocations, and a pit fiend from Hell can all cast spells in such a way.
 
 #### Casting a Spell at a Higher Level
 
-When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Morgana casts magic missile using one of her 2nd-level slots, that magic missile is 2nd level. Effectively, the spell expands to fill the slot it is put into.
+When a spellcaster casts a spell using a slot that is of a higher level than the spell, the spell assumes the higher level for that casting. For instance, if Morgana casts [*magic missile*](#magic-missile) using one of her 2nd-level slots, that [*magic missile*](#magic-missile) is 2nd level. Effectively, the spell expands to fill the slot it is put into.
 
-Some spells, such as magic missile and cure wounds, have more powerful effects when cast at a higher level, as detailed in a spell's description.
+Some spells, such as [*magic missile*](#magic-missile) and [*cure wounds*](#cure-wounds), have more powerful effects when cast at a higher level, as detailed in a spell's description.
 
 > #### Casting in Armor
 >
@@ -12185,7 +12221,7 @@ To cast a spell as a ritual, a spellcaster must have a feature that grants the a
 >
 > **Illusion** spells deceive the senses or minds of others. They cause people to see things that are not there, to miss things that are there, to hear phantom noises, or to remember things that never happened. Some illusions create phantom images that any creature can see, but the most insidious illusions plant an image directly in the mind of a creature.
 >
-> **Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life. Creating the undead through the use of necromancy spells such as animate dead is not a good act, and only evil casters use such spells frequently.
+> **Necromancy** spells manipulate the energies of life and death. Such spells can grant an extra reserve of life force, drain the life energy from another creature, create the undead, or even bring the dead back to life. Creating the undead through the use of necromancy spells such as [*animate dead*](#animate-dead) is not a good act, and only evil casters use such spells frequently.
 >
 > **Transmutation** spells change the properties of a creature, object, or environment. They might turn an enemy into a harmless creature, bolster the strength of an ally, make an object move at the caster's command, or enhance a creature's innate healing abilities to rapidly recover from injury.
 
@@ -12228,7 +12264,7 @@ A spell's components are the physical requirements you must meet in order to cas
 
 #### Verbal (V)
 
-Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the silence spell, can't cast a spell with a verbal component.
+Most spells require the chanting of mystic words. The words themselves aren't the source of the spell's power; rather, the particular combination of sounds, with specific pitch and resonance, sets the threads of magic in motion. Thus, a character who is gagged or in an area of silence, such as one created by the [*silence*](#silence) spell, can't cast a spell with a verbal component.
 
 #### Somatic (S)
 
@@ -12334,7 +12370,7 @@ Most spells that require attack rolls involve ranged attacks. Remember that you 
 
 The effects of different spells add together while the durations of those spells overlap. The effects of the same spell cast multiple times don't combine, however. Instead, the most potent effect—such as the highest bonus—from those castings applies while their durations overlap.
 
-For example, if two clerics cast bless on the same target, that character gains the spell's benefit only once; he or she doesn't get to roll two bonus dice.
+For example, if two clerics cast [*bless*](#bless) on the same target, that character gains the spell's benefit only once; he or she doesn't get to roll two bonus dice.
 
 Spell Lists
 -----------
@@ -12343,981 +12379,981 @@ Spell Lists
 
 #### Cantrips (0 Level)
 
--   Dancing Lights
--   Light
--   Mage Hand
--   Mending
--   Message
--   Minor Illusion
--   Prestidigitation
--   True Strike
+-   [*Dancing Lights*](#dancing-lights)
+-   [*Light*](#light)
+-   [*Mage Hand*](#mage-hand)
+-   [*Mending*](#mending)
+-   [*Message*](#message)
+-   [*Minor Illusion*](#minor-illusion)
+-   [*Prestidigitation*](#prestidigitation)
+-   [*True Strike*](#true-strike)
 
 #### 1st Level
 
--   Bane
--   Charm Person
--   Comprehend Languages
--   Cure Wounds
--   Detect Magic
--   Disguise Self
--   Faerie Fire
--   Feather Fall
--   Healing Word
--   Heroism
--   Hideous Laughter
--   Identify
--   Illusory Script
--   Longstrider
--   Silent Image
--   Sleep
--   Speak with Animals
--   Thunderwave
--   Unseen Servant
+-   [*Bane*](#bane)
+-   [*Charm Person*](#charm-person)
+-   [*Comprehend Languages*](#comprehend-languages)
+-   [*Cure Wounds*](#cure-wounds)
+-   [*Detect Magic*](#detect-magic)
+-   [*Disguise Self*](#disguise-self)
+-   [*Faerie Fire*](#faerie-fire)
+-   [*Feather Fall*](#feather-fall)
+-   [*Healing Word*](#healing-word)
+-   [*Heroism*](#heroism)
+-   [*Hideous Laughter*](#hideous-laughter)
+-   [*Identify*](#identify)
+-   [*Illusory Script*](#illusory-script)
+-   [*Longstrider*](#longstrider)
+-   [*Silent Image*](#silent-image)
+-   [*Sleep*](#sleep)
+-   [*Speak with Animals*](#speak-with-animals)
+-   [*Thunderwave*](#thunderwave)
+-   [*Unseen Servant*](#unseen-servant)
 
 #### 2nd Level
 
--   Animal Messenger
--   Blindness/Deafness
--   Calm Emotions
--   Detect Thoughts
--   Enhance Ability
--   Enthrall
--   Heat Metal
--   Hold Person
--   Invisibility
--   Knock
--   Lesser Restoration
--   Locate Animals or Plants
--   Locate Object
--   Magic Mouth
--   See Invisibility
--   Shatter
--   Silence
--   Suggestion
--   Zone of Truth
+-   [*Animal Messenger*](#animal-messenger)
+-   [*Blindness/Deafness*](#blindnessdeafness)
+-   [*Calm Emotions*](#calm-emotions)
+-   [*Detect Thoughts*](#detect-thoughts)
+-   [*Enhance Ability*](#enhance-ability)
+-   [*Enthrall*](#enthrall)
+-   [*Heat Metal*](#heat-metal)
+-   [*Hold Person*](#hold-person)
+-   [*Invisibility*](#invisibility)
+-   [*Knock*](#knock)
+-   [*Lesser Restoration*](#lesser-restoration)
+-   [*Locate Animals or Plants*](#locate-animals-or-plants)
+-   [*Locate Object*](#locate-object)
+-   [*Magic Mouth*](#magic-mouth)
+-   [*See Invisibility*](#see-invisibility)
+-   [*Shatter*](#shatter)
+-   [*Silence*](#silence)
+-   [*Suggestion*](#suggestion)
+-   [*Zone of Truth*](#zone-of-truth)
 
 #### 3rd Level
 
--   Bestow Curse
--   Clairvoyance
--   Dispel Magic
--   Fear
--   Glyph of Warding
--   Hypnotic Pattern
--   Major Image
--   Nondetection
--   Plant Growth
--   Sending
--   Speak with Dead
--   Speak with Plants
--   Stinking Cloud
--   Tiny Hut
--   Tongues
+-   [*Bestow Curse*](#bestow-curse)
+-   [*Clairvoyance*](#clairvoyance)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Fear*](#fear)
+-   [*Glyph of Warding*](#glyph-of-warding)
+-   [*Hypnotic Pattern*](#hypnotic-pattern)
+-   [*Major Image*](#major-image)
+-   [*Nondetection*](#nondetection)
+-   [*Plant Growth*](#plant-growth)
+-   [*Sending*](#sending)
+-   [*Speak with Dead*](#speak-with-dead)
+-   [*Speak with Plants*](#speak-with-plants)
+-   [*Stinking Cloud*](#stinking-cloud)
+-   [*Tiny Hut*](#tiny-hut)
+-   [*Tongues*](#tongues)
 
 #### 4th Level
 
--   Confusion
--   Dimension Door
--   Freedom of Movement
--   Greater Invisibility
--   Hallucinatory Terrain
--   Locate Creature
--   Polymorph
+-   [*Confusion*](#confusion)
+-   [*Dimension Door*](#dimension-door)
+-   [*Freedom of Movement*](#freedom-of-movement)
+-   [*Greater Invisibility*](#greater-invisibility)
+-   [*Hallucinatory Terrain*](#hallucinatory-terrain)
+-   [*Locate Creature*](#locate-creature)
+-   [*Polymorph*](#polymorph)
 
 #### 5th Level
 
--   Animate Objects
--   Awaken
--   Dominate Person
--   Dream
--   Geas
--   Greater Restoration
--   Hold Monster
--   Legend Lore
--   Mass Cure Wounds
--   Mislead
--   Modify Memory
--   Planar Binding
--   Raise Dead
--   Scrying
--   Seeming
--   Teleportation Circle
+-   [*Animate Objects*](#animate-objects)
+-   [*Awaken*](#awaken)
+-   [*Dominate Person*](#dominate-person)
+-   [*Dream*](#dream)
+-   [*Geas*](#geas)
+-   [*Greater Restoration*](#greater-restoration)
+-   [*Hold Monster*](#hold-monster)
+-   [*Legend Lore*](#legend-lore)
+-   [*Mass Cure Wounds*](#mass-cure-wounds)
+-   [*Mislead*](#mislead)
+-   [*Modify Memory*](#modify-memory)
+-   [*Planar Binding*](#planar-binding)
+-   [*Raise Dead*](#raise-dead)
+-   [*Scrying*](#scrying)
+-   [*Seeming*](#seeming)
+-   [*Teleportation Circle*](#teleportation-circle)
 
 #### 6th Level
 
--   Eyebite
--   Find the Path
--   Guards and Wards
--   Irresistible Dance
--   Mass Suggestion
--   Programmed Illusion
--   True Seeing
+-   [*Eyebite*](#eyebite)
+-   [*Find the Path*](#find-the-path)
+-   [*Guards and Wards*](#guards-and-wards)
+-   [*Irresistible Dance*](#irresistible-dance)
+-   [*Mass Suggestion*](#mass-suggestion)
+-   [*Programmed Illusion*](#programmed-illusion)
+-   [*True Seeing*](#true-seeing)
 
 #### 7th Level
 
--   Arcane Sword
--   Etherealness
--   Forcecage
--   Magnificent Mansion
--   Mirage Arcane
--   Project Image
--   Regenerate
--   Resurrection
--   Symbol
--   Teleport
+-   [*Arcane Sword*](#arcane-sword)
+-   [*Etherealness*](#etherealness)
+-   [*Forcecage*](#forcecage)
+-   [*Magnificent Mansion*](#magnificent-mansion)
+-   [*Mirage Arcane*](#mirage-arcane)
+-   [*Project Image*](#project-image)
+-   [*Regenerate*](#regenerate)
+-   [*Resurrection*](#resurrection)
+-   [*Symbol*](#symbol)
+-   [*Teleport*](#teleport)
 
 #### 8th Level
 
--   Dominate Monster
--   Feeblemind
--   Glibness
--   Mind Blank
--   Power Word Stun
+-   [*Dominate Monster*](#dominate-monster)
+-   [*Feeblemind*](#feeblemind)
+-   [*Glibness*](#glibness)
+-   [*Mind Blank*](#mind-blank)
+-   [*Power Word Stun*](#power-word-stun)
 
 #### 9th Level
 
--   Foresight
--   Power Word Kill
--   True Polymorph
+-   [*Foresight*](#foresight)
+-   [*Power Word Kill*](#power-word-kill)
+-   [*True Polymorph*](#true-polymorph)
 
 ### Cleric Spells
 
 #### Cantrips (0 Level)
 
--   Guidance
--   Light
--   Mending
--   Resistance
--   Sacred Flame
--   Thaumaturgy
+-   [*Guidance*](#guidance)
+-   [*Light*](#light)
+-   [*Mending*](#mending)
+-   [*Resistance*](#resistance)
+-   [*Sacred Flame*](#sacred-flame)
+-   [*Thaumaturgy*](#thaumaturgy)
 
 #### 1st Level
 
--   Bane
--   Bless
--   Command
--   Create or Destroy Water
--   Cure Wounds
--   Detect Evil and Good
--   Detect Magic
--   Detect Poison and Disease
--   Guiding Bolt
--   Healing Word
--   Inflict Wounds
--   Protection from Evil and Good
--   Purify Food and Drink
--   Sanctuary
--   Shield of Faith
+-   [*Bane*](#bane)
+-   [*Bless*](#bless)
+-   [*Command*](#command)
+-   [*Create or Destroy Water*](#create-or-destroy-water)
+-   [*Cure Wounds*](#cure-wounds)
+-   [*Detect Evil and Good*](#detect-evil-and-good)
+-   [*Detect Magic*](#detect-magic)
+-   [*Detect Poison and Disease*](#detect-poison-and-disease)
+-   [*Guiding Bolt*](#guiding-bolt)
+-   [*Healing Word*](#healing-word)
+-   [*Inflict Wounds*](#inflict-wounds)
+-   [*Protection from Evil and Good*](#protection-from-evil-and-good)
+-   [*Purify Food and Drink*](#purify-food-and-drink)
+-   [*Sanctuary*](#sanctuary)
+-   [*Shield of Faith*](#shield-of-faith)
 
 #### 2nd Level
 
--   Aid
--   Augury
--   Blindness/Deafness
--   Calm Emotions
--   Continual Flame
--   Enhance Ability
--   Find Traps
--   Gentle Repose
--   Hold Person
--   Lesser Restoration
--   Locate Object
--   Prayer of Healing
--   Protection from Poison
--   Silence
--   Spiritual Weapon
--   Warding Bond
--   Zone of Truth
+-   [*Aid*](#aid)
+-   [*Augury*](#augury)
+-   [*Blindness/Deafness*](#blindnessdeafness)
+-   [*Calm Emotions*](#calm-emotions)
+-   [*Continual Flame*](#continual-flame)
+-   [*Enhance Ability*](#enhance-ability)
+-   [*Find Traps*](#find-traps)
+-   [*Gentle Repose*](#gentle-repose)
+-   [*Hold Person*](#hold-person)
+-   [*Lesser Restoration*](#lesser-restoration)
+-   [*Locate Object*](#locate-object)
+-   [*Prayer of Healing*](#prayer-of-healing)
+-   [*Protection from Poison*](#protection-from-poison)
+-   [*Silence*](#silence)
+-   [*Spiritual Weapon*](#spiritual-weapon)
+-   [*Warding Bond*](#warding-bond)
+-   [*Zone of Truth*](#zone-of-truth)
 
 #### 3rd Level
 
--   Animate Dead
--   Beacon of Hope
--   Bestow Curse
--   Clairvoyance
--   Create Food and Water
--   Daylight
--   Dispel Magic
--   Glyph of Warding
--   Magic Circle
--   Mass Healing Word
--   Meld into Stone
--   Protection from Energy
--   Remove Curse
--   Revivify
--   Sending
--   Speak with Dead
--   Spirit Guardians
--   Tongues
--   Water Walk
+-   [*Animate Dead*](#animate-dead)
+-   [*Beacon of Hope*](#beacon-of-hope)
+-   [*Bestow Curse*](#bestow-curse)
+-   [*Clairvoyance*](#clairvoyance)
+-   [*Create Food and Water*](#create-food-and-water)
+-   [*Daylight*](#daylight)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Glyph of Warding*](#glyph-of-warding)
+-   [*Magic Circle*](#magic-circle)
+-   [*Mass Healing Word*](#mass-healing-word)
+-   [*Meld into Stone*](#meld-into-stone)
+-   [*Protection from Energy*](#protection-from-energy)
+-   [*Remove Curse*](#remove-curse)
+-   [*Revivify*](#revivify)
+-   [*Sending*](#sending)
+-   [*Speak with Dead*](#speak-with-dead)
+-   [*Spirit Guardians*](#spirit-guardians)
+-   [*Tongues*](#tongues)
+-   [*Water Walk*](#water-walk)
 
 #### 4th Level
 
--   Banishment
--   Control Water
--   Death Ward
--   Divination
--   Freedom of Movement
--   Locate Creature
--   Stone Shape
+-   [*Banishment*](#banishment)
+-   [*Control Water*](#control-water)
+-   [*Death Ward*](#death-ward)
+-   [*Divination*](#divination)
+-   [*Freedom of Movement*](#freedom-of-movement)
+-   [*Locate Creature*](#locate-creature)
+-   [*Stone Shape*](#stone-shape)
 
 #### 5th Level
 
--   Commune
--   Contagion
--   Dispel Evil and Good
--   Flame Strike
--   Geas
--   Greater Restoration
--   Hallow
--   Insect Plague
--   Legend Lore
--   Mass Cure Wounds
--   Planar Binding
--   Raise Dead
--   Scrying
+-   [*Commune*](#commune)
+-   [*Contagion*](#contagion)
+-   [*Dispel Evil and Good*](#dispel-evil-and-good)
+-   [*Flame Strike*](#flame-strike)
+-   [*Geas*](#geas)
+-   [*Greater Restoration*](#greater-restoration)
+-   [*Hallow*](#hallow)
+-   [*Insect Plague*](#insect-plague)
+-   [*Legend Lore*](#legend-lore)
+-   [*Mass Cure Wounds*](#mass-cure-wounds)
+-   [*Planar Binding*](#planar-binding)
+-   [*Raise Dead*](#raise-dead)
+-   [*Scrying*](#scrying)
 
 #### 6th Level
 
--   Blade Barrier
--   Create Undead
--   Find the Path
--   Forbiddance
--   Harm
--   Heal
--   Heroes' Feast
--   Planar Ally
--   True Seeing
--   Word of Recall
+-   [*Blade Barrier*](#blade-barrier)
+-   [*Create Undead*](#create-undead)
+-   [*Find the Path*](#find-the-path)
+-   [*Forbiddance*](#forbiddance)
+-   [*Harm*](#harm)
+-   [*Heal*](#heal)
+-   [*Heroes' Feast*](#heroes-feast)
+-   [*Planar Ally*](#planar-ally)
+-   [*True Seeing*](#true-seeing)
+-   [*Word of Recall*](#word-of-recall)
 
 #### 7th Level
 
--   Conjure Celestial
--   Divine Word
--   Etherealness
--   Fire Storm
--   Plane Shift
--   Regenerate
--   Resurrection
--   Symbol
+-   [*Conjure Celestial*](#conjure-celestial)
+-   [*Divine Word*](#divine-word)
+-   [*Etherealness*](#etherealness)
+-   [*Fire Storm*](#fire-storm)
+-   [*Plane Shift*](#plane-shift)
+-   [*Regenerate*](#regenerate)
+-   [*Resurrection*](#resurrection)
+-   [*Symbol*](#symbol)
 
 #### 8th Level
 
--   Antimagic Field
--   Control Weather
--   Earthquake
--   Holy Aura
+-   [*Antimagic Field*](#antimagic-field)
+-   [*Control Weather*](#control-weather)
+-   [*Earthquake*](#earthquake)
+-   [*Holy Aura*](#holy-aura)
 
 #### 9th Level
 
--   Astral Projection
--   Gate
--   Mass Heal
--   True Resurrection
+-   [*Astral Projection*](#astral-projection)
+-   [*Gate*](#gate)
+-   [*Mass Heal*](#mass-heal)
+-   [*True Resurrection*](#true-resurrection)
 
 ### Druid Spells
 
 #### Cantrips (0 Level)
 
--   Guidance
--   Mending
--   Produce Flame
--   Resistance
--   Shillelagh
+-   [*Guidance*](#guidance)
+-   [*Mending*](#mending)
+-   [*Produce Flame*](#produce-flame)
+-   [*Resistance*](#resistance)
+-   [*Shillelagh*](#shillelagh)
 
 #### 1st Level
 
--   Charm Person
--   Create or Destroy Water
--   Cure Wounds
--   Detect Magic
--   Detect Poison and Disease
--   Entangle
--   Faerie Fire
--   Fog Cloud
--   Healing Word
--   Jump
--   Longstrider
--   Purify Food and Drink
--   Speak with Animals
--   Thunderwave
+-   [*Charm Person*](#charm-person)
+-   [*Create or Destroy Water*](#create-or-destroy-water)
+-   [*Cure Wounds*](#cure-wounds)
+-   [*Detect Magic*](#detect-magic)
+-   [*Detect Poison and Disease*](#detect-poison-and-disease)
+-   [*Entangle*](#entangle)
+-   [*Faerie Fire*](#faerie-fire)
+-   [*Fog Cloud*](#fog-cloud)
+-   [*Healing Word*](#healing-word)
+-   [*Jump*](#jump)
+-   [*Longstrider*](#longstrider)
+-   [*Purify Food and Drink*](#purify-food-and-drink)
+-   [*Speak with Animals*](#speak-with-animals)
+-   [*Thunderwave*](#thunderwave)
 
 #### 2nd Level
 
--   Animal Messenger
--   Barkskin
--   Darkvision
--   Enhance Ability
--   Find Traps
--   Flame Blade
--   Flaming Sphere
--   Gust of Wind
--   Heat Metal
--   Hold Person
--   Lesser Restoration
--   Locate Animals or Plants
--   Locate Object
--   Moonbeam
--   Pass without Trace
--   Protection from Poison
--   Spike Growth
+-   [*Animal Messenger*](#animal-messenger)
+-   [*Barkskin*](#barkskin)
+-   [*Darkvision*](#darkvision)
+-   [*Enhance Ability*](#enhance-ability)
+-   [*Find Traps*](#find-traps)
+-   [*Flame Blade*](#flame-blade)
+-   [*Flaming Sphere*](#flaming-sphere)
+-   [*Gust of Wind*](#gust-of-wind)
+-   [*Heat Metal*](#heat-metal)
+-   [*Hold Person*](#hold-person)
+-   [*Lesser Restoration*](#lesser-restoration)
+-   [*Locate Animals or Plants*](#locate-animals-or-plants)
+-   [*Locate Object*](#locate-object)
+-   [*Moonbeam*](#moonbeam)
+-   [*Pass without Trace*](#pass-without-trace)
+-   [*Protection from Poison*](#protection-from-poison)
+-   [*Spike Growth*](#spike-growth)
 
 #### 3rd Level
 
--   Call Lightning
--   Conjure Animals
--   Daylight
--   Dispel Magic
--   Meld into Stone
--   Plant Growth
--   Protection from Energy
--   Sleet Storm
--   Speak with Plants
--   Water Breathing
--   Water Walk
--   Wind Wall
+-   [*Call Lightning*](#call-lightning)
+-   [*Conjure Animals*](#conjure-animals)
+-   [*Daylight*](#daylight)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Meld into Stone*](#meld-into-stone)
+-   [*Plant Growth*](#plant-growth)
+-   [*Protection from Energy*](#protection-from-energy)
+-   [*Sleet Storm*](#sleet-storm)
+-   [*Speak with Plants*](#speak-with-plants)
+-   [*Water Breathing*](#water-breathing)
+-   [*Water Walk*](#water-walk)
+-   [*Wind Wall*](#wind-wall)
 
 #### 4th Level
 
--   Blight
--   Confusion
--   Conjure Minor Elementals
--   Conjure Woodland Beings
--   Control Water
--   Dominate Beast
--   Freedom of Movement
--   Giant Insect
--   Hallucinatory Terrain
--   Ice Storm
--   Locate Creature
--   Polymorph
--   Stone Shape
--   Stoneskin
--   Wall of Fire
+-   [*Blight*](#blight)
+-   [*Confusion*](#confusion)
+-   [*Conjure Minor Elementals*](#conjure-minor-elementals)
+-   [*Conjure Woodland Beings*](#conjure-woodland-beings)
+-   [*Control Water*](#control-water)
+-   [*Dominate Beast*](#dominate-beast)
+-   [*Freedom of Movement*](#freedom-of-movement)
+-   [*Giant Insect*](#giant-insect)
+-   [*Hallucinatory Terrain*](#hallucinatory-terrain)
+-   [*Ice Storm*](#ice-storm)
+-   [*Locate Creature*](#locate-creature)
+-   [*Polymorph*](#polymorph)
+-   [*Stone Shape*](#stone-shape)
+-   [*Stoneskin*](#stoneskin)
+-   [*Wall of Fire*](#wall-of-fire)
 
 #### 5th Level
 
--   Antilife Shell
--   Awaken
--   Commune with Nature
--   Conjure Elemental
--   Contagion
--   Geas
--   Greater Restoration
--   Insect Plague
--   Mass Cure Wounds
--   Planar Binding
--   Reincarnate
--   Scrying
--   Tree Stride
--   Wall of Stone
+-   [*Antilife Shell*](#antilife-shell)
+-   [*Awaken*](#awaken)
+-   [*Commune with Nature*](#commune-with-nature)
+-   [*Conjure Elemental*](#conjure-elemental)
+-   [*Contagion*](#contagion)
+-   [*Geas*](#geas)
+-   [*Greater Restoration*](#greater-restoration)
+-   [*Insect Plague*](#insect-plague)
+-   [*Mass Cure Wounds*](#mass-cure-wounds)
+-   [*Planar Binding*](#planar-binding)
+-   [*Reincarnate*](#reincarnate)
+-   [*Scrying*](#scrying)
+-   [*Tree Stride*](#tree-stride)
+-   [*Wall of Stone*](#wall-of-stone)
 
 #### 6th Level
 
--   Conjure Fey
--   Find the Path
--   Heal
--   Heroes' Feast
--   Move Earth
--   Sunbeam
--   Transport via Plants
--   Wall of Thorns
--   Wind Walk
+-   [*Conjure Fey*](#conjure-fey)
+-   [*Find the Path*](#find-the-path)
+-   [*Heal*](#heal)
+-   [*Heroes' Feast*](#heroes-feast)
+-   [*Move Earth*](#move-earth)
+-   [*Sunbeam*](#sunbeam)
+-   [*Transport via Plants*](#transport-via-plants)
+-   [*Wall of Thorns*](#wall-of-thorns)
+-   [*Wind Walk*](#wind-walk)
 
 #### 7th Level
 
--   Fire Storm
--   Mirage Arcane
--   Plane Shift
--   Regenerate
--   Reverse Gravity
+-   [*Fire Storm*](#fire-storm)
+-   [*Mirage Arcane*](#mirage-arcane)
+-   [*Plane Shift*](#plane-shift)
+-   [*Regenerate*](#regenerate)
+-   [*Reverse Gravity*](#reverse-gravity)
 
 #### 8th Level
 
--   Animal Shapes
--   Antipathy/Sympathy
--   Control Weather
--   Earthquake
--   Feeblemind
--   Sunburst
+-   [*Animal Shapes*](#animal-shapes)
+-   [*Antipathy/Sympathy*](#antipathysympathy)
+-   [*Control Weather*](#control-weather)
+-   [*Earthquake*](#earthquake)
+-   [*Feeblemind*](#feeblemind)
+-   [*Sunburst*](#sunburst)
 
 #### 9th Level
 
--   Foresight
--   Shapechange
--   Storm of Vengeance
--   True Resurrection
+-   [*Foresight*](#foresight)
+-   [*Shapechange*](#shapechange)
+-   [*Storm of Vengeance*](#storm-of-vengeance)
+-   [*True Resurrection*](#true-resurrection)
 
 ### Paladin Spells
 
 #### 1st Level
 
--   Bless
--   Command
--   Cure Wounds
--   Detect Evil and Good
--   Detect Magic
--   Detect Poison and Disease
--   Divine Favor
--   Heroism
--   Protection from Evil and Good
--   Purify Food and Drink
--   Shield of Faith
+-   [*Bless*](#bless)
+-   [*Command*](#command)
+-   [*Cure Wounds*](#cure-wounds)
+-   [*Detect Evil and Good*](#detect-evil-and-good)
+-   [*Detect Magic*](#detect-magic)
+-   [*Detect Poison and Disease*](#detect-poison-and-disease)
+-   [*Divine Favor*](#divine-favor)
+-   [*Heroism*](#heroism)
+-   [*Protection from Evil and Good*](#protection-from-evil-and-good)
+-   [*Purify Food and Drink*](#purify-food-and-drink)
+-   [*Shield of Faith*](#shield-of-faith)
 
 #### 2nd Level
 
--   Aid
--   Find Steed
--   Lesser Restoration
--   Locate Object
--   Magic Weapon
--   Protection from Poison
--   Zone of Truth
+-   [*Aid*](#aid)
+-   [*Find Steed*](#find-steed)
+-   [*Lesser Restoration*](#lesser-restoration)
+-   [*Locate Object*](#locate-object)
+-   [*Magic Weapon*](#magic-weapon)
+-   [*Protection from Poison*](#protection-from-poison)
+-   [*Zone of Truth*](#zone-of-truth)
 
 #### 3rd Level
 
--   Create Food and Water
--   Daylight
--   Dispel Magic
--   Magic Circle
--   Remove Curse
--   Revivify
+-   [*Create Food and Water*](#create-food-and-water)
+-   [*Daylight*](#daylight)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Magic Circle*](#magic-circle)
+-   [*Remove Curse*](#remove-curse)
+-   [*Revivify*](#revivify)
 
 #### 4th Level
 
--   Banishment
--   Death Ward
--   Locate Creature
+-   [*Banishment*](#banishment)
+-   [*Death Ward*](#death-ward)
+-   [*Locate Creature*](#locate-creature)
 
 #### 5th Level
 
--   Dispel Evil and Good
--   Geas
--   Raise Dead
+-   [*Dispel Evil and Good*](#dispel-evil-and-good)
+-   [*Geas*](#geas)
+-   [*Raise Dead*](#raise-dead)
 
 ### Ranger Spells
 
 #### 1st Level
 
--   Alarm
--   Cure Wounds
--   Detect Magic
--   Detect Poison and Disease
--   Fog Cloud
--   Jump
--   Longstrider
--   Speak with Animals
+-   [*Alarm*](#alarm)
+-   [*Cure Wounds*](#cure-wounds)
+-   [*Detect Magic*](#detect-magic)
+-   [*Detect Poison and Disease*](#detect-poison-and-disease)
+-   [*Fog Cloud*](#fog-cloud)
+-   [*Jump*](#jump)
+-   [*Longstrider*](#longstrider)
+-   [*Speak with Animals*](#speak-with-animals)
 
 #### 2nd Level
 
--   Animal Messenger
--   Barkskin
--   Darkvision
--   Find Traps
--   Lesser Restoration
--   Locate Animals or Plants
--   Locate Object
--   Pass without Trace
--   Protection from Poison
--   Silence
--   Spike Growth
+-   [*Animal Messenger*](#animal-messenger)
+-   [*Barkskin*](#barkskin)
+-   [*Darkvision*](#darkvision)
+-   [*Find Traps*](#find-traps)
+-   [*Lesser Restoration*](#lesser-restoration)
+-   [*Locate Animals or Plants*](#locate-animals-or-plants)
+-   [*Locate Object*](#locate-object)
+-   [*Pass without Trace*](#pass-without-trace)
+-   [*Protection from Poison*](#protection-from-poison)
+-   [*Silence*](#silence)
+-   [*Spike Growth*](#spike-growth)
 
 #### 3rd Level
 
--   Conjure Animals
--   Daylight
--   Nondetection
--   Plant Growth
--   Protection from Energy
--   Speak with Plants
--   Water Breathing
--   Water Walk
--   Wind Wall
+-   [*Conjure Animals*](#conjure-animals)
+-   [*Daylight*](#daylight)
+-   [*Nondetection*](#nondetection)
+-   [*Plant Growth*](#plant-growth)
+-   [*Protection from Energy*](#protection-from-energy)
+-   [*Speak with Plants*](#speak-with-plants)
+-   [*Water Breathing*](#water-breathing)
+-   [*Water Walk*](#water-walk)
+-   [*Wind Wall*](#wind-wall)
 
 #### 4th Level
 
--   Conjure Woodland Beings
--   Freedom of Movement
--   Locate Creature
--   Stoneskin
+-   [*Conjure Woodland Beings*](#conjure-woodland-beings)
+-   [*Freedom of Movement*](#freedom-of-movement)
+-   [*Locate Creature*](#locate-creature)
+-   [*Stoneskin*](#stoneskin)
 
 #### 5th Level
 
--   Commune with Nature
--   Tree Stride
+-   [*Commune with Nature*](#commune-with-nature)
+-   [*Tree Stride*](#tree-stride)
 
 ### Sorcerer Spells
 
 #### Cantrips (0 Level)
 
--   Acid Splash
--   Chill Touch
--   Dancing Lights
--   Light
--   Mage Hand
--   Mending
--   Message
--   Minor Illusion
--   Prestidigitation
--   Ray of Frost
--   Shocking Grasp
--   True Strike
+-   [*Acid Splash*](#acid-splash)
+-   [*Chill Touch*](#chill-touch)
+-   [*Dancing Lights*](#dancing-lights)
+-   [*Light*](#light)
+-   [*Mage Hand*](#mage-hand)
+-   [*Mending*](#mending)
+-   [*Message*](#message)
+-   [*Minor Illusion*](#minor-illusion)
+-   [*Prestidigitation*](#prestidigitation)
+-   [*Ray of Frost*](#ray-of-frost)
+-   [*Shocking Grasp*](#shocking-grasp)
+-   [*True Strike*](#true-strike)
 
 #### 1st Level
 
--   Burning Hands
--   Charm Person
--   Color Spray
--   Comprehend Languages
--   Detect Magic
--   Disguise Self
--   Expeditious Retreat
--   False Life
--   Feather Fall
--   Fog Cloud
--   Jump
--   Mage Armor
--   Magic Missile
--   Shield
--   Silent Image
--   Sleep
--   Thunderwave
+-   [*Burning Hands*](#burning-hands)
+-   [*Charm Person*](#charm-person)
+-   [*Color Spray*](#color-spray)
+-   [*Comprehend Languages*](#comprehend-languages)
+-   [*Detect Magic*](#detect-magic)
+-   [*Disguise Self*](#disguise-self)
+-   [*Expeditious Retreat*](#expeditious-retreat)
+-   [*False Life*](#false-life)
+-   [*Feather Fall*](#feather-fall)
+-   [*Fog Cloud*](#fog-cloud)
+-   [*Jump*](#jump)
+-   [*Mage Armor*](#mage-armor)
+-   [*Magic Missile*](#magic-missile)
+-   [*Shield*](#shield)
+-   [*Silent Image*](#silent-image)
+-   [*Sleep*](#sleep)
+-   [*Thunderwave*](#thunderwave)
 
 #### 2nd Level
 
--   Alter Self
--   Blindness/Deafness
--   Blur
--   Darkness
--   Darkvision
--   Detect Thoughts
--   Enhance Ability
--   Enlarge/Reduce
--   Gust of Wind
--   Hold Person
--   Invisibility
--   Knock
--   Levitate
--   Mirror Image
--   Misty Step
--   Scorching Ray
--   See Invisibility
--   Shatter
--   Spider Climb
--   Suggestion
--   Web
+-   [*Alter Self*](#alter-self)
+-   [*Blindness/Deafness*](#blindnessdeafness)
+-   [*Blur*](#blur)
+-   [*Darkness*](#darkness)
+-   [*Darkvision*](#darkvision)
+-   [*Detect Thoughts*](#detect-thoughts)
+-   [*Enhance Ability*](#enhance-ability)
+-   [*Enlarge/Reduce*](#enlargereduce)
+-   [*Gust of Wind*](#gust-of-wind)
+-   [*Hold Person*](#hold-person)
+-   [*Invisibility*](#invisibility)
+-   [*Knock*](#knock)
+-   [*Levitate*](#levitate)
+-   [*Mirror Image*](#mirror-image)
+-   [*Misty Step*](#misty-step)
+-   [*Scorching Ray*](#scorching-ray)
+-   [*See Invisibility*](#see-invisibility)
+-   [*Shatter*](#shatter)
+-   [*Spider Climb*](#spider-climb)
+-   [*Suggestion*](#suggestion)
+-   [*Web*](#web)
 
 #### 3rd Level
 
--   Blink
--   Clairvoyance
--   Daylight
--   Dispel Magic
--   Fear
--   Fireball
--   Fly
--   Gaseous Form
--   Haste
--   Hypnotic Pattern
--   Lightning Bolt
--   Major Image
--   Protection from Energy
--   Sleet Storm
--   Slow
--   Stinking Cloud
--   Tongues
--   Water Breathing
--   Water Walk
+-   [*Blink*](#blink)
+-   [*Clairvoyance*](#clairvoyance)
+-   [*Daylight*](#daylight)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Fear*](#fear)
+-   [*Fireball*](#fireball)
+-   [*Fly*](#fly)
+-   [*Gaseous Form*](#gaseous-form)
+-   [*Haste*](#haste)
+-   [*Hypnotic Pattern*](#hypnotic-pattern)
+-   [*Lightning Bolt*](#lightning-bolt)
+-   [*Major Image*](#major-image)
+-   [*Protection from Energy*](#protection-from-energy)
+-   [*Sleet Storm*](#sleet-storm)
+-   [*Slow*](#slow)
+-   [*Stinking Cloud*](#stinking-cloud)
+-   [*Tongues*](#tongues)
+-   [*Water Breathing*](#water-breathing)
+-   [*Water Walk*](#water-walk)
 
 #### 4th Level
 
--   Banishment
--   Blight
--   Confusion
--   Dimension Door
--   Dominate Beast
--   Greater Invisibility
--   Ice Storm
--   Polymorph
--   Stoneskin
--   Wall of Fire
+-   [*Banishment*](#banishment)
+-   [*Blight*](#blight)
+-   [*Confusion*](#confusion)
+-   [*Dimension Door*](#dimension-door)
+-   [*Dominate Beast*](#dominate-beast)
+-   [*Greater Invisibility*](#greater-invisibility)
+-   [*Ice Storm*](#ice-storm)
+-   [*Polymorph*](#polymorph)
+-   [*Stoneskin*](#stoneskin)
+-   [*Wall of Fire*](#wall-of-fire)
 
 #### 5th Level
 
--   Animate Objects
--   Cloudkill
--   Cone of Cold
--   Creation
--   Dominate Person
--   Hold Monster
--   Insect Plague
--   Seeming
--   Telekinesis
--   Teleportation Circle
--   Wall of Stone
+-   [*Animate Objects*](#animate-objects)
+-   [*Cloudkill*](#cloudkill)
+-   [*Cone of Cold*](#cone-of-cold)
+-   [*Creation*](#creation)
+-   [*Dominate Person*](#dominate-person)
+-   [*Hold Monster*](#hold-monster)
+-   [*Insect Plague*](#insect-plague)
+-   [*Seeming*](#seeming)
+-   [*Telekinesis*](#telekinesis)
+-   [*Teleportation Circle*](#teleportation-circle)
+-   [*Wall of Stone*](#wall-of-stone)
 
 #### 6th Level
 
--   Chain Lightning
--   Circle of Death
--   Disintegrate
--   Eyebite
--   Globe of Invulnerability
--   Mass Suggestion
--   Move Earth
--   Sunbeam
--   True Seeing
+-   [*Chain Lightning*](#chain-lightning)
+-   [*Circle of Death*](#circle-of-death)
+-   [*Disintegrate*](#disintegrate)
+-   [*Eyebite*](#eyebite)
+-   [*Globe of Invulnerability*](#globe-of-invulnerability)
+-   [*Mass Suggestion*](#mass-suggestion)
+-   [*Move Earth*](#move-earth)
+-   [*Sunbeam*](#sunbeam)
+-   [*True Seeing*](#true-seeing)
 
 #### 7th Level
 
--   Delayed Blast Fireball
--   Etherealness
--   Finger of Death
--   Fire Storm
--   Plane Shift
--   Prismatic Spray
--   Reverse Gravity
--   Teleport
+-   [*Delayed Blast Fireball*](#delayed-blast-fireball)
+-   [*Etherealness*](#etherealness)
+-   [*Finger of Death*](#finger-of-death)
+-   [*Fire Storm*](#fire-storm)
+-   [*Plane Shift*](#plane-shift)
+-   [*Prismatic Spray*](#prismatic-spray)
+-   [*Reverse Gravity*](#reverse-gravity)
+-   [*Teleport*](#teleport)
 
 #### 8th Level
 
--   Dominate Monster
--   Earthquake
--   Incendiary Cloud
--   Power Word Stun
--   Sunburst
+-   [*Dominate Monster*](#dominate-monster)
+-   [*Earthquake*](#earthquake)
+-   [*Incendiary Cloud*](#incendiary-cloud)
+-   [*Power Word Stun*](#power-word-stun)
+-   [*Sunburst*](#sunburst)
 
 #### 9th Level
 
--   Gate
--   Meteor Swarm
--   Power Word Kill
--   Time Stop
--   Wish
+-   [*Gate*](#gate)
+-   [*Meteor Swarm*](#meteor-swarm)
+-   [*Power Word Kill*](#power-word-kill)
+-   [*Time Stop*](#time-stop)
+-   [*Wish*](#wish)
 
 ### Warlock Spells
 
 #### Cantrips (0 Level)
 
--   Chill Touch
--   Mage Hand
--   Minor Illusion
--   Prestidigitation
--   True Strike
+-   [*Chill Touch*](#chill-touch)
+-   [*Mage Hand*](#mage-hand)
+-   [*Minor Illusion*](#minor-illusion)
+-   [*Prestidigitation*](#prestidigitation)
+-   [*True Strike*](#true-strike)
 
 #### 1st Level
 
--   Charm Person
--   Comprehend Languages
--   Expeditious Retreat
--   Illusory Script
--   Protection from Evil and Good
--   Unseen Servant
+-   [*Charm Person*](#charm-person)
+-   [*Comprehend Languages*](#comprehend-languages)
+-   [*Expeditious Retreat*](#expeditious-retreat)
+-   [*Illusory Script*](#illusory-script)
+-   [*Protection from Evil and Good*](#protection-from-evil-and-good)
+-   [*Unseen Servant*](#unseen-servant)
 
 #### 2nd Level
 
--   Darkness
--   Enthrall
--   Hold Person
--   Invisibility
--   Mirror Image
--   Misty Step
--   Ray of Enfeeblement
--   Shatter
--   Spider Climb
--   Suggestion
+-   [*Darkness*](#darkness)
+-   [*Enthrall*](#enthrall)
+-   [*Hold Person*](#hold-person)
+-   [*Invisibility*](#invisibility)
+-   [*Mirror Image*](#mirror-image)
+-   [*Misty Step*](#misty-step)
+-   [*Ray of Enfeeblement*](#ray-of-enfeeblement)
+-   [*Shatter*](#shatter)
+-   [*Spider Climb*](#spider-climb)
+-   [*Suggestion*](#suggestion)
 
 #### 3rd Level
 
--   Dispel Magic
--   Fear
--   Fly
--   Gaseous Form
--   Hypnotic Pattern
--   Magic Circle
--   Major Image
--   Remove Curse
--   Tongues
--   Vampiric Touch
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Fear*](#fear)
+-   [*Fly*](#fly)
+-   [*Gaseous Form*](#gaseous-form)
+-   [*Hypnotic Pattern*](#hypnotic-pattern)
+-   [*Magic Circle*](#magic-circle)
+-   [*Major Image*](#major-image)
+-   [*Remove Curse*](#remove-curse)
+-   [*Tongues*](#tongues)
+-   [*Vampiric Touch*](#vampiric-touch)
 
 #### 4th Level
 
--   Banishment
--   Blight
--   Dimension Door
--   Hallucinatory Terrain
+-   [*Banishment*](#banishment)
+-   [*Blight*](#blight)
+-   [*Dimension Door*](#dimension-door)
+-   [*Hallucinatory Terrain*](#hallucinatory-terrain)
 
 #### 5th Level
 
--   Contact Other Plane
--   Dream
--   Hold Monster
--   Scrying
+-   [*Contact Other Plane*](#contact-other-plane)
+-   [*Dream*](#dream)
+-   [*Hold Monster*](#hold-monster)
+-   [*Scrying*](#scrying)
 
 #### 6th Level
 
--   Circle of Death
--   Conjure Fey
--   Create Undead
--   Eyebite
--   Flesh to Stone
--   Mass Suggestion
--   True Seeing
+-   [*Circle of Death*](#circle-of-death)
+-   [*Conjure Fey*](#conjure-fey)
+-   [*Create Undead*](#create-undead)
+-   [*Eyebite*](#eyebite)
+-   [*Flesh to Stone*](#flesh-to-stone)
+-   [*Mass Suggestion*](#mass-suggestion)
+-   [*True Seeing*](#true-seeing)
 
 #### 7th Level
 
--   Etherealness
--   Finger of Death
--   Forcecage
--   Plane Shift
+-   [*Etherealness*](#etherealness)
+-   [*Finger of Death*](#finger-of-death)
+-   [*Forcecage*](#forcecage)
+-   [*Plane Shift*](#plane-shift)
 
 #### 8th Level
 
--   Demiplane
--   Dominate Monster
--   Feeblemind
--   Glibness
--   Power Word Stun
+-   [*Demiplane*](#demiplane)
+-   [*Dominate Monster*](#dominate-monster)
+-   [*Feeblemind*](#feeblemind)
+-   [*Glibness*](#glibness)
+-   [*Power Word Stun*](#power-word-stun)
 
 #### 9th Level
 
--   Astral Projection
--   Foresight
--   Imprisonment
--   Power Word Kill
--   True Polymorph
+-   [*Astral Projection*](#astral-projection)
+-   [*Foresight*](#foresight)
+-   [*Imprisonment*](#imprisonment)
+-   [*Power Word Kill*](#power-word-kill)
+-   [*True Polymorph*](#true-polymorph)
 
 ### Wizard Spells
 
 #### Cantrips (0 Level)
 
--   Acid Splash
--   Chill Touch
--   Dancing Lights
--   Light
--   Mage Hand
--   Mending
--   Message
--   Minor Illusion
--   Prestidigitation
--   Ray of Frost
--   Shocking Grasp
--   True Strike
+-   [*Acid Splash*](#acid-splash)
+-   [*Chill Touch*](#chill-touch)
+-   [*Dancing Lights*](#dancing-lights)
+-   [*Light*](#light)
+-   [*Mage Hand*](#mage-hand)
+-   [*Mending*](#mending)
+-   [*Message*](#message)
+-   [*Minor Illusion*](#minor-illusion)
+-   [*Prestidigitation*](#prestidigitation)
+-   [*Ray of Frost*](#ray-of-frost)
+-   [*Shocking Grasp*](#shocking-grasp)
+-   [*True Strike*](#true-strike)
 
 #### 1st Level
 
--   Alarm
--   Burning Hands
--   Charm Person
--   Color Spray
--   Comprehend Languages
--   Detect Magic
--   Disguise Self
--   Expeditious Retreat
--   False Life
--   Feather Fall
--   Floating Disk
--   Fog Cloud
--   Grease
--   Hideous Laughter
--   Identify
--   Illusory Script
--   Jump
--   Longstrider
--   Mage Armor
--   Magic Missile
--   Protection from Evil and Good
--   Shield
--   Silent Image
--   Sleep
--   Thunderwave
--   Unseen Servant
+-   [*Alarm*](#alarm)
+-   [*Burning Hands*](#burning-hands)
+-   [*Charm Person*](#charm-person)
+-   [*Color Spray*](#color-spray)
+-   [*Comprehend Languages*](#comprehend-languages)
+-   [*Detect Magic*](#detect-magic)
+-   [*Disguise Self*](#disguise-self)
+-   [*Expeditious Retreat*](#expeditious-retreat)
+-   [*False Life*](#false-life)
+-   [*Feather Fall*](#feather-fall)
+-   [*Floating Disk*](#floating-disk)
+-   [*Fog Cloud*](#fog-cloud)
+-   [*Grease*](#grease)
+-   [*Hideous Laughter*](#hideous-laughter)
+-   [*Identify*](#identify)
+-   [*Illusory Script*](#illusory-script)
+-   [*Jump*](#jump)
+-   [*Longstrider*](#longstrider)
+-   [*Mage Armor*](#mage-armor)
+-   [*Magic Missile*](#magic-missile)
+-   [*Protection from Evil and Good*](#protection-from-evil-and-good)
+-   [*Shield*](#shield)
+-   [*Silent Image*](#silent-image)
+-   [*Sleep*](#sleep)
+-   [*Thunderwave*](#thunderwave)
+-   [*Unseen Servant*](#unseen-servant)
 
 #### 2nd Level
 
--   Acid Arrow
--   Alter Self
--   Arcane Lock
--   Arcanist's Magic Aura
--   Blindness/Deafness
--   Blur
--   Continual Flame
--   Darkness
--   Darkvision
--   Detect Thoughts
--   Enlarge/Reduce
--   Flaming Sphere
--   Gentle Repose
--   Gust of Wind
--   Hold Person
--   Invisibility
--   Knock
--   Levitate
--   Locate Object
--   Magic Mouth
--   Magic Weapon
--   Mirror Image
--   Misty Step
--   Ray of Enfeeblement
--   Rope Trick
--   Scorching Ray
--   See Invisibility
--   Shatter
--   Spider Climb
--   Suggestion
--   Web
+-   [*Acid Arrow*](#acid-arrow)
+-   [*Alter Self*](#alter-self)
+-   [*Arcane Lock*](#arcane-lock)
+-   [*Arcanist's Magic Aura*](#arcanists-magic-aura)
+-   [*Blindness/Deafness*](#blindnessdeafness)
+-   [*Blur*](#blur)
+-   [*Continual Flame*](#continual-flame)
+-   [*Darkness*](#darkness)
+-   [*Darkvision*](#darkvision)
+-   [*Detect Thoughts*](#detect-thoughts)
+-   [*Enlarge/Reduce*](#enlargereduce)
+-   [*Flaming Sphere*](#flaming-sphere)
+-   [*Gentle Repose*](#gentle-repose)
+-   [*Gust of Wind*](#gust-of-wind)
+-   [*Hold Person*](#hold-person)
+-   [*Invisibility*](#invisibility)
+-   [*Knock*](#knock)
+-   [*Levitate*](#levitate)
+-   [*Locate Object*](#locate-object)
+-   [*Magic Mouth*](#magic-mouth)
+-   [*Magic Weapon*](#magic-weapon)
+-   [*Mirror Image*](#mirror-image)
+-   [*Misty Step*](#misty-step)
+-   [*Ray of Enfeeblement*](#ray-of-enfeeblement)
+-   [*Rope Trick*](#rope-trick)
+-   [*Scorching Ray*](#scorching-ray)
+-   [*See Invisibility*](#see-invisibility)
+-   [*Shatter*](#shatter)
+-   [*Spider Climb*](#spider-climb)
+-   [*Suggestion*](#suggestion)
+-   [*Web*](#web)
 
 #### 3rd Level
 
--   Animate Dead
--   Bestow Curse
--   Blink
--   Clairvoyance
--   Dispel Magic
--   Fear
--   Fireball
--   Fly
--   Gaseous Form
--   Glyph of Warding
--   Haste
--   Hypnotic Pattern
--   Lightning Bolt
--   Magic Circle
--   Major Image
--   Nondetection
--   Phantom Steed
--   Protection from Energy
--   Remove Curse
--   Sending
--   Sleet Storm
--   Slow
--   Stinking Cloud
--   Tiny Hut
--   Tongues
--   Vampiric Touch
--   Water Breathing
+-   [*Animate Dead*](#animate-dead)
+-   [*Bestow Curse*](#bestow-curse)
+-   [*Blink*](#blink)
+-   [*Clairvoyance*](#clairvoyance)
+-   [*Dispel Magic*](#dispel-magic)
+-   [*Fear*](#fear)
+-   [*Fireball*](#fireball)
+-   [*Fly*](#fly)
+-   [*Gaseous Form*](#gaseous-form)
+-   [*Glyph of Warding*](#glyph-of-warding)
+-   [*Haste*](#haste)
+-   [*Hypnotic Pattern*](#hypnotic-pattern)
+-   [*Lightning Bolt*](#lightning-bolt)
+-   [*Magic Circle*](#magic-circle)
+-   [*Major Image*](#major-image)
+-   [*Nondetection*](#nondetection)
+-   [*Phantom Steed*](#phantom-steed)
+-   [*Protection from Energy*](#protection-from-energy)
+-   [*Remove Curse*](#remove-curse)
+-   [*Sending*](#sending)
+-   [*Sleet Storm*](#sleet-storm)
+-   [*Slow*](#slow)
+-   [*Stinking Cloud*](#stinking-cloud)
+-   [*Tiny Hut*](#tiny-hut)
+-   [*Tongues*](#tongues)
+-   [*Vampiric Touch*](#vampiric-touch)
+-   [*Water Breathing*](#water-breathing)
 
 #### 4th Level
 
--   Arcane Eye
--   Banishment
--   Black Tentacles
--   Blight
--   Confusion
--   Conjure Minor Elementals
--   Control Water
--   Dimension Door
--   Fabricate
--   Faithful Hound
--   Fire Shield
--   Greater Invisibility
--   Hallucinatory Terrain
--   Ice Storm
--   Locate Creature
--   Phantasmal Killer
--   Polymorph
--   Private Sanctum
--   Resilient Sphere
--   Secret Chest
--   Stone Shape
--   Stoneskin
--   Wall of Fire
+-   [*Arcane Eye*](#arcane-eye)
+-   [*Banishment*](#banishment)
+-   [*Black Tentacles*](#black-tentacles)
+-   [*Blight*](#blight)
+-   [*Confusion*](#confusion)
+-   [*Conjure Minor Elementals*](#conjure-minor-elementals)
+-   [*Control Water*](#control-water)
+-   [*Dimension Door*](#dimension-door)
+-   [*Fabricate*](#fabricate)
+-   [*Faithful Hound*](#faithful-hound)
+-   [*Fire Shield*](#fire-shield)
+-   [*Greater Invisibility*](#greater-invisibility)
+-   [*Hallucinatory Terrain*](#hallucinatory-terrain)
+-   [*Ice Storm*](#ice-storm)
+-   [*Locate Creature*](#locate-creature)
+-   [*Phantasmal Killer*](#phantasmal-killer)
+-   [*Polymorph*](#polymorph)
+-   [*Private Sanctum*](#private-sanctum)
+-   [*Resilient Sphere*](#resilient-sphere)
+-   [*Secret Chest*](#secret-chest)
+-   [*Stone Shape*](#stone-shape)
+-   [*Stoneskin*](#stoneskin)
+-   [*Wall of Fire*](#wall-of-fire)
 
 #### 5th Level
 
--   Animate Objects
--   Arcane Hand
--   Cloudkill
--   Cone of Cold
--   Conjure Elemental
--   Contact Other Plane
--   Creation
--   Dominate Person
--   Dream
--   Geas
--   Hold Monster
--   Legend Lore
--   Mislead
--   Modify Memory
--   Passwall
--   Planar Binding
--   Scrying
--   Seeming
--   Telekinesis
--   Telepathic Bond
--   Teleportation Circle
--   Wall of Force
--   Wall of Stone
+-   [*Animate Objects*](#animate-objects)
+-   [*Arcane Hand*](#arcane-hand)
+-   [*Cloudkill*](#cloudkill)
+-   [*Cone of Cold*](#cone-of-cold)
+-   [*Conjure Elemental*](#conjure-elemental)
+-   [*Contact Other Plane*](#contact-other-plane)
+-   [*Creation*](#creation)
+-   [*Dominate Person*](#dominate-person)
+-   [*Dream*](#dream)
+-   [*Geas*](#geas)
+-   [*Hold Monster*](#hold-monster)
+-   [*Legend Lore*](#legend-lore)
+-   [*Mislead*](#mislead)
+-   [*Modify Memory*](#modify-memory)
+-   [*Passwall*](#passwall)
+-   [*Planar Binding*](#planar-binding)
+-   [*Scrying*](#scrying)
+-   [*Seeming*](#seeming)
+-   [*Telekinesis*](#telekinesis)
+-   [*Telepathic Bond*](#telepathic-bond)
+-   [*Teleportation Circle*](#teleportation-circle)
+-   [*Wall of Force*](#wall-of-force)
+-   [*Wall of Stone*](#wall-of-stone)
 
 #### 6th Level
 
--   Chain Lightning
--   Circle of Death
--   Contingency
--   Create Undead
--   Disintegrate
--   Eyebite
--   Flesh to Stone
--   Freezing Sphere
--   Globe of Invulnerability
--   Guards and Wards
--   Instant Summons
--   Irresistible Dance
--   Magic Jar
--   Mass Suggestion
--   Move Earth
--   Programmed Illusion
--   Sunbeam
--   True Seeing
--   Wall of Ice
+-   [*Chain Lightning*](#chain-lightning)
+-   [*Circle of Death*](#circle-of-death)
+-   [*Contingency*](#contingency)
+-   [*Create Undead*](#create-undead)
+-   [*Disintegrate*](#disintegrate)
+-   [*Eyebite*](#eyebite)
+-   [*Flesh to Stone*](#flesh-to-stone)
+-   [*Freezing Sphere*](#freezing-sphere)
+-   [*Globe of Invulnerability*](#globe-of-invulnerability)
+-   [*Guards and Wards*](#guards-and-wards)
+-   [*Instant Summons*](#instant-summons)
+-   [*Irresistible Dance*](#irresistible-dance)
+-   [*Magic Jar*](#magic-jar)
+-   [*Mass Suggestion*](#mass-suggestion)
+-   [*Move Earth*](#move-earth)
+-   [*Programmed Illusion*](#programmed-illusion)
+-   [*Sunbeam*](#sunbeam)
+-   [*True Seeing*](#true-seeing)
+-   [*Wall of Ice*](#wall-of-ice)
 
 #### 7th Level
 
--   Arcane Sword
--   Delayed Blast Fireball
--   Etherealness
--   Finger of Death
--   Forcecage
--   Magnificent Mansion
--   Mirage Arcane
--   Plane Shift
--   Prismatic Spray
--   Project Image
--   Reverse Gravity
--   Sequester
--   Simulacrum
--   Symbol
--   Teleport
+-   [*Arcane Sword*](#arcane-sword)
+-   [*Delayed Blast Fireball*](#delayed-blast-fireball)
+-   [*Etherealness*](#etherealness)
+-   [*Finger of Death*](#finger-of-death)
+-   [*Forcecage*](#forcecage)
+-   [*Magnificent Mansion*](#magnificent-mansion)
+-   [*Mirage Arcane*](#mirage-arcane)
+-   [*Plane Shift*](#plane-shift)
+-   [*Prismatic Spray*](#prismatic-spray)
+-   [*Project Image*](#project-image)
+-   [*Reverse Gravity*](#reverse-gravity)
+-   [*Sequester*](#sequester)
+-   [*Simulacrum*](#simulacrum)
+-   [*Symbol*](#symbol)
+-   [*Teleport*](#teleport)
 
 #### 8th Level
 
--   Antimagic Field
--   Antipathy/Sympathy
--   Clone
--   Control Weather
--   Demiplane
--   Dominate Monster
--   Feeblemind
--   Incendiary Cloud
--   Maze
--   Mind Blank
--   Power Word Stun
--   Sunburst
+-   [*Antimagic Field*](#antimagic-field)
+-   [*Antipathy/Sympathy*](#antipathysympathy)
+-   [*Clone*](#clone)
+-   [*Control Weather*](#control-weather)
+-   [*Demiplane*](#demiplane)
+-   [*Dominate Monster*](#dominate-monster)
+-   [*Feeblemind*](#feeblemind)
+-   [*Incendiary Cloud*](#incendiary-cloud)
+-   [*Maze*](#maze)
+-   [*Mind Blank*](#mind-blank)
+-   [*Power Word Stun*](#power-word-stun)
+-   [*Sunburst*](#sunburst)
 
 #### 9th Level
 
--   Astral Projection
--   Foresight
--   Gate
--   Imprisonment
--   Meteor Swarm
--   Power Word Kill
--   Prismatic Wall
--   Shapechange
--   Time Stop
--   True Polymorph
--   Weird
--   Wish
+-   [*Astral Projection*](#astral-projection)
+-   [*Foresight*](#foresight)
+-   [*Gate*](#gate)
+-   [*Imprisonment*](#imprisonment)
+-   [*Meteor Swarm*](#meteor-swarm)
+-   [*Power Word Kill*](#power-word-kill)
+-   [*Prismatic Wall*](#prismatic-wall)
+-   [*Shapechange*](#shapechange)
+-   [*Time Stop*](#time-stop)
+-   [*True Polymorph*](#true-polymorph)
+-   [*Weird*](#weird)
+-   [*Wish*](#wish)
 
 Spell Descriptions
 ------------------
@@ -13584,9 +13620,9 @@ A 10-foot-radius invisible sphere of antimagic surrounds you. This area is divor
 
 Spells and other magical effects, except those created by an artifact or a deity, are suppressed in the sphere and can't protrude into it. A slot expended to cast a suppressed spell is consumed. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.
 
-***Targeted Effects.*** Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target.
+***Targeted Effects.*** Spells and other magical effects, such as [*magic missile*](#magic-missile) and [*charm person*](#charm-person), that target a creature or an object in the sphere have no effect on that target.
 
-***Areas of Magic.*** The area of another spell or magical effect, such as fireball, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough.
+***Areas of Magic.*** The area of another spell or magical effect, such as [*fireball*](#fireball), can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a [*wall of fire*](#wall-of-fire) are suppressed within the sphere, creating a gap in the wall if the overlap is large enough.
 
 ***Spells.*** Any active spell or other magical effect on a creature or an object in the sphere is suppressed while the creature or object is in it.
 
@@ -13594,11 +13630,11 @@ Spells and other magical effects, except those created by an artifact or a deity
 
 A magic weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If a magic weapon or a piece of magic ammunition fully leaves the sphere (for example, if you fire a magic arrow or throw a magic spear at a target outside the sphere), the magic of the item ceases to be suppressed as soon as it exits.
 
-***Magical Travel.*** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the rope trick spell, temporarily closes while in the sphere.
+***Magical Travel.*** Teleportation and planar travel fail to work in the sphere, whether the sphere is the destination or the departure point for such magical travel. A portal to another location, world, or plane of existence, as well as an opening to an extradimensional space such as that created by the [*rope trick*](#rope-trick) spell, temporarily closes while in the sphere.
 
 ***Creatures and Objects.*** A creature or object summoned or created by magic temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.
 
-***Dispel Magic.*** Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different antimagic field spells don't nullify each other.
+***Dispel Magic.*** Spells and magical effects such as [*dispel magic*](#dispel-magic) have no effect on the sphere. Likewise, the spheres created by different [*antimagic field*](#antimagic-field) spells don't nullify each other.
 
 #### Antipathy/Sympathy
 
@@ -13682,7 +13718,7 @@ When you cast the spell and as a bonus action on your subsequent turns, you can 
 
 **Duration:** Until dispelled
 
-You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.
+You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting [*knock*](#knock) on the object suppresses [*arcane lock*](#arcane-lock) for 10 minutes.
 
 While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.
 
@@ -13718,9 +13754,9 @@ You place an illusion on a creature or an object you touch so that divination sp
 
 When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.
 
-***False Aura.*** You change the way the target appears to spells and magical effects, such as detect magic, that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
+***False Aura.*** You change the way the target appears to spells and magical effects, such as [*detect magic*](#detect-magic), that detect magical auras. You can make a nonmagical object appear magical, a magical object appear nonmagical, or change the object's magical aura so that it appears to belong to a specific school of magic that you choose. When you use this effect on an object, you can make the false magic apparent to any creature that handles the item.
 
-***Mask.*** You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a symbol spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
+***Mask.*** You change the way the target appears to spells and magical effects that detect creature types, such as a paladin's Divine Sense or the trigger of a [*symbol*](#symbol) spell. You choose a creature type and other spells and magical effects treat the target as if it were a creature of that type or of that alignment.
 
 #### Astral Projection
 
@@ -13742,7 +13778,7 @@ Your astral form can freely travel through the Astral Plane and can pass through
 
 The spell ends for you and your companions when you use your action to dismiss it. When the spell ends, the affected creature returns to its physical body, and it awakens.
 
-The spell might also end early for you or one of your companions. A successful dispel magic spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.
+The spell might also end early for you or one of your companions. A successful [*dispel magic*](#dispel-magic) spell used against an astral or physical body ends the spell for that creature. If a creature's original body or its astral form drops to 0 hit points, the spell ends for that creature. If the spell ends and the silver cord is intact, the cord pulls the creature's astral form back to its body, ending its state of suspended animation.
 
 If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.
 
@@ -13870,7 +13906,7 @@ You touch a creature, and that creature must succeed on a Wisdom saving throw or
 -   While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.
 -   While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.
 
-A remove curse spell ends this effect. At the GM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
+A [*remove curse*](#remove-curse) spell ends this effect. At the GM's option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.
 
 ***At Higher Levels.*** If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn't require concentration.
 
@@ -14130,7 +14166,7 @@ You create an invisible sensor within range in a location familiar to you (a pla
 
 When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.
 
-A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.
+A creature that can see the sensor (such as a creature benefiting from [*see invisibility*](#see-invisibility) or truesight) sees a luminous, intangible orb about the size of your fist.
 
 #### Clone
 
@@ -14502,7 +14538,7 @@ The GM has the creatures' statistics.
 
 You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind.
 
-When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A greater restoration spell cast on you ends this effect.
+When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A [*greater restoration*](#greater-restoration) spell cast on you ends this effect.
 
 On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The GM answers each question with one word, such as "yes," "no," "maybe," "never," "irrelevant," or "unclear" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.
 
@@ -14530,7 +14566,7 @@ Since this spell induces a natural disease in its target, any effect that remove
 
 ***Flesh Rot.*** The creature's flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.
 
-***Mindfire.*** The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat.
+***Mindfire.*** The creature's mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the [*confusion*](#confusion) spell during combat.
 
 ***Seizure.*** The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.
 
@@ -14548,11 +14584,11 @@ Since this spell induces a natural disease in its target, any effect that remove
 
 **Duration:** 10 days
 
-Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell—called the contingent spell—as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid.
+Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell—called the contingent spell—as part of casting [*contingency*](#contingency), expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a [*contingency*](#contingency) cast with [*water breathing*](#water-breathing) might stipulate that [*water breathing*](#water-breathing) comes into effect when you are engulfed in water or a similar liquid.
 
-The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then contingency ends.
+The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then [*contingency*](#contingency) ends.
 
-The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.
+The contingent spell takes effect only on you, even if it can normally target others. You can use only one [*contingency*](#contingency) spell at a time. If you cast this spell again, the effect of another [*contingency*](#contingency) spell on you ends. Also, [*contingency*](#contingency) ends on you if its material component is ever not on your person.
 
 #### Continual Flame
 
@@ -14566,7 +14602,7 @@ The contingent spell takes effect only on you, even if it can normally target ot
 
 **Duration:** Until dispelled
 
-A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A continual flame can be covered or hidden but not smothered or quenched.
+A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn't use oxygen. A [*continual flame*](#continual-flame) can be covered or hidden but not smothered or quenched.
 
 #### Control Water
 
@@ -15095,11 +15131,11 @@ To discern that you are disguised, a creature can use its action to inspect your
 
 **Duration:** Instantaneous
 
-A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by wall of force.
+A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by [*wall of force*](#wall-of-force).
 
 A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 force damage. If this damage reduces the target to 0 hit points, it is disintegrated.
 
-A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a true resurrection or a wish spell.
+A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a [*true resurrection*](#true-resurrection) or a [*wish*](#wish) spell.
 
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it. A magic item is unaffected by this spell.
 
@@ -15194,7 +15230,7 @@ Each creature that can hear you must make a Charisma saving throw. On a failed s
 -   30 hit points or fewer: blinded, deafened, and stunned for 1 hour
 -   20 hit points or fewer: killed instantly
 
-Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a wish spell.
+Regardless of its current hit points, a celestial, an elemental, a fey, or a fiend that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to your current plane for 24 hours by any means short of a [*wish*](#wish) spell.
 
 #### Dominate Beast
 
@@ -15442,7 +15478,7 @@ This spell allows you to move at an incredible pace. When you cast this spell, a
 
 **Duration:** Concentration, up to 1 minute
 
-For the spell's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of eyebite.
+For the spell's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the spell ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of [*eyebite*](#eyebite).
 
 ***Asleep.*** The target falls unconscious. It wakes up if it takes any damage or if another creature uses its action to shake the sleeper awake.
 
@@ -15566,7 +15602,7 @@ On a failed save, the creature's Intelligence and Charisma scores become 1. The 
 
 At the end of every 30 days, the creature can repeat its saving throw against this spell. If it succeeds on its saving throw, the spell ends.
 
-The spell can also be ended by greater restoration, heal, or wish.
+The spell can also be ended by [*greater restoration*](#greater-restoration), [*heal*](#heal), or [*wish*](#wish).
 
 #### Find Steed
 
@@ -15602,7 +15638,7 @@ You can't have more than one steed bonded by this spell at a time. As an action,
 
 **Duration:** Instantaneous
 
-You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.
+You sense the presence of any trap within range that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the [*alarm*](#alarm) spell, a [*glyph of warding*](#glyph-of-warding), or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.
 
 This spell merely reveals that a trap is present. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.
 
@@ -15828,13 +15864,13 @@ You create a 20-foot-radius sphere of fog centered on a point within range. The 
 
 **Duration:** 1 day
 
-You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the plane shift spell.
+You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the [*gate*](#gate) spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the [*plane shift*](#plane-shift) spell.
 
 In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).
 
 When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.
 
-The spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.
+The spell's area can't overlap with the area of another [*forbiddance*](#forbiddance) spell. If you cast [*forbiddance*](#forbiddance) every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.
 
 #### Forcecage
 
@@ -15858,7 +15894,7 @@ When you cast the spell, any creature that is completely inside the cage's area 
 
 A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a Charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.
 
-This spell can't be dispelled by dispel magic.
+This spell can't be dispelled by [*dispel magic*](#dispel-magic).
 
 #### Foresight
 
@@ -15966,7 +16002,7 @@ You place a magical command on a creature that you can see within range, forcing
 
 You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.
 
-You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it.
+You can end the spell early by using an action to dismiss it. A [*remove curse*](#remove-curse), [*greater restoration*](#greater-restoration), or [*wish*](#wish) spell also ends it.
 
 ***At Higher Levels.*** When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.
 
@@ -15984,7 +16020,7 @@ You can end the spell early by using an action to dismiss it. A remove curse, gr
 
 You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.
 
-The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead.
+The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as [*raise dead*](#raise-dead).
 
 #### Giant Insect
 
@@ -16064,7 +16100,7 @@ When you inscribe the glyph, choose explosive runes or a spell glyph.
 
 ***Spell Glyph.*** You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.
 
-***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding.
+***At Higher Levels.*** When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by 1d8 for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the [*glyph of warding*](#glyph-of-warding).
 
 #### Grease
 
@@ -16131,23 +16167,23 @@ You create a ward that protects up to 2,500 square feet of floor space (an area 
 
 When you cast this spell, you can specify individuals that are unaffected by any or all of the effects that you choose. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.
 
-Guards and wards creates the following effects within the warded area.
+[*Guards and wards*](#guards-and-wards) creates the following effects within the warded area.
 
 ***Corridors.*** Fog fills all the warded corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.
 
-***Doors.*** All doors in the warded area are magically locked, as if sealed by an arcane lock spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the minor illusion spell) to make them appear as plain sections of wall.
+***Doors.*** All doors in the warded area are magically locked, as if sealed by an [*arcane lock*](#arcane-lock) spell. In addition, you can cover up to ten doors with an illusion (equivalent to the illusory object function of the [*minor illusion*](#minor-illusion) spell) to make them appear as plain sections of wall.
 
-***Stairs.*** Webs fill all stairs in the warded area from top to bottom, as the web spell. These strands regrow in 10 minutes if they are burned or torn away while guards and wards lasts.
+***Stairs.*** Webs fill all stairs in the warded area from top to bottom, as the [*web*](#web) spell. These strands regrow in 10 minutes if they are burned or torn away while [*guards and wards*](#guards-and-wards) lasts.
 
 ***Other Spell Effect.*** You can place your choice of one of the following magical effects within the warded area of the stronghold.
 
--   Place dancing lights in four corridors. You can designate a simple program that the lights repeat as long as guards and wards lasts.
--   Place magic mouth in two locations.
--   Place stinking cloud in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while guards and wards lasts.
--   Place a constant gust of wind in one corridor or room.
--   Place a suggestion in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.
+-   Place [*dancing lights*](#dancing-lights) in four corridors. You can designate a simple program that the lights repeat as long as [*guards and wards*](#guards-and-wards) lasts.
+-   Place [*magic mouth*](#magic-mouth) in two locations.
+-   Place [*stinking cloud*](#stinking-cloud) in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while [*guards and wards*](#guards-and-wards) lasts.
+-   Place a constant [*gust of wind*](#gust-of-wind) in one corridor or room.
+-   Place a [*suggestion*](#suggestion) in one location. You select an area of up to 5 feet square, and any creature that enters or passes through the area receives the suggestion mentally.
 
-The whole warded area radiates magic. A dispel magic cast on a specific effect, if successful, removes only that effect.
+The whole warded area radiates magic. A [*dispel magic*](#dispel-magic) cast on a specific effect, if successful, removes only that effect.
 
 You can create a permanently guarded and warded structure by casting this spell there every day for one year.
 
@@ -16213,7 +16249,7 @@ As a bonus action on each of your turns before the spell ends, you can change th
 
 **Duration:** Until dispelled
 
-You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect a hallow spell. The affected area is subject to the following effects.
+You touch a point and infuse an area around it with holy (or unholy) power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect of a [*hallow*](#hallow) spell. The affected area is subject to the following effects.
 
 First, celestials, elementals, fey, fiends, and undead can't enter the area, nor can such creatures charm, frighten, or possess creatures within it. Any creature charmed, frightened, or possessed by such a creature is no longer charmed, frightened, or possessed upon entering the area. You can exclude one or more of those types of creatures from this effect.
 
@@ -16535,7 +16571,7 @@ The special component for this version of the spell is a large, transparent gems
 
 ***Ending the Spell.*** During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the GM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature's name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points.
 
-A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.
+A [*dispel magic*](#dispel-magic) spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.
 
 You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.
 
@@ -16609,7 +16645,7 @@ At any time thereafter, you can use your action to speak the item's name and cru
 
 If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.
 
-Dispel magic or a similar effect successfully applied to the sapphire ends this spell's effect.
+[*Dispel magic*](#dispel-magic) or a similar effect successfully applied to the sapphire ends this spell's effect.
 
 #### Invisibility
 
@@ -16673,7 +16709,7 @@ Choose an object that you can see within range. The object can be a door, a box,
 
 A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.
 
-If you choose a target that is held shut with arcane lock, that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.
+If you choose a target that is held shut with [*arcane lock*](#arcane-lock), that spell is suppressed for 10 minutes, during which time the target can be opened and shut normally.
 
 When you cast the spell, a loud knock, audible from as far away as 300 feet, emanates from the target object.
 
@@ -16691,7 +16727,7 @@ When you cast the spell, a loud knock, audible from as far away as 300 feet, ema
 
 Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.
 
-The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips."
+The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: "Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of the Round, lover and beloved of Arthur, may awaken the true powers of the axe, and only with the sacred word Avalon on the lips."
 
 #### Lesser Restoration
 
@@ -16787,7 +16823,7 @@ Describe or name a specific kind of beast or plant. Concentrating on the voice o
 
 Describe or name a creature that is familiar to you. You sense the direction to the creature's location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.
 
-The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn't locate the creature.
+The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a [*polymorph*](#polymorph) spell, this spell doesn't locate the creature.
 
 This spell can't locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.
 
@@ -16895,7 +16931,7 @@ When you cast this spell, you can elect to cause its magic to operate in the rev
 
 Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or use reactions. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a humanoids body.
 
-You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a protection from evil and good or magic circle spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
+You can attempt to possess any humanoid within 100 feet of you that you can see (creatures warded by a [*protection from evil and good*](#protection-from-evil-and-good) or [*magic circle*](#magic-circle) spell can't be possessed). The target must make a Charisma saving throw. On a failure, your soul moves into the target's body, and the target's soul becomes trapped in the container. On a success, the target resists your efforts to possess it, and you can't attempt to possess it again for 24 hours.
 
 Once you possess a creature's body, you control it. Your game statistics are replaced by the statistics of the creature, though you retain your alignment and your Intelligence, Wisdom, and Charisma scores. You retain the benefit of your own class features. If the target has any class levels, you can't use any of its class features.
 
@@ -17159,7 +17195,7 @@ The spell damages objects in the area and ignites flammable objects that aren't 
 
 **Duration:** 24 hours
 
-Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils wish spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.
+Until the spell ends, one willing creature you touch is immune to psychic damage, any effect that would sense its emotions or read its thoughts, divination spells, and the charmed condition. The spell even foils [*wish*](#wish) spells and spells or effects of similar power used to affect the target's mind or to gain information about the target.
 
 #### Minor Illusion
 
@@ -17275,7 +17311,7 @@ You must speak to the target to describe how its memories are affected, and it m
 
 A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The GM might deem a modified memory too nonsensical to affect a creature in a significant manner.
 
-A remove curse or greater restoration spell cast on the target restores the creature's true memory.
+A [*remove curse*](#remove-curse) or [*greater restoration*](#greater-restoration) spell cast on the target restores the creature's true memory.
 
 ***At Higher Levels.*** If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level).
 
@@ -17618,7 +17654,7 @@ The wall sheds bright light out to a range of 100 feet and dim light for an addi
 
 The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall's layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer's properties as described below.
 
-The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. A rod of cancellation destroys a prismatic wall, but an antimagic field has no effect on it.
+The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. A *rod of cancellation* destroys a [*prismatic wall*](#prismatic-wall), but an [*antimagic field*](#antimagic-field) has no effect on it.
 
 1.  Red. The creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it.
 
@@ -17626,15 +17662,15 @@ The wall can be destroyed, also one layer at a time, in order from red to violet
 
 3.  Yellow. The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.
 
-4.  Green. The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A passwall spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.
+4.  Green. The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A [*passwall*](#passwall) spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.
 
 5.  Blue. The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.
 
 6.  Indigo. On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.
 
-While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a daylight spell or a similar spell of equal or higher level.
+While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a [*daylight*](#daylight) spell or a similar spell of equal or higher level.
 
-1.  Violet. On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a dispel magic spell or a similar spell of equal or higher level that can end spells and magical effects.
+1.  Violet. On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a [*dispel magic*](#dispel-magic) spell or a similar spell of equal or higher level that can end spells and magical effects.
 
 #### Private Sanctum
 
@@ -17970,7 +18006,7 @@ Nothing—not physical objects, energy, or other spell effects—can pass throug
 
 The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.
 
-A disintegrate spell targeting the globe destroys it without harming anything inside it.
+A [*disintegrate*](#disintegrate) spell targeting the globe destroys it without harming anything inside it.
 
 #### Resistance
 
@@ -18294,11 +18330,29 @@ When you transform, you choose whether your equipment falls to the ground, merge
 
 During this spell's duration, you can use your action to assume a different form following the same restrictions and rules for the original form, with one exception: if your new form has more hit points than your current one, your hit points remain at their current value.
 
+#### Shatter
+
+*2nd-level evocation*
+
+**Casting Time:** 1 action
+
+**Range:** 60 feet
+
+**Components:** V, S, M (a chip of mica)
+
+**Duration:** Instantaneous
+
+A sudden loud ringing noise, painfully intense, erupts from a point of your choice within range. Each creature in a 10-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 thunder damage on a failed save, or half as much damage on a successful one. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw.
+
+A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.
+
+***At Higher Levels.*** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.
+
 #### Shield
 
 *1st-level abjuration*
 
-**Casting Time:** 1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell
+**Casting Time:** 1 reaction, which you take when you are hit by an attack or targeted by the [*magic missile*](#magic-missile) spell
 
 **Range:** Self
 
@@ -18306,7 +18360,7 @@ During this spell's duration, you can use your action to assume a different form
 
 **Duration:** 1 round
 
-An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.
+An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from [*magic missile*](#magic-missile).
 
 #### Shield of Faith
 
@@ -18514,7 +18568,7 @@ Plants might be able to perform other tasks on your behalf, at the GM's discreti
 
 If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
 
-This spell can cause the plants created by the entangle spell to release a restrained creature.
+This spell can cause the plants created by the [*entangle*](#entangle) spell to release a restrained creature.
 
 #### Spider Climb
 
@@ -19171,7 +19225,7 @@ One side of the wall, selected by you when you cast this spell, deals 5d8 fire d
 
 An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side).
 
-Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.
+Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by [*dispel magic*](#dispel-magic). A [*disintegrate*](#disintegrate) spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.
 
 #### Wall of Ice
 
@@ -19365,17 +19419,17 @@ The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flyin
 
 **Duration:** Instantaneous
 
-Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.
+[*Wish*](#wish) is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires.
 
 The basic use of this spell is to duplicate any other spell of 8th level or lower. You don't need to meet any requirements in that spell, including costly components. The spell simply takes effect.
 
 Alternatively, you can create one of the following effects of your choice:
 
 -   You create one object of up to 25,000 gp in value that isn't a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.
--   You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell.
+-   You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the [*greater restoration*](#greater-restoration) spell.
 -   You grant up to ten creatures that you can see resistance to a damage type you choose.
 -   You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich's life drain attack.
--   You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.
+-   You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a [*wish*](#wish) spell could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll.
 
 You might be able to achieve something beyond the scope of the above examples. State your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item's current owner.
 
@@ -19449,7 +19503,7 @@ While wearing this amulet, you are hidden from divination magic. You can't be ta
 
 *Wondrous item, very rare (requires attunement)*
 
-While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the plane shift spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1–60, you travel to a random location on the plane you named.
+While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the [*plane shift*](#plane-shift) spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1–60, you travel to a random location on the plane you named.
 
 On a 61–100, you travel to a randomly determined plane of existence.
 
@@ -19630,7 +19684,7 @@ You have resistance to one type of damage while you wear this armor. The GM choo
 
 While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The GM chooses the type or determines it randomly.
 
-***Curse.*** This armor is cursed, a fact that is revealed only when an identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the remove curse spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).
+***Curse.*** This armor is cursed, a fact that is revealed only when an [*identify*](#identify) spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the [*remove curse*](#remove-curse) spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).
 
 ### Arrow-Catching Shield
 
@@ -19996,7 +20050,7 @@ While you wear these boots, your steps make no sound, regardless of the surface 
 
 *Wondrous item, rare (requires attunement)*
 
-While you wear these boots, you can use an action to cast the levitate spell on yourself at will.
+While you wear these boots, you can use an action to cast the [*levitate*](#levitate) spell on yourself at will.
 
 ### Boots of Speed
 
@@ -20028,7 +20082,7 @@ While you wear them, you gain the following benefits:
 
 *Wondrous item, rare*
 
-While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a water elemental, as if you had cast the conjure elemental spell. The bowl can't be used this way again until the next dawn.
+While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a water elemental, as if you had cast the [*conjure elemental*](#conjure-elemental) spell. The bowl can't be used this way again until the next dawn.
 
 The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons.
 
@@ -20048,13 +20102,13 @@ While wearing these bracers, you gain a +2 bonus to AC if you are wearing no arm
 
 *Wondrous item, rare*
 
-While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a fire elemental, as if you had cast the conjure elemental spell. The brazier can't be used this way again until the next dawn. The brazier weighs 5 pounds.
+While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a fire elemental, as if you had cast the [*conjure elemental*](#conjure-elemental) spell. The brazier can't be used this way again until the next dawn. The brazier weighs 5 pounds.
 
 ### Brooch of Shielding
 
 *Wondrous item, uncommon (requires attunement)*
 
-While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the magic missile spell.
+While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the [*magic missile*](#magic-missile) spell.
 
 ### Broom of Flying
 
@@ -20068,7 +20122,7 @@ You can send the broom to travel alone to a destination within 1 mile of you if 
 
 *Wondrous item, very rare (requires attunement)*
 
-This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the detect evil and good spell. The GM chooses the god and associated alignment or determines the alignment randomly.
+This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the [*detect evil and good*](#detect-evil-and-good) spell. The GM chooses the god and associated alignment or determines the alignment randomly.
 
 <table style="width:33%;">
 <colgroup>
@@ -20125,13 +20179,13 @@ The candle's magic is activated when the candle is lit, which requires an action
 
 While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.
 
-Alternatively, when you light the candle for the first time, you can cast the gate spell with it. Doing so destroys the candle.
+Alternatively, when you light the candle for the first time, you can cast the [*gate*](#gate) spell with it. Doing so destroys the candle.
 
 ### Cape of the Mountebank
 
 *Wondrous item, rare*
 
-This cape smells faintly of brimstone. While wearing it, you can use it to cast the dimension door spell as an action. This property of the cape can't be used again until the next dawn.
+This cape smells faintly of brimstone. While wearing it, you can use it to cast the [*dimension door*](#dimension-door) spell as an action. This property of the cape can't be used again until the next dawn.
 
 When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke.
 
@@ -20208,7 +20262,7 @@ The chime can be used ten times. After the tenth time, it cracks and becomes use
 
 *Wondrous item, uncommon*
 
-While wearing this circlet, you can use an action to cast the scorching ray spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.
+While wearing this circlet, you can use an action to cast the [*scorching ray*](#scorching-ray) spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.
 
 ### Cloak of Arachnida
 
@@ -20220,7 +20274,7 @@ This fine garment is made of black silk interwoven with faint silvery threads. W
 -   You have a climbing speed equal to your walking speed.
 -   You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.
 -   You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.
--   You can use an action to cast the web spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn.
+-   You can use an action to cast the [*web*](#web) spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn.
 
 ### Cloak of Displacement
 
@@ -20246,7 +20300,7 @@ You gain a +1 bonus to AC and saving throws while you wear this cloak.
 
 While wearing this cloak, you have advantage on Dexterity (Stealth) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.
 
-While wearing the cloak in an area of dim light or darkness, you can use your action to cast polymorph on yourself, transforming into a bat. While you are in the form of the bat, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.
+While wearing the cloak in an area of dim light or darkness, you can use your action to cast [*polymorph*](#polymorph) on yourself, transforming into a bat. While you are in the form of the bat, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.
 
 ### Cloak of the Manta Ray
 
@@ -20258,13 +20312,13 @@ While wearing this cloak with its hood up, you can breathe underwater, and you h
 
 *Wondrous item, very rare or legendary (requires attunement)*
 
-The typical crystal ball, a very rare item, is about 6 inches in diameter. While touching it, you can cast the scrying spell (save DC 17) with it.
+The typical crystal ball, a very rare item, is about 6 inches in diameter. While touching it, you can cast the [*scrying*](#scrying) spell (save DC 17) with it.
 
 The following crystal ball variants are legendary items and have additional properties.
 
-***Crystal Ball of Mind Reading.*** You can use an action to cast the detect thoughts spell (save DC 17) while you are scrying with the crystal ball, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this detect thoughts to maintain it during its duration, but it ends if scrying ends.
+***Crystal Ball of Mind Reading.*** You can use an action to cast the [*detect thoughts*](#detect-thoughts) spell (save DC 17) while you are scrying with the crystal ball, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this [*detect thoughts*](#detect-thoughts) to maintain it during its duration, but it ends if [*scrying*](#scrying) ends.
 
-***Crystal Ball of Telepathy.*** While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the suggestion spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this suggestion to maintain it during its duration, but it ends if scrying ends. Once used, the suggestion power of the crystal ball can't be used again until the next dawn.
+***Crystal Ball of Telepathy.*** While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the [*suggestion*](#suggestion) spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this [*suggestion*](#suggestion) to maintain it during its duration, but it ends if [*scrying*](#scrying) ends. Once used, the [*suggestion*](#suggestion) power of the crystal ball can't be used again until the next dawn.
 
 ***Crystal Ball of True Seeing.*** While scrying with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.
 
@@ -20332,9 +20386,9 @@ If your movement causes the barrier to come into contact with a solid object tha
 
 The cube loses charges when the barrier is targeted by certain spells or comes into contact with certain spell or magic item effects, as shown in the table below.
 
-<table style="width:43%;">
+<table style="width:50%;">
 <colgroup>
-<col width="25%" />
+<col width="31%" />
 <col width="18%" />
 </colgroup>
 <thead>
@@ -20345,7 +20399,7 @@ The cube loses charges when the barrier is targeted by certain spells or comes i
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Disintegrate</td>
+<td align="left"><a href="#disintegrate"><em>Disintegrate</em></a></td>
 <td align="left">1d12</td>
 </tr>
 <tr class="even">
@@ -20353,15 +20407,15 @@ The cube loses charges when the barrier is targeted by certain spells or comes i
 <td align="left">1d10</td>
 </tr>
 <tr class="odd">
-<td align="left">Passwall</td>
+<td align="left"><a href="#passwall"><em>Passwall</em></a></td>
 <td align="left">1d6</td>
 </tr>
 <tr class="even">
-<td align="left">Prismatic spray</td>
+<td align="left"><a href="#prismatic-spray"><em>Prismatic spray</em></a></td>
 <td align="left">1d20</td>
 </tr>
 <tr class="odd">
-<td align="left">Wall of fire</td>
+<td align="left"><a href="#wall-of-fire"><em>Wall of fire</em></a></td>
 <td align="left">1d4</td>
 </tr>
 </tbody>
@@ -20373,7 +20427,7 @@ The cube loses charges when the barrier is targeted by certain spells or comes i
 
 This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the GM.
 
-You can use an action to press one side of the cube to cast the gate spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the plane shift spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.
+You can use an action to press one side of the cube to cast the [*gate*](#gate) spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the [*plane shift*](#plane-shift) spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.
 
 The cube has 3 charges. Each use of the cube expends 1 charge. The cube regains 1d3 expended charges daily at dawn.
 
@@ -20687,7 +20741,7 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Comet.*** If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no effect.
 
-***Donjon.*** You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any divination magic, but a wish spell can reveal the location of your prison. You draw no more cards.
+***Donjon.*** You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared. You remain imprisoned until you are found and removed from the sphere. You can't be located by any divination magic, but a [*wish*](#wish) spell can reveal the location of your prison. You draw no more cards.
 
 ***Euryale.*** The card's medusa-like visage curses you. You take a -2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.
 
@@ -20707,9 +20761,9 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Knight.*** You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.
 
-***Moon.*** You are granted the ability to cast the wish spell 1d3 times.
+***Moon.*** You are granted the ability to cast the [*wish*](#wish) spell 1d3 times.
 
-***Rogue.*** A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a wish spell or divine intervention can end the NPC's hostility toward you.
+***Rogue.*** A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a [*wish*](#wish) spell or divine intervention can end the NPC's hostility toward you.
 
 ***Ruin.*** All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.
 
@@ -20725,7 +20779,7 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***Vizier.*** At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.
 
-***The Void.*** This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is incapacitated. A wish spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+***The Void.*** This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is incapacitated. A [*wish*](#wish) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
 ### Defender
 
@@ -20741,7 +20795,7 @@ The first time you attack with the sword on each of your turns, you can transfer
 
 While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.
 
-***Curse.*** Once you don this cursed armor, you can't doff it unless you are targeted by the remove curse spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.
+***Curse.*** Once you don this cursed armor, you can't doff it unless you are targeted by the [*remove curse*](#remove-curse) spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.
 
 ### Dimensional Shackles
 
@@ -20844,11 +20898,11 @@ An elemental composed mostly of water that is exposed to a pinch of the dust mus
 
 *Wondrous item, uncommon*
 
-Found in a small container, this powder resembles very fine sand. It appears to be dust of disappearance, and an identify spell reveals it to be such. There is enough of it for one use.
+Found in a small container, this powder resembles very fine sand. It appears to be dust of disappearance, and an [*identify*](#identify) spell reveals it to be such. There is enough of it for one use.
 
 When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating.
 
-As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The lesser restoration spell can also end the effect on a creature.
+As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The [*lesser restoration*](#lesser-restoration) spell can also end the effect on a creature.
 
 ### Dwarven Plate
 
@@ -20900,7 +20954,7 @@ The first time the bottle is opened, the GM rolls to determine what happens.
 </tr>
 <tr class="odd">
 <td align="center">91–00</td>
-<td align="left">The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.</td>
+<td align="left">The efreeti can cast the <a href="#wish"><em>wish</em></a> spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.</td>
 </tr>
 </tbody>
 </table>
@@ -20909,7 +20963,7 @@ The first time the bottle is opened, the GM rolls to determine what happens.
 
 *Wondrous item, uncommon*
 
-This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the conjure elemental spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.
+This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the [*conjure elemental*](#conjure-elemental) spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.
 
 <table style="width:49%;">
 <colgroup>
@@ -20960,7 +21014,7 @@ The cloud persists as long as the bottle is open. Closing the bottle requires yo
 
 *Wondrous item, uncommon (requires attunement)*
 
-These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the charm person spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.
+These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the [*charm person*](#charm-person) spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.
 
 ### Eyes of Minute Seeing
 
@@ -21069,7 +21123,7 @@ If you have a good alignment, the figurine has a 10 percent chance each time you
 
 ***Serpentine Owl (Rare).*** This serpentine statuette of an owl can become a giant owl for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.
 
-***Silver Raven (Uncommon).*** This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the animal messenger spell on it at will.
+***Silver Raven (Uncommon).*** This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the [*animal messenger*](#animal-messenger) spell on it at will.
 
 ### Flame Tongue
 
@@ -21191,7 +21245,7 @@ Placing the haversack inside an extradimensional space created by a bag of holdi
 
 *Wondrous item, uncommon (requires attunement)*
 
-While wearing this hat, you can use an action to cast the disguise self spell from it at will. The spell ends if the hat is removed.
+While wearing this hat, you can use an action to cast the [*disguise self*](#disguise-self) spell from it at will. The spell ends if the hat is removed.
 
 ### Headband of Intellect
 
@@ -21207,7 +21261,7 @@ This dazzling helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 
 
 You gain the following benefits while wearing it:
 
--   You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: daylight (opal), fireball (fire opal), prismatic spray (diamond), or wall of fire (ruby). The gem is destroyed when the spell is cast and disappears from the helm.
+-   You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: [*daylight*](#daylight) (opal), [*fireball*](#fireball) (fire opal), [*prismatic spray*](#prismatic-spray) (diamond), or [*wall of fire*](#wall-of-fire) (ruby). The gem is destroyed when the spell is cast and disappears from the helm.
 -   As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6 radiant damage.
 -   As long as the helm has at least one ruby, you have resistance to fire damage.
 -   As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon.
@@ -21218,21 +21272,21 @@ Roll a d20 if you are wearing the helm and take fire damage as a result of faili
 
 *Wondrous item, uncommon*
 
-While wearing this helm, you can use an action to cast the comprehend languages spell from it at will.
+While wearing this helm, you can use an action to cast the [*comprehend languages*](#comprehend-languages) spell from it at will.
 
 ### Helm of Telepathy
 
 *Wondrous item, uncommon (requires attunement)*
 
-While wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply—using a bonus action to do so—while your focus on it continues.
+While wearing this helm, you can use an action to cast the [*detect thoughts*](#detect-thoughts) spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply—using a bonus action to do so—while your focus on it continues.
 
-While focusing on a creature with detect thoughts, you can use an action to cast the suggestion spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn.
+While focusing on a creature with [*detect thoughts*](#detect-thoughts), you can use an action to cast the [*suggestion*](#suggestion) spell (save DC 13) from the helm on that creature. Once used, the [*suggestion*](#suggestion) property can't be used again until the next dawn.
 
 ### Helm of Teleportation
 
 *Wondrous item, rare (requires attunement)*
 
-This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the teleport spell from it. The helm regains 1d3 expended charges daily at dawn.
+This helm has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the [*teleport*](#teleport) spell from it. The helm regains 1d3 expended charges daily at dawn.
 
 ### Holy Avenger
 
@@ -21327,11 +21381,11 @@ This flat iron rod has a button on one end. You can use an action to press the b
 
 You can use an action to place this 1-inch metal cube on the ground and speak its command word. The cube rapidly grows into a fortress that remains until you use an action to speak the command word that dismisses it, which works only if the fortress is empty.
 
-The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the knock spell and similar magic, such as that of a chime of opening.
+The fortress is a square tower, 20 feet on a side and 30 feet high, with arrow slits on all sides and a battlement atop it. Its interior is divided into two floors, with a ladder running along one wall to connect them. The ladder ends at a trapdoor leading to the roof. When activated, the tower has a small door on the side facing you. The door opens only at your command, which you can speak as a bonus action. It is immune to the [*knock*](#knock) spell and similar magic, such as that of a *chime of opening*.
 
 Each creature in the area where the fortress appears must make a DC 15 Dexterity saving throw, taking 10d10 bludgeoning damage on a failed save, or half as much damage on a successful one. In either case, the creature is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.
 
-The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a wish spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of wish causes the roof, the door, or one wall to regain 50 hit points.
+The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance to all other damage. Only a [*wish*](#wish) spell can repair the fortress (this use of the spell counts as replicating a spell of 8th level or lower). Each casting of [*wish*](#wish) causes the roof, the door, or one wall to regain 50 hit points.
 
 ### Ioun Stone
 
@@ -21397,7 +21451,7 @@ This iron bottle has a brass stopper. You can use an action to speak the flask's
 
 You can use an action to remove the flask's stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.
 
-An identify spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the GM or determined randomly.
+An [*identify*](#identify) spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the GM or determined randomly.
 
 <table style="width:36%;">
 <colgroup>
@@ -21516,7 +21570,7 @@ You gain a +1 bonus to attack and damage rolls made with this magic weapon. Whil
 
 ***Luck.*** If the sword is on your person, you can call on its luck (no action required) to reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll. This property can't be used again until the next dawn.
 
-***Wish.*** The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast the wish spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.
+***Wish.*** The sword has 1d4 – 1 charges. While holding it, you can use an action to expend 1 charge and cast the [*wish*](#wish) spell from it. This property can't be used again until the next dawn. The sword loses this property if it has no charges.
 
 ### Mace of Disruption
 
@@ -21637,7 +21691,7 @@ If you paint a form of energy such as fire or lightning, the energy appears but 
 
 *Wondrous item, uncommon (requires attunement)*
 
-The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the detect thoughts spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.
+The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the [*detect thoughts*](#detect-thoughts) spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.
 
 ### Mirror of Life Trapping
 
@@ -21667,15 +21721,15 @@ Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be 
 
 *Wondrous item, uncommon (requires attunement)*
 
-While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).
+While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as [*cloudkill*](#cloudkill) and [*stinking cloud*](#stinking-cloud) effects, inhaled poisons, and the breath weapons of some dragons).
 
 ### Necklace of Fireballs
 
 *Wondrous item, rare*
 
-This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level fireball spell (save DC 15).
+This necklace has 1d6 + 3 beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level [*fireball*](#fireball) spell (save DC 15).
 
-You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the fireball by 1 for each bead beyond the first.
+You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the [*fireball*](#fireball) by 1 for each bead beyond the first.
 
 ### Necklace of Prayer Beads
 
@@ -21687,9 +21741,9 @@ Six types of magic beads exist. The GM decides the type of each bead on the neck
 
 <table>
 <colgroup>
-<col width="11%" />
-<col width="25%" />
-<col width="63%" />
+<col width="9%" />
+<col width="21%" />
+<col width="69%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -21702,32 +21756,32 @@ Six types of magic beads exist. The GM decides the type of each bead on the neck
 <tr class="odd">
 <td align="center">1–6</td>
 <td align="left">Blessing</td>
-<td align="left">Bless</td>
+<td align="left"><a href="#bless"><em>Bless</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">7–12</td>
 <td align="left">Curing</td>
-<td align="left">Cure wounds (2nd level) or lesser restoration</td>
+<td align="left"><a href="#cure-wounds"><em>Cure wounds</em></a> (2nd level) or <a href="#lesser-restoration"><em>lesser restoration</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">13–16</td>
 <td align="left">Favor</td>
-<td align="left">Greater restoration</td>
+<td align="left"><a href="#greater-restoration"><em>Greater restoration</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">17–18</td>
 <td align="left">Smiting</td>
-<td align="left">Branding smite</td>
+<td align="left">A smite that brands a target with invisible radiant damage</td>
 </tr>
 <tr class="odd">
 <td align="center">19</td>
 <td align="left">Summons</td>
-<td align="left">Planar ally</td>
+<td align="left"><a href="#planar-ally"><em>Planar ally</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">20</td>
 <td align="left">Wind walking</td>
-<td align="left">Wind walk</td>
+<td align="left"><a href="#wind-walk"><em>Wind walk</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -21754,7 +21808,7 @@ While your sworn enemy lives, you have disadvantage on attack rolls with all oth
 
 *Potion, rare*
 
-Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the etherealness spell for 1 hour.
+Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the [*etherealness*](#etherealness) spell for 1 hour.
 
 ### Oil of Sharpness
 
@@ -21766,9 +21820,9 @@ This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil 
 
 *Potion, uncommon*
 
-This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a freedom of movement spell for 8 hours.
+This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a [*freedom of movement*](#freedom-of-movement) spell for 8 hours.
 
-Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the grease spell in that area for 8 hours.
+Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the [*grease*](#grease) spell in that area for 8 hours.
 
 ### Pearl of Power
 
@@ -21848,7 +21902,7 @@ Agitating this muddy liquid brings little bits into view: a fish scale, a hummin
 
 *Potion, rare*
 
-When you drink this potion, you gain the effect of the clairvoyance spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.
+When you drink this potion, you gain the effect of the [*clairvoyance*](#clairvoyance) spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened.
 
 ### Potion of Climbing
 
@@ -21860,7 +21914,7 @@ When you drink this potion, you gain a climbing speed equal to your walking spee
 
 *Potion, rare*
 
-When you drink this potion, you gain the "reduce" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.
+When you drink this potion, you gain the "reduce" effect of the [*enlarge/reduce*](#enlargereduce) spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.
 
 ### Potion of Flying
 
@@ -21872,7 +21926,7 @@ When you drink this potion, you gain a flying speed equal to your walking speed 
 
 *Potion, rare*
 
-When you drink this potion, you gain the effect of the gaseous form spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.
+When you drink this potion, you gain the effect of the [*gaseous form*](#gaseous-form) spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water.
 
 ### Potion of Giant Strength
 
@@ -21928,7 +21982,7 @@ This potion's transparent liquid has floating in it a sliver of fingernail from 
 
 *Potion, uncommon*
 
-When you drink this potion, you gain the "enlarge" effect of the enlarge/reduce spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts.
+When you drink this potion, you gain the "enlarge" effect of the [*enlarge/reduce*](#enlargereduce) spell for 1d4 hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts.
 
 Shaking the bottle fails to interrupt this process.
 
@@ -21982,7 +22036,7 @@ The number of hit points depends on the potion's rarity, as shown in the Potions
 
 *Potion, rare*
 
-For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the bless spell (no concentration required). This blue potion bubbles and steams as if boiling.
+For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the [*bless*](#bless) spell (no concentration required). This blue potion bubbles and steams as if boiling.
 
 ### Potion of Invisibility
 
@@ -21994,13 +22048,13 @@ This potion's container looks empty but feels as though it holds liquid. When yo
 
 *Potion, rare*
 
-When you drink this potion, you gain the effect of the detect thoughts spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
+When you drink this potion, you gain the effect of the [*detect thoughts*](#detect-thoughts) spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it.
 
 ### Potion of Poison
 
 *Potion, uncommon*
 
-This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An identify spell reveals its true nature.
+This concoction looks, smells, and tastes like a potion of healing or other beneficial potion. However, it is actually poison masked by illusion magic. An [*identify*](#identify) spell reveals its true nature.
 
 If you drink it, you take 3d6 poison damage, and you must succeed on a DC 13 Constitution saving throw or be poisoned. At the start of each of your turns while you are poisoned in this way, you take 3d6 poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by 1d6. The poison ends when the damage decreases to 0.
 
@@ -22069,7 +22123,7 @@ When you drink this potion, you gain resistance to one type of damage for 1 hour
 
 *Potion, very rare*
 
-When you drink this potion, you gain the effect of the haste spell for 1 minute (no concentration required).
+When you drink this potion, you gain the effect of the [*haste*](#haste) spell for 1 minute (no concentration required).
 
 The potion's yellow fluid is streaked with black and swirls on its own.
 
@@ -22095,9 +22149,9 @@ As an action, one dose of the ointment can be swallowed or applied to the skin. 
 
 This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:
 
--   Animal friendship (save DC 13)
--   Fear (save DC 13), targeting only beasts that have an Intelligence of 3 or lower
--   Speak with animals
+-   *Charm animal* (save DC 13)
+-   [*Fear*](#fear) (save DC 13), targeting only beasts that have an Intelligence of 3 or lower
+-   [*Speak with animals*](#speak-with-animals)
 
 ### Ring of Djinni Summoning
 
@@ -22113,43 +22167,41 @@ After the djinni departs, it can't be summoned again for 24 hours, and the ring 
 
 *Ring, legendary (requires attunement)*
 
-This ring is linked to one of the four Elemental
-
-Planes. The GM chooses or randomly determines the linked plane.
+This ring is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane.
 
 While wearing this ring, you have advantage on attack rolls against elementals from the linked plane, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.
 
 The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.
 
-***Ring of Air Elemental Command.*** You can expend 2 of the ring's charges to cast dominate monster on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.
+***Ring of Air Elemental Command.*** You can expend 2 of the ring's charges to cast [*dominate monster*](#dominate-monster) on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.
 
 If you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:
 
 -   You have resistance to lightning damage.
 -   You have a flying speed equal to your walking speed and can hover.
--   You can cast the following spells from the ring, expending the necessary number of charges: chain lightning (3 charges), gust of wind (2 charges), or wind wall (1 charge).
+-   You can cast the following spells from the ring, expending the necessary number of charges: [*chain lightning*](#chain-lightning) (3 charges), [*gust of wind*](#gust-of-wind) (2 charges), or [*wind wall*](#wind-wall) (1 charge).
 
-***Ring of Earth Elemental Command.*** You can expend 2 of the ring's charges to cast dominate monster on an earth elemental. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.
+***Ring of Earth Elemental Command.*** You can expend 2 of the ring's charges to cast [*dominate monster*](#dominate-monster) on an earth elemental. In addition, you can move in difficult terrain that is composed of rubble, rocks, or dirt as if it were normal terrain. You can also speak and understand Terran.
 
 If you help slay an earth elemental while attuned to the ring, you gain access to the following additional properties:
 
 -   You have resistance to acid damage.
 -   You can move through solid earth or rock as if those areas were difficult terrain. If you end your turn there, you are shunted out to the nearest unoccupied space you last occupied.
--   You can cast the following spells from the ring, expending the necessary number of charges: stone shape (2 charges), stoneskin (3 charges), or wall of stone (3 charges).
+-   You can cast the following spells from the ring, expending the necessary number of charges: [*stone shape*](#stone-shape) (2 charges), [*stoneskin*](#stoneskin) (3 charges), or [*wall of stone*](#wall-of-stone) (3 charges).
 
-***Ring of Fire Elemental Command.*** You can expend 2 of the ring's charges to cast dominate monster on a fire elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.
+***Ring of Fire Elemental Command.*** You can expend 2 of the ring's charges to cast [*dominate monster*](#dominate-monster) on a fire elemental. In addition, you have resistance to fire damage. You can also speak and understand Ignan.
 
 If you help slay a fire elemental while attuned to the ring, you gain access to the following additional properties:
 
 -   You are immune to fire damage.
--   You can cast the following spells from the ring, expending the necessary number of charges: burning hands (1 charge), fireball (2 charges), and wall of fire (3 charges).
+-   You can cast the following spells from the ring, expending the necessary number of charges: [*burning hands*](#burning-hands) (1 charge), [*fireball*](#fireball) (2 charges), and [*wall of fire*](#wall-of-fire) (3 charges).
 
-***Ring of Water Elemental Command.*** You can expend 2 of the ring's charges to cast dominate monster on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
+***Ring of Water Elemental Command.*** You can expend 2 of the ring's charges to cast [*dominate monster*](#dominate-monster) on a water elemental. In addition, you can stand on and walk across liquid surfaces as if they were solid ground. You can also speak and understand Aquan.
 
 If you help slay a water elemental while attuned to the ring, you gain access to the following additional properties:
 
 -   You can breathe underwater and have a swimming speed equal to your walking speed.
--   You can cast the following spells from the ring, expending the necessary number of charges: create or destroy water (1 charge), control water (3 charges), ice storm (2 charges), or wall of ice (3 charges).
+-   You can cast the following spells from the ring, expending the necessary number of charges: [*create or destroy water*](#create-or-destroy-water) (1 charge), [*control water*](#control-water) (3 charges), [*ice storm*](#ice-storm) (2 charges), or [*wall of ice*](#wall-of-ice) (3 charges).
 
 ### Ring of Evasion
 
@@ -22280,11 +22332,11 @@ You have resistance to one damage type while wearing this ring. The gem in the r
 
 *Ring, very rare (requires attunement outdoors at night)*
 
-While wearing this ring in dim light or darkness, you can cast dancing lights and light from the ring at will. Casting either spell from the ring requires an action.
+While wearing this ring in dim light or darkness, you can cast [*dancing lights*](#dancing-lights) and [*light*](#light) from the ring at will. Casting either spell from the ring requires an action.
 
 The ring has 6 charges for the following other properties. The ring regains 1d6 expended charges daily at dawn.
 
-***Faerie Fire.*** You can expend 1 charge as an action to cast faerie fire from the ring.
+***Faerie Fire.*** You can expend 1 charge as an action to cast [*faerie fire*](#faerie-fire) from the ring.
 
 ***Ball Lightning.*** You can expend 2 charges as an action to create one to four 3-foot-diameter spheres of lightning. The more spheres you create, the less powerful each sphere is individually.
 
@@ -22353,13 +22405,13 @@ You have a swimming speed of 40 feet while wearing this ring.
 
 *Ring, very rare (requires attunement)*
 
-While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.
+While wearing this ring, you can cast the [*telekinesis*](#telekinesis) spell at will, but you can target only objects that aren't being worn or carried.
 
 ### Ring of Three Wishes
 
 *Ring, legendary*
 
-While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.
+While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the [*wish*](#wish) spell from it. The ring becomes nonmagical when you use the last charge.
 
 ### Ring of Warmth
 
@@ -22403,7 +22455,7 @@ The eyes on the robe can't be closed or averted.
 
 Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.
 
-A light spell cast on the robe or a daylight spell cast within 5 feet of the robe causes you to be blinded for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for light or DC 15 for daylight), ending the blindness on a success. reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.
+A [*light*](#light) spell cast on the robe or a [*daylight*](#daylight) spell cast within 5 feet of the robe causes you to be blinded for 1 minute. At the end of each of your turns, you can make a Constitution saving throw (DC 11 for [*light*](#light) or DC 15 for [*daylight*](#daylight)), ending the blindness on a success. reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.
 
 ### Robe of Scintillating Colors
 
@@ -22417,7 +22469,7 @@ This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. Whil
 
 This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
 
-Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast magic missile as a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.
+Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast [*magic missile*](#magic-missile) as a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.
 
 While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You
 
@@ -22539,7 +22591,7 @@ This rod has a flanged head and the following properties.
 
 ***Alertness.*** While holding the rod, you have advantage on Wisdom (Perception) checks and on rolls for initiative.
 
-***Spells.*** While holding the rod, you can use an action to cast one of the following spells from it: detect evil and good, detect magic, detect poison and disease, or see invisibility.
+***Spells.*** While holding the rod, you can use an action to cast one of the following spells from it: [*detect evil and good*](#detect-evil-and-good), [*detect magic*](#detect-magic), [*detect poison and disease*](#detect-poison-and-disease), or [*see invisibility*](#see-invisibility).
 
 ***Protective Aura.*** As an action, you can plant the haft end of the rod in the ground, whereupon the rod's head sheds bright light in a 60-foot radius and dim light for an additional 60 feet. While in that bright light, you and any creature that is friendly to you gain a +1 bonus to AC and saving throws and can sense the location of any invisible hostile creature that is also in the bright light.
 
@@ -22638,7 +22690,7 @@ While holding this shield, you have a bonus to AC determined by the shield's rar
 
 While holding this shield, you have resistance to damage from ranged weapon attacks.
 
-***Curse.*** This shield is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.
+***Curse.*** This shield is cursed. Attuning to it curses you until you are targeted by the [*remove curse*](#remove-curse) spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.
 
 ### Slippers of Spider Climbing
 
@@ -22656,7 +22708,7 @@ This viscous, milky-white substance can form a permanent adhesive bond between a
 
 It must be stored in a jar or flask that has been coated inside with oil of slipperiness. When found, a container contains 1d6 + 1 ounces.
 
-One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of universal solvent or oil of etherealness, or with a wish spell.
+One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of universal solvent or oil of [*etherealness*](#etherealness), or with a [*wish*](#wish) spell.
 
 ### Spell Scroll
 
@@ -22770,7 +22822,7 @@ The sphere is stationary until someone controls it. If you are within 60 feet of
 
 If you attempt to control a sphere that is under another creature's control, you make an Intelligence (Arcana) check contested by the other creature's Intelligence (Arcana) check. The winner of the contest gains control of the sphere and can levitate it as normal.
 
-If the sphere comes into contact with a planar portal, such as that created by the gate spell, or an extradimensional space, such as that within a portable hole, the GM determines randomly what happens, using the following table.
+If the sphere comes into contact with a planar portal, such as that created by the [*gate*](#gate) spell, or an extradimensional space, such as that within a *portable hole*, the GM determines randomly what happens, using the following table.
 
 <table>
 <colgroup>
@@ -22803,7 +22855,7 @@ If the sphere comes into contact with a planar portal, such as that created by t
 
 *Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)*
 
-While holding this staff, you can use an action to expend 1 of its 10 charges to cast charm person, command, or comprehend languages from it using your spell save DC. The staff can also be used as a magic quarterstaff.
+While holding this staff, you can use an action to expend 1 of its 10 charges to cast [*charm person*](#charm-person), [*command*](#command), or [*comprehend languages*](#comprehend-languages) from it using your spell save DC. The staff can also be used as a magic quarterstaff.
 
 If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.
 
@@ -22815,7 +22867,7 @@ The staff regains 1d8 + 2 expended charges daily at dawn. If you expend the last
 
 You have resistance to fire damage while you hold this staff.
 
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: burning hands (1 charge), fireball (3 charges), or wall of fire (4 charges).
+The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: [*burning hands*](#burning-hands) (1 charge), [*fireball*](#fireball) (3 charges), or [*wall of fire*](#wall-of-fire) (4 charges).
 
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff blackens, crumbles into cinders, and is destroyed.
 
@@ -22825,7 +22877,7 @@ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last
 
 You have resistance to cold damage while you hold this staff.
 
-The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: cone of cold (5 charges), fog cloud (1 charge), ice storm (4 charges), or wall of ice (4 charges).
+The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: [*cone of cold*](#cone-of-cold) (5 charges), [*fog cloud*](#fog-cloud) (1 charge), [*ice storm*](#ice-storm) (4 charges), or [*wall of ice*](#wall-of-ice) (4 charges).
 
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff turns to water and is destroyed.
 
@@ -22833,7 +22885,7 @@ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last
 
 *Staff, rare (requires attunement by a bard, cleric, or druid)*
 
-This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: cure wounds (1 charge per spell level, up to 4th), lesser restoration (2 charges), or mass cure wounds (5 charges).
+This staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability modifier: [*cure wounds*](#cure-wounds) (1 charge per spell level, up to 4th), [*lesser restoration*](#lesser-restoration) (2 charges), or [*mass cure wounds*](#mass-cure-wounds) (5 charges).
 
 The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes in a flash of light, lost forever.
 
@@ -22847,7 +22899,7 @@ The staff has 20 charges for the following properties. The staff regains 2d8 + 4
 
 ***Power Strike.*** When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra 1d6 force damage to the target.
 
-***Spells.*** While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: cone of cold (5 charges), fireball (5th-level version, 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt (5th-level version, 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges).
+***Spells.*** While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: [*cone of cold*](#cone-of-cold) (5 charges), [*fireball*](#fireball) (5th-level version, 5 charges), [*globe of invulnerability*](#globe-of-invulnerability) (6 charges), [*hold monster*](#hold-monster) (5 charges), [*levitate*](#levitate) (2 charges), [*lightning bolt*](#lightning-bolt) (5th-level version, 5 charges), [*magic missile*](#magic-missile) (1 charge), [*ray of enfeeblement*](#ray-of-enfeeblement) (1 charge), or [*wall of force*](#wall-of-force) (5 charges).
 
 ***Retributive Strike.*** You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
 
@@ -22894,7 +22946,7 @@ The staff has 10 charges. When you hit with a melee attack using it, you can exp
 
 This staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
 
-***Spells.*** While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: giant insect (4 charges) or insect plague (5 charges).
+***Spells.*** While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC: [*giant insect*](#giant-insect) (4 charges) or [*insect plague*](#insect-plague) (5 charges).
 
 ***Insect Cloud.*** While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect.
 
@@ -22934,9 +22986,9 @@ The staff has 50 charges for the following properties. It regains 4d6 + 2 expend
 
 ***Spell Absorption.*** While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its retributive strike (see below).
 
-***Spells.*** While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: conjure elemental (7 charges), dispel magic (3 charges), fireball (7th-level version, 7 charges), flaming sphere (2 charges), ice storm (4 charges), invisibility (2 charges), knock (2 charges), lightning bolt (7th-level version, 7 charges), passwall (5 charges), plane shift (7 charges), telekinesis (5 charges), wall of fire (4 charges), or web (2 charges).
+***Spells.*** While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability: [*conjure elemental*](#conjure-elemental) (7 charges), [*dispel magic*](#dispel-magic) (3 charges), [*fireball*](#fireball) (7th-level version, 7 charges), [*flaming sphere*](#flaming-sphere) (2 charges), [*ice storm*](#ice-storm) (4 charges), [*invisibility*](#invisibility) (2 charges), [*knock*](#knock) (2 charges), [*lightning bolt*](#lightning-bolt) (7th-level version, 7 charges), [*passwall*](#passwall) (5 charges), [*plane shift*](#plane-shift) (7 charges), [*telekinesis*](#telekinesis) (5 charges), [*wall of fire*](#wall-of-fire) (4 charges), or [*web*](#web) (2 charges).
 
-You can also use an action to cast one of the following spells from the staff without using any charges: arcane lock, detect magic, enlarge/reduce, light, mage hand, or protection from evil and good.
+You can also use an action to cast one of the following spells from the staff without using any charges: [*arcane lock*](#arcane-lock), [*detect magic*](#detect-magic), [*enlarge/reduce*](#enlargereduce), [*light*](#light), [*mage hand*](#mage-hand), or [*protection from evil and good*](#protection-from-evil-and-good).
 
 ***Retributive Strike.*** You can use an action to break the staff over your knee or against a solid surface, performing a retributive strike. The staff is destroyed and releases its remaining magic in an explosion that expands to fill a 30-foot-radius sphere centered on it.
 
@@ -22987,15 +23039,15 @@ This staff can be wielded as a magic quarterstaff that grants a +2 bonus to atta
 
 The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.
 
-***Spells.*** You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: animal friendship (1 charge), awaken (5 charges), barkskin (2 charges), locate animals or plants (2 charges), speak with animals (1 charge), speak with plants (3 charges), or wall of thorns (6 charges). You can also use an action to cast the pass without trace spell from the staff without using any charges.
+***Spells.*** You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it, using your spell save DC: *charm animal* (1 charge), [*awaken*](#awaken) (5 charges), [*barkskin*](#barkskin) (2 charges), [*locate animals or plants*](#locate-animals-or-plants) (2 charges), [*speak with animals*](#speak-with-animals) (1 charge), [*speak with plants*](#speak-with-plants) (3 charges), or [*wall of thorns*](#wall-of-thorns) (6 charges). You can also use an action to cast the [*pass without trace*](#pass-without-trace) spell from the staff without using any charges.
 
-***Tree Form.*** You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.
+***Tree Form.*** You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by [*detect magic*](#detect-magic). While touching the tree and using another action to speak its command word, you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff.
 
 ### Stone of Controlling Earth Elementals
 
 *Wondrous item, rare*
 
-If the stone is touching the ground, you can use an action to speak its command word and summon an earth elemental, as if you had cast the conjure elemental spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds.
+If the stone is touching the ground, you can use an action to speak its command word and summon an earth elemental, as if you had cast the [*conjure elemental*](#conjure-elemental) spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds.
 
 ### Stone of Good Luck (Luckstone)
 
@@ -23085,7 +23137,7 @@ This book contains intuition and insight exercises, and its words are charged wi
 
 *Weapon (trident), uncommon (requires attunement)*
 
-This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast dominate beast (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.
+This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast [*dominate beast*](#dominate-beast) (save DC 15) from it on a beast that has an innate swimming speed. The trident regains 1d3 expended charges daily at dawn.
 
 ### Universal Solvent
 
@@ -23113,7 +23165,7 @@ When you attack a creature that has at least one head with this weapon and roll 
 
 This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
-***Spells.*** While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): hold monster (5 charges) or hold person (2 charges).
+***Spells.*** While holding the wand, you can use an action to expend some of its charges to cast one of the following spells (save DC 17): [*hold monster*](#hold-monster) (5 charges) or [*hold person*](#hold-person) (2 charges).
 
 ***Assisted Escape.*** While holding the wand, you can use your reaction to expend 1 charge and gain advantage on a saving throw you make to avoid being paralyzed or restrained, or you can expend 1 charge and gain advantage on any check you make to escape a grapple.
 
@@ -23131,7 +23183,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 
 This wand has 7 charges for the following properties. It regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
-***Command.*** While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the command spell (save DC 15).
+***Command.*** While holding the wand, you can use an action to expend 1 charge and command another creature to flee or grovel, as with the [*command*](#command) spell (save DC 15).
 
 ***Cone of Fear.*** While holding the wand, you can use an action to expend 2 charges, causing the wand's tip to emit a 60-foot cone of amber light. Each creature in the cone must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.
 
@@ -23139,7 +23191,7 @@ This wand has 7 charges for the following properties. It regains 1d6 + 1 expende
 
 *Wand, rare (requires attunement by a spellcaster)*
 
-This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the fireball spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the [*fireball*](#fireball) spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
@@ -23147,7 +23199,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 
 *Wand, rare (requires attunement by a spellcaster)*
 
-This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the lightning bolt spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the [*lightning bolt*](#lightning-bolt) spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
@@ -23155,13 +23207,13 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 
 *Wand, uncommon*
 
-This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the detect magic spell from it. The wand regains 1d3 expended charges daily at dawn.
+This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the [*detect magic*](#detect-magic) spell from it. The wand regains 1d3 expended charges daily at dawn.
 
 ### Wand of Magic Missiles
 
 *Wand, uncommon*
 
-This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the magic missile spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
+This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the [*magic missile*](#magic-missile) spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.
 
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
@@ -23177,7 +23229,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 
 *Wand, very rare (requires attunement by a spellcaster)*
 
-This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the polymorph spell (save DC 15) from it.
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the [*polymorph*](#polymorph) spell (save DC 15) from it.
 
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
@@ -23191,7 +23243,7 @@ The wand has 3 charges. While holding it, you can use an action to expend 1 of i
 
 *Wand, uncommon (requires attunement by a spellcaster)*
 
-This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the web spell (save DC 15) from it.
+This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the [*web*](#web) spell (save DC 15) from it.
 
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.
 
@@ -23221,11 +23273,11 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 <tbody>
 <tr class="odd">
 <td align="center">01–05</td>
-<td align="left">You cast slow.</td>
+<td align="left">You cast <a href="#slow"><em>slow</em></a>.</td>
 </tr>
 <tr class="even">
 <td align="center">06–10</td>
-<td align="left">You cast faerie fire.</td>
+<td align="left">You cast <a href="#faerie-fire"><em>faerie fire</em></a>.</td>
 </tr>
 <tr class="odd">
 <td align="center">11–15</td>
@@ -23233,15 +23285,15 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 </tr>
 <tr class="even">
 <td align="center">16–20</td>
-<td align="left">You cast gust of wind.</td>
+<td align="left">You cast <a href="#gust-of-wind"><em>gust of wind</em></a>.</td>
 </tr>
 <tr class="odd">
 <td align="center">21–25</td>
-<td align="left">You cast detect thoughts on the target you chose. If you didn't target a creature, you instead take 1d6 psychic damage.</td>
+<td align="left">You cast <a href="#detect-thoughts"><em>detect thoughts</em></a> on the target you chose. If you didn't target a creature, you instead take 1d6 psychic damage.</td>
 </tr>
 <tr class="even">
 <td align="center">26–30</td>
-<td align="left">You cast stinking cloud.</td>
+<td align="left">You cast <a href="#stinking-cloud"><em>stinking cloud</em></a>.</td>
 </tr>
 <tr class="odd">
 <td align="center">31–33</td>
@@ -23253,7 +23305,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 </tr>
 <tr class="odd">
 <td align="center">37–46</td>
-<td align="left">You cast lightning bolt.</td>
+<td align="left">You cast <a href="#lightning-bolt"><em>lightning bolt</em></a>.</td>
 </tr>
 <tr class="even">
 <td align="center">47–49</td>
@@ -23261,11 +23313,11 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 </tr>
 <tr class="odd">
 <td align="center">50–53</td>
-<td align="left">You enlarge the target as if you had cast enlarge/reduce. If the target can't be affected by that spell, or if you didn't target a creature, you become the target.</td>
+<td align="left">You enlarge the target as if you had cast <a href="#enlargereduce"><em>enlarge/reduce</em></a>. If the target can't be affected by that spell, or if you didn't target a creature, you become the target.</td>
 </tr>
 <tr class="even">
 <td align="center">54–58</td>
-<td align="left">You cast darkness.</td>
+<td align="left">You cast <a href="#darkness"><em>darkness</em></a>.</td>
 </tr>
 <tr class="odd">
 <td align="center">59–62</td>
@@ -23277,15 +23329,15 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 </tr>
 <tr class="odd">
 <td align="center">66–69</td>
-<td align="left">You shrink yourself as if you had cast enlarge/reduce on yourself.</td>
+<td align="left">You shrink yourself as if you had cast <a href="#enlargereduce"><em>enlarge/reduce</em></a> on yourself.</td>
 </tr>
 <tr class="even">
 <td align="center">70–79</td>
-<td align="left">You cast fireball.</td>
+<td align="left">You cast <a href="#fireball"><em>fireball</em></a>.</td>
 </tr>
 <tr class="odd">
 <td align="center">80–84</td>
-<td align="left">You cast invisibility on yourself.</td>
+<td align="left">You cast <a href="#invisibility"><em>invisibility</em></a> on yourself.</td>
 </tr>
 <tr class="even">
 <td align="center">85–87</td>
@@ -23305,7 +23357,7 @@ The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand'
 </tr>
 <tr class="even">
 <td align="center">98–00</td>
-<td align="left">If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic.</td>
+<td align="left">If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the <a href="#greater-restoration"><em>greater restoration</em></a> spell or similar magic.</td>
 </tr>
 </tbody>
 </table>
@@ -23334,7 +23386,7 @@ You can use an action to unfold and place the well of many worlds on a solid sur
 
 *Wondrous item, uncommon*
 
-While holding this fan, you can use an action to cast the gust of wind spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.
+While holding this fan, you can use an action to cast the [*gust of wind*](#gust-of-wind) spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.
 
 ### Winged Boots
 
@@ -23581,7 +23633,7 @@ An orb is an etched crystal globe about 10 inches in diameter. When used, it gro
 
 While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.
 
-While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts suggestion on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of a dragon god, or something else the GM decides.
+While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts [*suggestion*](#suggestion) on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of a dragon god, or something else the GM decides.
 
 ***Random Properties.*** An *Orb of the Wyrm* has the following random properties:
 
@@ -23589,13 +23641,13 @@ While you are charmed by the orb, you can't voluntarily end your attunement to i
 -   1 minor detrimental property
 -   1 major detrimental property
 
-***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: cure wounds (5th-level version, 3 charges), daylight (1 charge), death ward (2 charges), or scrying (3 charges).
+***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: [*cure wounds*](#cure-wounds) (5th-level version, 3 charges), [*daylight*](#daylight) (1 charge), [*death ward*](#death-ward) (2 charges), or [*scrying*](#scrying) (3 charges).
 
-You can also use an action to cast the detect magic spell from the orb without using any charges.
+You can also use an action to cast the [*detect magic*](#detect-magic) spell from the orb without using any charges.
 
 ***Call Dragons.*** While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.
 
-***Destroying an Orb.*** An *Orb of the Wyrm* appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A disintegrate spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
+***Destroying an Orb.*** An *Orb of the Wyrm* appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A [*disintegrate*](#disintegrate) spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
 
 The Planes of Existence
 =======================
@@ -23622,15 +23674,15 @@ When adventurers travel into other planes of existence, they are undertaking a l
 
 Travel to the planes beyond the Material Plane can be accomplished in two ways: by casting a spell or by using a planar portal.
 
-***Spells.*** A number of spells allow direct or indirect access to other planes of existence. Plane shift and gate can transport adventurers directly to any other plane of existence, with different degrees of precision. Etherealness allows adventurers to enter the Ethereal Plane and travel from there to any of the planes it touches—such as the Elemental Planes. And the astral projection spell lets adventurers project themselves into the Astral Plane and travel to the Outer Planes.
+***Spells.*** A number of spells allow direct or indirect access to other planes of existence. [*Plane shift*](#plane-shift) and [*gate*](#gate) can transport adventurers directly to any other plane of existence, with different degrees of precision. [*Etherealness*](#etherealness) allows adventurers to enter the Ethereal Plane and travel from there to any of the planes it touches—such as the Elemental Planes. And the [*astral projection*](#astral-projection) spell lets adventurers project themselves into the Astral Plane and travel to the Outer Planes.
 
 ***Portals.*** A portal is a general term for a stationary interplanar connection that links a specific location on one plane to a specific location on another. Some portals are like doorways, a clear window, or a fog-shrouded passage, and simply stepping through it effects the interplanar travel. Others are locations—circles of standing stones, soaring towers, sailing ships, or even whole towns—that exist in multiple planes at once or flicker from one plane to another in turn. Some are vortices, typically joining an Elemental Plane with a very similar location on the Material Plane, such as the heart of a volcano (leading to the Plane of Fire) or the depths of the ocean (to the Plane of Water).
 
 ### Transitive Planes
 
-The Ethereal Plane and the Astral Plane are called the Transitive Planes. They are mostly featureless realms that serve primarily as ways to travel from one plane to another. Spells such as etherealness and astral projection allow characters to enter these planes and traverse them to reach the planes beyond.
+The Ethereal Plane and the Astral Plane are called the Transitive Planes. They are mostly featureless realms that serve primarily as ways to travel from one plane to another. Spells such as [*etherealness*](#etherealness) and [*astral projection*](#astral-projection) allow characters to enter these planes and traverse them to reach the planes beyond.
 
-The **Ethereal Plane** is a misty, fog-bound dimension that is sometimes described as a great ocean. Its shores, called the Border Ethereal, overlap the Material Plane and the Inner Planes, so that every location on those planes has a corresponding location on the Ethereal Plane. Certain creatures can see into the Border Ethereal, and the see invisibility and true seeing spell grant that ability. Some magical effects also extend from the Material Plane into the Border Ethereal, particularly effects that use force energy such as forcecage and wall of force. The depths of the plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.
+The **Ethereal Plane** is a misty, fog-bound dimension that is sometimes described as a great ocean. Its shores, called the Border Ethereal, overlap the Material Plane and the Inner Planes, so that every location on those planes has a corresponding location on the Ethereal Plane. Certain creatures can see into the Border Ethereal, and the [*see invisibility*](#see-invisibility) and [*true seeing*](#true-seeing) spell grant that ability. Some magical effects also extend from the Material Plane into the Border Ethereal, particularly effects that use force energy such as [*forcecage*](#forcecage) and [*wall of force*](#wall-of-force). The depths of the plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.
 
 The **Astral Plane** is the realm of thought and dream, where visitors travel as disembodied souls to reach the planes of the divine and demonic. It is a great, silvery sea, the same above and below, with swirling wisps of white and gray streaking among motes of light resembling distant stars. Erratic whirlpools of color flicker in midair like spinning coins. Occasional bits of solid matter can be found here, but most of the Astral Plane is an endless, open domain.
 
@@ -23658,7 +23710,7 @@ The planes with some element of good in their nature are called the **Upper Plan
 
 #### Demiplanes
 
-Demiplanes are small extradimensional spaces with their own unique rules. They are pieces of reality that don't seem to fit anywhere else. Demiplanes come into being by a variety of means. Some are created by spells, such as demiplane, or generated at the desire of a powerful deity or other force. They may exist naturally, as a fold of existing reality that has been pinched off from the rest of the multiverse, or as a baby universe growing in power. A given demiplane can be entered through a single point where it touches another plane. Theoretically, a plane shift spell can also carry travelers to a demiplane, but the proper frequency required for the tuning fork is extremely hard to acquire. The gate spell is more reliable, assuming the caster knows of the demiplane.
+Demiplanes are small extradimensional spaces with their own unique rules. They are pieces of reality that don't seem to fit anywhere else. Demiplanes come into being by a variety of means. Some are created by spells, such as [*demiplane*](#demiplane), or generated at the desire of a powerful deity or other force. They may exist naturally, as a fold of existing reality that has been pinched off from the rest of the multiverse, or as a baby universe growing in power. A given demiplane can be entered through a single point where it touches another plane. Theoretically, a [*plane shift*](#plane-shift) spell can also carry travelers to a demiplane, but the proper frequency required for the tuning fork is extremely hard to acquire. The [*gate*](#gate) spell is more reliable, assuming the caster knows of the demiplane.
 
 Pantheons
 =========
@@ -25058,7 +25110,9 @@ The aboleth can take 3 legendary actions, choosing from the options below. Only 
 
 ***Reaping Scythe.*** The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
 
-See "Deck of Many Things". \#\#\#\# Azer {.creature-statblock}
+See "Deck of Many Things".
+
+#### Azer
 
 *Medium elemental, lawful neutral*
 
@@ -35807,7 +35861,7 @@ At will: detect magic
 
 #### Cloud Giant
 
-*Huge giant, neutral good (50 ) or neutral evil (50 )*
+*Huge giant, neutral good (50%) or neutral evil (50%)*
 
 **Armor Class** 14 (natural armor)
 
@@ -38778,7 +38832,7 @@ Creature Descriptions
 
 ***Rake.** Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1 (1d4 − 1) slashing damage.
 
-An **awakened shrub** is an ordinary shrub given sentience and mobility by the awaken spell or similar magic.
+An **awakened shrub** is an ordinary shrub given sentience and mobility by the [*awaken*](#awaken) spell or similar magic.
 
 #### Awakened Tree
 
@@ -38837,7 +38891,7 @@ An **awakened shrub** is an ordinary shrub given sentience and mobility by the a
 
 ***Slam.** Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 14 (3d6 + 4) bludgeoning damage.
 
-An **awakened tree** is an ordinary tree given sentience and mobility by the awaken spell or similar magic.
+An **awakened tree** is an ordinary tree given sentience and mobility by the [*awaken*](#awaken) spell or similar magic.
 
 #### Axe Beak
 
@@ -42832,7 +42886,7 @@ A **phase spider** possesses the magical ability to phase in and out of the Ethe
 
 ***Bite.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
 
-A **quipper** is a carnivorous fish with sharp teeth. Quippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms; the statistics for a swarm of quippers appear later in this appendix.
+A **quipper** is a carnivorous fish with sharp teeth. Quippers can adapt to any aquatic environment, including cold subterranean lakes. They frequently gather in swarms; for statistics, see "Swarm of Quippers".
 
 #### Rat
 
@@ -44116,7 +44170,7 @@ These stat blocks can be used to represent both human and nonhuman NPCs.
 Customizing NPCs
 ----------------
 
-There are many easy ways to customize the NPCs in this appendix for your home campaign.
+There are many easy ways to customize the NPCs in this section for your home campaign.
 
 ***Racial Traits.*** You can add racial traits to an NPC. For example, a halfling druid might have a speed of 25 feet and the Lucky trait. Adding racial traits to an NPC doesn't alter its challenge rating. For more on racial traits, see "Races".
 
@@ -44180,9 +44234,9 @@ Nonplayer Character Descriptions
 
 ***Spellcasting.*** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:
 
-Cantrips (at will): light, sacred flame, thaumaturgy
+Cantrips (at will): [*light*](#light), [*sacred flame*](#sacred-flame), [*thaumaturgy*](#thaumaturgy)
 
-1st level (3 slots): bless, cure wounds, sanctuary
+1st level (3 slots): [*bless*](#bless), [*cure wounds*](#cure-wounds), [*sanctuary*](#sanctuary)
 
 ##### Actions
 
@@ -44194,7 +44248,7 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 *Medium humanoid (any race), any alignment*
 
-**Armor Class** 12 (15 with mage armor)
+**Armor Class** 12 (15 with [*mage armor*](#mage-armor))
 
 **Hit Points** 99 (18d8 + 18)
 
@@ -44233,7 +44287,7 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 **Saving Throws** Int +9, Wis +6
 
-**Skills** Arcana +13, History +13 Damage Resistance damage from spells; nonmagical bludgeoning, piercing, and slashing (from stoneskin)
+**Skills** Arcana +13, History +13 Damage Resistance damage from spells; nonmagical bludgeoning, piercing, and slashing (from [*stoneskin*](#stoneskin))
 
 **Senses** passive Perception 12
 
@@ -44243,27 +44297,27 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 ***Magic Resistance.*** The archmage has advantage on saving throws against spells and other magical effects.
 
-***Spellcasting.*** The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:
+***Spellcasting.*** The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast [*disguise self*](#disguise-self) and [*invisibility*](#invisibility) at will and has the following wizard spells prepared:
 
-Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp
+Cantrips (at will): *fire bolt*, [*light*](#light), [*mage hand*](#mage-hand), [*prestidigitation*](#prestidigitation), [*shocking grasp*](#shocking-grasp)
 
-1st level (4 slots): detect magic, identify, mage armor,\* magic missile
+1st level (4 slots): [*detect magic*](#detect-magic), [*identify*](#identify), [*mage armor*](#mage-armor),\* [*magic missile*](#magic-missile)
 
-2nd level (3 slots): detect thoughts, mirror image, misty step
+2nd level (3 slots): [*detect thoughts*](#detect-thoughts), [*mirror image*](#mirror-image), [*misty step*](#misty-step)
 
-3rd level (3 slots): counterspell, fly, lightning bolt
+3rd level (3 slots): *counterspell*, [*fly*](#fly), [*lightning bolt*](#lightning-bolt)
 
-4th level (3 slots): banishment, fire shield, stoneskin\*
+4th level (3 slots): [*banishment*](#banishment), [*fire shield*](#fire-shield), [*stoneskin*](#stoneskin)
 
-5th level (3 slots): cone of cold, scrying, wall of force
+5th level (3 slots): [*cone of cold*](#cone-of-cold), [*scrying*](#scrying), [*wall of force*](#wall-of-force)
 
-6th level (1 slot): globe of invulnerability
+6th level (1 slot): [*globe of invulnerability*](#globe-of-invulnerability)
 
-7th level (1 slot): teleport
+7th level (1 slot): [*teleport*](#teleport)
 
-8th level (1 slot): mind blank\*
+8th level (1 slot): [*mind blank*](#mind-blank)
 
-9th level (1 slot): time stop
+9th level (1 slot): [*time stop*](#time-stop)
 
 \* *The archmage casts these spells on itself before combat.*
 
@@ -44629,11 +44683,11 @@ Hailing from uncivilized lands, unpredictable **berserkers** come together in wa
 
 ***Spellcasting.*** The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:
 
-Cantrips (at will): light, sacred flame, thaumaturgy
+Cantrips (at will): [*light*](#light), [*sacred flame*](#sacred-flame), [*thaumaturgy*](#thaumaturgy)
 
-1st level (4 slots): command, inflict wounds, shield of faith
+1st level (4 slots): [*command*](#command), [*inflict wounds*](#inflict-wounds), [*shield of faith*](#shield-of-faith)
 
-2nd level (3 slots): hold person, spiritual weapon
+2nd level (3 slots): [*hold person*](#hold-person), [*spiritual weapon*](#spiritual-weapon)
 
 ##### Actions
 
@@ -44704,7 +44758,7 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 *Medium humanoid (any race), any alignment*
 
-**Armor Class** 11 (16 with barkskin)
+**Armor Class** 11 (16 with [*barkskin*](#barkskin))
 
 **Hit Points** 27 (5d8 + 5)
 
@@ -44751,15 +44805,15 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 ***Spellcasting.*** The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
 
-Cantrips (at will): druidcraft, produce flame, shillelagh
+Cantrips (at will): [*guidance*](#guidance), [*produce flame*](#produce-flame), [*shillelagh*](#shillelagh)
 
-1st level (4 slots): entangle, longstrider, speak with animals, thunderwave
+1st level (4 slots): [*entangle*](#entangle), [*longstrider*](#longstrider), [*speak with animals*](#speak-with-animals), [*thunderwave*](#thunderwave)
 
-2nd level (3 slots): animal messenger, barkskin
+2nd level (3 slots): [*animal messenger*](#animal-messenger), [*barkskin*](#barkskin)
 
 ##### Actions
 
-***Quarterstaff.** Melee Weapon Attack:* +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.
+***Quarterstaff.** Melee Weapon Attack:* +2 to hit (+4 to hit with [*shillelagh*](#shillelagh)), reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with [*shillelagh*](#shillelagh).
 
 **Druids** dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.
 
@@ -44960,7 +45014,7 @@ If the target is a Medium or smaller creature, it must succeed on a DC 15 Streng
 
 *Medium humanoid (any race), any alignment*
 
-**Armor Class** 12 (15 with mage armor)
+**Armor Class** 12 (15 with [*mage armor*](#mage-armor))
 
 **Hit Points** 40 (9d8)
 
@@ -45009,17 +45063,17 @@ If the target is a Medium or smaller creature, it must succeed on a DC 15 Streng
 
 ***Spellcasting.*** The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:
 
-Cantrips (at will): fire bolt, light, mage hand, prestidigitation
+Cantrips (at will): *fire bolt*, [*light*](#light), [*mage hand*](#mage-hand), [*prestidigitation*](#prestidigitation)
 
-1st level (4 slots): detect magic, mage armor, magic missile, shield
+1st level (4 slots): [*detect magic*](#detect-magic), [*mage armor*](#mage-armor), [*magic missile*](#magic-missile), [*shield*](#shield)
 
-2nd level (3 slots): misty step, suggestion
+2nd level (3 slots): [*misty step*](#misty-step), [*suggestion*](#suggestion)
 
-3rd level (3 slots): counterspell, fireball, fly
+3rd level (3 slots): *counterspell*, [*fireball*](#fireball), [*fly*](#fly)
 
-4th level (3 slots): greater invisibility, ice storm
+4th level (3 slots): [*greater invisibility*](#greater-invisibility), [*ice storm*](#ice-storm)
 
-5th level (1 slot): cone of cold
+5th level (1 slot): [*cone of cold*](#cone-of-cold)
 
 ##### Actions
 
@@ -45141,13 +45195,13 @@ The noble's statistics can also be used to represent courtiers who aren't of nob
 
 ***Spellcasting.*** The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:
 
-Cantrips (at will): light, sacred flame, thaumaturgy
+Cantrips (at will): [*light*](#light), [*sacred flame*](#sacred-flame), [*thaumaturgy*](#thaumaturgy)
 
-1st level (4 slots): cure wounds, guiding bolt, sanctuary
+1st level (4 slots): [*cure wounds*](#cure-wounds), [*guiding bolt*](#guiding-bolt), [*sanctuary*](#sanctuary)
 
-2nd level (3 slots): lesser restoration, spiritual weapon
+2nd level (3 slots): [*lesser restoration*](#lesser-restoration), [*spiritual weapon*](#spiritual-weapon)
 
-3rd level (2 slots): dispel magic, spirit guardians
+3rd level (2 slots): [*dispel magic*](#dispel-magic), [*spirit guardians*](#spirit-guardians)
 
 ##### Actions
 
