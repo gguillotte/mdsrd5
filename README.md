@@ -129,3 +129,8 @@ Initial release, containing all content except the Monsters and Magic Items sect
 #### Known issues (since resolved)
 
 -   Magic items weren't yet included.
+
+Credits
+-------
+
+The HTML versions use [Jets.js](https://jets.js.org) (MIT license) for TOC search and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) (CC0 1.0) by Stephen Morley.
