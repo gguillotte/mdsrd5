@@ -20727,67 +20727,6 @@ Once a card is drawn, it fades from existence. Unless the card is the Fool or th
 
 ***The Void.*** This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is incapacitated. A wish spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
-#### Avatar of Death
-
-*Medium undead, neutral evil*
-
-**Armor Class** 20
-
-**Hit Points** half the hit point maximum of its summoner
-
-**Speed** 60 ft., fly 60 ft. (hover)
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">16 (+3)</td>
-<td align="center">16 (+3)</td>
-<td align="center">16 (+3)</td>
-<td align="center">16 (+3)</td>
-<td align="center">16 (+3)</td>
-<td align="center">16 (+3)</td>
-</tr>
-</tbody>
-</table>
-
-**Damage Immunities** necrotic, poison
-
-**Condition Immunities** charmed, frightened, paralyzed, petrified, poisoned, unconscious
-
-**Senses** darkvision 60 ft., truesight 60 ft., passive
-
-**Perception** 13
-
-**Languages** all languages known to its summoner
-
-**Challenge** — (0 XP)
-
-***Incorporeal Movement.*** The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
-
-***Turning Immunity.*** The avatar is immune to features that turn undead.
-
-##### Actions
-
-***Reaping Scythe.*** The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
-
 ### Defender
 
 *Weapon (any sword), legendary (requires attunement)*
@@ -21131,51 +21070,6 @@ If you have a good alignment, the figurine has a 10 percent chance each time you
 ***Serpentine Owl (Rare).*** This serpentine statuette of an owl can become a giant owl for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence.
 
 ***Silver Raven (Uncommon).*** This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the animal messenger spell on it at will.
-
-#### Giant Fly
-
-*Large beast, unaligned*
-
-**Armor Class** 11
-
-**Hit Points** 19 (3d10 + 3)
-
-**Speed** 30 ft., fly 60 ft.
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">14 (+2)</td>
-<td align="center">13 (+1)</td>
-<td align="center">13 (+1)</td>
-<td align="center">2 (-4)</td>
-<td align="center">10 (+0)</td>
-<td align="center">3 (-4)</td>
-</tr>
-</tbody>
-</table>
-
-**Senses** darkvision 60 ft., passive Perception 10
-
-**Languages** —
 
 ### Flame Tongue
 
@@ -25102,6 +24996,67 @@ The aboleth can take 3 legendary actions, choosing from the options below. Only 
 ***Bite.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.
 
 ***Acid Spray (Recharge 6).*** The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.
+
+#### Avatar of Death
+
+*Medium undead, neutral evil*
+
+**Armor Class** 20
+
+**Hit Points** half the hit point maximum of its summoner
+
+**Speed** 60 ft., fly 60 ft. (hover)
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">16 (+3)</td>
+<td align="center">16 (+3)</td>
+<td align="center">16 (+3)</td>
+<td align="center">16 (+3)</td>
+<td align="center">16 (+3)</td>
+<td align="center">16 (+3)</td>
+</tr>
+</tbody>
+</table>
+
+**Damage Immunities** necrotic, poison
+
+**Condition Immunities** charmed, frightened, paralyzed, petrified, poisoned, unconscious
+
+**Senses** darkvision 60 ft., truesight 60 ft., passive
+
+**Perception** 13
+
+**Languages** all languages known to its summoner
+
+**Challenge** — (0 XP)
+
+***Incorporeal Movement.*** The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+
+***Turning Immunity.*** The avatar is immune to features that turn undead.
+
+##### Actions
+
+***Reaping Scythe.*** The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
 
 #### Azer
 
@@ -40770,6 +40725,51 @@ The majestic giant elk is rare to the point that its appearance is often taken a
 
 A **giant fire beetle** is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.
 
+#### Giant Fly
+
+*Large beast, unaligned*
+
+**Armor Class** 11
+
+**Hit Points** 19 (3d10 + 3)
+
+**Speed** 30 ft., fly 60 ft.
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">14 (+2)</td>
+<td align="center">13 (+1)</td>
+<td align="center">13 (+1)</td>
+<td align="center">2 (-4)</td>
+<td align="center">10 (+0)</td>
+<td align="center">3 (-4)</td>
+</tr>
+</tbody>
+</table>
+
+**Senses** darkvision 60 ft., passive Perception 10
+
+**Languages** —
+
 #### Giant Frog
 
 *Medium beast, unaligned*
@@ -44186,7 +44186,7 @@ Cantrips (at will): light, sacred flame, thaumaturgy
 
 ***Club.** Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage.
 
-***Acolytes*** are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.
+**Acolytes** are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.
 
 #### Archmage
 
