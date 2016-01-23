@@ -32,9 +32,29 @@ References to protected deities are changed to real-world mythological entities 
 Release notes
 -------------
 
+### 0.3.2 (2016-01-22)
+
+Reorganized uncategorized monsters to make them more navigable from the Table of Contents. 
+
+#### Fixes
+
+-   Previously, The Markdown SRD5 organized monsters the same way as the original document, which did not designate the end of a group of monsters. (For instance, the ankheg entry is under the Animated Objects heading, even though it isn't an animated object, because there isn't a 3rd-level heading between it and the rug of smothering.) This version moves unorganized monsters to their own section.
+
+#### Known issues
+
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
+-   There are no links.
+-   Most references to spells and magic items aren't yet properly italicized.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wktohtml` for now, preventing font embedding and leading to some awkward heading breaks.
+
 ### 0.3.1 (2016-01-22)
 
 Fixed repetitive creatures.
+
+#### Fixes
+
+-   The list of miscellaneous creatures, generated from individual files for each creature, was rendered twice as a previous version of the compiled file was rendered with them. This release removed this redundant list.
 
 ### 0.3 (2016-01-21)
 
@@ -48,14 +68,10 @@ Adds Monster, Creature, and NPC descriptions.
 
 -   CSS adjustments to font embedding and tables.
 
-#### Known issues
+#### Known issues (since resolved)
 
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
--   The document width expands to fit tables on narrow viewports, forcing users to scroll to reach the return-to-top button. 
--   There are no links.
--   Most references to spells and magic items aren't yet properly italicized.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wktohtml` for now, preventing font embedding and leading to some awkward heading breaks.
+-   Due to a processing issue, the list of miscellaneous creatures was included multiple times.
+-   The document width expanded to fit tables on narrow viewports, forcing users to scroll to reach the return-to-top button.
 
 ### 0.2.1 (2016-01-19)
 
