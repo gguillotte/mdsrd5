@@ -21,6 +21,7 @@ Generic terms
 In several places, protected content must be replaced rather than removed. In these instances, I use the following terms, which I do not claim to own and do not protect as Product Identity:
 
 -   hooked hulk
+-   *eldritch beam*
 -   eyestalker
 -   fey plane
 -   shadow plane
@@ -47,6 +48,7 @@ Added spell links and italicized spells.
 -   Fixed a typo that existed in the source material.
 -   Fixed a table in the Sorcerous Origins section.
 -   Replaced a reference to a protected spell in a Sorcerer class example.
+-   Replaced a reference to a protected spell in the Eldritch Invocations section with the made-up spell name *eldritch beam*.
 -   Replaced a reference to a protected spell in the druid NPC spell list with *guidance*.
 -   Replaced a reference to a protected smite spell in the *necklace of prayer beads* with a brief description of its effects.
 -   Replaced protected proper names in generic examples for spells and spellcasting.
