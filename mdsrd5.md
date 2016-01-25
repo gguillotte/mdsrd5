@@ -37,13 +37,13 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 15. COPYRIGHT NOTICE
 
-Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+    Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
-System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
+    System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, John D. Rateliff, Thomas Reid, James Wyatt, based on original material by E. Gary Gygax and Dave Arneson.
 
-System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
+    System Reference Document 5.0 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.
 
-The Markdown SRD5 Copyright 2016, Garrett Guillotte.
+    The Markdown SRD5 Copyright 2016, Garrett Guillotte.
 
 END OF LICENSE
 
@@ -1237,7 +1237,7 @@ You know two cantrips of your choice from the bard spell list. You learn additio
 
 The Bard Spell Slots per Level table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
-For example, if you know the 1st-level spell *cure wounds* and have a 1st-level and a 2nd-level spell slot available, you can cast *cure wounds* using either slot.
+For example, if you know the 1st-level spell [*cure wounds*](#cure-wounds) and have a 1st-level and a 2nd-level spell slot available, you can cast [*cure wounds*](#cure-wounds) using either slot.
 
 #### Spells Known of 1st Level and Higher
 
@@ -1839,7 +1839,7 @@ The Cleric Spell Slots per Level table shows how many spell slots you have to ca
 
 You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell *cure wounds*, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [*cure wounds*](#cure-wounds), you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
@@ -1958,11 +1958,11 @@ Domains
 
 The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life (see "Pantheons") promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Isis, The Daghdha, and Demeter), sun gods (such as Belenus, Frey, and Re-Horakhty), gods of healing or endurance (such as Apollo, Lugh, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Frigga).
 
-<table style="width:78%;">
+<table style="width:89%;">
 <caption>Life Domain Spells</caption>
 <colgroup>
 <col width="20%" />
-<col width="56%" />
+<col width="68%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1973,23 +1973,23 @@ The Life domain focuses on the vibrant positive energy—one of the fundamental 
 <tbody>
 <tr class="odd">
 <td align="center">1st</td>
-<td align="left"><em>bless</em>, <em>cure wounds</em></td>
+<td align="left"><a href="#bless"><em>bless</em></a>, <a href="#cure-wounds"><em>cure wounds</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">3rd</td>
-<td align="left"><em>lesser restoration</em>, <em>spiritual weapon</em></td>
+<td align="left"><a href="#lesser-restoration"><em>lesser restoration</em></a>, <a href="#spiritual-weapon"><em>spiritual weapon</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">5th</td>
-<td align="left"><em>beacon of hope</em>, <em>revivify</em></td>
+<td align="left"><a href="#beacon-of-hope"><em>beacon of hope</em></a>, <a href="#revivify"><em>revivify</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">7th</td>
-<td align="left"><em>death ward</em>, <em>guardian of faith</em></td>
+<td align="left"><a href="#death-ward"><em>death ward</em></a>, [<em>guardian of faith</em>][]</td>
 </tr>
 <tr class="odd">
 <td align="center">9th</td>
-<td align="left"><em>mass cure wounds</em>, <em>raise dead</em></td>
+<td align="left"><a href="#mass-cure-wounds"><em>mass cure wounds</em></a>, <a href="#raise-dead"><em>raise dead</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -2650,11 +2650,11 @@ Your mystical connection to the land infuses you with the ability to cast certai
 
 Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.
 
-<table style="width:93%;">
+<table>
 <caption>Arctic</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2665,28 +2665,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>hold person</em>, <em>spike growth</em></td>
+<td align="left"><a href="#hold-person"><em>hold person</em></a>, <a href="#spike-growth"><em>spike growth</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>sleet storm</em>, <em>slow</em></td>
+<td align="left"><a href="#sleet-storm"><em>sleet storm</em></a>, <a href="#slow"><em>slow</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>freedom of movement</em>, <em>ice storm</em></td>
+<td align="left"><a href="#freedom-of-movement"><em>freedom of movement</em></a>, <a href="#ice-storm"><em>ice storm</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>commune with nature</em>, <em>cone of cold</em></td>
+<td align="left"><a href="#commune-with-nature"><em>commune with nature</em></a>, <a href="#cone-of-cold"><em>cone of cold</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Coast</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2697,28 +2697,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>mirror image</em>, <em>misty step</em></td>
+<td align="left"><a href="#mirror-image"><em>mirror image</em></a>, <a href="#misty-step"><em>misty step</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>water breathing</em>, <em>water walk</em></td>
+<td align="left"><a href="#water-breathing"><em>water breathing</em></a>, <a href="#water-walk"><em>water walk</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>control water</em>, <em>freedom of movement</em></td>
+<td align="left"><a href="#control-water"><em>control water</em></a>, <a href="#freedom-of-movement"><em>freedom of movement</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>conjure elemental</em>, <em>scrying</em></td>
+<td align="left"><a href="#conjure-elemental"><em>conjure elemental</em></a>, <a href="#scrying"><em>scrying</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Desert</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2729,28 +2729,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>blur</em>, <em>silence</em></td>
+<td align="left"><a href="#blur"><em>blur</em></a>, <a href="#silence"><em>silence</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>create food and water</em>, <em>protection from energy</em> |</td>
+<td align="left"><a href="#create-food-and-water"><em>create food and water</em></a>, <a href="#protection-from-energy"><em>protection from energy</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>blight</em>, <em>hallucinatory terrain</em></td>
+<td align="left"><a href="#blight"><em>blight</em></a>, <a href="#hallucinatory-terrain"><em>hallucinatory terrain</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>insect plague</em>, <em>wall of stone</em></td>
+<td align="left"><a href="#insect-plague"><em>insect plague</em></a>, <a href="#wall-of-stone"><em>wall of stone</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Forest</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2761,28 +2761,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>barkskin</em>, <em>spider climb</em></td>
+<td align="left"><a href="#barkskin"><em>barkskin</em></a>, <a href="#spider-climb"><em>spider climb</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>call lightning</em>, <em>plant growth</em></td>
+<td align="left"><a href="#call-lightning"><em>call lightning</em></a>, <a href="#plant-growth"><em>plant growth</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>divination</em>, <em>freedom of movement</em></td>
+<td align="left"><a href="#divination"><em>divination</em></a>, <a href="#freedom-of-movement"><em>freedom of movement</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>commune with nature</em>, <em>tree stride</em></td>
+<td align="left"><a href="#commune-with-nature"><em>commune with nature</em></a>, <a href="#tree-stride"><em>tree stride</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Grassland</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2793,28 +2793,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>invisibility</em>, <em>pass without trace</em></td>
+<td align="left"><a href="#invisibility"><em>invisibility</em></a>, <a href="#pass-without-trace"><em>pass without trace</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>daylight</em>, <em>haste</em></td>
+<td align="left"><a href="#daylight"><em>daylight</em></a>, <a href="#haste"><em>haste</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>divination</em>, <em>freedom of movement</em></td>
+<td align="left"><a href="#divination"><em>divination</em></a>, <a href="#freedom-of-movement"><em>freedom of movement</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>dream</em>, <em>insect plague</em></td>
+<td align="left"><a href="#dream"><em>dream</em></a>, <a href="#insect-plague"><em>insect plague</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Mountain</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2825,28 +2825,28 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>spider climb</em>, <em>spike growth</em></td>
+<td align="left"><a href="#spider-climb"><em>spider climb</em></a>, <a href="#spike-growth"><em>spike growth</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>lightning bolt</em>, <em>meld into stone</em></td>
+<td align="left"><a href="#lightning-bolt"><em>lightning bolt</em></a>, <a href="#meld-into-stone"><em>meld into stone</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>stone shape</em>, <em>stoneskin</em></td>
+<td align="left"><a href="#stone-shape"><em>stone shape</em></a>, <a href="#stoneskin"><em>stoneskin</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>passwall</em>, <em>wall of stone</em></td>
+<td align="left"><a href="#passwall"><em>passwall</em></a>, <a href="#wall-of-stone"><em>wall of stone</em></a></td>
 </tr>
 </tbody>
 </table>
 
-<table style="width:93%;">
+<table>
 <caption>Swamp</caption>
 <colgroup>
 <col width="19%" />
-<col width="73%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2857,19 +2857,19 @@ Once you gain access to a circle spell, you always have it prepared, and it does
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>water walk</em>, <em>stinking cloud</em></td>
+<td align="left"><a href="#water-walk"><em>water walk</em></a>, <a href="#stinking-cloud"><em>stinking cloud</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>freedom of movement</em>, <em>locate creature</em></td>
+<td align="left"><a href="#freedom-of-movement"><em>freedom of movement</em></a>, <a href="#locate-creature"><em>locate creature</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">7th</td>
-<td align="left"><em>insect plague</em>, <em>scrying</em></td>
+<td align="left"><a href="#insect-plague"><em>insect plague</em></a>, <a href="#scrying"><em>scrying</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">9th</td>
-<td align="left"><em>acid arrow</em>, <em>darkness</em></td>
+<td align="left"><a href="#acid-arrow"><em>acid arrow</em></a>, <a href="#darkness"><em>darkness</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -3905,7 +3905,7 @@ You prepare the list of paladin spells that are available for you to cast, choos
 
 For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots.
 
-With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell *cure wounds*, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell [*cure wounds*](#cure-wounds), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.
 
@@ -4024,11 +4024,11 @@ Though the exact words and strictures of the Oath of Devotion vary, paladins of 
 
 You gain oath spells at the paladin levels listed.
 
-<table style="width:85%;">
+<table style="width:96%;">
 <caption>Oath of Devotion Spells</caption>
 <colgroup>
 <col width="22%" />
-<col width="62%" />
+<col width="73%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -4039,23 +4039,23 @@ You gain oath spells at the paladin levels listed.
 <tbody>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>protection from evil and good</em>, <em>sanctuary</em></td>
+<td align="left"><a href="#protection-from-evil-and-good"><em>protection from evil and good</em></a>, <a href="#sanctuary"><em>sanctuary</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">5th</td>
-<td align="left"><em>lesser restoration</em>, <em>zone of truth</em></td>
+<td align="left"><a href="#lesser-restoration"><em>lesser restoration</em></a>, <a href="#zone-of-truth"><em>zone of truth</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">9th</td>
-<td align="left"><em>beacon of hope</em>, <em>dispel magic</em></td>
+<td align="left"><a href="#beacon-of-hope"><em>beacon of hope</em></a>, <a href="#dispel-magic"><em>dispel magic</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">13th</td>
-<td align="left"><em>freedom of movement</em>, <em>guardian of faith</em></td>
+<td align="left"><a href="#freedom-of-movement"><em>freedom of movement</em></a>, [<em>guardian of faith</em>][]</td>
 </tr>
 <tr class="odd">
 <td align="center">17th</td>
-<td align="left"><em>commune</em>, <em>flame strike</em></td>
+<td align="left"><a href="#commune"><em>commune</em></a>, <a href="#flame-strike"><em>flame strike</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -5734,7 +5734,7 @@ You know two cantrips of your choice from the warlock spell list. You learn addi
 
 The Warlock Spell Slots by Level table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.
 
-For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell *thunderwave*, you must spend one of those slots, and you cast it as a 3rd-level spell.
+For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell [*thunderwave*](#thunderwave), you must spend one of those slots, and you cast it as a 3rd-level spell.
 
 #### Spells Known of 1st Level and Higher
 
@@ -5780,7 +5780,7 @@ At 3rd level, your otherworldly patron bestows a gift upon you for your loyal se
 
 #### Pact of the Chain
 
-You learn the *find familiar* spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
+You learn the \[*find familiar*\]\[\] spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
 
 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
 
@@ -5823,9 +5823,9 @@ If an eldritch invocation has prerequisites, you must meet them to learn it. You
 
 #### Agonizing Blast
 
-*Prerequisite: \[*eldritch blast*\]\[\] cantrip*
+*Prerequisite: *eldritch beam* cantrip*
 
-When you cast \[*eldritch blast*\]\[\], add your Charisma modifier to the damage it deals on a hit.
+When you cast *eldritch beam*, add your Charisma modifier to the damage it deals on a hit.
 
 #### Armor of Shadows
 
@@ -5849,7 +5849,7 @@ You gain proficiency in the Deception and Persuasion skills.
 
 *Prerequisite: 7th level*
 
-You can cast \[*compulsion*\]\[\] once using a warlock spell slot. You can't do so again until you finish a long rest.
+You can cast *compulsion* once using a warlock spell slot. You can't do so again until you finish a long rest.
 
 #### Book of Ancient Secrets
 
@@ -5881,9 +5881,9 @@ You can cast [*detect magic*](#detect-magic) at will, without expending a spell 
 
 #### Eldritch Spear
 
-*Prerequisite: \[*eldritch blast*\]\[\] cantrip*
+*Prerequisite: *eldritch beam* cantrip*
 
-When you cast \[*eldritch blast*\]\[\], its range is 300 feet.
+When you cast *eldritch beam*, its range is 300 feet.
 
 #### Eyes of the Rune Keeper
 
@@ -5943,9 +5943,9 @@ You can cast [*jump*](#jump) on yourself at will, without expending a spell slot
 
 #### Repelling Blast
 
-*Prerequisite: \[*eldritch blast*\] cantrip*
+*Prerequisite: *eldritch beam* cantrip*
 
-When you hit a creature with \[*eldritch blast,*\]\[\] you can push the creature up to 10 feet away from you in a straight line.
+When you hit a creature with *eldritch beam*, you can push the creature up to 10 feet away from you in a straight line.
 
 #### Sculptor of Flesh
 
@@ -6008,11 +6008,11 @@ You have made a pact with a fiend from the lower planes of existence, a being wh
 
 The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.
 
-<table style="width:72%;">
+<table style="width:83%;">
 <caption>Fiend Expanded Spells</caption>
 <colgroup>
 <col width="19%" />
-<col width="52%" />
+<col width="63%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -6023,23 +6023,23 @@ The Fiend lets you choose from an expanded list of spells when you learn a warlo
 <tbody>
 <tr class="odd">
 <td align="center">1st</td>
-<td align="left"><em>burning hands</em>, <em>command</em></td>
+<td align="left"><a href="#burning-hands"><em>burning hands</em></a>, <a href="#command"><em>command</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">2nd</td>
-<td align="left"><em>blindness/deafness</em>, <em>scorching ray</em></td>
+<td align="left"><a href="#blindnessdeafness"><em>blindness/deafness</em></a>, <a href="#scorching-ray"><em>scorching ray</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">3rd</td>
-<td align="left"><em>fireball</em>, <em>stinking cloud</em></td>
+<td align="left"><a href="#fireball"><em>fireball</em></a>, <a href="#stinking-cloud"><em>stinking cloud</em></a></td>
 </tr>
 <tr class="even">
 <td align="center">4th</td>
-<td align="left"><em>fire shield</em>, <em>wall of fire</em></td>
+<td align="left"><a href="#fire-shield"><em>fire shield</em></a>, <a href="#wall-of-fire"><em>wall of fire</em></a></td>
 </tr>
 <tr class="odd">
 <td align="center">5th</td>
-<td align="left"><em>flame strike</em>, <em>hallow</em></td>
+<td align="left"><a href="#flame-strike"><em>flame strike</em></a>, <a href="#hallow"><em>hallow</em></a></td>
 </tr>
 </tbody>
 </table>
@@ -6564,7 +6564,7 @@ The Wizard Spell Slots per Level table shows how many spell slots you have to ca
 
 You prepare the list of wizard spells that are available for you to cast. To do so, choose a number of wizard spells from your spellbook equal to your Intelligence modifier + your wizard level (minimum of one spell). The spells must be of a level for which you have spell slots.
 
-For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell *magic missile*, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
+For example, if you're a 3rd-level wizard, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell [*magic missile*](#magic-missile), you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.
 
 You can change your list of prepared spells when you finish a long rest. Preparing a new list of wizard spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: at least 1 minute per spell level for each spell on your list.
 
@@ -7239,7 +7239,7 @@ Each spell you know and prepare is associated with one of your classes, and you 
 
 ***Spell Slots.*** You determine your available spell slots by adding together all your levels in the bard, cleric, druid, sorcerer, and wizard classes, and half your levels (rounded down) in the paladin and ranger classes. Use this total to determine your spell slots by consulting the Multiclass Spellcaster table.
 
-If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like *burning hands*, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don't have any spells of that higher level.
+If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like [*burning hands*](#burning-hands), has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don't have any spells of that higher level.
 
 For example, if you are the aforementioned ranger 4/wizard 3, you count as a 5th-level character when determining your spell slots: you have four 1st-level slots, three 2nd-level slots, and two 3rd-level slots. However, you don't know any 3rd-level spells, nor do you know any 2nd-level ranger spells. You can use the spell slots of those levels to cast the spells you do know—and potentially enhance their effects.
 
@@ -11393,7 +11393,7 @@ Usually, some element of a trap is visible to careful inspection. Characters mig
 
 A trap's description specifies the checks and DCs needed to detect it, disable it, or both. A character actively looking for a trap can attempt a Wisdom (Perception) check against the trap's DC. You can also compare the DC to detect the trap with each character's passive Wisdom (Perception) score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to disarm it, either permanently or long enough to move past it. You might call for an Intelligence (Investigation) check for a character to deduce what needs to be done, followed by a Dexterity check using thieves' tools to perform the necessary sabotage.
 
-Any character can attempt an Intelligence (Arcana) check to detect or disarm a magic trap, in addition to any other checks noted in the trap's description. The DCs are the same regardless of the check used. In addition, *dispel magic* has a chance of disabling most magic traps. A magic trap's description provides the DC for the ability check made when you use *dispel magic*.
+Any character can attempt an Intelligence (Arcana) check to detect or disarm a magic trap, in addition to any other checks noted in the trap's description. The DCs are the same regardless of the check used. In addition, [*dispel magic*](#dispel-magic) has a chance of disabling most magic traps. A magic trap's description provides the DC for the ability check made when you use [*dispel magic*](#dispel-magic).
 
 In most cases, a trap's description is clear enough that you can adjudicate whether a character's actions locate or foil the trap. As with many situations, you shouldn't allow die rolling to override clever play and good planning. Use your common sense, drawing on the trap's description to determine what happens. No trap's design can anticipate every possible action that the characters might attempt.
 
@@ -11534,7 +11534,7 @@ The DC is 15 to spot the pressure plate, as well as faint scorch marks on the fl
 
 The trap activates when more than 20 pounds of weight is placed on the pressure plate, causing the statue to release a 30-foot cone of fire. Each creature in the fire must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.
 
-Wedging an iron spike or other object under the pressure plate prevents the trap from activating. A successful *dispel magic* (DC 13) cast on the statue destroys the trap.
+Wedging an iron spike or other object under the pressure plate prevents the trap from activating. A successful [*dispel magic*](#dispel-magic) (DC 13) cast on the statue destroys the trap.
 
 #### Pits
 
@@ -11600,9 +11600,9 @@ As an action, a creature within 5 feet of the sphere can attempt to slow it down
 
 Magical, impenetrable darkness fills the gaping mouth of a stone face carved into a wall. The mouth is 2 feet in diameter and roughly circular. No sound issues from it, no light can illuminate the inside of it, and any matter that enters it is instantly obliterated.
 
-A successful DC 20 Intelligence (Arcana) check reveals that the mouth contains a *sphere of annihilation* that can't be controlled or moved. It is otherwise identical to a normal *sphere of annihilation*.
+A successful DC 20 Intelligence (Arcana) check reveals that the mouth contains a \[*sphere of annihilation*\]\[\] that can't be controlled or moved. It is otherwise identical to a normal \[*sphere of annihilation*\]\[\].
 
-Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the *sympathy* aspect of the *antipathy/sympathy* spell. A successful *dispel magic* (DC 18) removes this enchantment.
+Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the \[*sympathy*\]\[\] aspect of the [*antipathy/sympathy*](#antipathysympathy) spell. A successful [*dispel magic*](#dispel-magic) (DC 18) removes this enchantment.
 
 Combat
 ======
@@ -11693,7 +11693,7 @@ If you take an action that includes more than one weapon attack, you can break u
 
 If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.
 
-For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the *fly* spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.
+For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the [*fly*](#fly) spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.
 
 ### Difficult Terrain
 
@@ -11747,7 +11747,7 @@ If you leave a hostile creature's reach during your move, you provoke an opportu
 
 ### Flying Movement
 
-Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the *fly* spell.
+Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its speed reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover or it is being held aloft by magic, such as by the [*fly*](#fly) spell.
 
 ### Creature Size
 
@@ -17620,21 +17620,21 @@ If you cast this spell multiple times, you can have up to three of its non-insta
 
 Eight multicolored rays of light flash from your hand. Each ray is a different color and has a different power and purpose. Each creature in a 60-foot cone must make a Dexterity saving throw. For each target, roll a d8 to determine which color ray affects it.
 
-1.  Red. The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.
+1.  ***Red.*** The target takes 10d6 fire damage on a failed save, or half as much damage on a successful one.
 
-2.  Orange. The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.
+2.  ***Orange.*** The target takes 10d6 acid damage on a failed save, or half as much damage on a successful one.
 
-3.  Yellow. The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.
+3.  ***Yellow.*** The target takes 10d6 lightning damage on a failed save, or half as much damage on a successful one.
 
-4.  Green. The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.
+4.  ***Green.*** The target takes 10d6 poison damage on a failed save, or half as much damage on a successful one.
 
-5.  Blue. The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.
+5.  ***Blue.*** The target takes 10d6 cold damage on a failed save, or half as much damage on a successful one.
 
-6.  Indigo. On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.
+6.  ***Indigo.*** On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.
 
-7.  Violet. On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)
+7.  ***Violet.*** On a failed save, the target is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of existence of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.)
 
-8.  Special. The target is struck by two rays. Roll twice more, rerolling any 8.
+8.  ***Special.*** The target is struck by two rays. Roll twice more, rerolling any 8.
 
 #### Prismatic Wall
 
@@ -17656,21 +17656,21 @@ The wall consists of seven layers, each with a different color. When a creature 
 
 The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed, it remains so for the duration of the spell. A *rod of cancellation* destroys a [*prismatic wall*](#prismatic-wall), but an [*antimagic field*](#antimagic-field) has no effect on it.
 
-1.  Red. The creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it.
+1.  ***Red.*** The creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can't pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it.
 
-2.  Orange. The creature takes 10d6 acid damage on a failed save, or half as much damage on a successful one. While this layer is in place, magical ranged attacks can't pass through the wall. The layer is destroyed by a strong wind.
+2.  ***Orange.*** The creature takes 10d6 acid damage on a failed save, or half as much damage on a successful one. While this layer is in place, magical ranged attacks can't pass through the wall. The layer is destroyed by a strong wind.
 
-3.  Yellow. The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.
+3.  ***Yellow.*** The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.
 
-4.  Green. The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A [*passwall*](#passwall) spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.
+4.  ***Green.*** The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A [*passwall*](#passwall) spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.
 
-5.  Blue. The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.
+5.  ***Blue.*** The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.
 
-6.  Indigo. On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.
+6.  ***Indigo.*** On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive; keep track of both until the creature collects three of a kind.
 
-While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a [*daylight*](#daylight) spell or a similar spell of equal or higher level.
+    While this layer is in place, spells can't be cast through the wall. The layer is destroyed by bright light shed by a [*daylight*](#daylight) spell or a similar spell of equal or higher level.
 
-1.  Violet. On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a [*dispel magic*](#dispel-magic) spell or a similar spell of equal or higher level that can end spells and magical effects.
+7.  ***Violet.*** On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the GM's choosing and is no longer blinded. (Typically, a creature that is on a plane that isn't its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a [*dispel magic*](#dispel-magic) spell or a similar spell of equal or higher level that can end spells and magical effects.
 
 #### Private Sanctum
 
@@ -24978,7 +24978,7 @@ Monster Descriptions
 
 ***Multiattack.*** The aboleth makes three tentacle attacks.
 
-***Tentacle.** Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another diseasebcuring spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+***Tentacle.** Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by [*heal*](#heal) or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
 
 ***Tail.** Melee Weapon Attack:* +9 to hit, reach 10 ft. one target. *Hit:* 15 (3d6 + 5) bludgeoning damage.
 
@@ -25222,7 +25222,7 @@ See "Deck of Many Things".
 
 **Challenge** 3 (700 XP)
 
-***Petrifying Gaze.*** If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn't incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.
+***Petrifying Gaze.*** If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn't incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the [*greater restoration*](#greater-restoration) spell or other magic.
 
 A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.
 
@@ -25592,7 +25592,7 @@ If the behir takes 30 damage or more on a single turn from the swallowed creatur
 
 ***Amphibious.*** The chuul can breathe air and water.
 
-***Sense Magic.*** The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn't itself magical.
+***Sense Magic.*** The chuul senses magic within 120 feet of it at will. This trait otherwise works like the [*detect magic*](#detect-magic) spell but isn't itself magical.
 
 ##### Actions
 
@@ -25777,13 +25777,15 @@ A duplicate has the cloaker's AC and uses its saving throws. If an attack hits a
 
 ***Innate Spellcasting.*** The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:
 
-At will: detect evil and good, detect magic, detect thoughts
+At will: [*detect evil and good*](#detect-evil-and-good), [*detect magic*](#detect-magic), [*detect thoughts*](#detect-thoughts)
 
-3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield
+3/day each: [*bless*](#bless), [*create food and water*](#create-food-and-water), [*cure wounds*](#cure-wounds), [*lesser restoration*](#lesser-restoration), [*protection from poison*](#protection-from-poison), [*sanctuary*](#sanctuary), [*shield*](#shield)
 
-1/day each: dream, greater restoration, scrying Magic Weapons. The couatl's weapon attacks are magical.
+1/day each: [*dream*](#dream), [*greater restoration*](#greater-restoration), [*scrying*](#scrying)
 
-***Shielded Mind.*** The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.
+***Magic Weapons.*** The couatl's weapon attacks are magical.
+
+***Shielded Mind.*** The couatl is immune to [*scrying*](#scrying) and to any effect that would sense its emotions, read its thoughts, or detect its location.
 
 ##### Actions
 
@@ -26045,9 +26047,11 @@ The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 
 
 ***Innate Spellcasting.*** The drider's innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components:
 
-At will: dancing lights
+At will: [*dancing lights*](#dancing-lights)
 
-1/day each: darkness, faerie fire Spider Climb. The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+1/day each: [*darkness*](#darkness), [*faerie fire*](#faerie-fire)
+
+***Spider Climb.*** The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
 ***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
 
@@ -26067,7 +26071,7 @@ At will: dancing lights
 
 *Medium fey, neutral*
 
-**Armor Class** 11 (16 with barkskin)
+**Armor Class** 11 (16 with [*barkskin*](#barkskin))
 
 **Hit Points** 22 (5d8)
 
@@ -26114,11 +26118,11 @@ At will: dancing lights
 
 ***Innate Spellcasting.*** The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components:
 
-At will: druidcraft
+At will: [*guidance*](#guidance)
 
-3/day each: entangle, goodberry
+3/day each: [*entangle*](#entangle), *goodberry*
 
-1/day each: barkskin, pass without trace, shillelagh
+1/day each: [*barkskin*](#barkskin), [*pass without trace*](#pass-without-trace), [*shillelagh*](#shillelagh)
 
 ***Magic Resistance.*** The dryad has advantage on saving throws against spells and other magical effects.
 
@@ -26130,7 +26134,7 @@ Both trees must be Large or bigger.
 
 ##### Actions
 
-***Club.** Melee Weapon Attack:* +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.
+***Club.** Melee Weapon Attack:* +2 to hit (+6 to hit with [*shillelagh*](#shillelagh)), reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with [*shillelagh*](#shillelagh).
 
 ***Fey Charm.*** The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.
 
@@ -26254,9 +26258,11 @@ The dryad can have no more than one humanoid and up to three beasts charmed at a
 
 ***Innate Spellcasting.*** The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:
 
-At will: dancing lights
+At will: [*dancing lights*](#dancing-lights)
 
-1/day each: darkness, faerie fire Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+1/day each: [*darkness*](#darkness), [*faerie fire*](#faerie-fire)
+
+***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -26518,11 +26524,11 @@ The creature can repeat the saving throw at the end of each of its turns, ending
 
 ***Etherealness.*** The ghost enters the Ethereal Plane from the Material Plane, or vice versa. It is visible on the Material Plane while it is in the Border Ethereal, and vice versa, yet it can't affect or be affected by anything on the other plane.
 
-***Horrifying Visage.*** Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring.
+***Horrifying Visage.*** Each non-undead creature within 60 feet of the ghost that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to this ghost's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a [*greater restoration*](#greater-restoration) spell, but only within 24 hours of it occurring.
 
 ***Possession (Recharge 6).*** One humanoid that the ghost can see within 5 feet of it must succeed on a DC 13 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.
 
-The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.
+The possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the [*dispel evil and good*](#dispel-evil-and-good) spell. When the possession ends, the ghost reappears in an unoccupied space within 5 feet of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.
 
 #### Gibbering Mouther
 
@@ -26697,9 +26703,9 @@ The possession lasts until the body drops to 0 hit points, the ghost ends it as 
 
 ***Innate Spellcasting.*** The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:
 
-At will: nondetection (self only)
+At will: [*nondetection*](#nondetection) (self only)
 
-1/day each: blindness/deafness, blur, disguise self
+1/day each: [*blindness/deafness*](#blindnessdeafness), [*blur*](#blur), [*disguise self*](#disguise-self)
 
 ##### Actions
 
@@ -26823,7 +26829,7 @@ At will: nondetection (self only)
 
 ***Hooves.** Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage.
 
-***Petrifying Breath (Recharge 5–6).*** The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.
+***Petrifying Breath (Recharge 5–6).*** The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the [*greater restoration*](#greater-restoration) spell or other magic.
 
 #### Grick
 
@@ -27372,7 +27378,7 @@ At the end of its turn, it grows two heads for each of its heads that died since
 
 **Hit Points** 104 (16d8 + 32)
 
-**Speed** 50 ft., fly 50 ft. hover)
+**Speed** 50 ft., fly 50 ft. (hover)
 
 <table style="width:83%;">
 <colgroup>
@@ -27620,11 +27626,11 @@ The kraken can take 3 legendary actions, choosing from the options below. Only o
 
 ***Innate Spellcasting.*** The lamia's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.
 
-At will: disguise self (any humanoid form), major image
+At will: [*disguise self*](#disguise-self) (any humanoid form), [*major image*](#major-image)
 
-3/day each: charm person, mirror image, scrying, suggestion
+3/day each: [*charm person*](#charm-person), [*mirror image*](#mirror-image), [*scrying*](#scrying), [*suggestion*](#suggestion)
 
-1/day: geas
+1/day: [*geas*](#geas)
 
 ##### Actions
 
@@ -27699,25 +27705,27 @@ At will: disguise self (any humanoid form), major image
 
 ***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
 
-Cantrips (at will): mage hand, prestidigitation, ray of frost
+Cantrips (at will): [*mage hand*](#mage-hand), [*prestidigitation*](#prestidigitation), [*ray of frost*](#ray-of-frost)
 
-1st level (4 slots): detect magic, magic missile, shield, thunderwave
+1st level (4 slots): [*detect magic*](#detect-magic), [*magic missile*](#magic-missile), [*shield*](#shield), [*thunderwave*](#thunderwave)
 
-2nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror image
+2nd level (3 slots): [*acid arrow*](#acid-arrow), [*detect thoughts*](#detect-thoughts), [*invisibility*](#invisibility), [*mirror image*](#mirror-image)
 
-3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
+3rd level (3 slots): [*animate dead*](#animate-dead), *counterspell*, [*dispel magic*](#dispel-magic), [*fireball*](#fireball)
 
-4th level (3 slots): blight, dimension door
+4th level (3 slots): [*blight*](#blight), [*dimension door*](#dimension-door)
 
-5th level (3 slots): cloudkill, scrying
+5th level (3 slots): [*cloudkill*](#cloudkill), [*scrying*](#scrying)
 
-6th level (1 slot): disintegrate, globe of invulnerability
+6th level (1 slot): [*disintegrate*](#disintegrate), [*globe of invulnerability*](#globe-of-invulnerability)
 
-7th level (1 slot): finger of death, plane shift
+7th level (1 slot): [*finger of death*](#finger-of-death), [*plane shift*](#plane-shift)
 
-8th level (1 slot): dominate monster, power word stun
+8th level (1 slot): [*dominate monster*](#dominate-monster), [*power word stun*](#power-word-stun)
 
-9th level (1 slot): power word kill Turn Resistance. The lich has advantage on saving throws against any effect that turns undead.
+9th level (1 slot): [*power word kill*](#power-word-kill)
+
+***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 
 ##### Actions
 
@@ -27965,7 +27973,7 @@ The lich can take 3 legendary actions, choosing from the options below. Only one
 
 **Challenge** 6 (2,300 XP)
 
-***Petrifying Gaze.*** When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.
+***Petrifying Gaze.*** When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to stone and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the [*greater restoration*](#greater-restoration) spell or other magic.
 
 Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
 
@@ -28390,9 +28398,11 @@ If the medusa sees itself reflected on a polished surface within 30 feet of it a
 
 ***Innate Spellcasting.*** The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:
 
-At will: darkness, invisibility
+At will: [*darkness*](#darkness), [*invisibility*](#invisibility)
 
-1/day each: charm person, cone of cold, gaseous form, sleep Magic Weapons. The oni's weapon attacks are magical.
+1/day each: [*charm person*](#charm-person), [*cone of cold*](#cone-of-cold), [*gaseous form*](#gaseous-form), [*sleep*](#sleep)
+
+***Magic Weapons.*** The oni's weapon attacks are magical.
 
 ***Regeneration.*** The oni regains 10 hit points at the start of its turn if it has at least 1 hit point.
 
@@ -28817,17 +28827,17 @@ If the worm takes 30 damage or more on a single turn from a creature inside it, 
 
 ***Innate Spellcasting.*** The rakshasa's innate spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). The rakshasa can innately cast the following spells, requiring no material components:
 
-At will: detect thoughts, disguise self, mage hand, minor illusion
+At will: [*detect thoughts*](#detect-thoughts), [*disguise self*](#disguise-self), [*mage hand*](#mage-hand), [*minor illusion*](#minor-illusion)
 
-3/day each: charm person, detect magic, invisibility, major image, suggestion
+3/day each: [*charm person*](#charm-person), [*detect magic*](#detect-magic), [*invisibility*](#invisibility), [*major image*](#major-image), [*suggestion*](#suggestion)
 
-1/day each: dominate person, fly, plane shift, true seeing
+1/day each: [*dominate person*](#dominate-person), [*fly*](#fly), [*plane shift*](#plane-shift), [*true seeing*](#true-seeing)
 
 ##### Actions
 
 ***Multiattack.*** The rakshasa makes two claw attacks.
 
-***Claw.** Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a remove curse spell or similar magic.
+***Claw.** Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage, and the target is cursed if it is a creature. The magical curse takes effect whenever the target takes a short or long rest, filling the target's thoughts with horrible images and dreams. The cursed target gains no benefit from finishing a short or long rest. The curse lasts until it is lifted by a [*remove curse*](#remove-curse) spell or similar magic.
 
 #### Remorhaz
 
@@ -29762,7 +29772,7 @@ The fiend can have only one target charmed at a time. If it charms another, the 
 
 ***Magic Resistance.*** The tarrasque has advantage on saving throws against spells and other magical effects.
 
-***Reflective Carapace.*** Any time the tarrasque is targeted by a magic missile spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target.
+***Reflective Carapace.*** Any time the tarrasque is targeted by a [*magic missile*](#magic-missile) spell, a line spell, or a spell that requires a ranged attack roll, roll a d6. On a 1 to 5, the tarrasque is unaffected. On a 6, the tarrasque is unaffected, and the effect is reflected back at the caster as though it originated from the tarrasque, turning the caster into the target.
 
 ***Siege Monster.*** The tarrasque deals double damage to objects and structures.
 
@@ -29973,9 +29983,9 @@ The tarrasque can take 3 legendary actions, choosing from the options below. Onl
 
 ***Innate Spellcasting.*** The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components:
 
-At will: detect evil and good, druidcraft, pass without trace
+At will: [*detect evil and good*](#detect-evil-and-good), [*guidance*](#guidance), [*pass without trace*](#pass-without-trace)
 
-1/day each: calm emotions, dispel evil and good, entangle
+1/day each: [*calm emotions*](#calm-emotions), [*dispel evil and good*](#dispel-evil-and-good), [*entangle*](#entangle)
 
 ***Magic Resistance.*** The unicorn has advantage on saving throws against spells and other magical effects.
 
@@ -30391,9 +30401,9 @@ The will-o'-wisp can alter the radius as a bonus action.
 
 ***Innate Spellcasting.*** The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components:
 
-At will: detect evil and good
+At will: [*detect evil and good*](#detect-evil-and-good)
 
-1/day each: commune, raise dead
+1/day each: [*commune*](#commune), [*raise dead*](#raise-dead)
 
 ***Magic Resistance.*** The deva has advantage on saving throws against spells and other magical effects.
 
@@ -30470,11 +30480,11 @@ In a new form, the deva retains its game statistics and ability to speak, but it
 
 ***Innate Spellcasting.*** The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components:
 
-At will: detect evil and good, invisibility (self only)
+At will: [*detect evil and good*](#detect-evil-and-good), [*invisibility*](#invisibility) (self only)
 
-3/day each: blade barrier, dispel evil and good, flame strike, raise dead
+3/day each: [*blade barrier*](#blade-barrier), [*dispel evil and good*](#dispel-evil-and-good), [*flame strike*](#flame-strike), [*raise dead*](#raise-dead)
 
-1/day each: commune, control weather, insect plague
+1/day each: [*commune*](#commune), [*control weather*](#control-weather), [*insect plague*](#insect-plague)
 
 ***Magic Resistance.*** The planetar has advantage on saving throws against spells and other magical effects.
 
@@ -30549,11 +30559,11 @@ At will: detect evil and good, invisibility (self only)
 
 ***Innate Spellcasting.*** The solar's spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components:
 
-At will: detect evil and good, invisibility (self only)
+At will: [*detect evil and good*](#detect-evil-and-good), [*invisibility*](#invisibility) (self only)
 
-3/day each: blade barrier, dispel evil and good, resurrection
+3/day each: [*blade barrier*](#blade-barrier), [*dispel evil and good*](#dispel-evil-and-good), [*resurrection*](#resurrection)
 
-1/day each: commune, control weather
+1/day each: [*commune*](#commune), [*control weather*](#control-weather)
 
 ***Magic Resistance.*** The solar has advantage on saving throws against spells and other magical effects.
 
@@ -30577,7 +30587,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 ***Searing Burst (Costs 2 Actions).*** The solar emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one.
 
-***Blinding Gaze (Costs 3 Actions).*** The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.
+***Blinding Gaze (Costs 3 Actions).*** The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the [*lesser restoration*](#lesser-restoration) spell removes the blindness.
 
 ### Animated Objects
 
@@ -30632,7 +30642,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Challenge** 1 (200 XP)
 
-***Antimagic Susceptibility.*** The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
+***Antimagic Susceptibility.*** The armor is incapacitated while in the area of an [*antimagic field*](#antimagic-field). If targeted by [*dispel magic*](#dispel-magic), the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
 ***False Appearance.*** While the armor remains motionless, it is indistinguishable from a normal suit of armor.
 
@@ -30695,7 +30705,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Challenge** 1/4 (50 XP)
 
-***Antimagic Susceptibility.*** The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
+***Antimagic Susceptibility.*** The sword is incapacitated while in the area of an [*antimagic field*](#antimagic-field). If targeted by [*dispel magic*](#dispel-magic), the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
 ***False Appearance.*** While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword.
 
@@ -30754,7 +30764,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Challenge** 2 (450 XP)
 
-***Antimagic Susceptibility.*** The rug is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
+***Antimagic Susceptibility.*** The rug is incapacitated while in the area of an [*antimagic field*](#antimagic-field). If targeted by [*dispel magic*](#dispel-magic), the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute.
 
 ***Damage Transfer.*** While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half.
 
@@ -30959,9 +30969,9 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 ***Innate Spellcasting.*** The glabrezu's spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components:
 
-At will: darkness, detect magic, dispel magic
+At will: [*darkness*](#darkness), [*detect magic*](#detect-magic), [*dispel magic*](#dispel-magic)
 
-1/day each: confusion, fly, power word stun
+1/day each: [*confusion*](#confusion), [*fly*](#fly), [*power word stun*](#power-word-stun)
 
 ***Magic Resistance.*** The glabrezu has advantage on saving throws against spells and other magical effects.
 
@@ -31239,7 +31249,7 @@ At will: darkness, detect magic, dispel magic
 
 **Challenge** 1 (200 XP)
 
-***Shapechanger.*** The quasit can use its action to polymorph into a beast form that resembles a bat speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form.
+***Shapechanger.*** The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form.
 
 Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
@@ -31606,9 +31616,7 @@ Each animated chain is an object with AC 20, 20 hit points, resistance to pierci
 
 ##### Reactions
 
-***Unnerving Mask.*** When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14
-
-Wisdom saving throw or be frightened until the end of its turn.
+***Unnerving Mask.*** When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn.
 
 #### Erinyes
 
@@ -31675,7 +31683,7 @@ Wisdom saving throw or be frightened until the end of its turn.
 
 ***Longsword.** Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 3d8) poison damage.
 
-***Longbow.** Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.
+***Longbow.** Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the [*lesser restoration*](#lesser-restoration) spell or similar magic.
 
 ##### Reactions
 
@@ -31819,7 +31827,7 @@ Wisdom saving throw or be frightened until the end of its turn.
 
 ***Tail.** Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage plus 10 3d6) cold damage.
 
-Wall of Ice (Recharge 6). The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.
+***Wall of Ice (Recharge 6).*** The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.
 
 When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold damage on a failed save, or half as much damage on a successful one.
 
@@ -31880,7 +31888,7 @@ The wall lasts for 1 minute or until the devil is incapacitated or dies. The wal
 
 **Challenge** 1 (200 XP)
 
-***Shapechanger.*** The imp can use its action to polymorph into a beast form that resembles a rat speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Devil's Sight.*** Magical darkness doesn't impede the imp's darkvision.
 
@@ -31947,7 +31955,7 @@ The wall lasts for 1 minute or until the devil is incapacitated or dies. The wal
 
 ***Devil's Sight.*** Magical darkness doesn't impede the lemure's darkvision.
 
-***Hellish Rejuvenation.*** A lemure that dies in Hell comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.
+***Hellish Rejuvenation.*** A lemure that dies in Hell comes back to life with all its hit points in 1d10 days unless it is killed by a good-aligned creature with a [*bless*](#bless) spell cast on that creature or its remains are sprinkled with holy water.
 
 ##### Actions
 
@@ -32016,9 +32024,9 @@ The wall lasts for 1 minute or until the devil is incapacitated or dies. The wal
 
 ***Innate Spellcasting.*** The pit fiend's spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components:
 
-At will: detect magic, fireball
+At will: [*detect magic*](#detect-magic), [*fireball*](#fireball)
 
-3/day each: hold monster, wall of fire
+3/day each: [*hold monster*](#hold-monster), [*wall of fire*](#wall-of-fire)
 
 ##### Actions
 
@@ -32264,9 +32272,7 @@ If the target is prone, the triceratops can make one stomp attack against it as 
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 4 1d8) acid damage.
 
@@ -32347,9 +32353,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 9 2d8) acid damage.
 
@@ -32554,9 +32558,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 5 1d10) lightning damage.
 
@@ -32635,9 +32637,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 11 2d10) lightning damage.
 
@@ -32842,9 +32842,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 7 2d6) poison damage.
 
@@ -32927,9 +32925,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 10 3d6) poison damage.
 
@@ -33138,9 +33134,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 7 2d6) fire damage.
 
@@ -33219,9 +33213,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 14 4d6) fire damage.
 
@@ -33418,17 +33410,13 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Challenge** 13 (10,000 XP)
 
-***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check.
-
-Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
+***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
 
 ***Legendary Resistance (3/Day).*** If the dragon fails a saving throw, it can choose to succeed instead.
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 4 1d8) cold damage.
 
@@ -33503,17 +33491,13 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Challenge** 20 (25,000 XP)
 
-***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check.
-
-Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
+***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
 
 ***Legendary Resistance (3/Day).*** If the dragon fails a saving throw, it can choose to succeed instead.
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 9 2d8) cold damage.
 
@@ -33647,9 +33631,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Challenge** 6 (2,300 XP)
 
-***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check.
-
-Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
+***Ice Walk.*** The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra moment.
 
 ##### Actions
 
@@ -33720,9 +33702,7 @@ Additionally, difficult terrain composed of ice or snow doesn't cost it extra mo
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage.
 
@@ -33805,9 +33785,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage.
 
@@ -34024,9 +34002,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage.
 
@@ -34115,9 +34091,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage.
 
@@ -34338,9 +34312,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage.
 
@@ -34425,9 +34397,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage.
 
@@ -34962,9 +34932,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage.
 
@@ -35051,9 +35019,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ##### Actions
 
-***Multiattack.*** The dragon can use its Frightful Presence.
-
-It then makes three attacks: one with its bite and two with its claws.
+***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
 ***Bite.** Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage.
 
@@ -35650,11 +35616,11 @@ A creature within 5 feet of the elemental can pull a creature or object out of i
 
 ***Innate Spellcasting.*** The djinni's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
 
-At will: detect evil and good, detect magic, thunderwave
+At will: [*detect evil and good*](#detect-evil-and-good), [*detect magic*](#detect-magic), [*thunderwave*](#thunderwave)
 
-3/day each: create food and water (can create wine instead of water), tongues, wind walk
+3/day each: [*create food and water*](#create-food-and-water) (can create wine instead of water), [*tongues*](#tongues), [*wind walk*](#wind-walk)
 
-1/day each: conjure elemental (air elemental only), creation, gaseous form, invisibility, major image, plane shift
+1/day each: [*conjure elemental*](#conjure-elemental) (air elemental only), [*creation*](#creation), [*gaseous form*](#gaseous-form), [*invisibility*](#invisibility), [*major image*](#major-image), [*plane shift*](#plane-shift)
 
 ##### Actions
 
@@ -35721,11 +35687,11 @@ A creature can use its action to free a creature restrained by the whirlwind, in
 
 ***Innate Spellcasting.*** The efreeti's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
 
-At will: detect magic
+At will: [*detect magic*](#detect-magic)
 
-3/day: enlarge/reduce, tongues
+3/day: [*enlarge/reduce*](#enlargereduce), [*tongues*](#tongues)
 
-1/day each: conjure elemental (fire elemental only), gaseous form, invisibility, major image, plane shift, wall of fire
+1/day each: [*conjure elemental*](#conjure-elemental) (fire elemental only), [*gaseous form*](#gaseous-form), [*invisibility*](#invisibility), [*major image*](#major-image), [*plane shift*](#plane-shift), [*wall of fire*](#wall-of-fire)
 
 ##### Actions
 
@@ -35914,11 +35880,11 @@ At will: detect magic
 
 ***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
 
-At will: detect magic, fog cloud, light
+At will: [*detect magic*](#detect-magic), [*fog cloud*](#fog-cloud), [*light*](#light)
 
-3/day each: feather fall, fly, misty step, telekinesis
+3/day each: [*feather fall*](#feather-fall), [*fly*](#fly), [*misty step*](#misty-step), [*telekinesis*](#telekinesis)
 
-1/day each: control weather, gaseous form
+1/day each: [*control weather*](#control-weather), [*gaseous form*](#gaseous-form)
 
 ##### Actions
 
@@ -36231,9 +36197,9 @@ At will: detect magic, fog cloud, light
 
 ***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma (spell save DC 17). It can innately cast the following spells, requiring no material components:
 
-At will: detect magic, feather fall, levitate, light
+At will: [*detect magic*](#detect-magic), [*feather fall*](#feather-fall), [*levitate*](#levitate), [*light*](#light)
 
-3/day each: control weather, water breathing
+3/day each: [*control weather*](#control-weather), [*water breathing*](#water-breathing)
 
 ##### Actions
 
@@ -36312,7 +36278,7 @@ At will: detect magic, feather fall, levitate, light
 
 ***Multiattack.*** The golem makes two slam attacks.
 
-***Slam.** Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the greater restoration spell or other magic.
+***Slam.** Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. The target dies if this attack reduces its hit point maximum to 0. The reduction lasts until removed by the [*greater restoration*](#greater-restoration) spell or other magic.
 
 ***Haste (Recharge 5–6).*** Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.
 
@@ -36576,7 +36542,7 @@ The golem's creator, if within 60 feet of the berserk golem, can try to calm it 
 
 ***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
 
-At will: dancing lights, minor illusion, vicious mockery
+At will: [*dancing lights*](#dancing-lights), [*minor illusion*](#minor-illusion), *string of insults*
 
 ***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom Insight) check.
 
@@ -36645,9 +36611,9 @@ The changes wrought by this effect fail to hold up to physical inspection. For e
 
 ***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:
 
-At will: detect magic, magic missile
+At will: [*detect magic*](#detect-magic), [*magic missile*](#magic-missile)
 
-2/day each: plane shift (self only), ray of enfeeblement, sleep
+2/day each: [*plane shift*](#plane-shift) (self only), [*ray of enfeeblement*](#ray-of-enfeeblement), [*sleep*](#sleep)
 
 ***Magic Resistance.*** The hag has advantage on saving throws against spells and other magical effects.
 
@@ -36659,7 +36625,7 @@ At will: detect magic, magic missile
 
 ***Etherealness.*** The hag magically enters the Ethereal Plane from the Material Plane, or vice versa. To do so, the hag must have a heartstone in her possession.
 
-***Nightmare Haunting (1/Day).*** While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the greater restoration spell or similar magic.
+***Nightmare Haunting (1/Day).*** While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A [*protection from evil and good*](#protection-from-evil-and-good) spell cast on the target prevents this contact, as does a [*magic circle*](#magic-circle). As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the [*greater restoration*](#greater-restoration) spell or similar magic.
 
 #### Sea Hag
 
@@ -36921,7 +36887,7 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 **Challenge** 5 (1,800 XP)
 
-***Shapechanger.*** The werebear can use its action to polymorph into a Large bearbhumanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Keen Smell.*** The werebear has advantage on Wisdom Perception) checks that rely on smell.
 
@@ -36984,7 +36950,7 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 **Challenge** 4 (1,100 XP)
 
-***Shapechanger.*** The wereboar can use its action to polymorph into a boarbhumanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Charge (Boar or Hybrid Form Only).*** If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 
@@ -37049,7 +37015,7 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 **Challenge** 2 (450 XP)
 
-***Shapechanger.*** The wererat can use its action to polymorph into a ratbhumanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Keen Smell.*** The wererat has advantage on Wisdom Perception) checks that rely on smell.
 
@@ -37116,7 +37082,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 **Challenge** 4 (1,100 XP)
 
-***Shapechanger.*** The weretiger can use its action to polymorph into a tigerbhumanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Keen Hearing and Smell.*** The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 
@@ -37185,7 +37151,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 **Challenge** 3 (700 XP)
 
-***Shapechanger.*** The werewolf can use its action to polymorph into a wolfbhumanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
+***Shapechanger.*** The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
 ***Keen Hearing and Smell.*** The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 
@@ -37197,7 +37163,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Claws (Hybrid Form Only).** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (2d4 + 2) slashing damage.
 
-***Spear (Humanoid Form Only).*** Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 1d8 + 2) piercing damage if used with two hands to make a melee attack.
+***Spear (Humanoid Form Only).** Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 1d8 + 2) piercing damage if used with two hands to make a melee attack.
 
 ### Mephits
 
@@ -37256,7 +37222,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Death Burst.*** When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.
 
-***Innate Spellcasting (1/Day).*** The mephit can innately cast sleep, requiring no material components. Its innate spellcasting ability is Charisma.
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*sleep*](#sleep), requiring no material components. Its innate spellcasting ability is Charisma.
 
 ##### Actions
 
@@ -37321,7 +37287,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
 
-***Innate Spellcasting (1/Day).*** The mephit can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma.
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*fog cloud*](#fog-cloud), requiring no material components. Its innate spellcasting ability is Charisma.
 
 ##### Actions
 
@@ -37388,7 +37354,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
 
-***Innate Spellcasting (1/Day).*** The mephit can innately cast heat metal (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*heat metal*](#heat-metal) (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.
 
 ##### Actions
 
@@ -37449,7 +37415,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Death Burst.*** When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.
 
-***Innate Spellcasting (1/Day).*** The mephit can innately cast blur, requiring no material components. Its innate spellcasting ability is Charisma.
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*blur*](#blur), requiring no material components. Its innate spellcasting ability is Charisma.
 
 ##### Actions
 
@@ -37520,7 +37486,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Multiattack.*** The mummy can use its Dreadful Glare and makes one attack with its rotting fist.
 
-***Rotting Fist.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.
+***Rotting Fist.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the [*remove curse*](#remove-curse) spell or other magic.
 
 ***Dreadful Glare.*** The mummy targets one creature it can see within 60 feet of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.
 
@@ -37585,19 +37551,19 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Spellcasting.*** The mummy lord is a 10th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). The mummy lord has the following cleric spells prepared:
 
-Cantrips (at will): sacred flame, thaumaturgy
+Cantrips (at will): [*sacred flame*](#sacred-flame), [*thaumaturgy*](#thaumaturgy)
 
-1st level (4 slots): command, guiding bolt, shield of faith
+1st level (4 slots): [*command*](#command), [*guiding bolt*](#guiding-bolt), [*shield of faith*](#shield-of-faith)
 
-2nd level (3 slots): hold person, silence, spiritual weapon
+2nd level (3 slots): [*hold person*](#hold-person), [*silence*](#silence), [*spiritual weapon*](#spiritual-weapon)
 
-3rd level (3 slots): animate dead, dispel magic
+3rd level (3 slots): [*animate dead*](#animate-dead), [*dispel magic*](#dispel-magic)
 
-4th level (3 slots): divination, guardian of faith
+4th level (3 slots): [*divination*](#divination), *spectral guardian*
 
-5th level (2 slots): contagion, insect plague
+5th level (2 slots): [*contagion*](#contagion), [*insect plague*](#insect-plague)
 
-6th level (1 slot): harm
+6th level (1 slot): [*harm*](#harm)
 
 ##### Actions
 
@@ -37676,23 +37642,23 @@ The mummy lord can take 3 legendary actions, choosing from the options below. On
 
 **Challenge** 10 (5,900 XP)
 
-***Rejuvenation.*** If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
+***Rejuvenation.*** If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a [*wish*](#wish) spell can prevent this trait from functioning.
 
 ***Spellcasting.*** The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
 
-Cantrips (at will): mending, sacred flame, thaumaturgy
+Cantrips (at will): [*mending*](#mending), [*sacred flame*](#sacred-flame), [*thaumaturgy*](#thaumaturgy)
 
-1st level (4 slots): command, cure wounds, shield of faith
+1st level (4 slots): [*command*](#command), [*cure wounds*](#cure-wounds), [*shield*](#shield) of faith
 
-2nd level (3 slots): calm emotions, hold person
+2nd level (3 slots): [*calm emotions*](#calm-emotions), [*hold person*](#hold-person)
 
-3rd level (3 slots): bestow curse, clairvoyance
+3rd level (3 slots): [*bestow curse*](#bestow-curse), [*clairvoyance*](#clairvoyance)
 
-4th level (3 slots): banishment, freedom of movement
+4th level (3 slots): [*banishment*](#banishment), [*freedom of movement*](#freedom-of-movement)
 
-5th level (2 slots): flame strike, geas
+5th level (2 slots): [*flame strike*](#flame-strike), [*geas*](#geas)
 
-6th level (1 slot): true seeing
+6th level (1 slot): [*true seeing*](#true-seeing)
 
 ##### Actions
 
@@ -37753,21 +37719,21 @@ Cantrips (at will): mending, sacred flame, thaumaturgy
 
 **Challenge** 8 (3,900 XP)
 
-***Rejuvenation.*** If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a wish spell can prevent this trait from functioning.
+***Rejuvenation.*** If it dies, the naga returns to life in 1d6 days and regains all its hit points. Only a [*wish*](#wish) spell can prevent this trait from functioning.
 
 ***Spellcasting.*** The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
 
-Cantrips (at will): mage hand, minor illusion, ray of frost
+Cantrips (at will): [*mage hand*](#mage-hand), [*minor illusion*](#minor-illusion), [*ray of frost*](#ray-of-frost)
 
-1st level (4 slots): charm person, detect magic, sleep
+1st level (4 slots): [*charm person*](#charm-person), [*detect magic*](#detect-magic), [*sleep*](#sleep)
 
-2nd level (3 slots): detect thoughts, hold person
+2nd level (3 slots): [*detect thoughts*](#detect-thoughts), [*hold person*](#hold-person)
 
-3rd level (3 slots): lightning bolt, water breathing
+3rd level (3 slots): [*lightning bolt*](#lightning-bolt), [*water breathing*](#water-breathing)
 
-4th level (3 slots): blight, dimension door
+4th level (3 slots): [*blight*](#blight), [*dimension door*](#dimension-door)
 
-5th level (2 slots): dominate person
+5th level (2 slots): [*dominate person*](#dominate-person)
 
 ##### Actions
 
@@ -38285,19 +38251,19 @@ The ooze can eat through 2-inch-thick, nonmagical metal in 1 round.
 
 ***Spellcasting.*** The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:
 
-Cantrips (at will): sacred flame, spare the dying, thaumaturgy
+Cantrips (at will): [*sacred flame*](#sacred-flame), *stabilize*, [*thaumaturgy*](#thaumaturgy)
 
-1st level (4 slots): command, detect evil and good, detect magic
+1st level (4 slots): [*command*](#command), [*detect evil and good*](#detect-evil-and-good), [*detect magic*](#detect-magic)
 
-2nd level (3 slots): lesser restoration, zone of truth
+2nd level (3 slots): [*lesser restoration*](#lesser-restoration), [*zone of truth*](#zone-of-truth)
 
-3rd level (3 slots): dispel magic, tongues
+3rd level (3 slots): [*dispel magic*](#dispel-magic), [*tongues*](#tongues)
 
-4th level (3 slots): banishment, freedom of movement
+4th level (3 slots): [*banishment*](#banishment), [*freedom of movement*](#freedom-of-movement)
 
-5th level (2 slots): flame strike, greater restoration
+5th level (2 slots): [*flame strike*](#flame-strike), [*greater restoration*](#greater-restoration)
 
-6th level (1 slot): heroes' feast
+6th level (1 slot): [*heroes' feast*](#heroes-feast)
 
 ##### Actions
 
@@ -38384,17 +38350,17 @@ The sphinx can take 3 legendary actions, choosing from the options below. Only o
 
 ***Spellcasting.*** The sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:
 
-Cantrips (at will): mage hand, minor illusion, prestidigitation
+Cantrips (at will): [*mage hand*](#mage-hand), [*minor illusion*](#minor-illusion), [*prestidigitation*](#prestidigitation)
 
-1st level (4 slots): detect magic, identify, shield
+1st level (4 slots): [*detect magic*](#detect-magic), [*identify*](#identify), [*shield*](#shield)
 
-2nd level (3 slots): darkness, locate object, suggestion
+2nd level (3 slots): [*darkness*](#darkness), [*locate object*](#locate-object), [*suggestion*](#suggestion)
 
-3rd level (3 slots): dispel magic, remove curse, tongues
+3rd level (3 slots): [*dispel magic*](#dispel-magic), [*remove curse*](#remove-curse), [*tongues*](#tongues)
 
-4th level (3 slots): banishment, greater invisibility
+4th level (3 slots): [*banishment*](#banishment), [*greater invisibility*](#greater-invisibility)
 
-5th level (1 slot): legend lore
+5th level (1 slot): [*legend lore*](#legend-lore)
 
 ##### Actions
 
@@ -38483,13 +38449,15 @@ While it has 0 hit points in mist form, it can't revert to its vampire form, and
 
 ***Spider Climb.*** The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-***Vampire Weaknesses.*** The vampire has the following flaws: Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.
+***Vampire Weaknesses.*** The vampire has the following flaws:
 
-Harmed by Running Water. The vampire takes 20 acid damage if it ends its turn in running water.
+**Forbiddance.** The vampire can't enter a residence without an invitation from one of the occupants.
 
-Stake to the Heart. If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.
+**Harmed by Running Water.** The vampire takes 20 acid damage if it ends its turn in running water.
 
-***Sunlight Hypersensitivity.*** The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
+**Stake to the Heart.** If a piercing weapon made of wood is driven into the vampire's heart while the vampire is incapacitated in its resting place, the vampire is paralyzed until the stake is removed.
+
+**Sunlight Hypersensitivity.** The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
 ##### Actions
 
@@ -38572,15 +38540,15 @@ The vampire can take 3 legendary actions, choosing from the options below. Only 
 
 ***Spider Climb.*** The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-***Vampire Weaknesses.*** The vampire has the following flaws: Forbiddance. The vampire can't enter a residence without an invitation from one of the occupants.
+***Vampire Weaknesses.*** The vampire has the following flaws:
 
-Harmed by Running Water. The vampire takes 20 acid damage when it ends its turn in running water.
+**Forbiddance.** The vampire can't enter a residence without an invitation from one of the occupants.
 
-Stake to the Heart. The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.
+**Harmed by Running Water.** The vampire takes 20 acid damage when it ends its turn in running water.
 
-***Sunlight Hypersensitivity.*** The vampire takes 20 radiant damage when it starts its turn in sunlight.
+**Stake to the Heart.** The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is incapacitated in its resting place.
 
-While in sunlight, it has disadvantage on attack rolls and ability checks.
+**Sunlight Hypersensitivity.** The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
 ##### Actions
 

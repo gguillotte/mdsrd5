@@ -21,17 +21,36 @@ Generic terms
 In several places, protected content must be replaced rather than removed. In these instances, I use the following terms, which I do not claim to own and do not protect as Product Identity:
 
 -   hooked hulk
--   *eldritch beam*
--   eyestalker
--   fey plane
--   shadow plane
--   Primordial Chaos
--   Orb of the Wyrm
+-   *eldritch beam* (warlock/eldritch invocation)
+-   eyestalker (*deck of illusions*)
+-   fey plane (planes and monsters)
+-   Orb of the Wyrm (artifacts)
+-   Primordial Chaos (planes)
+-   shadow plane (planes)
+-   *spectral guardian* (mummy lord)
+-   *string of insults* (green hag)
 
-References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and named NPCs used in examples are given more generic names. References to protected spells are replaced with Open Game Content where possible.
+References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and named NPCs used in examples are given more generic names. 
+
+References to protected spells are replaced with spell names from Open Game Content with the same or similar function where such a collision is unavoidable, even if there are no open rules for the spell in this edition. Some of the Open Game Content names used in this manner include:
+
+-   *charm animal* (ranger)
+-   *stabilize* (androsphinx)
 
 Release notes
 -------------
+
+### 0.4.1 (2016-01-25)
+
+Continued italicizing and linking spells, fixed some formatting issues, and adjusted PDF output.
+
+#### New content
+
+-   The PDF now has narrower margins, a footer, and page numbers.
+
+#### Fixes
+
+-   Added missing links and italics to spells on monsters and creatures, and linked previously italicized spells.
 
 ### 0.4 (2016-01-25)
 
@@ -48,8 +67,8 @@ Added spell links and italicized spells.
 -   Fixed a typo that existed in the source material.
 -   Fixed a table in the Sorcerous Origins section.
 -   Replaced a reference to a protected spell in a Sorcerer class example.
--   Replaced a reference to a protected spell in the Eldritch Invocations section with the made-up spell name *eldritch beam*.
--   Replaced a reference to a protected spell in the druid NPC spell list with *guidance*.
+-   Replaced references to a protected spell in the Eldritch Invocations section with the made-up spell name *eldritch beam*.
+-   Replaced references to a protected spell in the druid NPC's spells and unicorn's innate spellcasting with *guidance*.
 -   Replaced a reference to a protected smite spell in the *necklace of prayer beads* with a brief description of its effects.
 -   Replaced protected proper names in generic examples for spells and spellcasting.
 -   Replaced references to a protected spell in a Ranger class example with a different spell.
@@ -57,7 +76,7 @@ Added spell links and italicized spells.
 
 #### Known issues
 
--   *Counterspell* and *fire bolt* remain unlinked in the Archmage and Mage NPCs because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content in a previous reference document.
+-   *Compulsion* (Eldritch Invocations), *counterspell* (archmage), *goodberry* (dryad), and *fire bolt* (archmage, mage) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content in a previous reference document.
 -   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
 -   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
 -   PDF output uses `wkhtmltopdf` for now, preventing font embedding and leading to some awkward heading breaks.
