@@ -34,7 +34,7 @@ Release notes
 
 ### 0.4 (2016-01-25)
 
-Added links and italicized spells.
+Added spell links and italicized spells.
 
 #### New content
 
