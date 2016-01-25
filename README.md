@@ -51,7 +51,7 @@ Added links and italicized spells.
 -   Replaced a reference to a protected smite spell in the *necklace of prayer beads* with a brief description of its effects.
 -   Replaced protected proper names in generic examples for spells and spellcasting.
 -   Replaced references to a protected spell in a Ranger class example with a different spell.
--   Replaced references to a protected spell in the *ring of animal influence* and a potion, with *charm animal*, an Open Game Content spell of a similar name and function. Neither spell is documented as Open Game Content for this edition, so the spell is unlinked and statistics aren't provided. The ideal solution is to create or use an open content spell with the same function.
+-   Replaced references to a protected spell in the *ring of animal influence* and *potion of animal friendship* with *charm animal*, an Open Game Content spell of a similar name and function. Neither spell is documented as Open Game Content for this edition, so the spell is unlinked and statistics aren't provided. The ideal solution is to create or use an open content spell with the same function.
 
 #### Known issues
 
