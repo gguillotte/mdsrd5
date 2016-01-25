@@ -605,7 +605,7 @@ a#goToTop {
 
 .creature-statblock h5 {
   color: black;
-  border-bottom: 1px solid burlywood;
+  border-bottom: 1px solid darkgray;
 }
 
 /* Media queries */
@@ -623,7 +623,14 @@ a#goToTop {
 <script type="text/javascript">
 /*! Jets.js - v0.6.0 - 2015-12-15
 * http://NeXTs.github.com/Jets.js/
-* Copyright (c) 2015 Denis Lukov; Licensed MIT */
+* Copyright (c) 2015 Denis Lukov; Licensed MIT
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
 
 ;(function(g,c){"undefined"!=typeof module?module.exports=c():"function"==typeof define&&"object"==typeof define.amd?define(c):this[g]=c()})("Jets",function(){function g(c){if(!(this instanceof g))return new g(c);var a=this;["searchTag","contentTag"].forEach(function(b){var d=b.replace("Tag","");a[d+"_tag"]=document["querySelector"+("contentTag"==b?"All":"")](c[b]);a[d+"_param"]=c[b];if(!a[d+"_tag"])throw Error("Error! Could not find "+b+" element");});var b={searchSelector:"*AND",diacriticsMap:{}};
 a.options={};"columns addImportant searchSelector manualContentHandling diacriticsMap didSearch".split(" ").forEach(function(d){a.options[d]=c[d]||b[d]});if(1<this.options.searchSelector.length){var d=a.options.searchSelector.trim();a.options.searchSelector=d.substr(0,1);a.options.searchSelectorMode=d.substr(1).toUpperCase()}var e,h=function(){e!=(e=a.search_tag.value)&&(a._applyCSS(),a.options.didSearch&&a.options.didSearch(a.search_tag.value))};a._onSearch=function(a){if("keydown"==a.type)return setTimeout(h,
@@ -6678,7 +6685,7 @@ var CollapsibleLists=new function(){function e(e){return function(a){a||(a=windo
 </section>
 <section id="divine-sense" class="level3">
 <h3>Divine Sense</h3>
-<p>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</p>
+<p>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Dracula, for instance). Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</p>
 <p>You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</p>
 </section>
 <section id="lay-on-hands" class="level3">
@@ -25375,7 +25382,7 @@ Effect</th>
 <p>3/day each: entangle, goodberry</p>
 <p>1/day each: barkskin, pass without trace, shillelagh</p>
 <p><strong><em>Magic Resistance.</em></strong> The dryad has advantage on saving throws against spells and other magical effects.</p>
-<p>Speak with Beasts and Plants. The dryad can communicate with beasts and plants as if they shared a language.</p>
+<p><strong><em>Speak with Beasts and Plants.</em></strong> The dryad can communicate with beasts and plants as if they shared a language.</p>
 <p><strong><em>Tree Stride.</em></strong> Once on her turn, the dryad can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree.</p>
 <p>Both trees must be Large or bigger.</p>
 <section id="actions-19" class="level5">
