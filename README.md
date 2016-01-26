@@ -53,6 +53,8 @@ Continued italicizing and linking spells, fixed some formatting issues, and adju
 #### Fixes
 
 -   Added missing links and italics to spells on monsters and creatures, and linked previously italicized spells.
+-   Replaced more references to protected plane names from spell descriptions.
+-   Replaced a protected demon name in the *maze* spell description.
 
 ### 0.4 (2016-01-25)
 
@@ -181,5 +183,4 @@ Initial release, containing all content except the Monsters and Magic Items sect
 Credits and software licenses
 -----------------------------
 
-The HTML versions use [Jets.js](https://jets.js.org) ([MIT license](https://opensource.org/licenses/MIT)) for TOC search and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) ([CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/legalcode)) by Stephen Morley. The HTML and ePub versions use the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2013 by Juan Pablo del Peral. See LICENSING.md for details.
-
+The HTML versions use [Jets.js](https://jets.js.org) ([MIT license](https://opensource.org/licenses/MIT)) by Denis Lukov for TOC search, and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) ([CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/legalcode)) by Stephen Morley. The HTML and ePub versions use the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2011 and 2013 by Juan Pablo del Peral. See LICENSING.md and the other licensing files in this repo for details.
