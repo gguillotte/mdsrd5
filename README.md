@@ -24,10 +24,11 @@ In several places, protected content must be replaced rather than removed. In th
 -   *eldritch beam* (warlock/eldritch invocation)
 -   eyestalker (*deck of illusions*)
 -   fey plane (planes and monsters)
+-   *locate familiar* (warlock pact abilities)
 -   Orb of the Wyrm (artifacts)
 -   Primordial Chaos (planes)
 -   shadow plane (planes)
--   *spectral guardian* (mummy lord)
+-   *spectral guardian* (mummy lord, domains, sacred oaths)
 -   *string of insults* (green hag)
 
 References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and named NPCs used in examples are given more generic names. 
@@ -76,7 +77,7 @@ Added spell links and italicized spells.
 
 #### Known issues
 
--   *Compulsion* (Eldritch Invocations), *counterspell* (archmage), *goodberry* (dryad), and *fire bolt* (archmage, mage) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content in a previous reference document.
+-   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
 -   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
 -   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
 -   PDF output uses `wkhtmltopdf` for now, preventing font embedding and leading to some awkward heading breaks.
