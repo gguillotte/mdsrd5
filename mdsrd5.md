@@ -1985,7 +1985,7 @@ The Life domain focuses on the vibrant positive energy—one of the fundamental 
 </tr>
 <tr class="even">
 <td align="center">7th</td>
-<td align="left"><a href="#death-ward"><em>death ward</em></a>, [<em>guardian of faith</em>][]</td>
+<td align="left"><a href="#death-ward"><em>death ward</em></a>, <em>guardian of faith</em></td>
 </tr>
 <tr class="odd">
 <td align="center">9th</td>
@@ -4051,7 +4051,7 @@ You gain oath spells at the paladin levels listed.
 </tr>
 <tr class="even">
 <td align="center">13th</td>
-<td align="left"><a href="#freedom-of-movement"><em>freedom of movement</em></a>, [<em>guardian of faith</em>][]</td>
+<td align="left"><a href="#freedom-of-movement"><em>freedom of movement</em></a>, <em>guardian of faith</em></td>
 </tr>
 <tr class="odd">
 <td align="center">17th</td>
@@ -5780,7 +5780,7 @@ At 3rd level, your otherworldly patron bestows a gift upon you for your loyal se
 
 #### Pact of the Chain
 
-You learn the \[*find familiar*\]\[\] spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
+You learn the *find familiar* spell and can cast it as a ritual. The spell doesn't count against your number of spells known.
 
 When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.
 
@@ -11600,9 +11600,9 @@ As an action, a creature within 5 feet of the sphere can attempt to slow it down
 
 Magical, impenetrable darkness fills the gaping mouth of a stone face carved into a wall. The mouth is 2 feet in diameter and roughly circular. No sound issues from it, no light can illuminate the inside of it, and any matter that enters it is instantly obliterated.
 
-A successful DC 20 Intelligence (Arcana) check reveals that the mouth contains a \[*sphere of annihilation*\]\[\] that can't be controlled or moved. It is otherwise identical to a normal \[*sphere of annihilation*\]\[\].
+A successful DC 20 Intelligence (Arcana) check reveals that the mouth contains a *sphere of annihilation* that can't be controlled or moved. It is otherwise identical to a normal *sphere of annihilation*.
 
-Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the \[*sympathy*\]\[\] aspect of the [*antipathy/sympathy*](#antipathysympathy) spell. A successful [*dispel magic*](#dispel-magic) (DC 18) removes this enchantment.
+Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the *sympathy* aspect of the [*antipathy/sympathy*](#antipathysympathy) spell. A successful [*dispel magic*](#dispel-magic) (DC 18) removes this enchantment.
 
 Combat
 ======
