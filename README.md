@@ -25,6 +25,7 @@ In several places, protected content must be replaced rather than removed. In th
 -   eyestalker (*deck of illusions*)
 -   fey plane (planes and monsters)
 -   *locate familiar* (warlock pact abilities)
+-   maze demon (*maze*)
 -   Orb of the Wyrm (artifacts)
 -   Primordial Chaos (planes)
 -   shadow plane (planes)
