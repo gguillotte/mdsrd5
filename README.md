@@ -11,7 +11,9 @@ I've got a few goals for this project:
 -   Reorganize and divide the SRD so that its modular components can be easily modified for people building new systems on its foundation.
 -   Export the content from Markdown to other formats more easily. For instance, exporting to a PDF gives us bookmarks that the first-party version lacks.
 
-What this *won't* be is a complete replacement for the roleplaying game system it references, or a repository for third-party content, or an advertising-supported commercial endeavor. This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.org/) by Jans Carton.
+What this *won't* be is a complete replacement for the roleplaying game system it references, or a repository for third-party content, or an advertising-supported or commercial endeavor.
+
+This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.org/) by Jans Carton.
 
 > **WARNING:** This is a work in progress. Using it as a source for a product covered by the Open Gaming License might expose you to liability. I am not a lawyer, and this is not legal advice; consult a lawyer before using the OGL. Any protected terms in this document not owned by me or that are not Open Game Content or otherwise freely available content are used unintentionally and will be removed immediately on request.
 
@@ -41,6 +43,27 @@ References to protected spells are replaced with spell names from Open Game Cont
 
 Release notes
 -------------
+
+### 0.4.2 (2016-01-26)
+
+Fixed some lingering typos inherited from the source material, removed another piece of protected content, and added links.
+
+#### New content
+
+-   Links for many section references (such as `see "Conditions"`).
+
+#### Fixes
+
+-   Fixed a typo from the source document in the pit trap description.
+-   Fixed hyphens corrupted by the source document's poor text encoding in several monster descriptions.
+-   Removed a reference to a protected creature from the Monster Construction page.
+
+#### Known issues
+
+-   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now, preventing font embedding and leading to some awkward heading breaks.
 
 ### 0.4.1 (2016-01-25)
 
@@ -77,13 +100,6 @@ Added spell links and italicized spells.
 -   Replaced protected proper names in generic examples for spells and spellcasting.
 -   Replaced references to a protected spell in a Ranger class example with a different spell.
 -   Replaced references to a protected spell in the *ring of animal influence* and *potion of animal friendship* with *charm animal*, an Open Game Content spell of a similar name and function. Neither spell is documented as Open Game Content for this edition, so the spell is unlinked and statistics aren't provided. The ideal solution is to create or use an open content spell with the same function.
-
-#### Known issues
-
--   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by epub readers than the single-page document by browsers.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now, preventing font embedding and leading to some awkward heading breaks.
 
 ### 0.3.2 (2016-01-22)
 
