@@ -3434,7 +3434,7 @@ Starting at 6th level, your unarmed strikes count as magical for the purpose of 
 
 ### Evasion
 
-At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a *fireball* spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
+At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a [*fireball*](#fireball) spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.
 
 ### Stillness of Mind
 
@@ -3458,7 +3458,7 @@ Additionally, whenever you make a saving throw and fail, you can spend 1 ki poin
 
 Beginning at 18th level, you can use your action to spend 4 ki points to become invisible for 1 minute. During that time, you also have resistance to all damage but force damage.
 
-Additionally, you can spend 8 ki points to cast the *astral projection* spell, without needing material components. When you do so, you can't take any other creatures with you.
+Additionally, you can spend 8 ki points to cast the [*astral projection*](#astral-projection) spell, without needing material components. When you do so, you can't take any other creatures with you.
 
 ### Perfect Self
 
@@ -7950,12 +7950,12 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 <tr class="odd">
 <td align="left">Crossbow bolts (20)</td>
 <td align="right">1 gp</td>
-<td align="center">1½ lb.</td>
+<td align="center">1-1/2 lb.</td>
 </tr>
 <tr class="even">
 <td align="left">Sling bullets (20)</td>
 <td align="right">4 cp</td>
-<td align="center">1½ lb.</td>
+<td align="center">1-1/2 lb.</td>
 </tr>
 <tr class="odd">
 <td align="left">Antitoxin (vial)</td>
@@ -8462,7 +8462,7 @@ A cleric or paladin may create holy water by performing a special ritual. The ri
 </tr>
 <tr class="even">
 <td align="left">Bottle</td>
-<td align="left">1½ pints liquid</td>
+<td align="left">1-1/2 pints liquid</td>
 </tr>
 <tr class="odd">
 <td align="left">Bucket</td>
@@ -8939,12 +8939,12 @@ Mounts other than those listed here are available in fantasy gaming worlds, but 
 </tbody>
 </table>
 
-<table style="width:46%;">
+<table style="width:50%;">
 <caption>Waterborne Vehicles</caption>
 <colgroup>
 <col width="19%" />
 <col width="15%" />
-<col width="11%" />
+<col width="15%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -8972,7 +8972,7 @@ Mounts other than those listed here are available in fantasy gaming worlds, but 
 <tr class="even">
 <td align="left">Rowboat</td>
 <td align="right">50 gp</td>
-<td align="center">1½ mph</td>
+<td align="center">1-1/2 mph</td>
 </tr>
 <tr class="odd">
 <td align="left">Sailing ship</td>
@@ -8982,7 +8982,7 @@ Mounts other than those listed here are available in fantasy gaming worlds, but 
 <tr class="even">
 <td align="left">Warship</td>
 <td align="right">25,000 gp</td>
-<td align="center">2½ mph</td>
+<td align="center">2-1/2 mph</td>
 </tr>
 </tbody>
 </table>
@@ -10501,7 +10501,7 @@ While traveling, a group of adventurers can move at a normal, fast, or slow pace
 
 ***Forced March.*** The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion.
 
-For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see [Conditions](#conditions)).
+For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see "[Conditions](#conditions)").
 
 ***Mounts and Vehicles.*** For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.
 
@@ -10582,7 +10582,7 @@ When you land in difficult terrain, you must succeed on a DC 10 Dexterity (Acrob
 
 ***High Jump.*** When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your GM might allow you to make a Strength (Athletics) check to jump higher than you normally can.
 
-You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1½ times your height.
+You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1-1/2 times your height.
 
 Environment
 -----------
@@ -10607,7 +10607,7 @@ The most fundamental tasks of adventuring—noticing danger, finding hidden obje
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
 
-A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see [Conditions](#conditions)) when trying to see something in that area.
+A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see "[Conditions](#conditions)") when trying to see something in that area.
 
 The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
 
@@ -11127,7 +11127,7 @@ Diseases
 
 A plague ravages the kingdom, setting the adventurers on a quest to find a cure. An adventurer emerges from an ancient tomb, unopened for centuries, and soon finds herself suffering from a wasting illness. A warlock offends some dark power and contracts a strange affliction that spreads whenever he casts spells.
 
-A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of *lesser restoration*. A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.
+A simple outbreak might amount to little more than a small drain on party resources, curable by a casting of [*lesser restoration*](#lesser-restoration). A more complicated outbreak can form the basis of one or more adventures as characters search for a cure, stop the spread of the disease, and deal with the consequences.
 
 A disease that does more than infect a few party members is primarily a plot device. The rules help describe the effects of the disease and how it can be cured, but the specifics of how a disease works aren't bound by a common set of rules. Diseases can affect any creature, and a given illness might or might not pass from one race or kind of creature to another. A plague might affect only constructs or undead, or sweep through a halfling neighborhood but leave other races untouched. What matters is the story you want to tell.
 
@@ -11161,9 +11161,9 @@ At the end of each long rest, an infected creature must make a DC 11 Constitutio
 
 This painful infection causes bleeding from the eyes and eventually blinds the victim.
 
-A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitution saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a −1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches −5, the victim is blinded until its sight is restored by magic such as *lesser restoration* or *heal*.
+A beast or humanoid that drinks water tainted by sight rot must succeed on a DC 15 Constitution saving throw or become infected. One day after infection, the creature's vision starts to become blurry. The creature takes a −1 penalty to attack rolls and ability checks that rely on sight. At the end of each long rest after the symptoms appear, the penalty worsens by 1. When it reaches −5, the victim is blinded until its sight is restored by magic such as [*lesser restoration*](#lesser-restoration) or [*heal*](#heal).
 
-Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an herbalism kit can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely. 51–60
+Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character who has proficiency with an herbalism kit can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.
 
 Madness
 -------
@@ -11770,7 +11770,7 @@ Each creature takes up a different amount of space. The Size Categories table sh
 <tbody>
 <tr class="odd">
 <td align="left">Tiny</td>
-<td align="left">2½ by 2½ ft.</td>
+<td align="left">2-1/2 by 2-1/2 ft.</td>
 </tr>
 <tr class="even">
 <td align="left">Small</td>
@@ -24258,7 +24258,7 @@ A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categ
 <tbody>
 <tr class="odd">
 <td align="left">Tiny</td>
-<td align="left">2½ by 2½ ft.</td>
+<td align="left">2-1/2 by 2-1/2 ft.</td>
 <td align="left">Imp, sprite</td>
 </tr>
 <tr class="even">
