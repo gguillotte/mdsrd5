@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    
+    
+      <title></title>
+
+    
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <!-- Local CSS -->
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="multipage.css" rel="stylesheet" type="text/css">
+    <!-- /Local CSS -->
+    
+    <!-- Local JS -->
+    <script src="jets.js" type="text/javascript"></script>
+    <script src="collapsiblelists.js" type="text/javascript"></script>
+    <script src="loadit.js" type="text/javascript"></script>
+    <!-- /Local JS -->
+
+  </head>
+
+  <body>
+  
+    
+    <nav id="top">
+      <a class="hoverbutt" id="goToTop" href="#top">^</a>
+      <a class="hoverbutt" id="goToIndex" href="index.htm">&larr;</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="./Legal_Information.htm">Open Gaming License (OGL).</a></p>
+      <p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
+    </header>
+    
+    <nav id="pagenav">
+        <a class="pagination" id="previous-page" href="Customizing_NPCs.htm">Customizing_NPCs</a>
+        </nav>
+
+      <nav id="TOC" class="treeView">
+      <label>Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})"></label>
+  <ul>
+  <li><a href="#nonplayer-character-descriptions">Nonplayer Character Descriptions</a><ul>
+  <li><a href="#acolyte">Acolyte</a><ul>
+  <li><a href="#actions">Actions</a></li>
+  </ul></li>
+  <li><a href="#archmage">Archmage</a><ul>
+  <li><a href="#actions-1">Actions</a></li>
+  </ul></li>
+  <li><a href="#assassin">Assassin</a><ul>
+  <li><a href="#actions-2">Actions</a></li>
+  </ul></li>
+  <li><a href="#bandit">Bandit</a><ul>
+  <li><a href="#actions-3">Actions</a></li>
+  </ul></li>
+  <li><a href="#bandit-captain">Bandit Captain</a><ul>
+  <li><a href="#actions-4">Actions</a></li>
+  <li><a href="#reactions">Reactions</a></li>
+  </ul></li>
+  <li><a href="#berserker">Berserker</a><ul>
+  <li><a href="#actions-5">Actions</a></li>
+  </ul></li>
+  <li><a href="#commoner">Commoner</a><ul>
+  <li><a href="#actions-6">Actions</a></li>
+  </ul></li>
+  <li><a href="#cult-fanatic">Cult Fanatic</a><ul>
+  <li><a href="#actions-7">Actions</a></li>
+  </ul></li>
+  <li><a href="#cultist">Cultist</a><ul>
+  <li><a href="#actions-8">Actions</a></li>
+  </ul></li>
+  <li><a href="#druid">Druid</a><ul>
+  <li><a href="#actions-9">Actions</a></li>
+  </ul></li>
+  <li><a href="#gladiator">Gladiator</a><ul>
+  <li><a href="#actions-10">Actions</a></li>
+  <li><a href="#reactions-1">Reactions</a></li>
+  </ul></li>
+  <li><a href="#guard">Guard</a><ul>
+  <li><a href="#actions-11">Actions</a></li>
+  </ul></li>
+  <li><a href="#knight">Knight</a><ul>
+  <li><a href="#actions-12">Actions</a></li>
+  <li><a href="#reactions-2">Reactions</a></li>
+  </ul></li>
+  <li><a href="#mage">Mage</a><ul>
+  <li><a href="#actions-13">Actions</a></li>
+  </ul></li>
+  <li><a href="#noble">Noble</a><ul>
+  <li><a href="#actions-14">Actions</a></li>
+  <li><a href="#reactions-3">Reactions</a></li>
+  </ul></li>
+  <li><a href="#priest">Priest</a><ul>
+  <li><a href="#actions-15">Actions</a></li>
+  </ul></li>
+  <li><a href="#scout">Scout</a><ul>
+  <li><a href="#actions-16">Actions</a></li>
+  </ul></li>
+  <li><a href="#spy">Spy</a><ul>
+  <li><a href="#actions-17">Actions</a></li>
+  </ul></li>
+  <li><a href="#thug">Thug</a><ul>
+  <li><a href="#actions-18">Actions</a></li>
+  </ul></li>
+  <li><a href="#tribal-warrior">Tribal Warrior</a><ul>
+  <li><a href="#actions-19">Actions</a></li>
+  </ul></li>
+  <li><a href="#veteran">Veteran</a><ul>
+  <li><a href="#actions-20">Actions</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+    </nav>
+  
+  <section id="nonplayer-character-descriptions" class="level2">
+  <h2>Nonplayer Character Descriptions</h2>
+  <section id="acolyte" class="level4 creature-statblock">
+  <h4>Acolyte</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 10</p>
+  <p><strong>Hit Points</strong> 9 (2d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Medicine +4, Religion +2</p>
+  <p><strong>Senses</strong> passive Perception 12</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/4 (50 XP)</p>
+  <p><strong><em>Spellcasting.</em></strong> The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:</p>
+  <p>Cantrips (at will): <a href="Spell_Descriptions.htm#light"><em>light</em></a>, <a href="Spell_Descriptions.htm#sacred-flame"><em>sacred flame</em></a>, <a href="Spell_Descriptions.htm#thaumaturgy"><em>thaumaturgy</em></a></p>
+  <p>1st level (3 slots): <a href="Spell_Descriptions.htm#bless"><em>bless</em></a>, <a href="Spell_Descriptions.htm#cure-wounds"><em>cure wounds</em></a>, <a href="Spell_Descriptions.htm#sanctuary"><em>sanctuary</em></a></p>
+  <section id="actions" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Club.</strong> Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) bludgeoning damage.</p>
+  <p><strong>Acolytes</strong> are junior members of a clergy, usually answerable to a priest. They perform a variety of functions in a temple and are granted minor spellcasting power by their deities.</p>
+  </section>
+  </section>
+  <section id="archmage" class="level4 creature-statblock">
+  <h4>Archmage</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 12 (15 with <a href="Spell_Descriptions.htm#mage-armor"><em>mage armor</em></a>)</p>
+  <p><strong>Hit Points</strong> 99 (18d8 + 18)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">20 (+5)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Int +9, Wis +6</p>
+  <p><strong>Skills</strong> Arcana +13, History +13 Damage Resistance damage from spells; nonmagical bludgeoning, piercing, and slashing (from <a href="Spell_Descriptions.htm#stoneskin"><em>stoneskin</em></a>)</p>
+  <p><strong>Senses</strong> passive Perception 12</p>
+  <p><strong>Languages</strong> any six languages</p>
+  <p><strong>Challenge</strong> 12 (8,400 XP)</p>
+  <p><strong><em>Magic Resistance.</em></strong> The archmage has advantage on saving throws against spells and other magical effects.</p>
+  <p><strong><em>Spellcasting.</em></strong> The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast <a href="Spell_Descriptions.htm#disguise-self"><em>disguise self</em></a> and <a href="Spell_Descriptions.htm#invisibility"><em>invisibility</em></a> at will and has the following wizard spells prepared:</p>
+  <p>Cantrips (at will): <em>fire bolt</em>, <a href="Spell_Descriptions.htm#light"><em>light</em></a>, <a href="Spell_Descriptions.htm#mage-hand"><em>mage hand</em></a>, <a href="Spell_Descriptions.htm#prestidigitation"><em>prestidigitation</em></a>, <a href="Spell_Descriptions.htm#shocking-grasp"><em>shocking grasp</em></a></p>
+  <p>1st level (4 slots): <a href="Spell_Descriptions.htm#detect-magic"><em>detect magic</em></a>, <a href="Spell_Descriptions.htm#identify"><em>identify</em></a>, <a href="Spell_Descriptions.htm#mage-armor"><em>mage armor</em></a>,* <a href="Spell_Descriptions.htm#magic-missile"><em>magic missile</em></a></p>
+  <p>2nd level (3 slots): <a href="Spell_Descriptions.htm#detect-thoughts"><em>detect thoughts</em></a>, <a href="Spell_Descriptions.htm#mirror-image"><em>mirror image</em></a>, <a href="Spell_Descriptions.htm#misty-step"><em>misty step</em></a></p>
+  <p>3rd level (3 slots): <em>counterspell</em>, <a href="Spell_Descriptions.htm#fly"><em>fly</em></a>, <a href="Spell_Descriptions.htm#lightning-bolt"><em>lightning bolt</em></a></p>
+  <p>4th level (3 slots): <a href="Spell_Descriptions.htm#banishment"><em>banishment</em></a>, <a href="Spell_Descriptions.htm#fire-shield"><em>fire shield</em></a>, <a href="Spell_Descriptions.htm#stoneskin"><em>stoneskin</em></a></p>
+  <p>5th level (3 slots): <a href="Spell_Descriptions.htm#cone-of-cold"><em>cone of cold</em></a>, <a href="Spell_Descriptions.htm#scrying"><em>scrying</em></a>, <a href="Spell_Descriptions.htm#wall-of-force"><em>wall of force</em></a></p>
+  <p>6th level (1 slot): <a href="Spell_Descriptions.htm#globe-of-invulnerability"><em>globe of invulnerability</em></a></p>
+  <p>7th level (1 slot): <a href="Spell_Descriptions.htm#teleport"><em>teleport</em></a></p>
+  <p>8th level (1 slot): <a href="Spell_Descriptions.htm#mind-blank"><em>mind blank</em></a></p>
+  <p>9th level (1 slot): <a href="Spell_Descriptions.htm#time-stop"><em>time stop</em></a></p>
+  <p>* <em>The archmage casts these spells on itself before combat.</em></p>
+  <section id="actions-1" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>
+  <p><strong>Archmages</strong> are powerful—and usually quite old—spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption. An archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers.</p>
+  </section>
+  </section>
+  <section id="assassin" class="level4 creature-statblock">
+  <h4>Assassin</h4>
+  <p><em>Medium humanoid (any race), any non-good alignment</em></p>
+  <p><strong>Armor Class</strong> 15 (studded leather)</p>
+  <p><strong>Hit Points</strong> 78 (12d8 + 24)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Dex +6, Int +4</p>
+  <p><strong>Skills</strong> Acrobatics +6, Deception +3, Perception +3, Stealth +9</p>
+  <p><strong>Damage Resistances</strong> poison</p>
+  <p><strong>Senses</strong> passive Perception 13</p>
+  <p><strong>Languages</strong> Thieves' cant plus any two languages</p>
+  <p><strong>Challenge</strong> 8 (3,900 XP)</p>
+  <p><strong><em>Assassinate.</em></strong> During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit.</p>
+  <p><strong><em>Evasion.</em></strong> If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>
+  <p><strong><em>Sneak Attack.</em></strong> Once per turn, the assassin deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll.</p>
+  <section id="actions-2" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The assassin makes two shortsword attacks.</p>
+  <p><em><strong>Shortsword.</strong> Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+  <p><em><strong>Light Crossbow.</strong> Ranged Weapon Attack:</em> +6 to hit, range 80/320 ft., one target. <em>Hit:</em> 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+  <p>Trained in the use of poison, <strong>assassins</strong> are remorseless killers who work for nobles, guildmasters, sovereigns, and anyone else who can afford them.</p>
+  </section>
+  </section>
+  <section id="bandit" class="level4 creature-statblock">
+  <h4>Bandit</h4>
+  <p><em>Medium humanoid (any race), any non-lawful alignment</em></p>
+  <p><strong>Armor Class</strong> 12 (leather armor)</p>
+  <p><strong>Hit Points</strong> 11 (2d8 + 2)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/8 (25 XP)</p>
+  <section id="actions-3" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Scimitar.</strong> Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) slashing damage.</p>
+  <p><em><strong>Light Crossbow.</strong> Ranged Weapon Attack:</em> +3 to hit, range 80 ft./320 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</p>
+  <p><strong>Bandits</strong> rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.</p>
+  <p><strong>Pirates</strong> are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels.</p>
+  </section>
+  </section>
+  <section id="bandit-captain" class="level4 creature-statblock">
+  <h4>Bandit Captain</h4>
+  <p><em>Medium humanoid (any race), any non-lawful alignment</em></p>
+  <p><strong>Armor Class</strong> 15 (studded leather)</p>
+  <p><strong>Hit Points</strong> 65 (10d8 + 20)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Str +4, Dex +5, Wis +2</p>
+  <p><strong>Skills</strong> Athletics +4, Deception +4</p>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any two languages</p>
+  <p><strong>Challenge</strong> 2 (450 XP)</p>
+  <section id="actions-4" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.</p>
+  <p><em><strong>Scimitar.</strong> Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</p>
+  <p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 5 (1d4 + 3) piercing damage.</p>
+  </section>
+  <section id="reactions" class="level5">
+  <h5>Reactions</h5>
+  <p><strong><em>Parry.</em></strong> The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</p>
+  <p>It takes a strong personality, ruthless cunning, and a silver tongue to keep a gang of bandits in line. The <strong>bandit captain</strong> has these qualities in spades.</p>
+  <p>In addition to managing a crew of selfish malcontents, the <strong>pirate captain</strong> is a variation of the bandit captain, with a ship to protect and command. To keep the crew in line, the captain must mete out rewards and punishment on a regular basis.</p>
+  <p>More than treasure, a bandit captain or pirate captain craves infamy. A prisoner who appeals to the captain's vanity or ego is more likely to be treated fairly than a prisoner who does not or claims not to know anything of the captain's colorful reputation.</p>
+  </section>
+  </section>
+  <section id="berserker" class="level4 creature-statblock">
+  <h4>Berserker</h4>
+  <p><em>Medium humanoid (any race), any chaotic alignment</em></p>
+  <p><strong>Armor Class</strong> 13 (hide armor)</p>
+  <p><strong>Hit Points</strong> 67 (9d8 + 27)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">17 (+3)</td>
+  <td style="text-align: center;">9 (−1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">9 (−1)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 2 (450 XP)</p>
+  <p><strong><em>Reckless.</em></strong> At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.</p>
+  <section id="actions-5" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Greataxe.</strong> Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d12 + 3) slashing damage.</p>
+  <p>Hailing from uncivilized lands, unpredictable <strong>berserkers</strong> come together in war parties and seek conflict wherever they can find it.</p>
+  </section>
+  </section>
+  <section id="commoner" class="level4 creature-statblock">
+  <h4>Commoner</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 10</p>
+  <p><strong>Hit Points</strong> 4 (1d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 0 (10 XP)</p>
+  <section id="actions-6" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Club.</strong> Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) bludgeoning damage.</p>
+  <p><strong>Commoners</strong> include peasants, serfs, slaves, servants, pilgrims, merchants, artisans, and hermits.</p>
+  </section>
+  </section>
+  <section id="cult-fanatic" class="level4 creature-statblock">
+  <h4>Cult Fanatic</h4>
+  <p><em>Medium humanoid (any race), any non-good alignment</em></p>
+  <p><strong>Armor Class</strong> 13 (leather armor)</p>
+  <p><strong>Hit Points</strong> 33 (6d8 + 6)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Deception +4, Persuasion +4, Religion +2</p>
+  <p><strong>Senses</strong> passive Perception 11</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 2 (450 XP)</p>
+  <p><strong><em>Dark Devotion.</em></strong> The fanatic has advantage on saving throws against being charmed or frightened.</p>
+  <p><strong><em>Spellcasting.</em></strong> The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:</p>
+  <p>Cantrips (at will): <a href="Spell_Descriptions.htm#light"><em>light</em></a>, <a href="Spell_Descriptions.htm#sacred-flame"><em>sacred flame</em></a>, <a href="Spell_Descriptions.htm#thaumaturgy"><em>thaumaturgy</em></a></p>
+  <p>1st level (4 slots): <a href="Spell_Descriptions.htm#command"><em>command</em></a>, <a href="Spell_Descriptions.htm#inflict-wounds"><em>inflict wounds</em></a>, <a href="Spell_Descriptions.htm#shield-of-faith"><em>shield of faith</em></a></p>
+  <p>2nd level (3 slots): <a href="Spell_Descriptions.htm#hold-person"><em>hold person</em></a>, <a href="Spell_Descriptions.htm#spiritual-weapon"><em>spiritual weapon</em></a></p>
+  <section id="actions-7" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The fanatic makes two melee attacks.</p>
+  <p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>
+  <p><strong>Fanatics</strong> are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else.</p>
+  </section>
+  </section>
+  <section id="cultist" class="level4 creature-statblock">
+  <h4>Cultist</h4>
+  <p><em>Medium humanoid (any race), any non-good alignment</em></p>
+  <p><strong>Armor Class</strong> 12 (leather armor)</p>
+  <p><strong>Hit Points</strong> 9 (2d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Deception +2, Religion +2</p>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/8 (25 XP)</p>
+  <p><strong><em>Dark Devotion.</em></strong> The cultist has advantage on saving throws against being charmed or frightened.</p>
+  <section id="actions-8" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Scimitar.</strong> Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one creature. <em>Hit:</em> 4 (1d6 + 1) slashing damage.</p>
+  <p><strong>Cultists</strong> swear allegiance to dark powers such as elemental princes, demon lords, or archdevils. Most conceal their loyalties to avoid being ostracized, imprisoned, or executed for their beliefs. Unlike evil acolytes, cultists often show signs of insanity in their beliefs and practices.</p>
+  </section>
+  </section>
+  <section id="druid" class="level4 creature-statblock">
+  <h4>Druid</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 11 (16 with <a href="Spell_Descriptions.htm#barkskin"><em>barkskin</em></a>)</p>
+  <p><strong>Hit Points</strong> 27 (5d8 + 5)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Medicine +4, Nature +3, Perception +4</p>
+  <p><strong>Senses</strong> passive Perception 14</p>
+  <p><strong>Languages</strong> Druidic plus any two languages</p>
+  <p><strong>Challenge</strong> 2 (450 XP)</p>
+  <p><strong><em>Spellcasting.</em></strong> The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:</p>
+  <p>Cantrips (at will): <a href="Spell_Descriptions.htm#guidance"><em>guidance</em></a>, <a href="Spell_Descriptions.htm#produce-flame"><em>produce flame</em></a>, <a href="Spell_Descriptions.htm#shillelagh"><em>shillelagh</em></a></p>
+  <p>1st level (4 slots): <a href="Spell_Descriptions.htm#entangle"><em>entangle</em></a>, <a href="Spell_Descriptions.htm#longstrider"><em>longstrider</em></a>, <a href="Spell_Descriptions.htm#speak-with-animals"><em>speak with animals</em></a>, <a href="Spell_Descriptions.htm#thunderwave"><em>thunderwave</em></a></p>
+  <p>2nd level (3 slots): <a href="Spell_Descriptions.htm#animal-messenger"><em>animal messenger</em></a>, <a href="Spell_Descriptions.htm#barkskin"><em>barkskin</em></a></p>
+  <section id="actions-9" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Quarterstaff.</strong> Melee Weapon Attack:</em> +2 to hit (+4 to hit with <a href="Spell_Descriptions.htm#shillelagh"><em>shillelagh</em></a>), reach 5 ft., one target. <em>Hit:</em> 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with <a href="Spell_Descriptions.htm#shillelagh"><em>shillelagh</em></a>.</p>
+  <p><strong>Druids</strong> dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.</p>
+  </section>
+  </section>
+  <section id="gladiator" class="level4 creature-statblock">
+  <h4>Gladiator</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 16 (studded leather, shield)</p>
+  <p><strong>Hit Points</strong> 112 (15d8 + 45)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">18 (+4)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Str +7, Dex +5, Con +6</p>
+  <p><strong>Skills</strong> Athletics +10, Intimidation +5</p>
+  <p><strong>Senses</strong> passive Perception 11</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 5 (1,800 XP)</p>
+  <p><strong><em>Brave.</em></strong> The gladiator has advantage on saving throws against being frightened.</p>
+  <p><strong><em>Brute.</em></strong> A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).</p>
+  <section id="actions-10" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The gladiator makes three melee attacks or two ranged attacks.</p>
+  <p><strong><em>Spear.</em></strong> Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.</p>
+  <p><em><strong>Shield Bash.</strong> Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one creature. <em>Hit:</em> 9 (2d4 + 4) bludgeoning damage.</p>
+  <p>If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.</p>
+  </section>
+  <section id="reactions-1" class="level5">
+  <h5>Reactions</h5>
+  <p><strong><em>Parry.</em></strong> The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.</p>
+  <p><strong>Gladiators</strong> battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death.</p>
+  </section>
+  </section>
+  <section id="guard" class="level4 creature-statblock">
+  <h4>Guard</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 16 (chain shirt, shield)</p>
+  <p><strong>Hit Points</strong> 11 (2d8 + 2)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Perception +2</p>
+  <p><strong>Senses</strong> passive Perception 12</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/8 (25 XP)</p>
+  <section id="actions-11" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Spear.</em></strong> Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</p>
+  <p><strong>Guards</strong> include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles.</p>
+  </section>
+  </section>
+  <section id="knight" class="level4 creature-statblock">
+  <h4>Knight</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 18 (plate)</p>
+  <p><strong>Hit Points</strong> 52 (8d8 + 16)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Con +4, Wis +2</p>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 3 (700 XP)</p>
+  <p><strong><em>Brave.</em></strong> The knight has advantage on saving throws against being frightened.</p>
+  <section id="actions-12" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The knight makes two melee attacks.</p>
+  <p><em><strong>Greatsword.</strong> Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) slashing damage.</p>
+  <p><em><strong>Heavy Crossbow.</strong> Ranged Weapon Attack:</em> +2 to hit, range 100/400 ft., one target. <em>Hit:</em> 5 (1d10) piercing damage.</p>
+  <p><strong><em>Leadership (Recharges after a Short or Long Rest).</em></strong> For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated.</p>
+  </section>
+  <section id="reactions-2" class="level5">
+  <h5>Reactions</h5>
+  <p><strong><em>Parry.</em></strong> The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.</p>
+  <p><strong>Knights</strong> are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.</p>
+  </section>
+  </section>
+  <section id="mage" class="level4 creature-statblock">
+  <h4>Mage</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 12 (15 with <a href="Spell_Descriptions.htm#mage-armor"><em>mage armor</em></a>)</p>
+  <p><strong>Hit Points</strong> 40 (9d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">9 (−1)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">17 (+3)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Saving Throws</strong> Int +6, Wis +4</p>
+  <p><strong>Skills</strong> Arcana +6, History +6</p>
+  <p><strong>Senses</strong> passive Perception 11</p>
+  <p><strong>Languages</strong> any four languages</p>
+  <p><strong>Challenge</strong> 6 (2,300 XP)</p>
+  <p><strong><em>Spellcasting.</em></strong> The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:</p>
+  <p>Cantrips (at will): <em>fire bolt</em>, <a href="Spell_Descriptions.htm#light"><em>light</em></a>, <a href="Spell_Descriptions.htm#mage-hand"><em>mage hand</em></a>, <a href="Spell_Descriptions.htm#prestidigitation"><em>prestidigitation</em></a></p>
+  <p>1st level (4 slots): <a href="Spell_Descriptions.htm#detect-magic"><em>detect magic</em></a>, <a href="Spell_Descriptions.htm#mage-armor"><em>mage armor</em></a>, <a href="Spell_Descriptions.htm#magic-missile"><em>magic missile</em></a>, <a href="Spell_Descriptions.htm#shield"><em>shield</em></a></p>
+  <p>2nd level (3 slots): <a href="Spell_Descriptions.htm#misty-step"><em>misty step</em></a>, <a href="Spell_Descriptions.htm#suggestion"><em>suggestion</em></a></p>
+  <p>3rd level (3 slots): <em>counterspell</em>, <a href="Spell_Descriptions.htm#fireball"><em>fireball</em></a>, <a href="Spell_Descriptions.htm#fly"><em>fly</em></a></p>
+  <p>4th level (3 slots): <a href="Spell_Descriptions.htm#greater-invisibility"><em>greater invisibility</em></a>, <a href="Spell_Descriptions.htm#ice-storm"><em>ice storm</em></a></p>
+  <p>5th level (1 slot): <a href="Spell_Descriptions.htm#cone-of-cold"><em>cone of cold</em></a></p>
+  <section id="actions-13" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Dagger.</em></strong> Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>
+  <p><strong>Mages</strong> spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.</p>
+  </section>
+  </section>
+  <section id="noble" class="level4 creature-statblock">
+  <h4>Noble</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 15 (breastplate)</p>
+  <p><strong>Hit Points</strong> 9 (2d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Deception +5, Insight +4, Persuasion +5</p>
+  <p><strong>Senses</strong> passive Perception 12</p>
+  <p><strong>Languages</strong> any two languages</p>
+  <p><strong>Challenge</strong> 1/8 (25 XP)</p>
+  <section id="actions-14" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Rapier.</strong> Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d8 + 1) piercing damage.</p>
+  </section>
+  <section id="reactions-3" class="level5">
+  <h5>Reactions</h5>
+  <p><strong><em>Parry.</em></strong> The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.</p>
+  <p><strong>Nobles</strong> wield great authority and influence as members of the upper class, possessing wealth and connections that can make them as powerful as monarchs and generals. A noble often travels in the company of guards, as well as servants who are commoners.</p>
+  <p>The noble's statistics can also be used to represent courtiers who aren't of noble birth.</p>
+  </section>
+  </section>
+  <section id="priest" class="level4 creature-statblock">
+  <h4>Priest</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 13 (chain shirt)</p>
+  <p><strong>Hit Points</strong> 27 (5d8 + 5)</p>
+  <p><strong>Speed</strong> 25 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Medicine +7, Persuasion +3, Religion +4</p>
+  <p><strong>Senses</strong> passive Perception 13</p>
+  <p><strong>Languages</strong> any two languages</p>
+  <p><strong>Challenge</strong> 2 (450 XP)</p>
+  <p><strong><em>Divine Eminence.</em></strong> As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.</p>
+  <p><strong><em>Spellcasting.</em></strong> The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:</p>
+  <p>Cantrips (at will): <a href="Spell_Descriptions.htm#light"><em>light</em></a>, <a href="Spell_Descriptions.htm#sacred-flame"><em>sacred flame</em></a>, <a href="Spell_Descriptions.htm#thaumaturgy"><em>thaumaturgy</em></a></p>
+  <p>1st level (4 slots): <a href="Spell_Descriptions.htm#cure-wounds"><em>cure wounds</em></a>, <a href="Spell_Descriptions.htm#guiding-bolt"><em>guiding bolt</em></a>, <a href="Spell_Descriptions.htm#sanctuary"><em>sanctuary</em></a></p>
+  <p>2nd level (3 slots): <a href="Spell_Descriptions.htm#lesser-restoration"><em>lesser restoration</em></a>, <a href="Spell_Descriptions.htm#spiritual-weapon"><em>spiritual weapon</em></a></p>
+  <p>3rd level (2 slots): <a href="Spell_Descriptions.htm#dispel-magic"><em>dispel magic</em></a>, <a href="Spell_Descriptions.htm#spirit-guardians"><em>spirit guardians</em></a></p>
+  <section id="actions-15" class="level5">
+  <h5>Actions</h5>
+  <p><em><strong>Mace.</strong> Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d6) bludgeoning damage.</p>
+  <p><strong>Priests</strong> bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites.</p>
+  <p>A priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.</p>
+  </section>
+  </section>
+  <section id="scout" class="level4 creature-statblock">
+  <h4>Scout</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 13 (leather armor)</p>
+  <p><strong>Hit Points</strong> 16 (3d8 + 3)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Nature +4, Perception +5, Stealth +6, Survival +5</p>
+  <p><strong>Senses</strong> passive Perception 15</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/2 (100 XP)</p>
+  <p><strong><em>Keen Hearing and Sight.</em></strong> The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>
+  <section id="actions-16" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The scout makes two melee attacks or two ranged attacks.</p>
+  <p><em><strong>Shortsword.</strong> Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
+  <p><em><strong>Longbow.</strong> Ranged Weapon Attack:</em> +4 to hit, ranged 150/600 ft., one target. <em>Hit:</em> 6 (1d8 + 2) piercing damage.</p>
+  <p><strong>Scouts</strong> are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.</p>
+  </section>
+  </section>
+  <section id="spy" class="level4 creature-statblock">
+  <h4>Spy</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 12</p>
+  <p><strong>Hit Points</strong> 27 (6d8)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">16 (+3)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4</p>
+  <p><strong>Senses</strong> passive Perception 16</p>
+  <p><strong>Languages</strong> any two languages</p>
+  <p><strong>Challenge</strong> 1 (200 XP)</p>
+  <p><strong><em>Cunning Action.</em></strong> On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action.</p>
+  <p><strong><em>Sneak Attack (1/Turn).</em></strong> The spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll.</p>
+  <section id="actions-17" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The spy makes two melee attacks.</p>
+  <p><em><strong>Shortsword.</strong> Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
+  <p><em><strong>Hand Crossbow.</strong> Ranged Weapon Attack:</em> +4 to hit, range 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>
+  <p>Rulers, nobles, merchants, guildmasters, and other wealthy individuals use <strong>spies</strong> to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers.</p>
+  </section>
+  </section>
+  <section id="thug" class="level4 creature-statblock">
+  <h4>Thug</h4>
+  <p><em>Medium humanoid (any race), any non-good alignment</em></p>
+  <p><strong>Armor Class</strong> 11 (leather armor)</p>
+  <p><strong>Hit Points</strong> 32 (5d8 + 10)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">15 (+2)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Intimidation +2</p>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 1/2 (100 XP)</p>
+  <p><strong><em>Pack Tactics.</em></strong> The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+  <section id="actions-18" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The thug makes two melee attacks.</p>
+  <p><em><strong>Mace.</strong> Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 5 (1d6 + 2) bludgeoning damage.</p>
+  <p><em><strong>Heavy Crossbow.</strong> Ranged Weapon Attack:</em> +2 to hit, range 100/400 ft., one target. <em>Hit:</em> 5 (1d10) piercing damage.</p>
+  <p><strong>Thugs</strong> are ruthless enforcers skilled at intimidation and violence. They work for money and have few scruples.</p>
+  </section>
+  </section>
+  <section id="tribal-warrior" class="level4 creature-statblock">
+  <h4>Tribal Warrior</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 12 (hide armor)</p>
+  <p><strong>Hit Points</strong> 11 (2d8 + 2)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">12 (+1)</td>
+  <td style="text-align: center;">8 (−1)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">8 (−1)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Senses</strong> passive Perception 10</p>
+  <p><strong>Languages</strong> any one language</p>
+  <p><strong>Challenge</strong> 1/8 (25 XP)</p>
+  <p><strong><em>Pack Tactics.</em></strong> The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+  <section id="actions-19" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Spear.</em></strong> Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</p>
+  <p><strong>Tribal warriors</strong> live beyond civilization, most often subsisting on fishing and hunting. Each tribe acts in accordance with the wishes of its chief, who is the greatest or oldest warrior of the tribe or a tribe member blessed by the gods.</p>
+  </section>
+  </section>
+  <section id="veteran" class="level4 creature-statblock">
+  <h4>Veteran</h4>
+  <p><em>Medium humanoid (any race), any alignment</em></p>
+  <p><strong>Armor Class</strong> 17 (splint)</p>
+  <p><strong>Hit Points</strong> 58 (9d8 + 18)</p>
+  <p><strong>Speed</strong> 30 ft.</p>
+  <table style="width:83%;">
+  <colgroup>
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  <col style="width: 13%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">STR</th>
+  <th style="text-align: center;">DEX</th>
+  <th style="text-align: center;">CON</th>
+  <th style="text-align: center;">INT</th>
+  <th style="text-align: center;">WIS</th>
+  <th style="text-align: center;">CHA</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">16 (+3)</td>
+  <td style="text-align: center;">13 (+1)</td>
+  <td style="text-align: center;">14 (+2)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  <td style="text-align: center;">11 (+0)</td>
+  <td style="text-align: center;">10 (+0)</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong>Skills</strong> Athletics +5, Perception +2</p>
+  <p><strong>Senses</strong> passive Perception 12</p>
+  <p><strong>Languages</strong> any one language (usually Common)</p>
+  <p><strong>Challenge</strong> 3 (700 XP)</p>
+  <section id="actions-20" class="level5">
+  <h5>Actions</h5>
+  <p><strong><em>Multiattack.</em></strong> The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.</p>
+  <p><em><strong>Longsword.</strong> Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.</p>
+  <p><em><strong>Shortsword.</strong> Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage.</p>
+  <p><em><strong>Heavy Crossbow.</strong> Ranged Weapon Attack:</em> +3 to hit, range 100/400 ft., one target. <em>Hit:</em> 6 (1d10 + 1) piercing damage.</p>
+  <p><strong>Veterans</strong> are professional fighters that take up arms for pay or to protect something they believe in or value. Their ranks include soldiers retired from long service and warriors who never served anyone but themselves.</p>
+  </section>
+  </section>
+  </section>
+
+  
+  </body>
+
+  <footer>
+  
+      <a href="./Legal_Information.htm">Open Gaming License</a>
+
+  </footer>
+
+</html>

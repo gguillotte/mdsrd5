@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    
+    
+      <title></title>
+
+    
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <!-- Local CSS -->
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="multipage.css" rel="stylesheet" type="text/css">
+    <!-- /Local CSS -->
+    
+    <!-- Local JS -->
+    <script src="jets.js" type="text/javascript"></script>
+    <script src="collapsiblelists.js" type="text/javascript"></script>
+    <script src="loadit.js" type="text/javascript"></script>
+    <!-- /Local JS -->
+
+  </head>
+
+  <body>
+  
+    
+    <nav id="top">
+      <a class="hoverbutt" id="goToTop" href="#top">^</a>
+      <a class="hoverbutt" id="goToIndex" href="index.htm">&larr;</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="./Legal_Information.htm">Open Gaming License (OGL).</a></p>
+      <p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
+    </header>
+    
+    <nav id="pagenav">
+        <a class="pagination" id="previous-page" href="Casting_a_Spell.htm">Casting_a_Spell</a>
+          <a class="pagination" id="next-page" href="Spell_Descriptions.htm">Spell_Descriptions</a>
+      </nav>
+
+      <nav id="TOC" class="treeView">
+      <label>Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})"></label>
+  <ul>
+  <li><a href="#spell-lists">Spell Lists</a><ul>
+  <li><a href="#bard-spells">Bard Spells</a><ul>
+  <li><a href="#bard-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#bard-1st-level">1st Level</a></li>
+  <li><a href="#bard-2nd-level">2nd Level</a></li>
+  <li><a href="#bard-3rd-level">3rd Level</a></li>
+  <li><a href="#bard-4th-level">4th Level</a></li>
+  <li><a href="#bard-5th-level">5th Level</a></li>
+  <li><a href="#bard-6th-level">6th Level</a></li>
+  <li><a href="#bard-7th-level">7th Level</a></li>
+  <li><a href="#bard-8th-level">8th Level</a></li>
+  <li><a href="#bard-9th-level">9th Level</a></li>
+  </ul></li>
+  <li><a href="#cleric-spells">Cleric Spells</a><ul>
+  <li><a href="#cleric-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#cleric-1st-level">1st Level</a></li>
+  <li><a href="#cleric-2nd-level">2nd Level</a></li>
+  <li><a href="#cleric-3rd-level">3rd Level</a></li>
+  <li><a href="#cleric-4th-level">4th Level</a></li>
+  <li><a href="#cleric-5th-level">5th Level</a></li>
+  <li><a href="#cleric-6th-level">6th Level</a></li>
+  <li><a href="#cleric-7th-level">7th Level</a></li>
+  <li><a href="#cleric-8th-level">8th Level</a></li>
+  <li><a href="#cleric-9th-level">9th Level</a></li>
+  </ul></li>
+  <li><a href="#druid-spells">Druid Spells</a><ul>
+  <li><a href="#druid-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#druid-1st-level">1st Level</a></li>
+  <li><a href="#druid-2nd-level">2nd Level</a></li>
+  <li><a href="#druid-3rd-level">3rd Level</a></li>
+  <li><a href="#druid-4th-level">4th Level</a></li>
+  <li><a href="#druid-5th-level">5th Level</a></li>
+  <li><a href="#druid-6th-level">6th Level</a></li>
+  <li><a href="#druid-7th-level">7th Level</a></li>
+  <li><a href="#druid-8th-level">8th Level</a></li>
+  <li><a href="#druid-9th-level">9th Level</a></li>
+  </ul></li>
+  <li><a href="#paladin-spells">Paladin Spells</a><ul>
+  <li><a href="#paladin-1st-level">1st Level</a></li>
+  <li><a href="#paladin-2nd-level">2nd Level</a></li>
+  <li><a href="#paladin-3rd-level">3rd Level</a></li>
+  <li><a href="#paladin-4th-level">4th Level</a></li>
+  <li><a href="#paladin-5th-level">5th Level</a></li>
+  </ul></li>
+  <li><a href="#ranger-spells">Ranger Spells</a><ul>
+  <li><a href="#ranger-1st-level">1st Level</a></li>
+  <li><a href="#ranger-2nd-level">2nd Level</a></li>
+  <li><a href="#ranger-3rd-level">3rd Level</a></li>
+  <li><a href="#ranger-4th-level">4th Level</a></li>
+  <li><a href="#ranger-5th-level">5th Level</a></li>
+  </ul></li>
+  <li><a href="#sorcerer-spells">Sorcerer Spells</a><ul>
+  <li><a href="#sorcerer-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#sorcerer-1st-level">1st Level</a></li>
+  <li><a href="#sorcerer-2nd-level">2nd Level</a></li>
+  <li><a href="#sorcerer-3rd-level">3rd Level</a></li>
+  <li><a href="#sorcerer-4th-level">4th Level</a></li>
+  <li><a href="#sorcerer-5th-level">5th Level</a></li>
+  <li><a href="#sorcerer-6th-level">6th Level</a></li>
+  <li><a href="#sorcerer-7th-level">7th Level</a></li>
+  <li><a href="#sorcerer-8th-level">8th Level</a></li>
+  <li><a href="#sorcerer-9th-level">9th Level</a></li>
+  </ul></li>
+  <li><a href="#warlock-spells">Warlock Spells</a><ul>
+  <li><a href="#warlock-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#warlock-1st-level">1st Level</a></li>
+  <li><a href="#warlock-2nd-level">2nd Level</a></li>
+  <li><a href="#warlock-3rd-level">3rd Level</a></li>
+  <li><a href="#warlock-4th-level">4th Level</a></li>
+  <li><a href="#warlock-5th-level">5th Level</a></li>
+  <li><a href="#warlock-6th-level">6th Level</a></li>
+  <li><a href="#warlock-7th-level">7th Level</a></li>
+  <li><a href="#warlock-8th-level">8th Level</a></li>
+  <li><a href="#warlock-9th-level">9th Level</a></li>
+  </ul></li>
+  <li><a href="#wizard-spells">Wizard Spells</a><ul>
+  <li><a href="#wizard-0-level">Cantrips (0 Level)</a></li>
+  <li><a href="#wizard-1st-level">1st Level</a></li>
+  <li><a href="#wizard-2nd-level">2nd Level</a></li>
+  <li><a href="#wizard-3rd-level">3rd Level</a></li>
+  <li><a href="#wizard-4th-level">4th Level</a></li>
+  <li><a href="#wizard-5th-level">5th Level</a></li>
+  <li><a href="#wizard-6th-level">6th Level</a></li>
+  <li><a href="#wizard-7th-level">7th Level</a></li>
+  <li><a href="#wizard-8th-level">8th Level</a></li>
+  <li><a href="#wizard-9th-level">9th Level</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+    </nav>
+  
+  <section id="spell-lists" class="level2">
+  <h2>Spell Lists</h2>
+  <section id="bard-spells" class="level3">
+  <h3>Bard Spells</h3>
+  <section id="bard-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#dancing-lights"><em>Dancing Lights</em></a></li>
+  <li><a href="Spell_Descriptions.htm#light"><em>Light</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-hand"><em>Mage Hand</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mending"><em>Mending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#message"><em>Message</em></a></li>
+  <li><a href="Spell_Descriptions.htm#minor-illusion"><em>Minor Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prestidigitation"><em>Prestidigitation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-strike"><em>True Strike</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#bane"><em>Bane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#charm-person"><em>Charm Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#comprehend-languages"><em>Comprehend Languages</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cure-wounds"><em>Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#disguise-self"><em>Disguise Self</em></a></li>
+  <li><a href="Spell_Descriptions.htm#faerie-fire"><em>Faerie Fire</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feather-fall"><em>Feather Fall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#healing-word"><em>Healing Word</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heroism"><em>Heroism</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hideous-laughter"><em>Hideous Laughter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#identify"><em>Identify</em></a></li>
+  <li><a href="Spell_Descriptions.htm#illusory-script"><em>Illusory Script</em></a></li>
+  <li><a href="Spell_Descriptions.htm#longstrider"><em>Longstrider</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silent-image"><em>Silent Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleep"><em>Sleep</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-animals"><em>Speak with Animals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#thunderwave"><em>Thunderwave</em></a></li>
+  <li><a href="Spell_Descriptions.htm#unseen-servant"><em>Unseen Servant</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animal-messenger"><em>Animal Messenger</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blindnessdeafness"><em>Blindness/Deafness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#calm-emotions"><em>Calm Emotions</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-thoughts"><em>Detect Thoughts</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enhance-ability"><em>Enhance Ability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enthrall"><em>Enthrall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heat-metal"><em>Heat Metal</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#invisibility"><em>Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#knock"><em>Knock</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lesser-restoration"><em>Lesser Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-animals-or-plants"><em>Locate Animals or Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-mouth"><em>Magic Mouth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#see-invisibility"><em>See Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shatter"><em>Shatter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silence"><em>Silence</em></a></li>
+  <li><a href="Spell_Descriptions.htm#suggestion"><em>Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#zone-of-truth"><em>Zone of Truth</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#bestow-curse"><em>Bestow Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#clairvoyance"><em>Clairvoyance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fear"><em>Fear</em></a></li>
+  <li><a href="Spell_Descriptions.htm#glyph-of-warding"><em>Glyph of Warding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hypnotic-pattern"><em>Hypnotic Pattern</em></a></li>
+  <li><a href="Spell_Descriptions.htm#major-image"><em>Major Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#nondetection"><em>Nondetection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plant-growth"><em>Plant Growth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sending"><em>Sending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-dead"><em>Speak with Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-plants"><em>Speak with Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stinking-cloud"><em>Stinking Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tiny-hut"><em>Tiny Hut</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tongues"><em>Tongues</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#confusion"><em>Confusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dimension-door"><em>Dimension Door</em></a></li>
+  <li><a href="Spell_Descriptions.htm#freedom-of-movement"><em>Freedom of Movement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-invisibility"><em>Greater Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hallucinatory-terrain"><em>Hallucinatory Terrain</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#polymorph"><em>Polymorph</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animate-objects"><em>Animate Objects</em></a></li>
+  <li><a href="Spell_Descriptions.htm#awaken"><em>Awaken</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-person"><em>Dominate Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dream"><em>Dream</em></a></li>
+  <li><a href="Spell_Descriptions.htm#geas"><em>Geas</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-restoration"><em>Greater Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-monster"><em>Hold Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#legend-lore"><em>Legend Lore</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-cure-wounds"><em>Mass Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mislead"><em>Mislead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#modify-memory"><em>Modify Memory</em></a></li>
+  <li><a href="Spell_Descriptions.htm#planar-binding"><em>Planar Binding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#raise-dead"><em>Raise Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scrying"><em>Scrying</em></a></li>
+  <li><a href="Spell_Descriptions.htm#seeming"><em>Seeming</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleportation-circle"><em>Teleportation Circle</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#eyebite"><em>Eyebite</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-the-path"><em>Find the Path</em></a></li>
+  <li><a href="Spell_Descriptions.htm#guards-and-wards"><em>Guards and Wards</em></a></li>
+  <li><a href="Spell_Descriptions.htm#irresistible-dance"><em>Irresistible Dance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-suggestion"><em>Mass Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#programmed-illusion"><em>Programmed Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-seeing"><em>True Seeing</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#arcane-sword"><em>Arcane Sword</em></a></li>
+  <li><a href="Spell_Descriptions.htm#etherealness"><em>Etherealness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#forcecage"><em>Forcecage</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magnificent-mansion"><em>Magnificent Mansion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirage-arcane"><em>Mirage Arcane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#project-image"><em>Project Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#regenerate"><em>Regenerate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#resurrection"><em>Resurrection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#symbol"><em>Symbol</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleport"><em>Teleport</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#dominate-monster"><em>Dominate Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feeblemind"><em>Feeblemind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#glibness"><em>Glibness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mind-blank"><em>Mind Blank</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-stun"><em>Power Word Stun</em></a></li>
+  </ul>
+  </section>
+  <section id="bard-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#foresight"><em>Foresight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-kill"><em>Power Word Kill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-polymorph"><em>True Polymorph</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="cleric-spells" class="level3">
+  <h3>Cleric Spells</h3>
+  <section id="cleric-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#guidance"><em>Guidance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#light"><em>Light</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mending"><em>Mending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#resistance"><em>Resistance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sacred-flame"><em>Sacred Flame</em></a></li>
+  <li><a href="Spell_Descriptions.htm#thaumaturgy"><em>Thaumaturgy</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#bane"><em>Bane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#bless"><em>Bless</em></a></li>
+  <li><a href="Spell_Descriptions.htm#command"><em>Command</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-or-destroy-water"><em>Create or Destroy Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cure-wounds"><em>Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-evil-and-good"><em>Detect Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-poison-and-disease"><em>Detect Poison and Disease</em></a></li>
+  <li><a href="Spell_Descriptions.htm#guiding-bolt"><em>Guiding Bolt</em></a></li>
+  <li><a href="Spell_Descriptions.htm#healing-word"><em>Healing Word</em></a></li>
+  <li><a href="Spell_Descriptions.htm#inflict-wounds"><em>Inflict Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-evil-and-good"><em>Protection from Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#purify-food-and-drink"><em>Purify Food and Drink</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sanctuary"><em>Sanctuary</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shield-of-faith"><em>Shield of Faith</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#aid"><em>Aid</em></a></li>
+  <li><a href="Spell_Descriptions.htm#augury"><em>Augury</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blindnessdeafness"><em>Blindness/Deafness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#calm-emotions"><em>Calm Emotions</em></a></li>
+  <li><a href="Spell_Descriptions.htm#continual-flame"><em>Continual Flame</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enhance-ability"><em>Enhance Ability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-traps"><em>Find Traps</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gentle-repose"><em>Gentle Repose</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lesser-restoration"><em>Lesser Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prayer-of-healing"><em>Prayer of Healing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-poison"><em>Protection from Poison</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silence"><em>Silence</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spiritual-weapon"><em>Spiritual Weapon</em></a></li>
+  <li><a href="Spell_Descriptions.htm#warding-bond"><em>Warding Bond</em></a></li>
+  <li><a href="Spell_Descriptions.htm#zone-of-truth"><em>Zone of Truth</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animate-dead"><em>Animate Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#beacon-of-hope"><em>Beacon of Hope</em></a></li>
+  <li><a href="Spell_Descriptions.htm#bestow-curse"><em>Bestow Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#clairvoyance"><em>Clairvoyance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-food-and-water"><em>Create Food and Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#daylight"><em>Daylight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#glyph-of-warding"><em>Glyph of Warding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-circle"><em>Magic Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-healing-word"><em>Mass Healing Word</em></a></li>
+  <li><a href="Spell_Descriptions.htm#meld-into-stone"><em>Meld into Stone</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-energy"><em>Protection from Energy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#remove-curse"><em>Remove Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#revivify"><em>Revivify</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sending"><em>Sending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-dead"><em>Speak with Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spirit-guardians"><em>Spirit Guardians</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tongues"><em>Tongues</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-walk"><em>Water Walk</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#banishment"><em>Banishment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-water"><em>Control Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#death-ward"><em>Death Ward</em></a></li>
+  <li><a href="Spell_Descriptions.htm#divination"><em>Divination</em></a></li>
+  <li><a href="Spell_Descriptions.htm#freedom-of-movement"><em>Freedom of Movement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stone-shape"><em>Stone Shape</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#commune"><em>Commune</em></a></li>
+  <li><a href="Spell_Descriptions.htm#contagion"><em>Contagion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-evil-and-good"><em>Dispel Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flame-strike"><em>Flame Strike</em></a></li>
+  <li><a href="Spell_Descriptions.htm#geas"><em>Geas</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-restoration"><em>Greater Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hallow"><em>Hallow</em></a></li>
+  <li><a href="Spell_Descriptions.htm#insect-plague"><em>Insect Plague</em></a></li>
+  <li><a href="Spell_Descriptions.htm#legend-lore"><em>Legend Lore</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-cure-wounds"><em>Mass Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#planar-binding"><em>Planar Binding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#raise-dead"><em>Raise Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scrying"><em>Scrying</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#blade-barrier"><em>Blade Barrier</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-undead"><em>Create Undead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-the-path"><em>Find the Path</em></a></li>
+  <li><a href="Spell_Descriptions.htm#forbiddance"><em>Forbiddance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#harm"><em>Harm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heal"><em>Heal</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heroes-feast"><em>Heroes' Feast</em></a></li>
+  <li><a href="Spell_Descriptions.htm#planar-ally"><em>Planar Ally</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-seeing"><em>True Seeing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#word-of-recall"><em>Word of Recall</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#conjure-celestial"><em>Conjure Celestial</em></a></li>
+  <li><a href="Spell_Descriptions.htm#divine-word"><em>Divine Word</em></a></li>
+  <li><a href="Spell_Descriptions.htm#etherealness"><em>Etherealness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fire-storm"><em>Fire Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plane-shift"><em>Plane Shift</em></a></li>
+  <li><a href="Spell_Descriptions.htm#regenerate"><em>Regenerate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#resurrection"><em>Resurrection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#symbol"><em>Symbol</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#antimagic-field"><em>Antimagic Field</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-weather"><em>Control Weather</em></a></li>
+  <li><a href="Spell_Descriptions.htm#earthquake"><em>Earthquake</em></a></li>
+  <li><a href="Spell_Descriptions.htm#holy-aura"><em>Holy Aura</em></a></li>
+  </ul>
+  </section>
+  <section id="cleric-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#astral-projection"><em>Astral Projection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gate"><em>Gate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-heal"><em>Mass Heal</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-resurrection"><em>True Resurrection</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="druid-spells" class="level3">
+  <h3>Druid Spells</h3>
+  <section id="druid-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#guidance"><em>Guidance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mending"><em>Mending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#produce-flame"><em>Produce Flame</em></a></li>
+  <li><a href="Spell_Descriptions.htm#resistance"><em>Resistance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shillelagh"><em>Shillelagh</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#charm-person"><em>Charm Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-or-destroy-water"><em>Create or Destroy Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cure-wounds"><em>Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-poison-and-disease"><em>Detect Poison and Disease</em></a></li>
+  <li><a href="Spell_Descriptions.htm#entangle"><em>Entangle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#faerie-fire"><em>Faerie Fire</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fog-cloud"><em>Fog Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#healing-word"><em>Healing Word</em></a></li>
+  <li><a href="Spell_Descriptions.htm#jump"><em>Jump</em></a></li>
+  <li><a href="Spell_Descriptions.htm#longstrider"><em>Longstrider</em></a></li>
+  <li><a href="Spell_Descriptions.htm#purify-food-and-drink"><em>Purify Food and Drink</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-animals"><em>Speak with Animals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#thunderwave"><em>Thunderwave</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animal-messenger"><em>Animal Messenger</em></a></li>
+  <li><a href="Spell_Descriptions.htm#barkskin"><em>Barkskin</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkvision"><em>Darkvision</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enhance-ability"><em>Enhance Ability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-traps"><em>Find Traps</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flame-blade"><em>Flame Blade</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flaming-sphere"><em>Flaming Sphere</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gust-of-wind"><em>Gust of Wind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heat-metal"><em>Heat Metal</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lesser-restoration"><em>Lesser Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-animals-or-plants"><em>Locate Animals or Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#moonbeam"><em>Moonbeam</em></a></li>
+  <li><a href="Spell_Descriptions.htm#pass-without-trace"><em>Pass without Trace</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-poison"><em>Protection from Poison</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spike-growth"><em>Spike Growth</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#call-lightning"><em>Call Lightning</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-animals"><em>Conjure Animals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#daylight"><em>Daylight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#meld-into-stone"><em>Meld into Stone</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plant-growth"><em>Plant Growth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-energy"><em>Protection from Energy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleet-storm"><em>Sleet Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-plants"><em>Speak with Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-breathing"><em>Water Breathing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-walk"><em>Water Walk</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wind-wall"><em>Wind Wall</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#blight"><em>Blight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#confusion"><em>Confusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-minor-elementals"><em>Conjure Minor Elementals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-woodland-beings"><em>Conjure Woodland Beings</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-water"><em>Control Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-beast"><em>Dominate Beast</em></a></li>
+  <li><a href="Spell_Descriptions.htm#freedom-of-movement"><em>Freedom of Movement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#giant-insect"><em>Giant Insect</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hallucinatory-terrain"><em>Hallucinatory Terrain</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ice-storm"><em>Ice Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#polymorph"><em>Polymorph</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stone-shape"><em>Stone Shape</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stoneskin"><em>Stoneskin</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-fire"><em>Wall of Fire</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#antilife-shell"><em>Antilife Shell</em></a></li>
+  <li><a href="Spell_Descriptions.htm#awaken"><em>Awaken</em></a></li>
+  <li><a href="Spell_Descriptions.htm#commune-with-nature"><em>Commune with Nature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-elemental"><em>Conjure Elemental</em></a></li>
+  <li><a href="Spell_Descriptions.htm#contagion"><em>Contagion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#geas"><em>Geas</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-restoration"><em>Greater Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#insect-plague"><em>Insect Plague</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-cure-wounds"><em>Mass Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#planar-binding"><em>Planar Binding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#reincarnate"><em>Reincarnate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scrying"><em>Scrying</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tree-stride"><em>Tree Stride</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-stone"><em>Wall of Stone</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#conjure-fey"><em>Conjure Fey</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-the-path"><em>Find the Path</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heal"><em>Heal</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heroes-feast"><em>Heroes' Feast</em></a></li>
+  <li><a href="Spell_Descriptions.htm#move-earth"><em>Move Earth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunbeam"><em>Sunbeam</em></a></li>
+  <li><a href="Spell_Descriptions.htm#transport-via-plants"><em>Transport via Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-thorns"><em>Wall of Thorns</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wind-walk"><em>Wind Walk</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#fire-storm"><em>Fire Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirage-arcane"><em>Mirage Arcane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plane-shift"><em>Plane Shift</em></a></li>
+  <li><a href="Spell_Descriptions.htm#regenerate"><em>Regenerate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#reverse-gravity"><em>Reverse Gravity</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animal-shapes"><em>Animal Shapes</em></a></li>
+  <li><a href="Spell_Descriptions.htm#antipathysympathy"><em>Antipathy/Sympathy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-weather"><em>Control Weather</em></a></li>
+  <li><a href="Spell_Descriptions.htm#earthquake"><em>Earthquake</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feeblemind"><em>Feeblemind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunburst"><em>Sunburst</em></a></li>
+  </ul>
+  </section>
+  <section id="druid-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#foresight"><em>Foresight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shapechange"><em>Shapechange</em></a></li>
+  <li><a href="Spell_Descriptions.htm#storm-of-vengeance"><em>Storm of Vengeance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-resurrection"><em>True Resurrection</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="paladin-spells" class="level3">
+  <h3>Paladin Spells</h3>
+  <section id="paladin-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#bless"><em>Bless</em></a></li>
+  <li><a href="Spell_Descriptions.htm#command"><em>Command</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cure-wounds"><em>Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-evil-and-good"><em>Detect Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-poison-and-disease"><em>Detect Poison and Disease</em></a></li>
+  <li><a href="Spell_Descriptions.htm#divine-favor"><em>Divine Favor</em></a></li>
+  <li><a href="Spell_Descriptions.htm#heroism"><em>Heroism</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-evil-and-good"><em>Protection from Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#purify-food-and-drink"><em>Purify Food and Drink</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shield-of-faith"><em>Shield of Faith</em></a></li>
+  </ul>
+  </section>
+  <section id="paladin-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#aid"><em>Aid</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-steed"><em>Find Steed</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lesser-restoration"><em>Lesser Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-weapon"><em>Magic Weapon</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-poison"><em>Protection from Poison</em></a></li>
+  <li><a href="Spell_Descriptions.htm#zone-of-truth"><em>Zone of Truth</em></a></li>
+  </ul>
+  </section>
+  <section id="paladin-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#create-food-and-water"><em>Create Food and Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#daylight"><em>Daylight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-circle"><em>Magic Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#remove-curse"><em>Remove Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#revivify"><em>Revivify</em></a></li>
+  </ul>
+  </section>
+  <section id="paladin-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#banishment"><em>Banishment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#death-ward"><em>Death Ward</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  </ul>
+  </section>
+  <section id="paladin-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#dispel-evil-and-good"><em>Dispel Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#geas"><em>Geas</em></a></li>
+  <li><a href="Spell_Descriptions.htm#raise-dead"><em>Raise Dead</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="ranger-spells" class="level3">
+  <h3>Ranger Spells</h3>
+  <section id="ranger-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#alarm"><em>Alarm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cure-wounds"><em>Cure Wounds</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-poison-and-disease"><em>Detect Poison and Disease</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fog-cloud"><em>Fog Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#jump"><em>Jump</em></a></li>
+  <li><a href="Spell_Descriptions.htm#longstrider"><em>Longstrider</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-animals"><em>Speak with Animals</em></a></li>
+  </ul>
+  </section>
+  <section id="ranger-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animal-messenger"><em>Animal Messenger</em></a></li>
+  <li><a href="Spell_Descriptions.htm#barkskin"><em>Barkskin</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkvision"><em>Darkvision</em></a></li>
+  <li><a href="Spell_Descriptions.htm#find-traps"><em>Find Traps</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lesser-restoration"><em>Lesser Restoration</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-animals-or-plants"><em>Locate Animals or Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#pass-without-trace"><em>Pass without Trace</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-poison"><em>Protection from Poison</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silence"><em>Silence</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spike-growth"><em>Spike Growth</em></a></li>
+  </ul>
+  </section>
+  <section id="ranger-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#conjure-animals"><em>Conjure Animals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#daylight"><em>Daylight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#nondetection"><em>Nondetection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plant-growth"><em>Plant Growth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-energy"><em>Protection from Energy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#speak-with-plants"><em>Speak with Plants</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-breathing"><em>Water Breathing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-walk"><em>Water Walk</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wind-wall"><em>Wind Wall</em></a></li>
+  </ul>
+  </section>
+  <section id="ranger-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#conjure-woodland-beings"><em>Conjure Woodland Beings</em></a></li>
+  <li><a href="Spell_Descriptions.htm#freedom-of-movement"><em>Freedom of Movement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stoneskin"><em>Stoneskin</em></a></li>
+  </ul>
+  </section>
+  <section id="ranger-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#commune-with-nature"><em>Commune with Nature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tree-stride"><em>Tree Stride</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="sorcerer-spells" class="level3">
+  <h3>Sorcerer Spells</h3>
+  <section id="sorcerer-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#acid-splash"><em>Acid Splash</em></a></li>
+  <li><a href="Spell_Descriptions.htm#chill-touch"><em>Chill Touch</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dancing-lights"><em>Dancing Lights</em></a></li>
+  <li><a href="Spell_Descriptions.htm#light"><em>Light</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-hand"><em>Mage Hand</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mending"><em>Mending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#message"><em>Message</em></a></li>
+  <li><a href="Spell_Descriptions.htm#minor-illusion"><em>Minor Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prestidigitation"><em>Prestidigitation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ray-of-frost"><em>Ray of Frost</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shocking-grasp"><em>Shocking Grasp</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-strike"><em>True Strike</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#burning-hands"><em>Burning Hands</em></a></li>
+  <li><a href="Spell_Descriptions.htm#charm-person"><em>Charm Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#color-spray"><em>Color Spray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#comprehend-languages"><em>Comprehend Languages</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#disguise-self"><em>Disguise Self</em></a></li>
+  <li><a href="Spell_Descriptions.htm#expeditious-retreat"><em>Expeditious Retreat</em></a></li>
+  <li><a href="Spell_Descriptions.htm#false-life"><em>False Life</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feather-fall"><em>Feather Fall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fog-cloud"><em>Fog Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#jump"><em>Jump</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-armor"><em>Mage Armor</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-missile"><em>Magic Missile</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shield"><em>Shield</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silent-image"><em>Silent Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleep"><em>Sleep</em></a></li>
+  <li><a href="Spell_Descriptions.htm#thunderwave"><em>Thunderwave</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#alter-self"><em>Alter Self</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blindnessdeafness"><em>Blindness/Deafness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blur"><em>Blur</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkness"><em>Darkness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkvision"><em>Darkvision</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-thoughts"><em>Detect Thoughts</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enhance-ability"><em>Enhance Ability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enlargereduce"><em>Enlarge/Reduce</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gust-of-wind"><em>Gust of Wind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#invisibility"><em>Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#knock"><em>Knock</em></a></li>
+  <li><a href="Spell_Descriptions.htm#levitate"><em>Levitate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirror-image"><em>Mirror Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#misty-step"><em>Misty Step</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scorching-ray"><em>Scorching Ray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#see-invisibility"><em>See Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shatter"><em>Shatter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spider-climb"><em>Spider Climb</em></a></li>
+  <li><a href="Spell_Descriptions.htm#suggestion"><em>Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#web"><em>Web</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#blink"><em>Blink</em></a></li>
+  <li><a href="Spell_Descriptions.htm#clairvoyance"><em>Clairvoyance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#daylight"><em>Daylight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fear"><em>Fear</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fireball"><em>Fireball</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fly"><em>Fly</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gaseous-form"><em>Gaseous Form</em></a></li>
+  <li><a href="Spell_Descriptions.htm#haste"><em>Haste</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hypnotic-pattern"><em>Hypnotic Pattern</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lightning-bolt"><em>Lightning Bolt</em></a></li>
+  <li><a href="Spell_Descriptions.htm#major-image"><em>Major Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-energy"><em>Protection from Energy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleet-storm"><em>Sleet Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#slow"><em>Slow</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stinking-cloud"><em>Stinking Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tongues"><em>Tongues</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-breathing"><em>Water Breathing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-walk"><em>Water Walk</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#banishment"><em>Banishment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blight"><em>Blight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#confusion"><em>Confusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dimension-door"><em>Dimension Door</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-beast"><em>Dominate Beast</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-invisibility"><em>Greater Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ice-storm"><em>Ice Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#polymorph"><em>Polymorph</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stoneskin"><em>Stoneskin</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-fire"><em>Wall of Fire</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animate-objects"><em>Animate Objects</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cloudkill"><em>Cloudkill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cone-of-cold"><em>Cone of Cold</em></a></li>
+  <li><a href="Spell_Descriptions.htm#creation"><em>Creation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-person"><em>Dominate Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-monster"><em>Hold Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#insect-plague"><em>Insect Plague</em></a></li>
+  <li><a href="Spell_Descriptions.htm#seeming"><em>Seeming</em></a></li>
+  <li><a href="Spell_Descriptions.htm#telekinesis"><em>Telekinesis</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleportation-circle"><em>Teleportation Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-stone"><em>Wall of Stone</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#chain-lightning"><em>Chain Lightning</em></a></li>
+  <li><a href="Spell_Descriptions.htm#circle-of-death"><em>Circle of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#disintegrate"><em>Disintegrate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#eyebite"><em>Eyebite</em></a></li>
+  <li><a href="Spell_Descriptions.htm#globe-of-invulnerability"><em>Globe of Invulnerability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-suggestion"><em>Mass Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#move-earth"><em>Move Earth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunbeam"><em>Sunbeam</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-seeing"><em>True Seeing</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#delayed-blast-fireball"><em>Delayed Blast Fireball</em></a></li>
+  <li><a href="Spell_Descriptions.htm#etherealness"><em>Etherealness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#finger-of-death"><em>Finger of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fire-storm"><em>Fire Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plane-shift"><em>Plane Shift</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prismatic-spray"><em>Prismatic Spray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#reverse-gravity"><em>Reverse Gravity</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleport"><em>Teleport</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#dominate-monster"><em>Dominate Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#earthquake"><em>Earthquake</em></a></li>
+  <li><a href="Spell_Descriptions.htm#incendiary-cloud"><em>Incendiary Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-stun"><em>Power Word Stun</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunburst"><em>Sunburst</em></a></li>
+  </ul>
+  </section>
+  <section id="sorcerer-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#gate"><em>Gate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#meteor-swarm"><em>Meteor Swarm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-kill"><em>Power Word Kill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#time-stop"><em>Time Stop</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wish"><em>Wish</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="warlock-spells" class="level3">
+  <h3>Warlock Spells</h3>
+  <section id="warlock-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#chill-touch"><em>Chill Touch</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-hand"><em>Mage Hand</em></a></li>
+  <li><a href="Spell_Descriptions.htm#minor-illusion"><em>Minor Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prestidigitation"><em>Prestidigitation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-strike"><em>True Strike</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#charm-person"><em>Charm Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#comprehend-languages"><em>Comprehend Languages</em></a></li>
+  <li><a href="Spell_Descriptions.htm#expeditious-retreat"><em>Expeditious Retreat</em></a></li>
+  <li><a href="Spell_Descriptions.htm#illusory-script"><em>Illusory Script</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-evil-and-good"><em>Protection from Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#unseen-servant"><em>Unseen Servant</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#darkness"><em>Darkness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enthrall"><em>Enthrall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#invisibility"><em>Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirror-image"><em>Mirror Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#misty-step"><em>Misty Step</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ray-of-enfeeblement"><em>Ray of Enfeeblement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shatter"><em>Shatter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spider-climb"><em>Spider Climb</em></a></li>
+  <li><a href="Spell_Descriptions.htm#suggestion"><em>Suggestion</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fear"><em>Fear</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fly"><em>Fly</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gaseous-form"><em>Gaseous Form</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hypnotic-pattern"><em>Hypnotic Pattern</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-circle"><em>Magic Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#major-image"><em>Major Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#remove-curse"><em>Remove Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tongues"><em>Tongues</em></a></li>
+  <li><a href="Spell_Descriptions.htm#vampiric-touch"><em>Vampiric Touch</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#banishment"><em>Banishment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blight"><em>Blight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dimension-door"><em>Dimension Door</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hallucinatory-terrain"><em>Hallucinatory Terrain</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#contact-other-plane"><em>Contact Other Plane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dream"><em>Dream</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-monster"><em>Hold Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scrying"><em>Scrying</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#circle-of-death"><em>Circle of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-fey"><em>Conjure Fey</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-undead"><em>Create Undead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#eyebite"><em>Eyebite</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flesh-to-stone"><em>Flesh to Stone</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-suggestion"><em>Mass Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-seeing"><em>True Seeing</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#etherealness"><em>Etherealness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#finger-of-death"><em>Finger of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#forcecage"><em>Forcecage</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plane-shift"><em>Plane Shift</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#demiplane"><em>Demiplane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-monster"><em>Dominate Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feeblemind"><em>Feeblemind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#glibness"><em>Glibness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-stun"><em>Power Word Stun</em></a></li>
+  </ul>
+  </section>
+  <section id="warlock-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#astral-projection"><em>Astral Projection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#foresight"><em>Foresight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#imprisonment"><em>Imprisonment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-kill"><em>Power Word Kill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-polymorph"><em>True Polymorph</em></a></li>
+  </ul>
+  </section>
+  </section>
+  <section id="wizard-spells" class="level3">
+  <h3>Wizard Spells</h3>
+  <section id="wizard-0-level" class="level4 spell-list">
+  <h4>Cantrips (0 Level)</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#acid-splash"><em>Acid Splash</em></a></li>
+  <li><a href="Spell_Descriptions.htm#chill-touch"><em>Chill Touch</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dancing-lights"><em>Dancing Lights</em></a></li>
+  <li><a href="Spell_Descriptions.htm#light"><em>Light</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-hand"><em>Mage Hand</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mending"><em>Mending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#message"><em>Message</em></a></li>
+  <li><a href="Spell_Descriptions.htm#minor-illusion"><em>Minor Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prestidigitation"><em>Prestidigitation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ray-of-frost"><em>Ray of Frost</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shocking-grasp"><em>Shocking Grasp</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-strike"><em>True Strike</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-1st-level" class="level4 spell-list">
+  <h4>1st Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#alarm"><em>Alarm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#burning-hands"><em>Burning Hands</em></a></li>
+  <li><a href="Spell_Descriptions.htm#charm-person"><em>Charm Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#color-spray"><em>Color Spray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#comprehend-languages"><em>Comprehend Languages</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-magic"><em>Detect Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#disguise-self"><em>Disguise Self</em></a></li>
+  <li><a href="Spell_Descriptions.htm#expeditious-retreat"><em>Expeditious Retreat</em></a></li>
+  <li><a href="Spell_Descriptions.htm#false-life"><em>False Life</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feather-fall"><em>Feather Fall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#floating-disk"><em>Floating Disk</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fog-cloud"><em>Fog Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#grease"><em>Grease</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hideous-laughter"><em>Hideous Laughter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#identify"><em>Identify</em></a></li>
+  <li><a href="Spell_Descriptions.htm#illusory-script"><em>Illusory Script</em></a></li>
+  <li><a href="Spell_Descriptions.htm#jump"><em>Jump</em></a></li>
+  <li><a href="Spell_Descriptions.htm#longstrider"><em>Longstrider</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mage-armor"><em>Mage Armor</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-missile"><em>Magic Missile</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-evil-and-good"><em>Protection from Evil and Good</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shield"><em>Shield</em></a></li>
+  <li><a href="Spell_Descriptions.htm#silent-image"><em>Silent Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleep"><em>Sleep</em></a></li>
+  <li><a href="Spell_Descriptions.htm#thunderwave"><em>Thunderwave</em></a></li>
+  <li><a href="Spell_Descriptions.htm#unseen-servant"><em>Unseen Servant</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-2nd-level" class="level4 spell-list">
+  <h4>2nd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#acid-arrow"><em>Acid Arrow</em></a></li>
+  <li><a href="Spell_Descriptions.htm#alter-self"><em>Alter Self</em></a></li>
+  <li><a href="Spell_Descriptions.htm#arcane-lock"><em>Arcane Lock</em></a></li>
+  <li><a href="Spell_Descriptions.htm#arcanists-magic-aura"><em>Arcanist's Magic Aura</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blindnessdeafness"><em>Blindness/Deafness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blur"><em>Blur</em></a></li>
+  <li><a href="Spell_Descriptions.htm#continual-flame"><em>Continual Flame</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkness"><em>Darkness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#darkvision"><em>Darkvision</em></a></li>
+  <li><a href="Spell_Descriptions.htm#detect-thoughts"><em>Detect Thoughts</em></a></li>
+  <li><a href="Spell_Descriptions.htm#enlargereduce"><em>Enlarge/Reduce</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flaming-sphere"><em>Flaming Sphere</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gentle-repose"><em>Gentle Repose</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gust-of-wind"><em>Gust of Wind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-person"><em>Hold Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#invisibility"><em>Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#knock"><em>Knock</em></a></li>
+  <li><a href="Spell_Descriptions.htm#levitate"><em>Levitate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-object"><em>Locate Object</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-mouth"><em>Magic Mouth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-weapon"><em>Magic Weapon</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirror-image"><em>Mirror Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#misty-step"><em>Misty Step</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ray-of-enfeeblement"><em>Ray of Enfeeblement</em></a></li>
+  <li><a href="Spell_Descriptions.htm#rope-trick"><em>Rope Trick</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scorching-ray"><em>Scorching Ray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#see-invisibility"><em>See Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shatter"><em>Shatter</em></a></li>
+  <li><a href="Spell_Descriptions.htm#spider-climb"><em>Spider Climb</em></a></li>
+  <li><a href="Spell_Descriptions.htm#suggestion"><em>Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#web"><em>Web</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-3rd-level" class="level4 spell-list">
+  <h4>3rd Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animate-dead"><em>Animate Dead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#bestow-curse"><em>Bestow Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blink"><em>Blink</em></a></li>
+  <li><a href="Spell_Descriptions.htm#clairvoyance"><em>Clairvoyance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dispel-magic"><em>Dispel Magic</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fear"><em>Fear</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fireball"><em>Fireball</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fly"><em>Fly</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gaseous-form"><em>Gaseous Form</em></a></li>
+  <li><a href="Spell_Descriptions.htm#glyph-of-warding"><em>Glyph of Warding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#haste"><em>Haste</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hypnotic-pattern"><em>Hypnotic Pattern</em></a></li>
+  <li><a href="Spell_Descriptions.htm#lightning-bolt"><em>Lightning Bolt</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-circle"><em>Magic Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#major-image"><em>Major Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#nondetection"><em>Nondetection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#phantom-steed"><em>Phantom Steed</em></a></li>
+  <li><a href="Spell_Descriptions.htm#protection-from-energy"><em>Protection from Energy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#remove-curse"><em>Remove Curse</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sending"><em>Sending</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sleet-storm"><em>Sleet Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#slow"><em>Slow</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stinking-cloud"><em>Stinking Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tiny-hut"><em>Tiny Hut</em></a></li>
+  <li><a href="Spell_Descriptions.htm#tongues"><em>Tongues</em></a></li>
+  <li><a href="Spell_Descriptions.htm#vampiric-touch"><em>Vampiric Touch</em></a></li>
+  <li><a href="Spell_Descriptions.htm#water-breathing"><em>Water Breathing</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-4th-level" class="level4 spell-list">
+  <h4>4th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#arcane-eye"><em>Arcane Eye</em></a></li>
+  <li><a href="Spell_Descriptions.htm#banishment"><em>Banishment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#black-tentacles"><em>Black Tentacles</em></a></li>
+  <li><a href="Spell_Descriptions.htm#blight"><em>Blight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#confusion"><em>Confusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-minor-elementals"><em>Conjure Minor Elementals</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-water"><em>Control Water</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dimension-door"><em>Dimension Door</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fabricate"><em>Fabricate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#faithful-hound"><em>Faithful Hound</em></a></li>
+  <li><a href="Spell_Descriptions.htm#fire-shield"><em>Fire Shield</em></a></li>
+  <li><a href="Spell_Descriptions.htm#greater-invisibility"><em>Greater Invisibility</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hallucinatory-terrain"><em>Hallucinatory Terrain</em></a></li>
+  <li><a href="Spell_Descriptions.htm#ice-storm"><em>Ice Storm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#locate-creature"><em>Locate Creature</em></a></li>
+  <li><a href="Spell_Descriptions.htm#phantasmal-killer"><em>Phantasmal Killer</em></a></li>
+  <li><a href="Spell_Descriptions.htm#polymorph"><em>Polymorph</em></a></li>
+  <li><a href="Spell_Descriptions.htm#private-sanctum"><em>Private Sanctum</em></a></li>
+  <li><a href="Spell_Descriptions.htm#resilient-sphere"><em>Resilient Sphere</em></a></li>
+  <li><a href="Spell_Descriptions.htm#secret-chest"><em>Secret Chest</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stone-shape"><em>Stone Shape</em></a></li>
+  <li><a href="Spell_Descriptions.htm#stoneskin"><em>Stoneskin</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-fire"><em>Wall of Fire</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-5th-level" class="level4 spell-list">
+  <h4>5th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#animate-objects"><em>Animate Objects</em></a></li>
+  <li><a href="Spell_Descriptions.htm#arcane-hand"><em>Arcane Hand</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cloudkill"><em>Cloudkill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#cone-of-cold"><em>Cone of Cold</em></a></li>
+  <li><a href="Spell_Descriptions.htm#conjure-elemental"><em>Conjure Elemental</em></a></li>
+  <li><a href="Spell_Descriptions.htm#contact-other-plane"><em>Contact Other Plane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#creation"><em>Creation</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-person"><em>Dominate Person</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dream"><em>Dream</em></a></li>
+  <li><a href="Spell_Descriptions.htm#geas"><em>Geas</em></a></li>
+  <li><a href="Spell_Descriptions.htm#hold-monster"><em>Hold Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#legend-lore"><em>Legend Lore</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mislead"><em>Mislead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#modify-memory"><em>Modify Memory</em></a></li>
+  <li><a href="Spell_Descriptions.htm#passwall"><em>Passwall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#planar-binding"><em>Planar Binding</em></a></li>
+  <li><a href="Spell_Descriptions.htm#scrying"><em>Scrying</em></a></li>
+  <li><a href="Spell_Descriptions.htm#seeming"><em>Seeming</em></a></li>
+  <li><a href="Spell_Descriptions.htm#telekinesis"><em>Telekinesis</em></a></li>
+  <li><a href="Spell_Descriptions.htm#telepathic-bond"><em>Telepathic Bond</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleportation-circle"><em>Teleportation Circle</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-force"><em>Wall of Force</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-stone"><em>Wall of Stone</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-6th-level" class="level4 spell-list">
+  <h4>6th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#chain-lightning"><em>Chain Lightning</em></a></li>
+  <li><a href="Spell_Descriptions.htm#circle-of-death"><em>Circle of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#contingency"><em>Contingency</em></a></li>
+  <li><a href="Spell_Descriptions.htm#create-undead"><em>Create Undead</em></a></li>
+  <li><a href="Spell_Descriptions.htm#disintegrate"><em>Disintegrate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#eyebite"><em>Eyebite</em></a></li>
+  <li><a href="Spell_Descriptions.htm#flesh-to-stone"><em>Flesh to Stone</em></a></li>
+  <li><a href="Spell_Descriptions.htm#freezing-sphere"><em>Freezing Sphere</em></a></li>
+  <li><a href="Spell_Descriptions.htm#globe-of-invulnerability"><em>Globe of Invulnerability</em></a></li>
+  <li><a href="Spell_Descriptions.htm#guards-and-wards"><em>Guards and Wards</em></a></li>
+  <li><a href="Spell_Descriptions.htm#instant-summons"><em>Instant Summons</em></a></li>
+  <li><a href="Spell_Descriptions.htm#irresistible-dance"><em>Irresistible Dance</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magic-jar"><em>Magic Jar</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mass-suggestion"><em>Mass Suggestion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#move-earth"><em>Move Earth</em></a></li>
+  <li><a href="Spell_Descriptions.htm#programmed-illusion"><em>Programmed Illusion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunbeam"><em>Sunbeam</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-seeing"><em>True Seeing</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wall-of-ice"><em>Wall of Ice</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-7th-level" class="level4 spell-list">
+  <h4>7th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#arcane-sword"><em>Arcane Sword</em></a></li>
+  <li><a href="Spell_Descriptions.htm#delayed-blast-fireball"><em>Delayed Blast Fireball</em></a></li>
+  <li><a href="Spell_Descriptions.htm#etherealness"><em>Etherealness</em></a></li>
+  <li><a href="Spell_Descriptions.htm#finger-of-death"><em>Finger of Death</em></a></li>
+  <li><a href="Spell_Descriptions.htm#forcecage"><em>Forcecage</em></a></li>
+  <li><a href="Spell_Descriptions.htm#magnificent-mansion"><em>Magnificent Mansion</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mirage-arcane"><em>Mirage Arcane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#plane-shift"><em>Plane Shift</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prismatic-spray"><em>Prismatic Spray</em></a></li>
+  <li><a href="Spell_Descriptions.htm#project-image"><em>Project Image</em></a></li>
+  <li><a href="Spell_Descriptions.htm#reverse-gravity"><em>Reverse Gravity</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sequester"><em>Sequester</em></a></li>
+  <li><a href="Spell_Descriptions.htm#simulacrum"><em>Simulacrum</em></a></li>
+  <li><a href="Spell_Descriptions.htm#symbol"><em>Symbol</em></a></li>
+  <li><a href="Spell_Descriptions.htm#teleport"><em>Teleport</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-8th-level" class="level4 spell-list">
+  <h4>8th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#antimagic-field"><em>Antimagic Field</em></a></li>
+  <li><a href="Spell_Descriptions.htm#antipathysympathy"><em>Antipathy/Sympathy</em></a></li>
+  <li><a href="Spell_Descriptions.htm#clone"><em>Clone</em></a></li>
+  <li><a href="Spell_Descriptions.htm#control-weather"><em>Control Weather</em></a></li>
+  <li><a href="Spell_Descriptions.htm#demiplane"><em>Demiplane</em></a></li>
+  <li><a href="Spell_Descriptions.htm#dominate-monster"><em>Dominate Monster</em></a></li>
+  <li><a href="Spell_Descriptions.htm#feeblemind"><em>Feeblemind</em></a></li>
+  <li><a href="Spell_Descriptions.htm#incendiary-cloud"><em>Incendiary Cloud</em></a></li>
+  <li><a href="Spell_Descriptions.htm#maze"><em>Maze</em></a></li>
+  <li><a href="Spell_Descriptions.htm#mind-blank"><em>Mind Blank</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-stun"><em>Power Word Stun</em></a></li>
+  <li><a href="Spell_Descriptions.htm#sunburst"><em>Sunburst</em></a></li>
+  </ul>
+  </section>
+  <section id="wizard-9th-level" class="level4 spell-list">
+  <h4>9th Level</h4>
+  <ul>
+  <li><a href="Spell_Descriptions.htm#astral-projection"><em>Astral Projection</em></a></li>
+  <li><a href="Spell_Descriptions.htm#foresight"><em>Foresight</em></a></li>
+  <li><a href="Spell_Descriptions.htm#gate"><em>Gate</em></a></li>
+  <li><a href="Spell_Descriptions.htm#imprisonment"><em>Imprisonment</em></a></li>
+  <li><a href="Spell_Descriptions.htm#meteor-swarm"><em>Meteor Swarm</em></a></li>
+  <li><a href="Spell_Descriptions.htm#power-word-kill"><em>Power Word Kill</em></a></li>
+  <li><a href="Spell_Descriptions.htm#prismatic-wall"><em>Prismatic Wall</em></a></li>
+  <li><a href="Spell_Descriptions.htm#shapechange"><em>Shapechange</em></a></li>
+  <li><a href="Spell_Descriptions.htm#time-stop"><em>Time Stop</em></a></li>
+  <li><a href="Spell_Descriptions.htm#true-polymorph"><em>True Polymorph</em></a></li>
+  <li><a href="Spell_Descriptions.htm#weird"><em>Weird</em></a></li>
+  <li><a href="Spell_Descriptions.htm#wish"><em>Wish</em></a></li>
+  </ul>
+  </section>
+  </section>
+  </section>
+
+  
+  </body>
+
+  <footer>
+  
+      <a href="./Legal_Information.htm">Open Gaming License</a>
+
+  </footer>
+
+</html>

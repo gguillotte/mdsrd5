@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    
+    
+      <title></title>
+
+    
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <!-- Local CSS -->
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="multipage.css" rel="stylesheet" type="text/css">
+    <!-- /Local CSS -->
+    
+    <!-- Local JS -->
+    <script src="jets.js" type="text/javascript"></script>
+    <script src="collapsiblelists.js" type="text/javascript"></script>
+    <script src="loadit.js" type="text/javascript"></script>
+    <!-- /Local JS -->
+
+  </head>
+
+  <body>
+  
+    
+    <nav id="top">
+      <a class="hoverbutt" id="goToTop" href="#top">^</a>
+      <a class="hoverbutt" id="goToIndex" href="index.htm">&larr;</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="./Legal_Information.htm">Open Gaming License (OGL).</a></p>
+      <p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
+    </header>
+    
+    <nav id="pagenav">
+        <a class="pagination" id="previous-page" href="Classes.htm">Classes</a>
+          <a class="pagination" id="next-page" href="Barbarian_Paths.htm">Barbarian_Paths</a>
+      </nav>
+
+      <nav id="TOC" class="treeView">
+      <label>Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})"></label>
+  <ul>
+  <li><a href="#barbarian">Barbarian</a><ul>
+  <li><a href="#class-features">Class Features</a><ul>
+  <li><a href="#hit-points">Hit Points</a></li>
+  <li><a href="#proficiencies">Proficiencies</a></li>
+  <li><a href="#equipment">Equipment</a></li>
+  </ul></li>
+  <li><a href="#rage">Rage</a></li>
+  <li><a href="#unarmored-defense">Unarmored Defense</a></li>
+  <li><a href="#reckless-attack">Reckless Attack</a></li>
+  <li><a href="#danger-sense">Danger Sense</a></li>
+  <li><a href="#primal-path">Primal Path</a></li>
+  <li><a href="#ability-score-improvement">Ability Score Improvement</a></li>
+  <li><a href="#extra-attack">Extra Attack</a></li>
+  <li><a href="#fast-movement">Fast Movement</a></li>
+  <li><a href="#feral-instinct">Feral Instinct</a></li>
+  <li><a href="#brutal-critical">Brutal Critical</a></li>
+  <li><a href="#relentless-rage">Relentless Rage</a></li>
+  <li><a href="#persistent-rage">Persistent Rage</a></li>
+  <li><a href="#indomitable-might">Indomitable Might</a></li>
+  <li><a href="#primal-champion">Primal Champion</a></li>
+  </ul></li>
+  </ul>
+    </nav>
+  
+  <section id="barbarian" class="level2">
+  <h2>Barbarian</h2>
+  <section id="class-features" class="level3">
+  <h3>Class Features</h3>
+  <table>
+  <caption>The Barbarian</caption>
+  <colgroup>
+  <col style="width: 11%" />
+  <col style="width: 18%" />
+  <col style="width: 37%" />
+  <col style="width: 15%" />
+  <col style="width: 16%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">Level</th>
+  <th style="text-align: center;">Proficiency Bonus</th>
+  <th style="text-align: left;">Features</th>
+  <th style="text-align: center;">Rages</th>
+  <th style="text-align: center;">Rage Damage</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">1st</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: left;">Rage, Unarmored Defense</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">2nd</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: left;">Reckless Attack, Danger Sense</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">3rd</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: left;">Primal Path</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">4th</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">5th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: left;">Extra Attack, Fast Movement</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">6th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: left;">Path feature</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">7th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: left;">Feral Instinct</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">8th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+2</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">9th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: left;">Brutal Critical (1 die)</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">10th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: left;">Path feature</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">11th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: left;">Relentless Rage</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">12th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">13th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: left;">Brutal Critical (2 dice)</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">14th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: left;">Path feature</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">15th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: left;">Persistent Rage</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">+3</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">16th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">+4</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">17th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: left;">Brutal Critical (3 dice)</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">+4</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">18th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: left;">Indomitable Might</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">+4</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">19th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">+4</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">20th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: left;">Primal Champion</td>
+  <td style="text-align: center;">Unlimited</td>
+  <td style="text-align: center;">+4</td>
+  </tr>
+  </tbody>
+  </table>
+  <p>As a barbarian, you gain the following class features.</p>
+  <section id="hit-points" class="level4">
+  <h4>Hit Points</h4>
+  <p><strong>Hit Dice:</strong> 1d12 per barbarian level</p>
+  <p><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</p>
+  <p><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</p>
+  </section>
+  <section id="proficiencies" class="level4">
+  <h4>Proficiencies</h4>
+  <p><strong>Armor:</strong> Light armor, medium armor, shields</p>
+  <p><strong>Weapons:</strong> Simple weapons, martial weapons</p>
+  <p><strong>Tools:</strong> None</p>
+  <p><strong>Saving Throws:</strong> Strength, Constitution</p>
+  <p><strong>Skills:</strong> Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival</p>
+  </section>
+  <section id="equipment" class="level4">
+  <h4>Equipment</h4>
+  <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+  <ul>
+  <li>(<em>a</em>) a greataxe or (<em>b</em>) any martial melee weapon</li>
+  <li>(<em>a</em>) two handaxes or (<em>b</em>) any simple weapon</li>
+  <li>An explorer's pack and four javelins</li>
+  </ul>
+  </section>
+  </section>
+  <section id="rage" class="level3">
+  <h3>Rage</h3>
+  <p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.</p>
+  <p>While raging, you gain the following benefits if you aren't wearing heavy armor:</p>
+  <ul>
+  <li>You have advantage on Strength checks and Strength saving throws.</li>
+  <li>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</li>
+  <li>You have resistance to bludgeoning, piercing, and slashing damage.</li>
+  </ul>
+  <p>If you are able to cast spells, you can't cast them or concentrate on them while raging.</p>
+  <p>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
+  <p>Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
+  </section>
+  <section id="unarmored-defense" class="level3">
+  <h3>Unarmored Defense</h3>
+  <p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>
+  </section>
+  <section id="reckless-attack" class="level3">
+  <h3>Reckless Attack</h3>
+  <p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
+  </section>
+  <section id="danger-sense" class="level3">
+  <h3>Danger Sense</h3>
+  <p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.</p>
+  <p>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</p>
+  </section>
+  <section id="primal-path" class="level3">
+  <h3>Primal Path</h3>
+  <p>At 3rd level, you choose a path (see &quot;[Barbarian Paths][]&quot;) that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.</p>
+  </section>
+  <section id="ability-score-improvement" class="level3">
+  <h3>Ability Score Improvement</h3>
+  <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+  </section>
+  <section id="extra-attack" class="level3">
+  <h3>Extra Attack</h3>
+  <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+  </section>
+  <section id="fast-movement" class="level3">
+  <h3>Fast Movement</h3>
+  <p>Starting at 5th level, your speed increases by 10 feet while you aren't wearing heavy armor.</p>
+  </section>
+  <section id="feral-instinct" class="level3">
+  <h3>Feral Instinct</h3>
+  <p>By 7th level, your instincts are so honed that you have advantage on initiative rolls.</p>
+  <p>Additionally, if you are surprised at the beginning of combat and aren't incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p>
+  </section>
+  <section id="brutal-critical" class="level3">
+  <h3>Brutal Critical</h3>
+  <p>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
+  <p>This increases to two additional dice at 13th level and three additional dice at 17th level.</p>
+  </section>
+  <section id="relentless-rage" class="level3">
+  <h3>Relentless Rage</h3>
+  <p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you're raging and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
+  <p>Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
+  </section>
+  <section id="persistent-rage" class="level3">
+  <h3>Persistent Rage</h3>
+  <p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
+  </section>
+  <section id="indomitable-might" class="level3">
+  <h3>Indomitable Might</h3>
+  <p>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</p>
+  </section>
+  <section id="primal-champion" class="level3">
+  <h3>Primal Champion</h3>
+  <p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>
+  </section>
+  </section>
+
+  
+  </body>
+
+  <footer>
+  
+      <a href="./Legal_Information.htm">Open Gaming License</a>
+
+  </footer>
+
+</html>

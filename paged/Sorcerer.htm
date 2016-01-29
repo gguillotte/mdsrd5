@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    
+    
+      <title></title>
+
+    
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <!-- Local CSS -->
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="multipage.css" rel="stylesheet" type="text/css">
+    <!-- /Local CSS -->
+    
+    <!-- Local JS -->
+    <script src="jets.js" type="text/javascript"></script>
+    <script src="collapsiblelists.js" type="text/javascript"></script>
+    <script src="loadit.js" type="text/javascript"></script>
+    <!-- /Local JS -->
+
+  </head>
+
+  <body>
+  
+    
+    <nav id="top">
+      <a class="hoverbutt" id="goToTop" href="#top">^</a>
+      <a class="hoverbutt" id="goToIndex" href="index.htm">&larr;</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="./Legal_Information.htm">Open Gaming License (OGL).</a></p>
+      <p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
+    </header>
+    
+    <nav id="pagenav">
+        <a class="pagination" id="previous-page" href="Roguish_Archetypes.htm">Roguish_Archetypes</a>
+          <a class="pagination" id="next-page" href="Sorcerous_Origins.htm">Sorcerous_Origins</a>
+      </nav>
+
+      <nav id="TOC" class="treeView">
+      <label>Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})"></label>
+  <ul>
+  <li><a href="#sorcerer">Sorcerer</a><ul>
+  <li><a href="#class-features">Class Features</a><ul>
+  <li><a href="#hit-points">Hit Points</a></li>
+  <li><a href="#proficiencies">Proficiencies</a></li>
+  <li><a href="#equipment">Equipment</a></li>
+  </ul></li>
+  <li><a href="#spellcasting">Spellcasting</a><ul>
+  <li><a href="#cantrips">Cantrips</a></li>
+  <li><a href="#spell-slots">Spell Slots</a></li>
+  <li><a href="#spells-known-of-1st-level-and-higher">Spells Known of 1st Level and Higher</a></li>
+  <li><a href="#spellcasting-ability">Spellcasting Ability</a></li>
+  <li><a href="#spellcasting-focus">Spellcasting Focus</a></li>
+  </ul></li>
+  <li><a href="#sorcerous-origin">Sorcerous Origin</a></li>
+  <li><a href="#font-of-magic">Font of Magic</a><ul>
+  <li><a href="#sorcery-points">Sorcery Points</a></li>
+  <li><a href="#flexible-casting">Flexible Casting</a></li>
+  </ul></li>
+  <li><a href="#metamagic">Metamagic</a><ul>
+  <li><a href="#careful-spell">Careful Spell</a></li>
+  <li><a href="#distant-spell">Distant Spell</a></li>
+  <li><a href="#empowered-spell">Empowered Spell</a></li>
+  <li><a href="#extended-spell">Extended Spell</a></li>
+  <li><a href="#heightened-spell">Heightened Spell</a></li>
+  <li><a href="#quickened-spell">Quickened Spell</a></li>
+  <li><a href="#subtle-spell">Subtle Spell</a></li>
+  <li><a href="#twinned-spell">Twinned Spell</a></li>
+  </ul></li>
+  <li><a href="#ability-score-improvement">Ability Score Improvement</a></li>
+  <li><a href="#sorcerous-restoration">Sorcerous Restoration</a></li>
+  </ul></li>
+  </ul>
+    </nav>
+  
+  <section id="sorcerer" class="level2">
+  <h2>Sorcerer</h2>
+  <section id="class-features" class="level3">
+  <h3>Class Features</h3>
+  <table>
+  <caption>The Sorcerer</caption>
+  <colgroup>
+  <col style="width: 8%" />
+  <col style="width: 15%" />
+  <col style="width: 11%" />
+  <col style="width: 43%" />
+  <col style="width: 12%" />
+  <col style="width: 8%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">Level</th>
+  <th style="text-align: center;">Proficiency Bonus</th>
+  <th style="text-align: center;">Sorcery Points</th>
+  <th style="text-align: left;">Features</th>
+  <th style="text-align: center;">Cantrips Known</th>
+  <th style="text-align: center;">Spells Known</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">1st</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: left;">Spellcasting, Sorcerous Origin</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">2nd</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: left;">Font of Magic</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">3rd</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: left;">Metamagic</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">4</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">4th</td>
+  <td style="text-align: center;">+2</td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">5</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">5th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">6</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">6th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: left;">Sorcerous Origin feature</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">7</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">7th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: center;">7</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">8</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">8th</td>
+  <td style="text-align: center;">+3</td>
+  <td style="text-align: center;">8</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">9</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">9th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: center;">9</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">5</td>
+  <td style="text-align: center;">10</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">10th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: center;">10</td>
+  <td style="text-align: left;">Metamagic</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">11</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">11th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: center;">11</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">12</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">12th</td>
+  <td style="text-align: center;">+4</td>
+  <td style="text-align: center;">12</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">12</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">13th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: center;">13</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">14th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: center;">14</td>
+  <td style="text-align: left;">Sorcerous Origin feature</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">15th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: center;">15</td>
+  <td style="text-align: left;">—</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">14</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">16th</td>
+  <td style="text-align: center;">+5</td>
+  <td style="text-align: center;">16</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">14</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">17th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: center;">17</td>
+  <td style="text-align: left;">Metamagic</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">15</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">18th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: center;">18</td>
+  <td style="text-align: left;">Sorcerous Origin feature</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">15</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">19th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: center;">19</td>
+  <td style="text-align: left;">Ability Score Improvement</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">15</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">20th</td>
+  <td style="text-align: center;">+6</td>
+  <td style="text-align: center;">20</td>
+  <td style="text-align: left;">Sorcerous Restoration</td>
+  <td style="text-align: center;">6</td>
+  <td style="text-align: center;">15</td>
+  </tr>
+  </tbody>
+  </table>
+  <p>As a sorcerer, you gain the following class features.</p>
+  <section id="hit-points" class="level4">
+  <h4>Hit Points</h4>
+  <p><strong>Hit Dice:</strong> 1d6 per sorcerer level</p>
+  <p><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</p>
+  <p><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st</p>
+  </section>
+  <section id="proficiencies" class="level4">
+  <h4>Proficiencies</h4>
+  <p><strong>Armor:</strong> None</p>
+  <p><strong>Weapons:</strong> Daggers, darts, slings, quarterstaffs, light crossbows</p>
+  <p><strong>Tools:</strong> None</p>
+  <p><strong>Saving Throws:</strong> Constitution, Charisma</p>
+  <p><strong>Skills:</strong> Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</p>
+  </section>
+  <section id="equipment" class="level4">
+  <h4>Equipment</h4>
+  <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+  <ul>
+  <li>(<em>a</em>) a light crossbow and 20 bolts or (<em>b</em>) any simple weapon</li>
+  <li>(<em>a</em>) a component pouch or (<em>b</em>) an arcane focus</li>
+  <li>(<em>a</em>) a dungeoneer's pack or (<em>b</em>) an explorer's pack</li>
+  <li>Two daggers</li>
+  </ul>
+  </section>
+  </section>
+  <section id="spellcasting" class="level3">
+  <h3>Spellcasting</h3>
+  <p>An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</p>
+  <section id="cantrips" class="level4">
+  <h4>Cantrips</h4>
+  <p>At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p>
+  </section>
+  <section id="spell-slots" class="level4">
+  <h4>Spell Slots</h4>
+  <p>The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+  <p>For example, if you know the 1st-level spell <a href="Spell_Descriptions.htm#burning-hands"><em>burning hands</em></a> and have a 1st-level and a 2nd-level spell slot available, you can cast <a href="Spell_Descriptions.htm#burning-hands"><em>burning hands</em></a> using either slot.</p>
+  </section>
+  <section id="spells-known-of-1st-level-and-higher" class="level4">
+  <h4>Spells Known of 1st Level and Higher</h4>
+  <p>You know two 1st-level spells of your choice from the sorcerer spell list.</p>
+  <p>The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p>
+  <p>Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p>
+  </section>
+  <section id="spellcasting-ability" class="level4">
+  <h4>Spellcasting Ability</h4>
+  <p>Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p>
+  <table>
+  <colgroup>
+  <col style="width: 100%" />
+  </colgroup>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;"><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;"><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</td>
+  </tr>
+  </tbody>
+  </table>
+  </section>
+  <section id="spellcasting-focus" class="level4">
+  <h4>Spellcasting Focus</h4>
+  <p>You can use an arcane focus as a spellcasting focus for your sorcerer spells.</p>
+  </section>
+  </section>
+  <section id="sorcerous-origin" class="level3">
+  <h3>Sorcerous Origin</h3>
+  <p>Choose a sorcerous origin (see [Sorcerous Origins][]), which describes the source of your innate magical power.</p>
+  <p>Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>
+  </section>
+  <section id="font-of-magic" class="level3">
+  <h3>Font of Magic</h3>
+  <p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
+  <section id="sorcery-points" class="level4">
+  <h4>Sorcery Points</h4>
+  <p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p>
+  </section>
+  <section id="flexible-casting" class="level4">
+  <h4>Flexible Casting</h4>
+  <p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.</p>
+  <p><strong><em>Creating Spell Slots.</em></strong> You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p>
+  <p>Any spell slot you create with this feature vanishes when you finish a long rest.</p>
+  <table style="width:39%;">
+  <caption>Creating Spell Slots</caption>
+  <colgroup>
+  <col style="width: 18%" />
+  <col style="width: 20%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">Spell Slot Level</th>
+  <th style="text-align: center;">Sorcery Point Cost</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">1st</td>
+  <td style="text-align: center;">2</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">2nd</td>
+  <td style="text-align: center;">3</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">3rd</td>
+  <td style="text-align: center;">5</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">4th</td>
+  <td style="text-align: center;">6</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">5th</td>
+  <td style="text-align: center;">7</td>
+  </tr>
+  </tbody>
+  </table>
+  <p><strong><em>Converting a Spell Slot to Sorcery Points.</em></strong> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>
+  </section>
+  </section>
+  <section id="metamagic" class="level3">
+  <h3>Metamagic</h3>
+  <p>At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p>
+  <p>You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p>
+  <section id="careful-spell" class="level4">
+  <h4>Careful Spell</h4>
+  <p>When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p>
+  </section>
+  <section id="distant-spell" class="level4">
+  <h4>Distant Spell</h4>
+  <p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p>
+  <p>When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
+  </section>
+  <section id="empowered-spell" class="level4">
+  <h4>Empowered Spell</h4>
+  <p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p>
+  <p>You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+  </section>
+  <section id="extended-spell" class="level4">
+  <h4>Extended Spell</h4>
+  <p>When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p>
+  </section>
+  <section id="heightened-spell" class="level4">
+  <h4>Heightened Spell</h4>
+  <p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p>
+  </section>
+  <section id="quickened-spell" class="level4">
+  <h4>Quickened Spell</h4>
+  <p>When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p>
+  </section>
+  <section id="subtle-spell" class="level4">
+  <h4>Subtle Spell</h4>
+  <p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p>
+  </section>
+  <section id="twinned-spell" class="level4">
+  <h4>Twinned Spell</h4>
+  <p>When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</p>
+  <p>To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, <a href="Spell_Descriptions.htm#magic-missile"><em>magic missile</em></a> and <a href="Spell_Descriptions.htm#scorching-ray"><em>scorching ray</em></a> aren't eligible, but <a href="Spell_Descriptions.htm#ray-of-frost"><em>ray of frost</em></a> and <a href="Spell_Descriptions.htm#finger-of-death"><em>finger of death</em></a> are.</p>
+  </section>
+  </section>
+  <section id="ability-score-improvement" class="level3">
+  <h3>Ability Score Improvement</h3>
+  <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+  </section>
+  <section id="sorcerous-restoration" class="level3">
+  <h3>Sorcerous Restoration</h3>
+  <p>At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</p>
+  </section>
+  </section>
+
+  
+  </body>
+
+  <footer>
+  
+      <a href="./Legal_Information.htm">Open Gaming License</a>
+
+  </footer>
+
+</html>

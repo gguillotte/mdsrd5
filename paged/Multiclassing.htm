@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    
+    
+      <title></title>
+
+    
+    
+    
+    
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <!-- Local CSS -->
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="multipage.css" rel="stylesheet" type="text/css">
+    <!-- /Local CSS -->
+    
+    <!-- Local JS -->
+    <script src="jets.js" type="text/javascript"></script>
+    <script src="collapsiblelists.js" type="text/javascript"></script>
+    <script src="loadit.js" type="text/javascript"></script>
+    <!-- /Local JS -->
+
+  </head>
+
+  <body>
+  
+    
+    <nav id="top">
+      <a class="hoverbutt" id="goToTop" href="#top">^</a>
+      <a class="hoverbutt" id="goToIndex" href="index.htm">&larr;</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="./Legal_Information.htm">Open Gaming License (OGL).</a></p>
+      <p>Also available in <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">epub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
+    </header>
+    
+    <nav id="pagenav">
+        <a class="pagination" id="previous-page" href="Backgrounds.htm">Backgrounds</a>
+          <a class="pagination" id="next-page" href="Alignment.htm">Alignment</a>
+      </nav>
+
+      <nav id="TOC" class="treeView">
+      <label>Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})"></label>
+  <ul>
+  <li><a href="#multiclassing">Multiclassing</a><ul>
+  <li><a href="#prerequisites">Prerequisites</a></li>
+  <li><a href="#experience-points">Experience Points</a></li>
+  <li><a href="#hit-points-and-hit-dice">Hit Points and Hit Dice</a></li>
+  <li><a href="#proficiency-bonus">Proficiency Bonus</a></li>
+  <li><a href="#proficiencies">Proficiencies</a></li>
+  <li><a href="#class-features">Class Features</a><ul>
+  <li><a href="#channel-divinity">Channel Divinity</a></li>
+  <li><a href="#extra-attack">Extra Attack</a></li>
+  <li><a href="#unarmored-defense">Unarmored Defense</a></li>
+  <li><a href="#spellcasting">Spellcasting</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+    </nav>
+  
+  <section id="multiclassing" class="level2">
+  <h2>Multiclassing</h2>
+  <p>Multiclassing allows you to gain levels in multiple classes. Doing so lets you mix the abilities of those classes to realize a character concept that might not be reflected in one of the standard class options.</p>
+  <p>With this rule, you have the option of gaining a level in a new class whenever you advance in level, instead of gaining a level in your current class. Your levels in all your classes are added together to determine your character level. For example, if you have three levels in wizard and two in fighter, you're a 5th-level character.</p>
+  <p>As you advance in levels, you might primarily remain a member of your original class with just a few levels in another class, or you might change course entirely, never looking back at the class you left behind. You might even start progressing in a third or fourth class. Compared to a single-class character of the same level, you'll sacrifice some focus in exchange for versatility.</p>
+  <section id="prerequisites" class="level3">
+  <h3>Prerequisites</h3>
+  <p>To qualify for a new class, you must meet the ability score prerequisites for both your current class and your new one, as shown in the Multiclassing Prerequisites table. For example, a barbarian who decides to multiclass into the druid class must have both Strength and Wisdom scores of 13 or higher. Without the full training that a beginning character receives, you must be a quick study in your new class, having a natural aptitude that is reflected by higher-than-average ability scores.</p>
+  <table style="width:54%;">
+  <caption>Multiclassing Prerequisites</caption>
+  <colgroup>
+  <col style="width: 15%" />
+  <col style="width: 38%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: left;">Class</th>
+  <th style="text-align: left;">Ability Score Minimum</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: left;">Barbarian</td>
+  <td style="text-align: left;">Strength 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Bard</td>
+  <td style="text-align: left;">Charisma 13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Cleric</td>
+  <td style="text-align: left;">Wisdom 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Druid</td>
+  <td style="text-align: left;">Wisdom 13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Fighter</td>
+  <td style="text-align: left;">Strength 13 or Dexterity 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Monk</td>
+  <td style="text-align: left;">Dexterity 13 and Wisdom 13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Paladin</td>
+  <td style="text-align: left;">Strength 13 and Charisma 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Ranger</td>
+  <td style="text-align: left;">Dexterity 13 and Wisdom 13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Rogue</td>
+  <td style="text-align: left;">Dexterity 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Sorcerer</td>
+  <td style="text-align: left;">Charisma 13</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Warlock</td>
+  <td style="text-align: left;">Charisma 13</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Wizard</td>
+  <td style="text-align: left;">Intelligence 13</td>
+  </tr>
+  </tbody>
+  </table>
+  </section>
+  <section id="experience-points" class="level3">
+  <h3>Experience Points</h3>
+  <p>The experience point cost to gain a level is always based on your total character level, as shown in the Character Advancement table, not your level in a particular class. So, if you are a cleric 6/fighter 1, you must gain enough XP to reach 8th level before you can take your second level as a fighter or your seventh level as a cleric.</p>
+  </section>
+  <section id="hit-points-and-hit-dice" class="level3">
+  <h3>Hit Points and Hit Dice</h3>
+  <p>You gain the hit points from your new class as described for levels after 1st. You gain the 1st-level hit points for a class only when you are a 1st-level character.</p>
+  <p>You add together the Hit Dice granted by all your classes to form your pool of Hit Dice. If the Hit Dice are the same die type, you can simply pool them together. For example, both the fighter and the paladin have a d10, so if you are a paladin 5/fighter 5, you have ten d10 Hit Dice. If your classes give you Hit Dice of different types, keep track of them separately. If you are a paladin 5/cleric 5, for example, you have five d10 Hit Dice and five d8 Hit Dice.</p>
+  </section>
+  <section id="proficiency-bonus" class="level3">
+  <h3>Proficiency Bonus</h3>
+  <p>Your proficiency bonus is always based on your total character level, as shown in the Character Advancement table, not your level in a particular class. For example, if you are a fighter 3/rogue 2, you have the proficiency bonus of a 5th-level character, which is +3.</p>
+  </section>
+  <section id="proficiencies" class="level3">
+  <h3>Proficiencies</h3>
+  <p>When you gain your first level in a class other than your initial class, you gain only some of new class's starting proficiencies, as shown in the Multiclassing Proficiencies table.</p>
+  <table>
+  <caption>Multiclassing Proficiencies</caption>
+  <colgroup>
+  <col style="width: 12%" />
+  <col style="width: 87%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: left;">Class</th>
+  <th style="text-align: left;">Proficiencies Gained</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: left;">Barbarian</td>
+  <td style="text-align: left;">Shields, simple weapons, martial weapons</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Bard</td>
+  <td style="text-align: left;">Light armor, one skill of your choice, one musical instrument of your choice</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Cleric</td>
+  <td style="text-align: left;">Light armor, medium armor, shields</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Druid</td>
+  <td style="text-align: left;">Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Fighter</td>
+  <td style="text-align: left;">Light armor, medium armor, shields, simple weapons, martial weapons</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Monk</td>
+  <td style="text-align: left;">Simple weapons, shortswords</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Paladin</td>
+  <td style="text-align: left;">Light armor, medium armor, shields, simple weapons, martial weapons</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Ranger</td>
+  <td style="text-align: left;">Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class's skill list</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Rogue</td>
+  <td style="text-align: left;">Light armor, one skill from the class's skill list, thieves' tools</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Sorcerer</td>
+  <td style="text-align: left;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Warlock</td>
+  <td style="text-align: left;">Light armor, simple weapons</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Wizard</td>
+  <td style="text-align: left;">—</td>
+  </tr>
+  </tbody>
+  </table>
+  </section>
+  <section id="class-features" class="level3">
+  <h3>Class Features</h3>
+  <p>When you gain a new level in a class, you get its features for that level. You don't, however, receive the class's starting equipment, and a few features have additional rules when you're multiclassing: Channel Divinity, Extra Attack, Unarmored Defense, and Spellcasting.</p>
+  <section id="channel-divinity" class="level4">
+  <h4>Channel Divinity</h4>
+  <p>If you already have the Channel Divinity feature and gain a level in a class that also grants the feature, you gain the Channel Divinity effects granted by that class, but getting the feature again doesn't give you an additional use of it. You gain additional uses only when you reach a class level that explicitly grants them to you. For example, if you are a cleric 6/paladin 4, you can use Channel Divinity twice between rests because you are high enough level in the cleric class to have more uses. Whenever you use the feature, you can choose any of the Channel Divinity effects available to you from your two classes.</p>
+  </section>
+  <section id="extra-attack" class="level4">
+  <h4>Extra Attack</h4>
+  <p>If you gain the Extra Attack class feature from more than one class, the features don't add together. You can't make more than two attacks with this feature unless it says you do (as the fighter's version of Extra Attack does). Similarly, the warlock's eldritch invocation Thirsting Blade doesn't give you additional attacks if you also have Extra Attack.</p>
+  </section>
+  <section id="unarmored-defense" class="level4">
+  <h4>Unarmored Defense</h4>
+  <p>If you already have the Unarmored Defense feature, you can't gain it again from another class.</p>
+  </section>
+  <section id="spellcasting" class="level4">
+  <h4>Spellcasting</h4>
+  <p>Your capacity for spellcasting depends partly on your combined levels in all your spellcasting classes and partly on your individual levels in those classes. Once you have the Spellcasting feature from more than one class, use the rules below. If you multiclass but have the Spellcasting feature from only one class, you follow the rules as described in that class.</p>
+  <p><strong><em>Spells Known and Prepared.</em></strong> You determine what spells you know and can prepare for each class individually, as if you were a single-classed member of that class. If you are a ranger 4/wizard 3, for example, you know three 1st-level ranger spells based on your levels in the ranger class. As 3rd-level wizard, you know three wizard cantrips, and your spellbook contains ten wizard spells, two of which (the two you gained when you reached 3rd level as a wizard) can be 2nd-level spells. If your Intelligence is 16, you can prepare six wizard spells from your spellbook.</p>
+  <p>Each spell you know and prepare is associated with one of your classes, and you use the spellcasting ability of that class when you cast the spell. Similarly, a spellcasting focus, such as a holy symbol, can be used only for the spells from the class associated with that focus.</p>
+  <p><strong><em>Spell Slots.</em></strong> You determine your available spell slots by adding together all your levels in the bard, cleric, druid, sorcerer, and wizard classes, and half your levels (rounded down) in the paladin and ranger classes. Use this total to determine your spell slots by consulting the Multiclass Spellcaster table.</p>
+  <p>If you have more than one spellcasting class, this table might give you spell slots of a level that is higher than the spells you know or can prepare. You can use those slots, but only to cast your lower-level spells. If a lower-level spell that you cast, like <a href="Spell_Descriptions.htm#burning-hands"><em>burning hands</em></a>, has an enhanced effect when cast using a higher-level slot, you can use the enhanced effect, even though you don't have any spells of that higher level.</p>
+  <p>For example, if you are the aforementioned ranger 4/wizard 3, you count as a 5th-level character when determining your spell slots: you have four 1st-level slots, three 2nd-level slots, and two 3rd-level slots. However, you don't know any 3rd-level spells, nor do you know any 2nd-level ranger spells. You can use the spell slots of those levels to cast the spells you do know—and potentially enhance their effects.</p>
+  <p><strong><em>Pact Magic.</em></strong> If you have both the Spellcasting class feature and the Pact Magic class feature from the warlock class, you can use the spell slots you gain from the Pact Magic feature to cast spells you know or have prepared from classes with the Spellcasting class feature, and you can use the spell slots you gain from the Spellcasting class feature to cast warlock spells you know.</p>
+  <table style="width:100%;">
+  <caption>Multiclass Spellcaster: Spell Slots per Spell Level</caption>
+  <colgroup>
+  <col style="width: 8%" />
+  <col style="width: 6%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  <col style="width: 9%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th style="text-align: center;">Level</th>
+  <th style="text-align: right;">Spell Level</th>
+  <th style="text-align: center;">1st</th>
+  <th style="text-align: center;">2nd</th>
+  <th style="text-align: center;">3rd</th>
+  <th style="text-align: center;">4th</th>
+  <th style="text-align: center;">5th</th>
+  <th style="text-align: center;">6th</th>
+  <th style="text-align: center;">7th</th>
+  <th style="text-align: center;">8th</th>
+  <th style="text-align: center;">9th</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: center;">1st</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">2nd</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">3rd</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">4th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">5th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">6th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">7th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">8th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">9th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">10th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">11th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">12th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">13th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">14th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">15th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">16th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">—</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">17th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">18th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: center;">19th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: center;">20th</td>
+  <td style="text-align: right;"></td>
+  <td style="text-align: center;">4</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">3</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">2</td>
+  <td style="text-align: center;">1</td>
+  <td style="text-align: center;">1</td>
+  </tr>
+  </tbody>
+  </table>
+  </section>
+  </section>
+  </section>
+
+  
+  </body>
+
+  <footer>
+  
+      <a href="./Legal_Information.htm">Open Gaming License</a>
+
+  </footer>
+
+</html>
