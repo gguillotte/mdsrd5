@@ -6702,136 +6702,528 @@ The first time you do so, you suffer no adverse effect. If you use this feature 
 Beyond 1st Level
 ================
 
-Character Advancement
----------------------
+Using Ability Scores
+====================
 
-As your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point total advances in capability. This advancement is called **gaining a level**.
+Six abilities provide a quick description of every creature's physical and mental characteristics:
 
-When your character gains a level, his or her class often grants additional features, as detailed in the class description. Some of these features allow you to increase your ability scores, either increasing two scores by 1 each or increasing one score by 2. You can't increase an ability score above 20. In addition, every character's proficiency bonus increases at certain levels.
+-   **Strength,** measuring physical power
+-   **Dexterity,** measuring agility
+-   **Constitution,** measuring endurance
+-   **Intelligence,** measuring reasoning and memory
+-   **Wisdom,** measuring perception and insight
+-   **Charisma,** measuring force of personality
 
-Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up).
+Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities—a creature's assets as well as weaknesses.
 
-When your Constitution modifier increases by 1, your hit point maximum increases by 1 for each level you have attained. For example, if your 7th-level fighter has a Constitution score of 18, when he reaches 8th level, he increases his Constitution score from 17 to 18, thus increasing his Constitution modifier from +3 to +4. His hit point maximum then increases by 8.
+The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
 
-The Character Advancement table summarizes the XP you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. Consult the information in your character's class description to see what other improvements you gain at each level.
+Ability Scores and Modifiers
+----------------------------
 
-<table style="width:64%;">
-<caption>Character Advancement</caption>
+Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.
+
+A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.
+
+Each ability also has a modifier, derived from the score and ranging from −5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
+
+<table style="width:25%;">
+<caption>Ability Scores and Modifiers</caption>
 <colgroup>
-<col width="26%" />
 <col width="11%" />
-<col width="26%" />
+<col width="13%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Experience Points</th>
-<th align="center">Level</th>
-<th align="center">Proficiency Bonus</th>
+<th align="center">Score</th>
+<th align="center">Modifier</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">0</td>
 <td align="center">1</td>
-<td align="center">+2</td>
+<td align="center">−5</td>
 </tr>
 <tr class="even">
-<td align="left">300</td>
-<td align="center">2</td>
+<td align="center">2–3</td>
+<td align="center">−4</td>
+</tr>
+<tr class="odd">
+<td align="center">4–5</td>
+<td align="center">−3</td>
+</tr>
+<tr class="even">
+<td align="center">6–7</td>
+<td align="center">−2</td>
+</tr>
+<tr class="odd">
+<td align="center">8–9</td>
+<td align="center">−1</td>
+</tr>
+<tr class="even">
+<td align="center">10–11</td>
+<td align="center">+0</td>
+</tr>
+<tr class="odd">
+<td align="center">12–13</td>
+<td align="center">+1</td>
+</tr>
+<tr class="even">
+<td align="center">14–15</td>
 <td align="center">+2</td>
 </tr>
 <tr class="odd">
-<td align="left">900</td>
-<td align="center">3</td>
-<td align="center">+2</td>
-</tr>
-<tr class="even">
-<td align="left">2,700</td>
-<td align="center">4</td>
-<td align="center">+2</td>
-</tr>
-<tr class="odd">
-<td align="left">6,500</td>
-<td align="center">5</td>
+<td align="center">16–17</td>
 <td align="center">+3</td>
 </tr>
 <tr class="even">
-<td align="left">14,000</td>
-<td align="center">6</td>
-<td align="center">+3</td>
-</tr>
-<tr class="odd">
-<td align="left">23,000</td>
-<td align="center">7</td>
-<td align="center">+3</td>
-</tr>
-<tr class="even">
-<td align="left">34,000</td>
-<td align="center">8</td>
-<td align="center">+3</td>
-</tr>
-<tr class="odd">
-<td align="left">48,000</td>
-<td align="center">9</td>
-<td align="center">+4</td>
-</tr>
-<tr class="even">
-<td align="left">64,000</td>
-<td align="center">10</td>
+<td align="center">18–19</td>
 <td align="center">+4</td>
 </tr>
 <tr class="odd">
-<td align="left">85,000</td>
-<td align="center">11</td>
-<td align="center">+4</td>
-</tr>
-<tr class="even">
-<td align="left">100,000</td>
-<td align="center">12</td>
-<td align="center">+4</td>
-</tr>
-<tr class="odd">
-<td align="left">120,000</td>
-<td align="center">13</td>
+<td align="center">20–21</td>
 <td align="center">+5</td>
 </tr>
 <tr class="even">
-<td align="left">140,000</td>
-<td align="center">14</td>
-<td align="center">+5</td>
-</tr>
-<tr class="odd">
-<td align="left">165,000</td>
-<td align="center">15</td>
-<td align="center">+5</td>
-</tr>
-<tr class="even">
-<td align="left">195,000</td>
-<td align="center">16</td>
-<td align="center">+5</td>
-</tr>
-<tr class="odd">
-<td align="left">225,000</td>
-<td align="center">17</td>
-<td align="center">+6</td>
-</tr>
-<tr class="even">
-<td align="left">265,000</td>
-<td align="center">18</td>
+<td align="center">22–23</td>
 <td align="center">+6</td>
 </tr>
 <tr class="odd">
-<td align="left">305,000</td>
-<td align="center">19</td>
-<td align="center">+6</td>
+<td align="center">24–25</td>
+<td align="center">+7</td>
 </tr>
 <tr class="even">
-<td align="left">355,000</td>
-<td align="center">20</td>
-<td align="center">+6</td>
+<td align="center">26–27</td>
+<td align="center">+8</td>
+</tr>
+<tr class="odd">
+<td align="center">28–29</td>
+<td align="center">+9</td>
+</tr>
+<tr class="even">
+<td align="center">30</td>
+<td align="center">+10</td>
 </tr>
 </tbody>
 </table>
+
+To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).
+
+Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
+
+Advantage and Disadvantage
+--------------------------
+
+Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
+
+If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
+
+If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
+
+When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.
+
+You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
+
+Proficiency Bonus
+-----------------
+
+Characters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
+
+Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
+
+Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
+
+By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
+
+In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
+
+Ability Checks
+--------------
+
+An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
+
+For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
+
+<table style="width:32%;">
+<caption>Typical Difficulty Classes</caption>
+<colgroup>
+<col width="26%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Task Difficulty</th>
+<th align="center">DC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Very easy</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Easy</td>
+<td align="center">10</td>
+</tr>
+<tr class="odd">
+<td align="left">Medium</td>
+<td align="center">15</td>
+</tr>
+<tr class="even">
+<td align="left">Hard</td>
+<td align="center">20</td>
+</tr>
+<tr class="odd">
+<td align="left">Very hard</td>
+<td align="center">25</td>
+</tr>
+<tr class="even">
+<td align="left">Nearly impossible</td>
+<td align="center">30</td>
+</tr>
+</tbody>
+</table>
+
+To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM.
+
+### Contests
+
+Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.
+
+Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That character or monster either succeeds at the action or prevents the other one from succeeding.
+
+If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut.
+
+### Skills
+
+Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)
+
+For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: Acrobatics, Sleight of Hand, and Stealth, respectively. So a character who has proficiency in the Stealth skill is particularly good at Dexterity checks related to sneaking and hiding.
+
+The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
+
+#### Strength
+
+-   Athletics
+
+#### Dexterity
+
+-   Acrobatics
+-   Sleight of Hand
+-   Stealth
+
+#### Intelligence
+
+-   Arcana
+-   History
+-   Investigation
+-   Nature
+-   Religion
+
+#### Wisdom
+
+-   Animal Handling
+-   Insight
+-   Medicine
+-   Perception
+-   Survival
+
+#### Charisma
+
+-   Deception
+-   Intimidation
+-   Performance
+-   Persuasion
+
+Sometimes, the GM might ask for an ability check using a specific skill—for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
+
+For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
+
+#### Variant: Skills with Different Abilities
+
+Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly, when your half—orc barbarian uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
+
+### Passive Checks
+
+A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
+
+Here's how to determine a character's total for a passive check:
+
+|                                                     |
+|:---------------------------------------------------:|
+| 10 + all modifiers that normally apply to the check |
+
+If the character has advantage on the check, add 5. For disadvantage, subtract 5. The game refers to a passive check total as a **score**.
+
+For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14.
+
+The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration rules.
+
+### Working Together
+
+Sometimes two or more characters team up to attempt a task. The character who's leading the effort—or the one with the highest ability modifier—can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action.
+
+A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
+
+#### Group Checks
+
+When a number of individuals are trying to accomplish something as a group, the GM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't. To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails. Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
+
+Using Each Ability
+------------------
+
+Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
+
+### Strength
+
+Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
+
+#### Strength Checks
+
+A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
+
+***Athletics.*** Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
+
+-   You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
+-   You try to jump an unusually long distance or pull off a stunt midjump.
+-   You struggle to swim or stay afloat in treacherous currents, storm—tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
+
+***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:
+
+-   Force open a stuck, locked, or barred door
+-   Break free of bonds
+-   Push through a tunnel that is too small
+-   Hang on to a wagon while being dragged behind it
+-   Tip over a statue
+-   Keep a boulder from rolling
+
+#### Attack Rolls and Damage
+
+You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand—to—hand combat, and some of them can be thrown to make a ranged attack.
+
+#### Lifting and Carrying
+
+Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
+
+***Carrying Capacity.*** Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it.
+
+***Push, Drag, or Lift.*** You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
+
+***Size and Strength.*** Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
+
+#### Variant: Encumbrance
+
+The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table.
+
+If you carry weight in excess of 5 times your Strength score, you are **encumbered**, which means your speed drops by 10 feet.
+
+If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead **heavily encumbered**, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
+
+### Dexterity
+
+Dexterity measures agility, reflexes, and balance.
+
+#### Dexterity Checks
+
+A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks.
+
+***Acrobatics.*** Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.
+
+***Sleight of Hand.*** Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.
+
+***Stealth.*** Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.
+
+***Other Dexterity Checks.*** The GM might call for a Dexterity check when you try to accomplish tasks like the following:
+
+-   Control a heavily laden cart on a steep descent
+-   Steer a chariot around a tight turn
+-   Pick a lock
+-   Disable a trap
+-   Securely tie up a prisoner
+-   Wriggle free of bonds
+-   Play a stringed instrument
+-   Craft a small or detailed object
+
+#### Attack Rolls and Damage
+
+You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
+
+#### Armor Class
+
+Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class.
+
+#### Initiative
+
+At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.
+
+> #### Hiding
+>
+> The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.
+>
+> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
+>
+> An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
+>
+> In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
+>
+> ***Passive Perception.*** When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.
+>
+> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see [Adventuring](#adventuring)).
+
+### Constitution
+
+Constitution measures health, stamina, and vital force.
+
+#### Constitution Checks
+
+Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits, however.
+
+The GM might call for a Constitution check when you try to accomplish tasks like the following:
+
+-   Hold your breath
+-   March or labor for hours without rest
+-   Go without sleep
+-   Survive without food or water
+-   Quaff an entire stein of ale in one go
+
+#### Hit Points
+
+Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.
+
+If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7.
+
+### Intelligence
+
+Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
+
+#### Intelligence Checks
+
+An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks.
+
+***Arcana.*** Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.
+
+***History.*** Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.
+
+***Investigation.*** When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.
+
+***Nature.*** Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.
+
+***Religion.*** Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.
+
+***Other Intelligence Checks.*** The GM might call for an Intelligence check when you try to accomplish tasks like the following:
+
+-   Communicate with a creature without using words
+-   Estimate the value of a precious item
+-   Pull together a disguise to pass as a city guard
+-   Forge a document
+-   Recall lore about a craft or trade
+-   Win a game of skill
+
+#### Spellcasting Ability
+
+Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
+
+### Wisdom
+
+Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.
+
+#### Wisdom Checks
+
+A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks.
+
+***Animal Handling.*** When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.
+
+***Insight.*** Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
+
+***Medicine.*** A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.
+
+***Perception.*** Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.
+
+***Survival.*** The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.
+
+***Other Wisdom Checks.*** The GM might call for a Wisdom check when you try to accomplish tasks like the following:
+
+-   Get a gut feeling about what course of action to follow
+-   Discern whether a seemingly dead or living creature is undead
+
+#### Spellcasting Ability
+
+Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
+
+### Charisma
+
+Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.
+
+#### Charisma Checks
+
+A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks.
+
+***Deception.*** Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast—talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.
+
+***Intimidation.*** When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.
+
+***Performance.*** Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.
+
+***Persuasion.*** When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.
+
+***Other Charisma Checks.*** The GM might call for a Charisma check when you try to accomplish tasks like the following:
+
+-   Find the best person to talk to for news, rumors, and gossip
+-   Blend into a crowd to get the sense of key topics of conversation
+
+#### Spellcasting Ability
+
+Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
+
+Saving Throws
+-------------
+
+A saving throw—also called a save—represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
+
+To make a saving throw, roll a d20 and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity saving throw.
+
+A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the GM.
+
+Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in a saving throw lets a character add his or her proficiency bonus to saving throws made using a particular ability score. Some monsters have saving throw proficiencies as well.
+
+The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.
+
+The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect.
+
+Alignment
+---------
+
+A typical creature in the game world has an alignment, which broadly describes its moral and personal attitudes. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral). Thus, nine distinct alignments define the possible combinations.
+
+These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.
+
+**Lawful good** (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.
+
+**Neutral good** (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.
+
+**Chaotic good** (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.
+
+**Lawful neutral** (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.
+
+**Neutral** (N) is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.
+
+**Chaotic neutral** (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.
+
+**Lawful evil** (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.
+
+**Neutral evil** (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.
+
+**Chaotic evil** (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.
+
+### Alignment in the Multiverse
+
+For many thinking creatures, alignment is a moral choice. Humans, dwarves, elves, and other humanoid races can choose whether to follow the paths of good or evil, law or chaos. According to myth, the good-aligned gods who created these races gave them free will to choose their moral paths, knowing that good without free will is slavery.
+
+The evil deities who created other races, though, made those races to serve them. Those races have strong inborn tendencies that match the nature of their gods. Most orcs share the violent, savage nature of the orc gods, and are thus inclined toward evil. Even if an orc chooses a good alignment, it struggles against its innate tendencies for its entire life. (Even half-orcs feel the lingering pull of the orc god's influence.)
+
+Alignment is an essential part of the nature of celestials and fiends. A devil does not choose to be lawful evil, and it doesn't tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceased to be lawful evil, it would cease to be a devil.
+
+Most creatures that lack the capacity for rational thought do not have alignments—they are **unaligned**. Such a creature is incapable of making a moral or ethical choice and acts according to its bestial nature. Sharks are savage predators, for example, but they are not evil; they have no alignment.
 
 Backgrounds
 -----------
@@ -7050,6 +7442,298 @@ Acolytes are shaped by their experience in temples or other religious communitie
 <tr class="even">
 <td align="center">6</td>
 <td align="left">Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</td>
+</tr>
+</tbody>
+</table>
+
+Languages
+---------
+
+Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages on your character sheet.
+
+Choose your languages from the Standard Languages table, or choose one that is common in your campaign. With your GM's permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.
+
+<table style="width:61%;">
+<caption>Standard Languages</caption>
+<colgroup>
+<col width="18%" />
+<col width="29%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Language</th>
+<th align="left">Typical Speakers</th>
+<th align="left">Script</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Common</td>
+<td align="left">Humans</td>
+<td align="left">Common</td>
+</tr>
+<tr class="even">
+<td align="left">Dwarvish</td>
+<td align="left">Dwarves</td>
+<td align="left">Dwarvish</td>
+</tr>
+<tr class="odd">
+<td align="left">Elvish</td>
+<td align="left">Elves</td>
+<td align="left">Elvish</td>
+</tr>
+<tr class="even">
+<td align="left">Giant</td>
+<td align="left">Ogres, giants</td>
+<td align="left">Dwarvish</td>
+</tr>
+<tr class="odd">
+<td align="left">Gnomish</td>
+<td align="left">Gnomes</td>
+<td align="left">Dwarvish</td>
+</tr>
+<tr class="even">
+<td align="left">Goblin</td>
+<td align="left">Goblinoids</td>
+<td align="left">Dwarvish</td>
+</tr>
+<tr class="odd">
+<td align="left">Halfling</td>
+<td align="left">Halflings</td>
+<td align="left">Common</td>
+</tr>
+<tr class="even">
+<td align="left">Orc</td>
+<td align="left">Orcs</td>
+<td align="left">Dwarvish</td>
+</tr>
+</tbody>
+</table>
+
+<table style="width:61%;">
+<caption>Exotic Languages</caption>
+<colgroup>
+<col width="18%" />
+<col width="29%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Language</th>
+<th align="left">Typical Speakers</th>
+<th align="left">Script</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Abyssal</td>
+<td align="left">Demons</td>
+<td align="left">Infernal</td>
+</tr>
+<tr class="even">
+<td align="left">Celestial</td>
+<td align="left">Celestials</td>
+<td align="left">Celestial</td>
+</tr>
+<tr class="odd">
+<td align="left">Draconic</td>
+<td align="left">Dragons, dragonborn</td>
+<td align="left">Draconic</td>
+</tr>
+<tr class="even">
+<td align="left">Deep Speech</td>
+<td align="left">Aboleths, cloakers</td>
+<td align="left">—</td>
+</tr>
+<tr class="odd">
+<td align="left">Infernal</td>
+<td align="left">Devils</td>
+<td align="left">Infernal</td>
+</tr>
+<tr class="even">
+<td align="left">Primordial</td>
+<td align="left">Elementals</td>
+<td align="left">Dwarvish</td>
+</tr>
+<tr class="odd">
+<td align="left">Sylvan</td>
+<td align="left">Fey creatures</td>
+<td align="left">Elvish</td>
+</tr>
+<tr class="even">
+<td align="left">Undercommon</td>
+<td align="left">Underworld traders</td>
+<td align="left">Elvish</td>
+</tr>
+</tbody>
+</table>
+
+Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
+
+Inspiration
+-----------
+
+Inspiration is a rule the game master can use to reward you for playing your character in a way that's true to his or her personality traits, ideal, bond, and flaw. By using inspiration, you can draw on your personality trait of compassion for the downtrodden to give you an edge in negotiating with the Beggar Prince. Or inspiration can let you call on your bond to the defense of your home village to push past the effect of a spell that has been laid on you.
+
+### Gaining Inspiration
+
+Your GM can choose to give you inspiration for a variety of reasons. Typically, GMs award it when you play out your personality traits, give in to the drawbacks presented by a flaw or bond, and otherwise portray your character in a compelling way. Your GM will tell you how you can earn inspiration in the game.
+
+You either have inspiration or you don't—you can't stockpile multiple "inspirations" for later use.
+
+### Using Inspiration
+
+If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.
+
+Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.
+
+Feats
+=====
+
+A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
+
+At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
+
+You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Grappler feat requires you to have a Strength of 13 or higher. If your Strength is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Grappler feat until your Strength is restored.
+
+Grappler
+--------
+
+*Prerequisite: Strength 13 or higher*
+
+You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
+
+-   You have advantage on attack rolls against a creature you are grappling.
+-   You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
+
+Character Advancement
+---------------------
+
+As your character goes on adventures and overcomes challenges, he or she gains experience, represented by experience points. A character who reaches a specified experience point total advances in capability. This advancement is called **gaining a level**.
+
+When your character gains a level, his or her class often grants additional features, as detailed in the class description. Some of these features allow you to increase your ability scores, either increasing two scores by 1 each or increasing one score by 2. You can't increase an ability score above 20. In addition, every character's proficiency bonus increases at certain levels.
+
+Each time you gain a level, you gain 1 additional Hit Die. Roll that Hit Die, add your Constitution modifier to the roll, and add the total to your hit point maximum. Alternatively, you can use the fixed value shown in your class entry, which is the average result of the die roll (rounded up).
+
+When your Constitution modifier increases by 1, your hit point maximum increases by 1 for each level you have attained. For example, if your 7th-level fighter has a Constitution score of 18, when he reaches 8th level, he increases his Constitution score from 17 to 18, thus increasing his Constitution modifier from +3 to +4. His hit point maximum then increases by 8.
+
+The Character Advancement table summarizes the XP you need to advance in levels from level 1 through level 20, and the proficiency bonus for a character of that level. Consult the information in your character's class description to see what other improvements you gain at each level.
+
+<table style="width:64%;">
+<caption>Character Advancement</caption>
+<colgroup>
+<col width="26%" />
+<col width="11%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Experience Points</th>
+<th align="center">Level</th>
+<th align="center">Proficiency Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">0</td>
+<td align="center">1</td>
+<td align="center">+2</td>
+</tr>
+<tr class="even">
+<td align="left">300</td>
+<td align="center">2</td>
+<td align="center">+2</td>
+</tr>
+<tr class="odd">
+<td align="left">900</td>
+<td align="center">3</td>
+<td align="center">+2</td>
+</tr>
+<tr class="even">
+<td align="left">2,700</td>
+<td align="center">4</td>
+<td align="center">+2</td>
+</tr>
+<tr class="odd">
+<td align="left">6,500</td>
+<td align="center">5</td>
+<td align="center">+3</td>
+</tr>
+<tr class="even">
+<td align="left">14,000</td>
+<td align="center">6</td>
+<td align="center">+3</td>
+</tr>
+<tr class="odd">
+<td align="left">23,000</td>
+<td align="center">7</td>
+<td align="center">+3</td>
+</tr>
+<tr class="even">
+<td align="left">34,000</td>
+<td align="center">8</td>
+<td align="center">+3</td>
+</tr>
+<tr class="odd">
+<td align="left">48,000</td>
+<td align="center">9</td>
+<td align="center">+4</td>
+</tr>
+<tr class="even">
+<td align="left">64,000</td>
+<td align="center">10</td>
+<td align="center">+4</td>
+</tr>
+<tr class="odd">
+<td align="left">85,000</td>
+<td align="center">11</td>
+<td align="center">+4</td>
+</tr>
+<tr class="even">
+<td align="left">100,000</td>
+<td align="center">12</td>
+<td align="center">+4</td>
+</tr>
+<tr class="odd">
+<td align="left">120,000</td>
+<td align="center">13</td>
+<td align="center">+5</td>
+</tr>
+<tr class="even">
+<td align="left">140,000</td>
+<td align="center">14</td>
+<td align="center">+5</td>
+</tr>
+<tr class="odd">
+<td align="left">165,000</td>
+<td align="center">15</td>
+<td align="center">+5</td>
+</tr>
+<tr class="even">
+<td align="left">195,000</td>
+<td align="center">16</td>
+<td align="center">+5</td>
+</tr>
+<tr class="odd">
+<td align="left">225,000</td>
+<td align="center">17</td>
+<td align="center">+6</td>
+</tr>
+<tr class="even">
+<td align="left">265,000</td>
+<td align="center">18</td>
+<td align="center">+6</td>
+</tr>
+<tr class="odd">
+<td align="left">305,000</td>
+<td align="center">19</td>
+<td align="center">+6</td>
+</tr>
+<tr class="even">
+<td align="left">355,000</td>
+<td align="center">20</td>
+<td align="center">+6</td>
 </tr>
 </tbody>
 </table>
@@ -7538,183 +8222,6 @@ For example, if you are the aforementioned ranger 4/wizard 3, you count as a 5th
 </tr>
 </tbody>
 </table>
-
-Alignment
----------
-
-A typical creature in the game world has an alignment, which broadly describes its moral and personal attitudes. Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral). Thus, nine distinct alignments define the possible combinations.
-
-These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.
-
-**Lawful good** (LG) creatures can be counted on to do the right thing as expected by society. Gold dragons, paladins, and most dwarves are lawful good.
-
-**Neutral good** (NG) folk do the best they can to help others according to their needs. Many celestials, some cloud giants, and most gnomes are neutral good.
-
-**Chaotic good** (CG) creatures act as their conscience directs, with little regard for what others expect. Copper dragons, many elves, and unicorns are chaotic good.
-
-**Lawful neutral** (LN) individuals act in accordance with law, tradition, or personal codes. Many monks and some wizards are lawful neutral.
-
-**Neutral** (N) is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are neutral.
-
-**Chaotic neutral** (CN) creatures follow their whims, holding their personal freedom above all else. Many barbarians and rogues, and some bards, are chaotic neutral.
-
-**Lawful evil** (LE) creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order. Devils, blue dragons, and hobgoblins are lawful evil.
-
-**Neutral evil** (NE) is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are neutral evil.
-
-**Chaotic evil** (CE) creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. Demons, red dragons, and orcs are chaotic evil.
-
-### Alignment in the Multiverse
-
-For many thinking creatures, alignment is a moral choice. Humans, dwarves, elves, and other humanoid races can choose whether to follow the paths of good or evil, law or chaos. According to myth, the good-aligned gods who created these races gave them free will to choose their moral paths, knowing that good without free will is slavery.
-
-The evil deities who created other races, though, made those races to serve them. Those races have strong inborn tendencies that match the nature of their gods. Most orcs share the violent, savage nature of the orc gods, and are thus inclined toward evil. Even if an orc chooses a good alignment, it struggles against its innate tendencies for its entire life. (Even half-orcs feel the lingering pull of the orc god's influence.)
-
-Alignment is an essential part of the nature of celestials and fiends. A devil does not choose to be lawful evil, and it doesn't tend toward lawful evil, but rather it is lawful evil in its essence. If it somehow ceased to be lawful evil, it would cease to be a devil.
-
-Most creatures that lack the capacity for rational thought do not have alignments—they are **unaligned**. Such a creature is incapable of making a moral or ethical choice and acts according to its bestial nature. Sharks are savage predators, for example, but they are not evil; they have no alignment.
-
-Languages
----------
-
-Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Note these languages on your character sheet.
-
-Choose your languages from the Standard Languages table, or choose one that is common in your campaign. With your GM's permission, you can instead choose a language from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.
-
-<table style="width:61%;">
-<caption>Standard Languages</caption>
-<colgroup>
-<col width="18%" />
-<col width="29%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Language</th>
-<th align="left">Typical Speakers</th>
-<th align="left">Script</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Common</td>
-<td align="left">Humans</td>
-<td align="left">Common</td>
-</tr>
-<tr class="even">
-<td align="left">Dwarvish</td>
-<td align="left">Dwarves</td>
-<td align="left">Dwarvish</td>
-</tr>
-<tr class="odd">
-<td align="left">Elvish</td>
-<td align="left">Elves</td>
-<td align="left">Elvish</td>
-</tr>
-<tr class="even">
-<td align="left">Giant</td>
-<td align="left">Ogres, giants</td>
-<td align="left">Dwarvish</td>
-</tr>
-<tr class="odd">
-<td align="left">Gnomish</td>
-<td align="left">Gnomes</td>
-<td align="left">Dwarvish</td>
-</tr>
-<tr class="even">
-<td align="left">Goblin</td>
-<td align="left">Goblinoids</td>
-<td align="left">Dwarvish</td>
-</tr>
-<tr class="odd">
-<td align="left">Halfling</td>
-<td align="left">Halflings</td>
-<td align="left">Common</td>
-</tr>
-<tr class="even">
-<td align="left">Orc</td>
-<td align="left">Orcs</td>
-<td align="left">Dwarvish</td>
-</tr>
-</tbody>
-</table>
-
-<table style="width:61%;">
-<caption>Exotic Languages</caption>
-<colgroup>
-<col width="18%" />
-<col width="29%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Language</th>
-<th align="left">Typical Speakers</th>
-<th align="left">Script</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Abyssal</td>
-<td align="left">Demons</td>
-<td align="left">Infernal</td>
-</tr>
-<tr class="even">
-<td align="left">Celestial</td>
-<td align="left">Celestials</td>
-<td align="left">Celestial</td>
-</tr>
-<tr class="odd">
-<td align="left">Draconic</td>
-<td align="left">Dragons, dragonborn</td>
-<td align="left">Draconic</td>
-</tr>
-<tr class="even">
-<td align="left">Deep Speech</td>
-<td align="left">Aboleths, cloakers</td>
-<td align="left">—</td>
-</tr>
-<tr class="odd">
-<td align="left">Infernal</td>
-<td align="left">Devils</td>
-<td align="left">Infernal</td>
-</tr>
-<tr class="even">
-<td align="left">Primordial</td>
-<td align="left">Elementals</td>
-<td align="left">Dwarvish</td>
-</tr>
-<tr class="odd">
-<td align="left">Sylvan</td>
-<td align="left">Fey creatures</td>
-<td align="left">Elvish</td>
-</tr>
-<tr class="even">
-<td align="left">Undercommon</td>
-<td align="left">Underworld traders</td>
-<td align="left">Elvish</td>
-</tr>
-</tbody>
-</table>
-
-Some of these languages are actually families of languages with many dialects. For example, the Primordial language includes the Auran, Aquan, Ignan, and Terran dialects, one for each of the four elemental planes. Creatures that speak different dialects of the same language can communicate with one another.
-
-Inspiration
------------
-
-Inspiration is a rule the game master can use to reward you for playing your character in a way that's true to his or her personality traits, ideal, bond, and flaw. By using inspiration, you can draw on your personality trait of compassion for the downtrodden to give you an edge in negotiating with the Beggar Prince. Or inspiration can let you call on your bond to the defense of your home village to push past the effect of a spell that has been laid on you.
-
-### Gaining Inspiration
-
-Your GM can choose to give you inspiration for a variety of reasons. Typically, GMs award it when you play out your personality traits, give in to the drawbacks presented by a flaw or bond, and otherwise portray your character in a compelling way. Your GM will tell you how you can earn inspiration in the game.
-
-You either have inspiration or you don't—you can't stockpile multiple "inspirations" for later use.
-
-### Using Inspiration
-
-If you have inspiration, you can expend it when you make an attack roll, saving throw, or ability check. Spending your inspiration gives you advantage on that roll.
-
-Additionally, if you have inspiration, you can reward another player for good roleplaying, clever thinking, or simply doing something exciting in the game. When another player character does something that really contributes to the story in a fun and interesting way, you can give up your inspiration to give that character inspiration.
 
 Equipment
 =========
@@ -9959,513 +10466,6 @@ When you use an action, bonus action, or reaction to attack with a net, you can 
 </tbody>
 </table>
 
-Feats
-=====
-
-A feat represents a talent or an area of expertise that gives a character special capabilities. It embodies training, experience, and abilities beyond what a class provides.
-
-At certain levels, your class gives you the Ability Score Improvement feature. Using the optional feats rule, you can forgo taking that feature to take a feat of your choice instead. You can take each feat only once, unless the feat's description says otherwise.
-
-You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite. For example, the Grappler feat requires you to have a Strength of 13 or higher. If your Strength is reduced below 13 somehow—perhaps by a withering curse—you can't benefit from the Grappler feat until your Strength is restored.
-
-Grappler
---------
-
-*Prerequisite: Strength 13 or higher*
-
-You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:
-
--   You have advantage on attack rolls against a creature you are grappling.
--   You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends.
-
-Using Ability Scores
-====================
-
-Six abilities provide a quick description of every creature's physical and mental characteristics:
-
--   **Strength,** measuring physical power
--   **Dexterity,** measuring agility
--   **Constitution,** measuring endurance
--   **Intelligence,** measuring reasoning and memory
--   **Wisdom,** measuring perception and insight
--   **Charisma,** measuring force of personality
-
-Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities—a creature's assets as well as weaknesses.
-
-The three main rolls of the game—the ability check, the saving throw, and the attack roll—rely on the six ability scores. The book's introduction describes the basic rule behind these rolls: roll a d20, add an ability modifier derived from one of the six ability scores, and compare the total to a target number.
-
-Ability Scores and Modifiers
-----------------------------
-
-Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability.
-
-A score of 10 or 11 is the normal human average, but adventurers and many monsters are a cut above average in most abilities. A score of 18 is the highest that a person usually reaches. Adventurers can have scores as high as 20, and monsters and divine beings can have scores as high as 30.
-
-Each ability also has a modifier, derived from the score and ranging from −5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
-
-<table style="width:25%;">
-<caption>Ability Scores and Modifiers</caption>
-<colgroup>
-<col width="11%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">Score</th>
-<th align="center">Modifier</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">1</td>
-<td align="center">−5</td>
-</tr>
-<tr class="even">
-<td align="center">2–3</td>
-<td align="center">−4</td>
-</tr>
-<tr class="odd">
-<td align="center">4–5</td>
-<td align="center">−3</td>
-</tr>
-<tr class="even">
-<td align="center">6–7</td>
-<td align="center">−2</td>
-</tr>
-<tr class="odd">
-<td align="center">8–9</td>
-<td align="center">−1</td>
-</tr>
-<tr class="even">
-<td align="center">10–11</td>
-<td align="center">+0</td>
-</tr>
-<tr class="odd">
-<td align="center">12–13</td>
-<td align="center">+1</td>
-</tr>
-<tr class="even">
-<td align="center">14–15</td>
-<td align="center">+2</td>
-</tr>
-<tr class="odd">
-<td align="center">16–17</td>
-<td align="center">+3</td>
-</tr>
-<tr class="even">
-<td align="center">18–19</td>
-<td align="center">+4</td>
-</tr>
-<tr class="odd">
-<td align="center">20–21</td>
-<td align="center">+5</td>
-</tr>
-<tr class="even">
-<td align="center">22–23</td>
-<td align="center">+6</td>
-</tr>
-<tr class="odd">
-<td align="center">24–25</td>
-<td align="center">+7</td>
-</tr>
-<tr class="even">
-<td align="center">26–27</td>
-<td align="center">+8</td>
-</tr>
-<tr class="odd">
-<td align="center">28–29</td>
-<td align="center">+9</td>
-</tr>
-<tr class="even">
-<td align="center">30</td>
-<td align="center">+10</td>
-</tr>
-</tbody>
-</table>
-
-To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).
-
-Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
-
-Advantage and Disadvantage
---------------------------
-
-Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.
-
-If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
-
-If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
-
-When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll the d20, you can reroll only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.
-
-You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
-
-Proficiency Bonus
------------------
-
-Characters have a proficiency bonus determined by level. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.
-
-Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
-
-Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
-
-By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks.
-
-In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.
-
-Ability Checks
---------------
-
-An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.
-
-For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
-
-<table style="width:32%;">
-<caption>Typical Difficulty Classes</caption>
-<colgroup>
-<col width="26%" />
-<col width="5%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Task Difficulty</th>
-<th align="center">DC</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Very easy</td>
-<td align="center">5</td>
-</tr>
-<tr class="even">
-<td align="left">Easy</td>
-<td align="center">10</td>
-</tr>
-<tr class="odd">
-<td align="left">Medium</td>
-<td align="center">15</td>
-</tr>
-<tr class="even">
-<td align="left">Hard</td>
-<td align="center">20</td>
-</tr>
-<tr class="odd">
-<td align="left">Very hard</td>
-<td align="center">25</td>
-</tr>
-<tr class="even">
-<td align="left">Nearly impossible</td>
-<td align="center">30</td>
-</tr>
-</tbody>
-</table>
-
-To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM.
-
-### Contests
-
-Sometimes one character's or monster's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In situations like these, the outcome is determined by a special form of ability check, called a contest.
-
-Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That character or monster either succeeds at the action or prevents the other one from succeeding.
-
-If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two characters tie in a contest to snatch a ring off the floor, neither character grabs it. In a contest between a monster trying to open a door and an adventurer trying to keep the door closed, a tie means that the door remains shut.
-
-### Skills
-
-Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.)
-
-For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. Each of these aspects of Dexterity has an associated skill: Acrobatics, Sleight of Hand, and Stealth, respectively. So a character who has proficiency in the Stealth skill is particularly good at Dexterity checks related to sneaking and hiding.
-
-The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
-
-#### Strength
-
--   Athletics
-
-#### Dexterity
-
--   Acrobatics
--   Sleight of Hand
--   Stealth
-
-#### Intelligence
-
--   Arcana
--   History
--   Investigation
--   Nature
--   Religion
-
-#### Wisdom
-
--   Animal Handling
--   Insight
--   Medicine
--   Perception
--   Survival
-
-#### Charisma
-
--   Deception
--   Intimidation
--   Performance
--   Persuasion
-
-Sometimes, the GM might ask for an ability check using a specific skill—for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
-
-For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
-
-#### Variant: Skills with Different Abilities
-
-Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. So if you're proficient in Athletics, you apply your proficiency bonus to the Constitution check just as you would normally do for a Strength (Athletics) check. Similarly, when your half—orc barbarian uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma.
-
-### Passive Checks
-
-A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
-
-Here's how to determine a character's total for a passive check:
-
-|                                                     |
-|:---------------------------------------------------:|
-| 10 + all modifiers that normally apply to the check |
-
-If the character has advantage on the check, add 5. For disadvantage, subtract 5. The game refers to a passive check total as a **score**.
-
-For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14.
-
-The rules on hiding in the "Dexterity" section below rely on passive checks, as do the exploration rules.
-
-### Working Together
-
-Sometimes two or more characters team up to attempt a task. The character who's leading the effort—or the one with the highest ability modifier—can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action.
-
-A character can only provide help if the task is one that he or she could attempt alone. For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. Moreover, a character can help only when two or more individuals working together would actually be productive. Some tasks, such as threading a needle, are no easier with help.
-
-#### Group Checks
-
-When a number of individuals are trying to accomplish something as a group, the GM might ask for a group ability check. In such a situation, the characters who are skilled at a particular task help cover those who aren't. To make a group ability check, everyone in the group makes the ability check. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails. Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom (Survival) check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.
-
-Using Each Ability
-------------------
-
-Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game.
-
-### Strength
-
-Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
-
-#### Strength Checks
-
-A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks.
-
-***Athletics.*** Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
-
--   You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.
--   You try to jump an unusually long distance or pull off a stunt midjump.
--   You struggle to swim or stay afloat in treacherous currents, storm—tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.
-
-***Other Strength Checks.*** The GM might also call for a Strength check when you try to accomplish tasks like the following:
-
--   Force open a stuck, locked, or barred door
--   Break free of bonds
--   Push through a tunnel that is too small
--   Hang on to a wagon while being dragged behind it
--   Tip over a statue
--   Keep a boulder from rolling
-
-#### Attack Rolls and Damage
-
-You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand—to—hand combat, and some of them can be thrown to make a ranged attack.
-
-#### Lifting and Carrying
-
-Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.
-
-***Carrying Capacity.*** Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it.
-
-***Push, Drag, or Lift.*** You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet.
-
-***Size and Strength.*** Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights.
-
-#### Variant: Encumbrance
-
-The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table.
-
-If you carry weight in excess of 5 times your Strength score, you are **encumbered**, which means your speed drops by 10 feet.
-
-If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead **heavily encumbered**, which means your speed drops by 20 feet and you have disadvantage on ability checks, attack rolls, and saving throws that use Strength, Dexterity, or Constitution.
-
-### Dexterity
-
-Dexterity measures agility, reflexes, and balance.
-
-#### Dexterity Checks
-
-A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks.
-
-***Acrobatics.*** Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.
-
-***Sleight of Hand.*** Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.
-
-***Stealth.*** Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.
-
-***Other Dexterity Checks.*** The GM might call for a Dexterity check when you try to accomplish tasks like the following:
-
--   Control a heavily laden cart on a steep descent
--   Steer a chariot around a tight turn
--   Pick a lock
--   Disable a trap
--   Securely tie up a prisoner
--   Wriggle free of bonds
--   Play a stringed instrument
--   Craft a small or detailed object
-
-#### Attack Rolls and Damage
-
-You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
-
-#### Armor Class
-
-Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class.
-
-#### Initiative
-
-At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.
-
-> #### Hiding
->
-> The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.
->
-> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
->
-> An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
->
-> In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
->
-> ***Passive Perception.*** When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.
->
-> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see [Adventuring](#adventuring)).
-
-### Constitution
-
-Constitution measures health, stamina, and vital force.
-
-#### Constitution Checks
-
-Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits, however.
-
-The GM might call for a Constitution check when you try to accomplish tasks like the following:
-
--   Hold your breath
--   March or labor for hours without rest
--   Go without sleep
--   Survive without food or water
--   Quaff an entire stein of ale in one go
-
-#### Hit Points
-
-Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.
-
-If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7.
-
-### Intelligence
-
-Intelligence measures mental acuity, accuracy of recall, and the ability to reason.
-
-#### Intelligence Checks
-
-An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks.
-
-***Arcana.*** Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.
-
-***History.*** Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.
-
-***Investigation.*** When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check.
-
-***Nature.*** Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.
-
-***Religion.*** Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.
-
-***Other Intelligence Checks.*** The GM might call for an Intelligence check when you try to accomplish tasks like the following:
-
--   Communicate with a creature without using words
--   Estimate the value of a precious item
--   Pull together a disguise to pass as a city guard
--   Forge a document
--   Recall lore about a craft or trade
--   Win a game of skill
-
-#### Spellcasting Ability
-
-Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
-
-### Wisdom
-
-Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition.
-
-#### Wisdom Checks
-
-A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks.
-
-***Animal Handling.*** When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver.
-
-***Insight.*** Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.
-
-***Medicine.*** A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness.
-
-***Perception.*** Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.
-
-***Survival.*** The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.
-
-***Other Wisdom Checks.*** The GM might call for a Wisdom check when you try to accomplish tasks like the following:
-
--   Get a gut feeling about what course of action to follow
--   Discern whether a seemingly dead or living creature is undead
-
-#### Spellcasting Ability
-
-Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
-
-### Charisma
-
-Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality.
-
-#### Charisma Checks
-
-A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks.
-
-***Deception.*** Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast—talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.
-
-***Intimidation.*** When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.
-
-***Performance.*** Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment.
-
-***Persuasion.*** When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.
-
-***Other Charisma Checks.*** The GM might call for a Charisma check when you try to accomplish tasks like the following:
-
--   Find the best person to talk to for news, rumors, and gossip
--   Blend into a crowd to get the sense of key topics of conversation
-
-#### Spellcasting Ability
-
-Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast.
-
-Saving Throws
--------------
-
-A saving throw—also called a save—represents an attempt to resist a spell, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.
-
-To make a saving throw, roll a d20 and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity saving throw.
-
-A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the GM.
-
-Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in a saving throw lets a character add his or her proficiency bonus to saving throws made using a particular ability score. Some monsters have saving throw proficiencies as well.
-
-The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.
-
-The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect.
-
 Adventuring
 ===========
 
@@ -11605,6 +11605,584 @@ Magical, impenetrable darkness fills the gaping mouth of a stone face carved int
 A successful DC 20 Intelligence (Arcana) check reveals that the mouth contains a *sphere of annihilation* that can't be controlled or moved. It is otherwise identical to a normal *sphere of annihilation*.
 
 Some versions of the trap include an enchantment placed on the stone face, such that specified creatures feel an overwhelming urge to approach it and crawl inside its mouth. This effect is otherwise like the *sympathy* aspect of the [*antipathy/sympathy*](#antipathysympathy) spell. A successful [*dispel magic*](#dispel-magic) (DC 18) removes this enchantment.
+
+The Planes of Existence
+=======================
+
+The cosmos teems with a multitude of worlds as well as myriad alternate dimensions of reality, called the **planes of existence.** It encompasses every world where GMs run their adventures, all within the relatively mundane realm of the Material Plane. Beyond that plane are domains of raw elemental matter and energy, realms of pure thought and ethos, the homes of demons and angels, and the dominions of the gods.
+
+Many spells and magic items can draw energy from these planes, summon the creatures that dwell there, communicate with their denizens, and allow adventurers to travel there. As your character achieves greater power and higher levels, you might walk on streets made of solid fire or test your mettle on a battlefield where the fallen are resurrected with each dawn.
+
+The Material Plane
+------------------
+
+The Material Plane is the nexus where the philosophical and elemental forces that define the other planes collide in the jumbled existence of mortal life and mundane matter. All fantasy gaming worlds exist within the Material Plane, making it the starting point for most campaigns and adventures. The rest of the multiverse is defined in relation to the Material Plane.
+
+The worlds of the Material Plane are infinitely diverse, for they reflect the creative imagination of the GMs who set their games there, as well as the players whose heroes adventure there. They include magic-wasted desert planets and island-dotted water worlds, worlds where magic combines with advanced technology and others trapped in an endless Stone Age, worlds where the gods walk and places they have abandoned.
+
+Beyond the Material
+-------------------
+
+Beyond the Material Plane, the various planes of existence are realms of myth and mystery. They're not simply other worlds, but different qualities of being, formed and governed by spiritual and elemental principles abstracted from the ordinary world.
+
+### Planar Travel
+
+When adventurers travel into other planes of existence, they are undertaking a legendary journey across the thresholds of existence to a mythic destination where they strive to complete their quest. Such a journey is the stuff of legend. Braving the realms of the dead, seeking out the celestial servants of a deity, or bargaining with an efreeti in its home city will be the subject of song and story for years to come.
+
+Travel to the planes beyond the Material Plane can be accomplished in two ways: by casting a spell or by using a planar portal.
+
+***Spells.*** A number of spells allow direct or indirect access to other planes of existence. [*Plane shift*](#plane-shift) and [*gate*](#gate) can transport adventurers directly to any other plane of existence, with different degrees of precision. [*Etherealness*](#etherealness) allows adventurers to enter the Ethereal Plane and travel from there to any of the planes it touches—such as the Elemental Planes. And the [*astral projection*](#astral-projection) spell lets adventurers project themselves into the Astral Plane and travel to the Outer Planes.
+
+***Portals.*** A portal is a general term for a stationary interplanar connection that links a specific location on one plane to a specific location on another. Some portals are like doorways, a clear window, or a fog-shrouded passage, and simply stepping through it effects the interplanar travel. Others are locations—circles of standing stones, soaring towers, sailing ships, or even whole towns—that exist in multiple planes at once or flicker from one plane to another in turn. Some are vortices, typically joining an Elemental Plane with a very similar location on the Material Plane, such as the heart of a volcano (leading to the Plane of Fire) or the depths of the ocean (to the Plane of Water).
+
+### Transitive Planes
+
+The Ethereal Plane and the Astral Plane are called the Transitive Planes. They are mostly featureless realms that serve primarily as ways to travel from one plane to another. Spells such as [*etherealness*](#etherealness) and [*astral projection*](#astral-projection) allow characters to enter these planes and traverse them to reach the planes beyond.
+
+The **Ethereal Plane** is a misty, fog-bound dimension that is sometimes described as a great ocean. Its shores, called the Border Ethereal, overlap the Material Plane and the Inner Planes, so that every location on those planes has a corresponding location on the Ethereal Plane. Certain creatures can see into the Border Ethereal, and the [*see invisibility*](#see-invisibility) and [*true seeing*](#true-seeing) spell grant that ability. Some magical effects also extend from the Material Plane into the Border Ethereal, particularly effects that use force energy such as [*forcecage*](#forcecage) and [*wall of force*](#wall-of-force). The depths of the plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.
+
+The **Astral Plane** is the realm of thought and dream, where visitors travel as disembodied souls to reach the planes of the divine and demonic. It is a great, silvery sea, the same above and below, with swirling wisps of white and gray streaking among motes of light resembling distant stars. Erratic whirlpools of color flicker in midair like spinning coins. Occasional bits of solid matter can be found here, but most of the Astral Plane is an endless, open domain.
+
+### Inner Planes
+
+The Inner Planes surround and enfold the Material Plane and its echoes, providing the raw elemental substance from which all the worlds were made. The four **Elemental Planes**—Air, Earth, Fire, and Water—form a ring around the Material Plane, suspended within the churning **Primordial Chaos**.
+
+At their innermost edges, where they are closest to the Material Plane (in a conceptual if not a literal geographical sense), the four Elemental Planes resemble a world in the Material Plane. The four elements mingle together as they do in the Material Plane, forming land, sea, and sky. Farther from the Material Plane, though, the Elemental Planes are both alien and hostile. Here, the elements exist in their purest form—great expanses of solid earth, blazing fire, crystal—clear water, and unsullied air. These regions are little-known, so when discussing the Plane of Fire, for example, a speaker usually means just the border region. At the farthest extents of the Inner Planes, the pure elements dissolve and bleed together into an unending tumult of clashing energies and colliding substance, the Primordial Chaos.
+
+### Outer Planes
+
+If the Inner Planes are the raw matter and energy that makes up the multiverse, the Outer Planes are the direction, thought and purpose for such construction. Accordingly, many sages refer to the Outer Planes as divine planes, spiritual planes, or godly planes, for the Outer Planes are best known as the homes of deities.
+
+When discussing anything to do with deities, the language used must be highly metaphorical. Their actual homes are not literally "places" at all, but exemplify the idea that the Outer Planes are realms of thought and spirit. As with the Elemental Planes, one can imagine the perceptible part of the Outer Planes as a sort of border region, while extensive spiritual regions lie beyond ordinary sensory experience.
+
+Even in those perceptible regions, appearances can be deceptive. Initially, many of the Outer Planes appear hospitable and familiar to natives of the Material Plane. But the landscape can change at the whims of the powerful forces that live on the Outer Planes. The desires of the mighty forces that dwell on these planes can remake them completely, effectively erasing and rebuilding existence itself to better fulfill their own needs.
+
+Distance is a virtually meaningless concept on the Outer Planes. The perceptible regions of the planes often seem quite small, but they can also stretch on to what seems like infinity. It might be possible to take a guided tour of Hell in a single day—if the powers of Hell desire it. Or it could take weeks for travelers to make a grueling trek across a single region.
+
+The most well-known Outer Planes are a group of sixteen planes that correspond to the eight alignments (excluding neutrality) and the shades of distinction between them.
+
+#### Planar Alignment
+
+The planes with some element of good in their nature are called the **Upper Planes.** Celestial creatures such as angels and pegasi dwell in the Upper Planes. Planes with some element of evil are the **Lower Planes.** Fiends such as demons and devils dwell in the Lower Planes. A plane's alignment is its essence, and a character whose alignment doesn't match the plane's experiences a profound sense of dissonance there. When a good creature visits a neutral good Upper Plane, for example, it feels in tune with the plane, but an evil creature feels out of tune and more than a little uncomfortable.
+
+#### Demiplanes
+
+Demiplanes are small extradimensional spaces with their own unique rules. They are pieces of reality that don't seem to fit anywhere else. Demiplanes come into being by a variety of means. Some are created by spells, such as [*demiplane*](#demiplane), or generated at the desire of a powerful deity or other force. They may exist naturally, as a fold of existing reality that has been pinched off from the rest of the multiverse, or as a baby universe growing in power. A given demiplane can be entered through a single point where it touches another plane. Theoretically, a [*plane shift*](#plane-shift) spell can also carry travelers to a demiplane, but the proper frequency required for the tuning fork is extremely hard to acquire. The [*gate*](#gate) spell is more reliable, assuming the caster knows of the demiplane.
+
+Pantheons
+=========
+
+The Celtic, Egyptian, Greek, and Norse pantheons are fantasy interpretations of historical religions from our world's ancient times. They include deities that are most appropriate for use in a game, divorced from their historical context in the real world and united into pantheons that serve the needs of the game.
+
+The Celtic Pantheon
+-------------------
+
+<table style="width:100%;">
+<caption>Celtic Deities</caption>
+<colgroup>
+<col width="44%" />
+<col width="13%" />
+<col width="13%" />
+<col width="28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Deity</th>
+<th align="center">Alignment</th>
+<th align="left">Suggested Domains</th>
+<th align="left">Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">The Daghdha, god of weather and crops</td>
+<td align="center">CG</td>
+<td align="left">Nature, Trickery</td>
+<td align="left">Bubbling cauldron or shield</td>
+</tr>
+<tr class="even">
+<td align="left">Arawn, god of life and death</td>
+<td align="center">NE</td>
+<td align="left">Life, Death</td>
+<td align="left">Black star on gray background</td>
+</tr>
+<tr class="odd">
+<td align="left">Belenus, god of sun, light, and warmth</td>
+<td align="center">NG</td>
+<td align="left">Light</td>
+<td align="left">Solar disk and standing stones</td>
+</tr>
+<tr class="even">
+<td align="left">Brigantia, goddess of rivers and livestock</td>
+<td align="center">NG</td>
+<td align="left">Life</td>
+<td align="left">Footbridge</td>
+</tr>
+<tr class="odd">
+<td align="left">Diancecht, god of medicine and healing</td>
+<td align="center">LG</td>
+<td align="left">Life</td>
+<td align="left">Crossed oak and mistletoe branches</td>
+</tr>
+<tr class="even">
+<td align="left">Dunatis, god of mountains and peaks</td>
+<td align="center">N</td>
+<td align="left">Nature</td>
+<td align="left">Red sun-capped mountain peak</td>
+</tr>
+<tr class="odd">
+<td align="left">Goibhniu, god of smiths and healing</td>
+<td align="center">NG</td>
+<td align="left">Knowledge, Life</td>
+<td align="left">Giant mallet over sword</td>
+</tr>
+<tr class="even">
+<td align="left">Lugh, god of arts, travel, and commerce</td>
+<td align="center">CN</td>
+<td align="left">Knowledge, Life</td>
+<td align="left">Pair of long hands</td>
+</tr>
+<tr class="odd">
+<td align="left">Manannan mac Lir, god of oceans and sea creatures</td>
+<td align="center">LN</td>
+<td align="left">Nature, Tempest</td>
+<td align="left">Wave of white water on green</td>
+</tr>
+<tr class="even">
+<td align="left">Math Mathonwy, god of magic</td>
+<td align="center">NE</td>
+<td align="left">Knowledge</td>
+<td align="left">Staff</td>
+</tr>
+<tr class="odd">
+<td align="left">Morrigan, goddess of battle</td>
+<td align="center">CE</td>
+<td align="left">War</td>
+<td align="left">Two crossed spears</td>
+</tr>
+<tr class="even">
+<td align="left">Nuada, god of war and warriors</td>
+<td align="center">N</td>
+<td align="left">War</td>
+<td align="left">Silver hand on black background</td>
+</tr>
+<tr class="odd">
+<td align="left">Oghma, god of speech and writing</td>
+<td align="center">NG</td>
+<td align="left">Knowledge</td>
+<td align="left">Unfurled scroll</td>
+</tr>
+<tr class="even">
+<td align="left">Silvanus, god of nature and forests</td>
+<td align="center">N</td>
+<td align="left">Nature</td>
+<td align="left">Summer oak tree</td>
+</tr>
+</tbody>
+</table>
+
+It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak—and it is in this space that the Celtic gods dwell.
+
+They sprang from the brook and stream, their might heightened by the strength of the oak and the beauty of the woodlands and open moor. When the first forester dared put a name to the face seen in the bole of a tree or the voice babbling in a brook, these gods forced themselves into being.
+
+The Celtic gods are as often served by druids as by clerics, for they are closely aligned with the forces of nature that druids revere.
+
+The Egyptian Pantheon
+---------------------
+
+<table style="width:100%;">
+<caption>Egyptian Deities</caption>
+<colgroup>
+<col width="44%" />
+<col width="13%" />
+<col width="13%" />
+<col width="28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Deity</th>
+<th align="center">Alignment</th>
+<th align="left">Suggested Domains</th>
+<th align="left">Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Re-Horakhty, god of the sun, ruler of the gods</td>
+<td align="center">LG</td>
+<td align="left">Life, Light</td>
+<td align="left">Solar disk encircled by serpent</td>
+</tr>
+<tr class="even">
+<td align="left">Anubis, god of judgment and death</td>
+<td align="center">LN</td>
+<td align="left">Death</td>
+<td align="left">Black jackal</td>
+</tr>
+<tr class="odd">
+<td align="left">Apep, god of evil, fire, and serpents</td>
+<td align="center">NE</td>
+<td align="left">Trickery</td>
+<td align="left">Flaming snake</td>
+</tr>
+<tr class="even">
+<td align="left">Bast, goddess of cats and vengeance</td>
+<td align="center">CG</td>
+<td align="left">War</td>
+<td align="left">Cat</td>
+</tr>
+<tr class="odd">
+<td align="left">Bes, god of luck and music</td>
+<td align="center">CN</td>
+<td align="left">Trickery</td>
+<td align="left">Image of the misshapen deity</td>
+</tr>
+<tr class="even">
+<td align="left">Hathor, goddess of love, music, and motherhood</td>
+<td align="center">NG</td>
+<td align="left">Life, Light</td>
+<td align="left">Horned cow's head with lunar disk</td>
+</tr>
+<tr class="odd">
+<td align="left">Imhotep, god of crafts and medicine</td>
+<td align="center">NG</td>
+<td align="left">Knowledge</td>
+<td align="left">Step pyramid</td>
+</tr>
+<tr class="even">
+<td align="left">Isis, goddess of fertility and magic</td>
+<td align="center">NG</td>
+<td align="left">Knowledge, Life</td>
+<td align="left">Ankh and star</td>
+</tr>
+<tr class="odd">
+<td align="left">Nephthys, goddess of death and grief</td>
+<td align="center">CG</td>
+<td align="left">Death</td>
+<td align="left">Horns around a lunar disk</td>
+</tr>
+<tr class="even">
+<td align="left">Osiris, god of nature and the underworld</td>
+<td align="center">LG</td>
+<td align="left">Life, Nature</td>
+<td align="left">Crook and flail</td>
+</tr>
+<tr class="odd">
+<td align="left">Ptah, god of crafts, knowledge, and secrets</td>
+<td align="center">LN</td>
+<td align="left">Knowledge</td>
+<td align="left">Bull</td>
+</tr>
+<tr class="even">
+<td align="left">Set, god of darkness and desert storms</td>
+<td align="center">CE</td>
+<td align="left">Death, Tempest, Trickery</td>
+<td align="left">Coiled cobra</td>
+</tr>
+<tr class="odd">
+<td align="left">Sobek, god of water and crocodiles</td>
+<td align="center">LE</td>
+<td align="left">Nature, Tempest</td>
+<td align="left">Crocodile head with horns and plumes</td>
+</tr>
+<tr class="even">
+<td align="left">Thoth, god of knowledge and wisdom</td>
+<td align="center">N</td>
+<td align="left">Knowledge</td>
+<td align="left">Ibis</td>
+</tr>
+</tbody>
+</table>
+
+These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at—the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
+
+The Egyptian pantheon is unusual in having three gods responsible for death, each with different alignments. Anubis is the lawful neutral god of the afterlife, who judges the souls of the dead. Set is a chaotic evil god of murder, perhaps best known for killing his brother Osiris. And Nephthys is a chaotic good goddess of mourning.
+
+The Greek Pantheon
+------------------
+
+<table style="width:100%;">
+<caption>Greek Deities</caption>
+<colgroup>
+<col width="44%" />
+<col width="13%" />
+<col width="14%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Deity</th>
+<th align="center">Alignment</th>
+<th align="left">Suggested Domains</th>
+<th align="left">Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Zeus, god of the sky, ruler of the gods</td>
+<td align="center">N</td>
+<td align="left">Tempest</td>
+<td align="left">Fist full of lightning bolts</td>
+</tr>
+<tr class="even">
+<td align="left">Aphrodite, goddess of love and beauty</td>
+<td align="center">CG</td>
+<td align="left">Light</td>
+<td align="left">Sea shell</td>
+</tr>
+<tr class="odd">
+<td align="left">Apollo, god of light, music, and healing</td>
+<td align="center">CG</td>
+<td align="left">Knowledge, Life, Light</td>
+<td align="left">Lyre</td>
+</tr>
+<tr class="even">
+<td align="left">Ares, god of war and strife</td>
+<td align="center">CE</td>
+<td align="left">War</td>
+<td align="left">Spear</td>
+</tr>
+<tr class="odd">
+<td align="left">Artemis, goddess of hunting and childbirth</td>
+<td align="center">NG</td>
+<td align="left">Life, Nature</td>
+<td align="left">Bow and arrow on lunar disk</td>
+</tr>
+<tr class="even">
+<td align="left">Athena, goddess of wisdom and civilization</td>
+<td align="center">LG</td>
+<td align="left">Knowledge, War</td>
+<td align="left">Owl</td>
+</tr>
+<tr class="odd">
+<td align="left">Demeter, goddess of agriculture</td>
+<td align="center">NG</td>
+<td align="left">Life</td>
+<td align="left">Mare's head</td>
+</tr>
+<tr class="even">
+<td align="left">Dionysus, god of mirth and wine</td>
+<td align="center">CN</td>
+<td align="left">Life</td>
+<td align="left">Thyrsus (staff tipped with pine cone)</td>
+</tr>
+<tr class="odd">
+<td align="left">Hades, god of the underworld</td>
+<td align="center">LE</td>
+<td align="left">Death</td>
+<td align="left">Black ram</td>
+</tr>
+<tr class="even">
+<td align="left">Hecate, goddess of magic and the moon</td>
+<td align="center">CE</td>
+<td align="left">Knowledge, Trickery</td>
+<td align="left">Setting moon</td>
+</tr>
+<tr class="odd">
+<td align="left">Hephaestus, god of smithing and craft</td>
+<td align="center">NG</td>
+<td align="left">Knowledge</td>
+<td align="left">Hammer and anvil</td>
+</tr>
+<tr class="even">
+<td align="left">Hera, goddess of marriage and intrigue</td>
+<td align="center">CN</td>
+<td align="left">Trickery</td>
+<td align="left">Fan of peacock feathers</td>
+</tr>
+<tr class="odd">
+<td align="left">Hercules, god of strength and adventure</td>
+<td align="center">CG</td>
+<td align="left">Tempest, War</td>
+<td align="left">Lion's head</td>
+</tr>
+<tr class="even">
+<td align="left">Hermes, god of travel and commerce</td>
+<td align="center">CG</td>
+<td align="left">Trickery</td>
+<td align="left">Caduceus (winged staff and serpents)</td>
+</tr>
+<tr class="odd">
+<td align="left">Hestia, goddess of home and family</td>
+<td align="center">NG</td>
+<td align="left">Life</td>
+<td align="left">Hearth</td>
+</tr>
+<tr class="even">
+<td align="left">Nike, goddess of victory</td>
+<td align="center">LN</td>
+<td align="left">War</td>
+<td align="left">Winged woman</td>
+</tr>
+<tr class="odd">
+<td align="left">Pan, god of nature</td>
+<td align="center">CN</td>
+<td align="left">Nature</td>
+<td align="left">Syrinx (pan pipes)</td>
+</tr>
+<tr class="even">
+<td align="left">Poseidon, god of the sea and earthquakes</td>
+<td align="center">CN</td>
+<td align="left">Tempest</td>
+<td align="left">Trident</td>
+</tr>
+<tr class="odd">
+<td align="left">Tyche, goddess of good fortune</td>
+<td align="center">N</td>
+<td align="left">Trickery</td>
+<td align="left">Red pentagram</td>
+</tr>
+</tbody>
+</table>
+
+The gods of Olympus make themselves known with the gentle lap of waves against the shores and the crash of the thunder among the cloud-enshrouded peaks. The thick boar-infested woods and the sere, olive-covered hillsides hold evidence of their passing. Every aspect of nature echoes with their presence, and they've made a place for themselves inside the human heart, too.
+
+The Norse Pantheon
+------------------
+
+<table style="width:100%;">
+<caption>Norse Deities</caption>
+<colgroup>
+<col width="44%" />
+<col width="13%" />
+<col width="13%" />
+<col width="28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Deity</th>
+<th align="center">Alignment</th>
+<th align="left">Suggested Domains</th>
+<th align="left">Symbol</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Odin, god of knowledge and war</td>
+<td align="center">NG</td>
+<td align="left">Knowledge, War</td>
+<td align="left">Watching blue eye</td>
+</tr>
+<tr class="even">
+<td align="left">Aegir, god of the sea and storms</td>
+<td align="center">NE</td>
+<td align="left">Tempest</td>
+<td align="left">Rough ocean waves</td>
+</tr>
+<tr class="odd">
+<td align="left">Balder, god of beauty and poetry</td>
+<td align="center">NG</td>
+<td align="left">Life, Light</td>
+<td align="left">Gem-encrusted silver chalice</td>
+</tr>
+<tr class="even">
+<td align="left">Forseti, god of justice and law</td>
+<td align="center">N</td>
+<td align="left">Light</td>
+<td align="left">Head of a bearded man</td>
+</tr>
+<tr class="odd">
+<td align="left">Frey, god of fertility and the sun</td>
+<td align="center">NG</td>
+<td align="left">Life, Light</td>
+<td align="left">Ice-blue greatsword</td>
+</tr>
+<tr class="even">
+<td align="left">Freya, goddess of fertility and love</td>
+<td align="center">NG</td>
+<td align="left">Life</td>
+<td align="left">Falcon</td>
+</tr>
+<tr class="odd">
+<td align="left">Frigga, goddess of birth and fertility</td>
+<td align="center">N</td>
+<td align="left">Life, Light</td>
+<td align="left">Cat</td>
+</tr>
+<tr class="even">
+<td align="left">Heimdall, god of watchfulness and loyalty</td>
+<td align="center">LG</td>
+<td align="left">Light, War</td>
+<td align="left">Curling musical horn</td>
+</tr>
+<tr class="odd">
+<td align="left">Hel, goddess of the underworld</td>
+<td align="center">NE</td>
+<td align="left">Death</td>
+<td align="left">Woman's face, rotting on one side</td>
+</tr>
+<tr class="even">
+<td align="left">Hermod, god of luck</td>
+<td align="center">CN</td>
+<td align="left">Trickery</td>
+<td align="left">Winged scroll</td>
+</tr>
+<tr class="odd">
+<td align="left">Loki, god of thieves and trickery</td>
+<td align="center">CE</td>
+<td align="left">Trickery</td>
+<td align="left">Flame</td>
+</tr>
+<tr class="even">
+<td align="left">Njord, god of sea and wind</td>
+<td align="center">NG</td>
+<td align="left">Nature, Tempest</td>
+<td align="left">Gold coin</td>
+</tr>
+<tr class="odd">
+<td align="left">Odur, god of light and the sun</td>
+<td align="center">CG</td>
+<td align="left">Light</td>
+<td align="left">Solar disk</td>
+</tr>
+<tr class="even">
+<td align="left">Sif, goddess of war</td>
+<td align="center">CG</td>
+<td align="left">War</td>
+<td align="left">Upraised sword</td>
+</tr>
+<tr class="odd">
+<td align="left">Skadi, god of earth and mountains</td>
+<td align="center">N</td>
+<td align="left">Nature</td>
+<td align="left">Mountain peak</td>
+</tr>
+<tr class="even">
+<td align="left">Surtur, god of fire giants and war</td>
+<td align="center">LE</td>
+<td align="left">War</td>
+<td align="left">Flaming sword</td>
+</tr>
+<tr class="odd">
+<td align="left">Thor, god of storms and thunder</td>
+<td align="center">CG</td>
+<td align="left">Tempest, War</td>
+<td align="left">Hammer</td>
+</tr>
+<tr class="even">
+<td align="left">Thrym, god of frost giants and cold</td>
+<td align="center">CE</td>
+<td align="left">War</td>
+<td align="left">White double-bladed axe</td>
+</tr>
+<tr class="odd">
+<td align="left">Tyr, god of courage and strategy</td>
+<td align="center">LN</td>
+<td align="left">Knowledge, War</td>
+<td align="left">Sword</td>
+</tr>
+<tr class="even">
+<td align="left">Uller, god of hunting and winter</td>
+<td align="center">CN</td>
+<td align="left">Nature</td>
+<td align="left">Longbow</td>
+</tr>
+</tbody>
+</table>
+
+Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring—this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did. Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.
+
+The Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym).
 
 Combat
 ======
@@ -19474,6 +20052,253 @@ Magic Items
 
 A magic item's description gives the item's name, its category, its rarity, and its magical properties.
 
+Sentient Magic Items
+--------------------
+
+Some magic items possess sentience and personality. Such an item might be possessed, haunted by the spirit of a previous owner, or self-aware thanks to the magic used to create it. In any case, the item behaves like a character, complete with personality quirks, ideals, bonds, and sometimes flaws. A sentient item might be a cherished ally to its wielder or a continual thorn in the side.
+
+Most sentient items are weapons. Other kinds of items can manifest sentience, but consumable items such as potions and scrolls are never sentient.
+
+Sentient magic items function as NPCs under the GM's control. Any activated property of the item is under the item's control, not its wielder's. As long as the wielder maintains a good relationship with the item, the wielder can access those properties normally. If the relationship is strained, the item can suppress its activated properties or even turn them against the wielder.
+
+### Creating Sentient Magic Items
+
+When you decide to make a magic item sentient, you create the item's persona in the same way you would create an NPC, with a few exceptions described here.
+
+#### Abilities
+
+A sentient magic item has Intelligence, Wisdom, and Charisma scores. You can choose the item's abilities or determine them randomly. To determine them randomly, roll 4d6 for each one, dropping the lowest roll and totaling the rest.
+
+#### Communication
+
+A sentient item has some ability to communicate, either by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the following table.
+
+<table>
+<colgroup>
+<col width="8%" />
+<col width="91%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">d100</th>
+<th align="left">Communication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">01–60</td>
+<td align="left">The item communicates by transmitting emotion to the creature carrying or wielding it.</td>
+</tr>
+<tr class="even">
+<td align="center">61–90</td>
+<td align="left">The item can speak, read, and understand one or more languages.</td>
+</tr>
+<tr class="odd">
+<td align="center">91–00</td>
+<td align="left">The item can speak, read, and understand one or more languages. In addition, the item can communicate telepathically with any character that carries or wields it.</td>
+</tr>
+</tbody>
+</table>
+
+#### Senses
+
+With sentience comes awareness. A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the following table.
+
+<table style="width:67%;">
+<colgroup>
+<col width="6%" />
+<col width="59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">d4</th>
+<th align="left">Senses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="left">Hearing and normal vision out to 30 feet.</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="left">Hearing and normal vision out to 60 feet</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="left">Hearing and normal vision out to 120 feet.</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="left">Hearing and darkvision out to 120 feet.</td>
+</tr>
+</tbody>
+</table>
+
+#### Alignment
+
+A sentient magic item has an alignment. Its creator or nature might suggest an alignment. If not, you can pick an alignment or roll on the following table.
+
+<table style="width:33%;">
+<colgroup>
+<col width="11%" />
+<col width="22%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">d100</th>
+<th align="left">Alignment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">01–15</td>
+<td align="left">Lawful good</td>
+</tr>
+<tr class="even">
+<td align="center">16–35</td>
+<td align="left">Neutral good</td>
+</tr>
+<tr class="odd">
+<td align="center">36–50</td>
+<td align="left">Chaotic good</td>
+</tr>
+<tr class="even">
+<td align="center">51–63</td>
+<td align="left">Lawful neutral</td>
+</tr>
+<tr class="odd">
+<td align="center">64–73</td>
+<td align="left">Neutral</td>
+</tr>
+<tr class="even">
+<td align="center">74–85</td>
+<td align="left">Chaotic neutral</td>
+</tr>
+<tr class="odd">
+<td align="center">86–89</td>
+<td align="left">Lawful evil</td>
+</tr>
+<tr class="even">
+<td align="center">90–96</td>
+<td align="left">Neutral evil</td>
+</tr>
+<tr class="odd">
+<td align="center">97–00</td>
+<td align="left">Chaotic evil</td>
+</tr>
+</tbody>
+</table>
+
+#### Special Purpose
+
+You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item, and could even cause the item to prevent the use of its activated properties. You can pick a special purpose or roll on the following table.
+
+<table>
+<colgroup>
+<col width="6%" />
+<col width="93%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">d10</th>
+<th align="left">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="left"><em>Aligned:</em> The item seeks to defeat or destroy those of a diametrically opposed alignment. (Such an item is never neutral.)</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="left"><em>Bane:</em> The item seeks to defeat or destroy creatures of a particular kind, such as fiends, shapechangers, trolls, or wizards.</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="left"><em>Protector:</em> The item seeks to defend a particular race or kind of creature, such as elves or druids.</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="left"><em>Crusader:</em> The item seeks to defeat, weaken, or destroy the servants of a particular deity.</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="left"><em>Templar:</em> The item seeks to defend the servants and interests of a particular deity.</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="left"><em>Destroyer:</em> The item craves destruction and goads its user to fight arbitrarily.</td>
+</tr>
+<tr class="odd">
+<td align="center">7</td>
+<td align="left"><em>Glory Seeker:</em> The item seeks renown as the greatest magic item in the world, by establishing its user as a famous or notorious figure.</td>
+</tr>
+<tr class="even">
+<td align="center">8</td>
+<td align="left"><em>Lore Seeker:</em> The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy.</td>
+</tr>
+<tr class="odd">
+<td align="center">9</td>
+<td align="left"><em>Destiny Seeker:</em> The item is convinced that it and its wielder have key roles to play in future events.</td>
+</tr>
+<tr class="even">
+<td align="center">10</td>
+<td align="left"><em>Creator Seeker:</em> The item seeks its creator and wants to understand why it was created.</td>
+</tr>
+</tbody>
+</table>
+
+### Conflict
+
+A sentient item has a will of its own, shaped by its personality and alignment. If its wielder acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such a conflict occurs, the item makes a Charisma check contested by the wielder's Charisma check. If the item wins the contest, it makes one or more of the following demands:
+
+-   The item insists on being carried or worn at all times.
+-   The item demands that its wielder dispose of anything the item finds repugnant.
+-   The item demands that its wielder pursue the item's goals to the exclusion of all other goals.
+-   The item demands to be given to someone else.
+
+If its wielder refuses to comply with the item's wishes, the item can do any or all of the following:
+
+-   Make it impossible for its wielder to attune to it.
+-   Suppress one or more of its activated properties.
+-   Attempt to take control of its wielder.
+
+If a sentient item attempts to take control of its wielder, the wielder must make a Charisma saving throw, with a DC equal to 12 + the item's Charisma modifier. On a failed save, the wielder is charmed by the item for 1d12 hours. While charmed, the wielder must try to follow the item's commands. If the wielder takes damage, it can repeat the saving throw, ending the effect on a success. Whether the attempt to control its user succeeds or fails, the item can't use this power again until the next dawn.
+
+Artifacts
+---------
+
+### Orb of the Wyrm
+
+*Wondrous item, artifact (requires attunement)*
+
+Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five *Orbs of the Wyrm* (or *Wyrm Orbs*) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.
+
+As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.
+
+Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.
+
+An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
+
+While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.
+
+While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts [*suggestion*](#suggestion) on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of a dragon god, or something else the GM decides.
+
+***Random Properties.*** An *Orb of the Wyrm* has the following random properties:
+
+-   2 minor beneficial properties
+-   1 minor detrimental property
+-   1 major detrimental property
+
+***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: [*cure wounds*](#cure-wounds) (5th-level version, 3 charges), [*daylight*](#daylight) (1 charge), [*death ward*](#death-ward) (2 charges), or [*scrying*](#scrying) (3 charges).
+
+You can also use an action to cast the [*detect magic*](#detect-magic) spell from the orb without using any charges.
+
+***Call Dragons.*** While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.
+
+***Destroying an Orb.*** An *Orb of the Wyrm* appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A [*disintegrate*](#disintegrate) spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
+
 Magic Item Descriptions
 -----------------------
 
@@ -23404,831 +24229,6 @@ The boots regain 2 hours of flying capability for every 12 hours they aren't in 
 
 While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for 1d12 hours.
 
-Sentient Magic Items
---------------------
-
-Some magic items possess sentience and personality. Such an item might be possessed, haunted by the spirit of a previous owner, or self-aware thanks to the magic used to create it. In any case, the item behaves like a character, complete with personality quirks, ideals, bonds, and sometimes flaws. A sentient item might be a cherished ally to its wielder or a continual thorn in the side.
-
-Most sentient items are weapons. Other kinds of items can manifest sentience, but consumable items such as potions and scrolls are never sentient.
-
-Sentient magic items function as NPCs under the GM's control. Any activated property of the item is under the item's control, not its wielder's. As long as the wielder maintains a good relationship with the item, the wielder can access those properties normally. If the relationship is strained, the item can suppress its activated properties or even turn them against the wielder.
-
-### Creating Sentient Magic Items
-
-When you decide to make a magic item sentient, you create the item's persona in the same way you would create an NPC, with a few exceptions described here.
-
-#### Abilities
-
-A sentient magic item has Intelligence, Wisdom, and Charisma scores. You can choose the item's abilities or determine them randomly. To determine them randomly, roll 4d6 for each one, dropping the lowest roll and totaling the rest.
-
-#### Communication
-
-A sentient item has some ability to communicate, either by sharing its emotions, broadcasting its thoughts telepathically, or speaking aloud. You can choose how it communicates or roll on the following table.
-
-<table>
-<colgroup>
-<col width="8%" />
-<col width="91%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">d100</th>
-<th align="left">Communication</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">01–60</td>
-<td align="left">The item communicates by transmitting emotion to the creature carrying or wielding it.</td>
-</tr>
-<tr class="even">
-<td align="center">61–90</td>
-<td align="left">The item can speak, read, and understand one or more languages.</td>
-</tr>
-<tr class="odd">
-<td align="center">91–00</td>
-<td align="left">The item can speak, read, and understand one or more languages. In addition, the item can communicate telepathically with any character that carries or wields it.</td>
-</tr>
-</tbody>
-</table>
-
-#### Senses
-
-With sentience comes awareness. A sentient item can perceive its surroundings out to a limited range. You can choose its senses or roll on the following table.
-
-<table style="width:67%;">
-<colgroup>
-<col width="6%" />
-<col width="59%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">d4</th>
-<th align="left">Senses</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">1</td>
-<td align="left">Hearing and normal vision out to 30 feet.</td>
-</tr>
-<tr class="even">
-<td align="center">2</td>
-<td align="left">Hearing and normal vision out to 60 feet</td>
-</tr>
-<tr class="odd">
-<td align="center">3</td>
-<td align="left">Hearing and normal vision out to 120 feet.</td>
-</tr>
-<tr class="even">
-<td align="center">4</td>
-<td align="left">Hearing and darkvision out to 120 feet.</td>
-</tr>
-</tbody>
-</table>
-
-#### Alignment
-
-A sentient magic item has an alignment. Its creator or nature might suggest an alignment. If not, you can pick an alignment or roll on the following table.
-
-<table style="width:33%;">
-<colgroup>
-<col width="11%" />
-<col width="22%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">d100</th>
-<th align="left">Alignment</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">01–15</td>
-<td align="left">Lawful good</td>
-</tr>
-<tr class="even">
-<td align="center">16–35</td>
-<td align="left">Neutral good</td>
-</tr>
-<tr class="odd">
-<td align="center">36–50</td>
-<td align="left">Chaotic good</td>
-</tr>
-<tr class="even">
-<td align="center">51–63</td>
-<td align="left">Lawful neutral</td>
-</tr>
-<tr class="odd">
-<td align="center">64–73</td>
-<td align="left">Neutral</td>
-</tr>
-<tr class="even">
-<td align="center">74–85</td>
-<td align="left">Chaotic neutral</td>
-</tr>
-<tr class="odd">
-<td align="center">86–89</td>
-<td align="left">Lawful evil</td>
-</tr>
-<tr class="even">
-<td align="center">90–96</td>
-<td align="left">Neutral evil</td>
-</tr>
-<tr class="odd">
-<td align="center">97–00</td>
-<td align="left">Chaotic evil</td>
-</tr>
-</tbody>
-</table>
-
-#### Special Purpose
-
-You can give a sentient item an objective it pursues, perhaps to the exclusion of all else. As long as the wielder's use of the item aligns with that special purpose, the item remains cooperative. Deviating from this course might cause conflict between the wielder and the item, and could even cause the item to prevent the use of its activated properties. You can pick a special purpose or roll on the following table.
-
-<table>
-<colgroup>
-<col width="6%" />
-<col width="93%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">d10</th>
-<th align="left">Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">1</td>
-<td align="left"><em>Aligned:</em> The item seeks to defeat or destroy those of a diametrically opposed alignment. (Such an item is never neutral.)</td>
-</tr>
-<tr class="even">
-<td align="center">2</td>
-<td align="left"><em>Bane:</em> The item seeks to defeat or destroy creatures of a particular kind, such as fiends, shapechangers, trolls, or wizards.</td>
-</tr>
-<tr class="odd">
-<td align="center">3</td>
-<td align="left"><em>Protector:</em> The item seeks to defend a particular race or kind of creature, such as elves or druids.</td>
-</tr>
-<tr class="even">
-<td align="center">4</td>
-<td align="left"><em>Crusader:</em> The item seeks to defeat, weaken, or destroy the servants of a particular deity.</td>
-</tr>
-<tr class="odd">
-<td align="center">5</td>
-<td align="left"><em>Templar:</em> The item seeks to defend the servants and interests of a particular deity.</td>
-</tr>
-<tr class="even">
-<td align="center">6</td>
-<td align="left"><em>Destroyer:</em> The item craves destruction and goads its user to fight arbitrarily.</td>
-</tr>
-<tr class="odd">
-<td align="center">7</td>
-<td align="left"><em>Glory Seeker:</em> The item seeks renown as the greatest magic item in the world, by establishing its user as a famous or notorious figure.</td>
-</tr>
-<tr class="even">
-<td align="center">8</td>
-<td align="left"><em>Lore Seeker:</em> The item craves knowledge or is determined to solve a mystery, learn a secret, or unravel a cryptic prophecy.</td>
-</tr>
-<tr class="odd">
-<td align="center">9</td>
-<td align="left"><em>Destiny Seeker:</em> The item is convinced that it and its wielder have key roles to play in future events.</td>
-</tr>
-<tr class="even">
-<td align="center">10</td>
-<td align="left"><em>Creator Seeker:</em> The item seeks its creator and wants to understand why it was created.</td>
-</tr>
-</tbody>
-</table>
-
-### Conflict
-
-A sentient item has a will of its own, shaped by its personality and alignment. If its wielder acts in a manner opposed to the item's alignment or purpose, conflict can arise. When such a conflict occurs, the item makes a Charisma check contested by the wielder's Charisma check. If the item wins the contest, it makes one or more of the following demands:
-
--   The item insists on being carried or worn at all times.
--   The item demands that its wielder dispose of anything the item finds repugnant.
--   The item demands that its wielder pursue the item's goals to the exclusion of all other goals.
--   The item demands to be given to someone else.
-
-If its wielder refuses to comply with the item's wishes, the item can do any or all of the following:
-
--   Make it impossible for its wielder to attune to it.
--   Suppress one or more of its activated properties.
--   Attempt to take control of its wielder.
-
-If a sentient item attempts to take control of its wielder, the wielder must make a Charisma saving throw, with a DC equal to 12 + the item's Charisma modifier. On a failed save, the wielder is charmed by the item for 1d12 hours. While charmed, the wielder must try to follow the item's commands. If the wielder takes damage, it can repeat the saving throw, ending the effect on a success. Whether the attempt to control its user succeeds or fails, the item can't use this power again until the next dawn.
-
-Artifacts
----------
-
-### Orb of the Wyrm
-
-*Wondrous item, artifact (requires attunement)*
-
-Ages past, elves and humans waged a terrible war against evil dragons. When the world seemed doomed, powerful wizards came together and worked their greatest magic, forging five *Orbs of the Wyrm* (or *Wyrm Orbs*) to help them defeat the dragons. One orb was taken to each of the five wizard towers, and there they were used to speed the war toward a victorious end. The wizards used the orbs to lure dragons to them, then destroyed the dragons with powerful magic.
-
-As the wizard towers fell in later ages, the orbs were destroyed or faded into legend, and only three are thought to survive. Their magic has been warped and twisted over the centuries, so although their primary purpose of calling dragons still functions, they also allow some measure of control over dragons.
-
-Each orb contains the essence of an evil dragon, a presence that resents any attempt to coax magic from it. Those lacking in force of personality might find themselves enslaved to an orb.
-
-An orb is an etched crystal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.
-
-While attuned to an orb, you can use an action to peer into the orb's depths and speak its command word. You must then make a DC 15 Charisma check. On a successful check, you control the orb for as long as you remain attuned to it. On a failed check, you become charmed by the orb for as long as you remain attuned to it.
-
-While you are charmed by the orb, you can't voluntarily end your attunement to it, and the orb casts [*suggestion*](#suggestion) on you at will (save DC 18), urging you to work toward the evil ends it desires. The dragon essence within the orb might want many things: the annihilation of a particular people, freedom from the orb, to spread suffering in the world, to advance the worship of a dragon god, or something else the GM decides.
-
-***Random Properties.*** An *Orb of the Wyrm* has the following random properties:
-
--   2 minor beneficial properties
--   1 minor detrimental property
--   1 major detrimental property
-
-***Spells.*** The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can use an action and expend 1 or more charges to cast one of the following spells (save DC 18) from it: [*cure wounds*](#cure-wounds) (5th-level version, 3 charges), [*daylight*](#daylight) (1 charge), [*death ward*](#death-ward) (2 charges), or [*scrying*](#scrying) (3 charges).
-
-You can also use an action to cast the [*detect magic*](#detect-magic) spell from the orb without using any charges.
-
-***Call Dragons.*** While you control the orb, you can use an action to cause the artifact to issue a telepathic call that extends in all directions for 40 miles. Evil dragons in range feel compelled to come to the orb as soon as possible by the most direct route. Dragon deities are unaffected by this call. Dragons drawn to the orb might be hostile toward you for compelling them against their will. Once you have used this property, it can't be used again for 1 hour.
-
-***Destroying an Orb.*** An *Orb of the Wyrm* appears fragile but is impervious to most damage, including the attacks and breath weapons of dragons. A [*disintegrate*](#disintegrate) spell or one good hit from a +3 magic weapon is sufficient to destroy an orb, however.
-
-The Planes of Existence
-=======================
-
-The cosmos teems with a multitude of worlds as well as myriad alternate dimensions of reality, called the **planes of existence.** It encompasses every world where GMs run their adventures, all within the relatively mundane realm of the Material Plane. Beyond that plane are domains of raw elemental matter and energy, realms of pure thought and ethos, the homes of demons and angels, and the dominions of the gods.
-
-Many spells and magic items can draw energy from these planes, summon the creatures that dwell there, communicate with their denizens, and allow adventurers to travel there. As your character achieves greater power and higher levels, you might walk on streets made of solid fire or test your mettle on a battlefield where the fallen are resurrected with each dawn.
-
-The Material Plane
-------------------
-
-The Material Plane is the nexus where the philosophical and elemental forces that define the other planes collide in the jumbled existence of mortal life and mundane matter. All fantasy gaming worlds exist within the Material Plane, making it the starting point for most campaigns and adventures. The rest of the multiverse is defined in relation to the Material Plane.
-
-The worlds of the Material Plane are infinitely diverse, for they reflect the creative imagination of the GMs who set their games there, as well as the players whose heroes adventure there. They include magic-wasted desert planets and island-dotted water worlds, worlds where magic combines with advanced technology and others trapped in an endless Stone Age, worlds where the gods walk and places they have abandoned.
-
-Beyond the Material
--------------------
-
-Beyond the Material Plane, the various planes of existence are realms of myth and mystery. They're not simply other worlds, but different qualities of being, formed and governed by spiritual and elemental principles abstracted from the ordinary world.
-
-### Planar Travel
-
-When adventurers travel into other planes of existence, they are undertaking a legendary journey across the thresholds of existence to a mythic destination where they strive to complete their quest. Such a journey is the stuff of legend. Braving the realms of the dead, seeking out the celestial servants of a deity, or bargaining with an efreeti in its home city will be the subject of song and story for years to come.
-
-Travel to the planes beyond the Material Plane can be accomplished in two ways: by casting a spell or by using a planar portal.
-
-***Spells.*** A number of spells allow direct or indirect access to other planes of existence. [*Plane shift*](#plane-shift) and [*gate*](#gate) can transport adventurers directly to any other plane of existence, with different degrees of precision. [*Etherealness*](#etherealness) allows adventurers to enter the Ethereal Plane and travel from there to any of the planes it touches—such as the Elemental Planes. And the [*astral projection*](#astral-projection) spell lets adventurers project themselves into the Astral Plane and travel to the Outer Planes.
-
-***Portals.*** A portal is a general term for a stationary interplanar connection that links a specific location on one plane to a specific location on another. Some portals are like doorways, a clear window, or a fog-shrouded passage, and simply stepping through it effects the interplanar travel. Others are locations—circles of standing stones, soaring towers, sailing ships, or even whole towns—that exist in multiple planes at once or flicker from one plane to another in turn. Some are vortices, typically joining an Elemental Plane with a very similar location on the Material Plane, such as the heart of a volcano (leading to the Plane of Fire) or the depths of the ocean (to the Plane of Water).
-
-### Transitive Planes
-
-The Ethereal Plane and the Astral Plane are called the Transitive Planes. They are mostly featureless realms that serve primarily as ways to travel from one plane to another. Spells such as [*etherealness*](#etherealness) and [*astral projection*](#astral-projection) allow characters to enter these planes and traverse them to reach the planes beyond.
-
-The **Ethereal Plane** is a misty, fog-bound dimension that is sometimes described as a great ocean. Its shores, called the Border Ethereal, overlap the Material Plane and the Inner Planes, so that every location on those planes has a corresponding location on the Ethereal Plane. Certain creatures can see into the Border Ethereal, and the [*see invisibility*](#see-invisibility) and [*true seeing*](#true-seeing) spell grant that ability. Some magical effects also extend from the Material Plane into the Border Ethereal, particularly effects that use force energy such as [*forcecage*](#forcecage) and [*wall of force*](#wall-of-force). The depths of the plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.
-
-The **Astral Plane** is the realm of thought and dream, where visitors travel as disembodied souls to reach the planes of the divine and demonic. It is a great, silvery sea, the same above and below, with swirling wisps of white and gray streaking among motes of light resembling distant stars. Erratic whirlpools of color flicker in midair like spinning coins. Occasional bits of solid matter can be found here, but most of the Astral Plane is an endless, open domain.
-
-### Inner Planes
-
-The Inner Planes surround and enfold the Material Plane and its echoes, providing the raw elemental substance from which all the worlds were made. The four **Elemental Planes**—Air, Earth, Fire, and Water—form a ring around the Material Plane, suspended within the churning **Primordial Chaos**.
-
-At their innermost edges, where they are closest to the Material Plane (in a conceptual if not a literal geographical sense), the four Elemental Planes resemble a world in the Material Plane. The four elements mingle together as they do in the Material Plane, forming land, sea, and sky. Farther from the Material Plane, though, the Elemental Planes are both alien and hostile. Here, the elements exist in their purest form—great expanses of solid earth, blazing fire, crystal—clear water, and unsullied air. These regions are little-known, so when discussing the Plane of Fire, for example, a speaker usually means just the border region. At the farthest extents of the Inner Planes, the pure elements dissolve and bleed together into an unending tumult of clashing energies and colliding substance, the Primordial Chaos.
-
-### Outer Planes
-
-If the Inner Planes are the raw matter and energy that makes up the multiverse, the Outer Planes are the direction, thought and purpose for such construction. Accordingly, many sages refer to the Outer Planes as divine planes, spiritual planes, or godly planes, for the Outer Planes are best known as the homes of deities.
-
-When discussing anything to do with deities, the language used must be highly metaphorical. Their actual homes are not literally "places" at all, but exemplify the idea that the Outer Planes are realms of thought and spirit. As with the Elemental Planes, one can imagine the perceptible part of the Outer Planes as a sort of border region, while extensive spiritual regions lie beyond ordinary sensory experience.
-
-Even in those perceptible regions, appearances can be deceptive. Initially, many of the Outer Planes appear hospitable and familiar to natives of the Material Plane. But the landscape can change at the whims of the powerful forces that live on the Outer Planes. The desires of the mighty forces that dwell on these planes can remake them completely, effectively erasing and rebuilding existence itself to better fulfill their own needs.
-
-Distance is a virtually meaningless concept on the Outer Planes. The perceptible regions of the planes often seem quite small, but they can also stretch on to what seems like infinity. It might be possible to take a guided tour of Hell in a single day—if the powers of Hell desire it. Or it could take weeks for travelers to make a grueling trek across a single region.
-
-The most well-known Outer Planes are a group of sixteen planes that correspond to the eight alignments (excluding neutrality) and the shades of distinction between them.
-
-#### Planar Alignment
-
-The planes with some element of good in their nature are called the **Upper Planes.** Celestial creatures such as angels and pegasi dwell in the Upper Planes. Planes with some element of evil are the **Lower Planes.** Fiends such as demons and devils dwell in the Lower Planes. A plane's alignment is its essence, and a character whose alignment doesn't match the plane's experiences a profound sense of dissonance there. When a good creature visits a neutral good Upper Plane, for example, it feels in tune with the plane, but an evil creature feels out of tune and more than a little uncomfortable.
-
-#### Demiplanes
-
-Demiplanes are small extradimensional spaces with their own unique rules. They are pieces of reality that don't seem to fit anywhere else. Demiplanes come into being by a variety of means. Some are created by spells, such as [*demiplane*](#demiplane), or generated at the desire of a powerful deity or other force. They may exist naturally, as a fold of existing reality that has been pinched off from the rest of the multiverse, or as a baby universe growing in power. A given demiplane can be entered through a single point where it touches another plane. Theoretically, a [*plane shift*](#plane-shift) spell can also carry travelers to a demiplane, but the proper frequency required for the tuning fork is extremely hard to acquire. The [*gate*](#gate) spell is more reliable, assuming the caster knows of the demiplane.
-
-Pantheons
-=========
-
-The Celtic, Egyptian, Greek, and Norse pantheons are fantasy interpretations of historical religions from our world's ancient times. They include deities that are most appropriate for use in a game, divorced from their historical context in the real world and united into pantheons that serve the needs of the game.
-
-The Celtic Pantheon
--------------------
-
-<table style="width:100%;">
-<caption>Celtic Deities</caption>
-<colgroup>
-<col width="44%" />
-<col width="13%" />
-<col width="13%" />
-<col width="28%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Deity</th>
-<th align="center">Alignment</th>
-<th align="left">Suggested Domains</th>
-<th align="left">Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">The Daghdha, god of weather and crops</td>
-<td align="center">CG</td>
-<td align="left">Nature, Trickery</td>
-<td align="left">Bubbling cauldron or shield</td>
-</tr>
-<tr class="even">
-<td align="left">Arawn, god of life and death</td>
-<td align="center">NE</td>
-<td align="left">Life, Death</td>
-<td align="left">Black star on gray background</td>
-</tr>
-<tr class="odd">
-<td align="left">Belenus, god of sun, light, and warmth</td>
-<td align="center">NG</td>
-<td align="left">Light</td>
-<td align="left">Solar disk and standing stones</td>
-</tr>
-<tr class="even">
-<td align="left">Brigantia, goddess of rivers and livestock</td>
-<td align="center">NG</td>
-<td align="left">Life</td>
-<td align="left">Footbridge</td>
-</tr>
-<tr class="odd">
-<td align="left">Diancecht, god of medicine and healing</td>
-<td align="center">LG</td>
-<td align="left">Life</td>
-<td align="left">Crossed oak and mistletoe branches</td>
-</tr>
-<tr class="even">
-<td align="left">Dunatis, god of mountains and peaks</td>
-<td align="center">N</td>
-<td align="left">Nature</td>
-<td align="left">Red sun-capped mountain peak</td>
-</tr>
-<tr class="odd">
-<td align="left">Goibhniu, god of smiths and healing</td>
-<td align="center">NG</td>
-<td align="left">Knowledge, Life</td>
-<td align="left">Giant mallet over sword</td>
-</tr>
-<tr class="even">
-<td align="left">Lugh, god of arts, travel, and commerce</td>
-<td align="center">CN</td>
-<td align="left">Knowledge, Life</td>
-<td align="left">Pair of long hands</td>
-</tr>
-<tr class="odd">
-<td align="left">Manannan mac Lir, god of oceans and sea creatures</td>
-<td align="center">LN</td>
-<td align="left">Nature, Tempest</td>
-<td align="left">Wave of white water on green</td>
-</tr>
-<tr class="even">
-<td align="left">Math Mathonwy, god of magic</td>
-<td align="center">NE</td>
-<td align="left">Knowledge</td>
-<td align="left">Staff</td>
-</tr>
-<tr class="odd">
-<td align="left">Morrigan, goddess of battle</td>
-<td align="center">CE</td>
-<td align="left">War</td>
-<td align="left">Two crossed spears</td>
-</tr>
-<tr class="even">
-<td align="left">Nuada, god of war and warriors</td>
-<td align="center">N</td>
-<td align="left">War</td>
-<td align="left">Silver hand on black background</td>
-</tr>
-<tr class="odd">
-<td align="left">Oghma, god of speech and writing</td>
-<td align="center">NG</td>
-<td align="left">Knowledge</td>
-<td align="left">Unfurled scroll</td>
-</tr>
-<tr class="even">
-<td align="left">Silvanus, god of nature and forests</td>
-<td align="center">N</td>
-<td align="left">Nature</td>
-<td align="left">Summer oak tree</td>
-</tr>
-</tbody>
-</table>
-
-It's said that something wild lurks in the heart of every soul, a space that thrills to the sound of geese calling at night, to the whispering wind through the pines, to the unexpected red of mistletoe on an oak—and it is in this space that the Celtic gods dwell.
-
-They sprang from the brook and stream, their might heightened by the strength of the oak and the beauty of the woodlands and open moor. When the first forester dared put a name to the face seen in the bole of a tree or the voice babbling in a brook, these gods forced themselves into being.
-
-The Celtic gods are as often served by druids as by clerics, for they are closely aligned with the forces of nature that druids revere.
-
-The Egyptian Pantheon
----------------------
-
-<table style="width:100%;">
-<caption>Egyptian Deities</caption>
-<colgroup>
-<col width="44%" />
-<col width="13%" />
-<col width="13%" />
-<col width="28%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Deity</th>
-<th align="center">Alignment</th>
-<th align="left">Suggested Domains</th>
-<th align="left">Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Re-Horakhty, god of the sun, ruler of the gods</td>
-<td align="center">LG</td>
-<td align="left">Life, Light</td>
-<td align="left">Solar disk encircled by serpent</td>
-</tr>
-<tr class="even">
-<td align="left">Anubis, god of judgment and death</td>
-<td align="center">LN</td>
-<td align="left">Death</td>
-<td align="left">Black jackal</td>
-</tr>
-<tr class="odd">
-<td align="left">Apep, god of evil, fire, and serpents</td>
-<td align="center">NE</td>
-<td align="left">Trickery</td>
-<td align="left">Flaming snake</td>
-</tr>
-<tr class="even">
-<td align="left">Bast, goddess of cats and vengeance</td>
-<td align="center">CG</td>
-<td align="left">War</td>
-<td align="left">Cat</td>
-</tr>
-<tr class="odd">
-<td align="left">Bes, god of luck and music</td>
-<td align="center">CN</td>
-<td align="left">Trickery</td>
-<td align="left">Image of the misshapen deity</td>
-</tr>
-<tr class="even">
-<td align="left">Hathor, goddess of love, music, and motherhood</td>
-<td align="center">NG</td>
-<td align="left">Life, Light</td>
-<td align="left">Horned cow's head with lunar disk</td>
-</tr>
-<tr class="odd">
-<td align="left">Imhotep, god of crafts and medicine</td>
-<td align="center">NG</td>
-<td align="left">Knowledge</td>
-<td align="left">Step pyramid</td>
-</tr>
-<tr class="even">
-<td align="left">Isis, goddess of fertility and magic</td>
-<td align="center">NG</td>
-<td align="left">Knowledge, Life</td>
-<td align="left">Ankh and star</td>
-</tr>
-<tr class="odd">
-<td align="left">Nephthys, goddess of death and grief</td>
-<td align="center">CG</td>
-<td align="left">Death</td>
-<td align="left">Horns around a lunar disk</td>
-</tr>
-<tr class="even">
-<td align="left">Osiris, god of nature and the underworld</td>
-<td align="center">LG</td>
-<td align="left">Life, Nature</td>
-<td align="left">Crook and flail</td>
-</tr>
-<tr class="odd">
-<td align="left">Ptah, god of crafts, knowledge, and secrets</td>
-<td align="center">LN</td>
-<td align="left">Knowledge</td>
-<td align="left">Bull</td>
-</tr>
-<tr class="even">
-<td align="left">Set, god of darkness and desert storms</td>
-<td align="center">CE</td>
-<td align="left">Death, Tempest, Trickery</td>
-<td align="left">Coiled cobra</td>
-</tr>
-<tr class="odd">
-<td align="left">Sobek, god of water and crocodiles</td>
-<td align="center">LE</td>
-<td align="left">Nature, Tempest</td>
-<td align="left">Crocodile head with horns and plumes</td>
-</tr>
-<tr class="even">
-<td align="left">Thoth, god of knowledge and wisdom</td>
-<td align="center">N</td>
-<td align="left">Knowledge</td>
-<td align="left">Ibis</td>
-</tr>
-</tbody>
-</table>
-
-These gods are a young dynasty of an ancient divine family, heirs to the rulership of the cosmos and the maintenance of the divine principle of Ma'at—the fundamental order of truth, justice, law, and order that puts gods, mortal pharaohs, and ordinary men and women in their logical and rightful place in the universe.
-
-The Egyptian pantheon is unusual in having three gods responsible for death, each with different alignments. Anubis is the lawful neutral god of the afterlife, who judges the souls of the dead. Set is a chaotic evil god of murder, perhaps best known for killing his brother Osiris. And Nephthys is a chaotic good goddess of mourning.
-
-The Greek Pantheon
-------------------
-
-<table style="width:100%;">
-<caption>Greek Deities</caption>
-<colgroup>
-<col width="44%" />
-<col width="13%" />
-<col width="14%" />
-<col width="27%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Deity</th>
-<th align="center">Alignment</th>
-<th align="left">Suggested Domains</th>
-<th align="left">Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Zeus, god of the sky, ruler of the gods</td>
-<td align="center">N</td>
-<td align="left">Tempest</td>
-<td align="left">Fist full of lightning bolts</td>
-</tr>
-<tr class="even">
-<td align="left">Aphrodite, goddess of love and beauty</td>
-<td align="center">CG</td>
-<td align="left">Light</td>
-<td align="left">Sea shell</td>
-</tr>
-<tr class="odd">
-<td align="left">Apollo, god of light, music, and healing</td>
-<td align="center">CG</td>
-<td align="left">Knowledge, Life, Light</td>
-<td align="left">Lyre</td>
-</tr>
-<tr class="even">
-<td align="left">Ares, god of war and strife</td>
-<td align="center">CE</td>
-<td align="left">War</td>
-<td align="left">Spear</td>
-</tr>
-<tr class="odd">
-<td align="left">Artemis, goddess of hunting and childbirth</td>
-<td align="center">NG</td>
-<td align="left">Life, Nature</td>
-<td align="left">Bow and arrow on lunar disk</td>
-</tr>
-<tr class="even">
-<td align="left">Athena, goddess of wisdom and civilization</td>
-<td align="center">LG</td>
-<td align="left">Knowledge, War</td>
-<td align="left">Owl</td>
-</tr>
-<tr class="odd">
-<td align="left">Demeter, goddess of agriculture</td>
-<td align="center">NG</td>
-<td align="left">Life</td>
-<td align="left">Mare's head</td>
-</tr>
-<tr class="even">
-<td align="left">Dionysus, god of mirth and wine</td>
-<td align="center">CN</td>
-<td align="left">Life</td>
-<td align="left">Thyrsus (staff tipped with pine cone)</td>
-</tr>
-<tr class="odd">
-<td align="left">Hades, god of the underworld</td>
-<td align="center">LE</td>
-<td align="left">Death</td>
-<td align="left">Black ram</td>
-</tr>
-<tr class="even">
-<td align="left">Hecate, goddess of magic and the moon</td>
-<td align="center">CE</td>
-<td align="left">Knowledge, Trickery</td>
-<td align="left">Setting moon</td>
-</tr>
-<tr class="odd">
-<td align="left">Hephaestus, god of smithing and craft</td>
-<td align="center">NG</td>
-<td align="left">Knowledge</td>
-<td align="left">Hammer and anvil</td>
-</tr>
-<tr class="even">
-<td align="left">Hera, goddess of marriage and intrigue</td>
-<td align="center">CN</td>
-<td align="left">Trickery</td>
-<td align="left">Fan of peacock feathers</td>
-</tr>
-<tr class="odd">
-<td align="left">Hercules, god of strength and adventure</td>
-<td align="center">CG</td>
-<td align="left">Tempest, War</td>
-<td align="left">Lion's head</td>
-</tr>
-<tr class="even">
-<td align="left">Hermes, god of travel and commerce</td>
-<td align="center">CG</td>
-<td align="left">Trickery</td>
-<td align="left">Caduceus (winged staff and serpents)</td>
-</tr>
-<tr class="odd">
-<td align="left">Hestia, goddess of home and family</td>
-<td align="center">NG</td>
-<td align="left">Life</td>
-<td align="left">Hearth</td>
-</tr>
-<tr class="even">
-<td align="left">Nike, goddess of victory</td>
-<td align="center">LN</td>
-<td align="left">War</td>
-<td align="left">Winged woman</td>
-</tr>
-<tr class="odd">
-<td align="left">Pan, god of nature</td>
-<td align="center">CN</td>
-<td align="left">Nature</td>
-<td align="left">Syrinx (pan pipes)</td>
-</tr>
-<tr class="even">
-<td align="left">Poseidon, god of the sea and earthquakes</td>
-<td align="center">CN</td>
-<td align="left">Tempest</td>
-<td align="left">Trident</td>
-</tr>
-<tr class="odd">
-<td align="left">Tyche, goddess of good fortune</td>
-<td align="center">N</td>
-<td align="left">Trickery</td>
-<td align="left">Red pentagram</td>
-</tr>
-</tbody>
-</table>
-
-The gods of Olympus make themselves known with the gentle lap of waves against the shores and the crash of the thunder among the cloud-enshrouded peaks. The thick boar-infested woods and the sere, olive-covered hillsides hold evidence of their passing. Every aspect of nature echoes with their presence, and they've made a place for themselves inside the human heart, too.
-
-The Norse Pantheon
-------------------
-
-<table style="width:100%;">
-<caption>Norse Deities</caption>
-<colgroup>
-<col width="44%" />
-<col width="13%" />
-<col width="13%" />
-<col width="28%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Deity</th>
-<th align="center">Alignment</th>
-<th align="left">Suggested Domains</th>
-<th align="left">Symbol</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Odin, god of knowledge and war</td>
-<td align="center">NG</td>
-<td align="left">Knowledge, War</td>
-<td align="left">Watching blue eye</td>
-</tr>
-<tr class="even">
-<td align="left">Aegir, god of the sea and storms</td>
-<td align="center">NE</td>
-<td align="left">Tempest</td>
-<td align="left">Rough ocean waves</td>
-</tr>
-<tr class="odd">
-<td align="left">Balder, god of beauty and poetry</td>
-<td align="center">NG</td>
-<td align="left">Life, Light</td>
-<td align="left">Gem-encrusted silver chalice</td>
-</tr>
-<tr class="even">
-<td align="left">Forseti, god of justice and law</td>
-<td align="center">N</td>
-<td align="left">Light</td>
-<td align="left">Head of a bearded man</td>
-</tr>
-<tr class="odd">
-<td align="left">Frey, god of fertility and the sun</td>
-<td align="center">NG</td>
-<td align="left">Life, Light</td>
-<td align="left">Ice-blue greatsword</td>
-</tr>
-<tr class="even">
-<td align="left">Freya, goddess of fertility and love</td>
-<td align="center">NG</td>
-<td align="left">Life</td>
-<td align="left">Falcon</td>
-</tr>
-<tr class="odd">
-<td align="left">Frigga, goddess of birth and fertility</td>
-<td align="center">N</td>
-<td align="left">Life, Light</td>
-<td align="left">Cat</td>
-</tr>
-<tr class="even">
-<td align="left">Heimdall, god of watchfulness and loyalty</td>
-<td align="center">LG</td>
-<td align="left">Light, War</td>
-<td align="left">Curling musical horn</td>
-</tr>
-<tr class="odd">
-<td align="left">Hel, goddess of the underworld</td>
-<td align="center">NE</td>
-<td align="left">Death</td>
-<td align="left">Woman's face, rotting on one side</td>
-</tr>
-<tr class="even">
-<td align="left">Hermod, god of luck</td>
-<td align="center">CN</td>
-<td align="left">Trickery</td>
-<td align="left">Winged scroll</td>
-</tr>
-<tr class="odd">
-<td align="left">Loki, god of thieves and trickery</td>
-<td align="center">CE</td>
-<td align="left">Trickery</td>
-<td align="left">Flame</td>
-</tr>
-<tr class="even">
-<td align="left">Njord, god of sea and wind</td>
-<td align="center">NG</td>
-<td align="left">Nature, Tempest</td>
-<td align="left">Gold coin</td>
-</tr>
-<tr class="odd">
-<td align="left">Odur, god of light and the sun</td>
-<td align="center">CG</td>
-<td align="left">Light</td>
-<td align="left">Solar disk</td>
-</tr>
-<tr class="even">
-<td align="left">Sif, goddess of war</td>
-<td align="center">CG</td>
-<td align="left">War</td>
-<td align="left">Upraised sword</td>
-</tr>
-<tr class="odd">
-<td align="left">Skadi, god of earth and mountains</td>
-<td align="center">N</td>
-<td align="left">Nature</td>
-<td align="left">Mountain peak</td>
-</tr>
-<tr class="even">
-<td align="left">Surtur, god of fire giants and war</td>
-<td align="center">LE</td>
-<td align="left">War</td>
-<td align="left">Flaming sword</td>
-</tr>
-<tr class="odd">
-<td align="left">Thor, god of storms and thunder</td>
-<td align="center">CG</td>
-<td align="left">Tempest, War</td>
-<td align="left">Hammer</td>
-</tr>
-<tr class="even">
-<td align="left">Thrym, god of frost giants and cold</td>
-<td align="center">CE</td>
-<td align="left">War</td>
-<td align="left">White double-bladed axe</td>
-</tr>
-<tr class="odd">
-<td align="left">Tyr, god of courage and strategy</td>
-<td align="center">LN</td>
-<td align="left">Knowledge, War</td>
-<td align="left">Sword</td>
-</tr>
-<tr class="even">
-<td align="left">Uller, god of hunting and winter</td>
-<td align="center">CN</td>
-<td align="left">Nature</td>
-<td align="left">Longbow</td>
-</tr>
-</tbody>
-</table>
-
-Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring—this is the land of the Vikings, the home of the Norse pantheon. It's a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven't been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it's surprising the mortals turned out as well as they did. Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.
-
-The Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym).
-
 Monsters
 ========
 
@@ -25112,7 +25112,7 @@ The aboleth can take 3 legendary actions, choosing from the options below. Only 
 
 ***Reaping Scythe.*** The avatar sweeps its spectral scythe through a creature within 5 feet of it, dealing 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
 
-See "Deck of Many Things".
+See "[*deck of many things*](#deck-of-many-things)".
 
 #### Azer
 
@@ -37166,264 +37166,6 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 ***Claws (Hybrid Form Only).** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (2d4 + 2) slashing damage.
 
 ***Spear (Humanoid Form Only).** Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 1d8 + 2) piercing damage if used with two hands to make a melee attack.
-
-### Mephits
-
-#### Dust Mephit
-
-*Small elemental, neutral evil*
-
-**Armor Class** 12
-
-**Hit Points** 17 (5d6)
-
-**Speed** 30 ft., fly 30 ft.
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">5 (−3)</td>
-<td align="center">14 (+2)</td>
-<td align="center">10 (+0)</td>
-<td align="center">9 (−1)</td>
-<td align="center">11 (+0)</td>
-<td align="center">10 (+0)</td>
-</tr>
-</tbody>
-</table>
-
-**Skills** Perception +2, Stealth +4 Damage Vulnerabilities fire
-
-**Damage Immunities** poison
-
-**Condition Immunities** poisoned
-
-**Senses** darkvision 60 ft., passive Perception 12
-
-**Languages** Auran, Terran
-
-**Challenge** 1/2 (100 XP)
-
-***Death Burst.*** When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.
-
-***Innate Spellcasting (1/Day).*** The mephit can innately cast [*sleep*](#sleep), requiring no material components. Its innate spellcasting ability is Charisma.
-
-##### Actions
-
-***Claws.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (1d4 + 2) slashing damage.
-
-***Blinding Breath (Recharge 6).*** The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-#### Ice Mephit
-
-*Small elemental, neutral evil*
-
-**Armor Class** 11
-
-**Hit Points** 21 (6d6)
-
-**Speed** 30 ft., fly 30 ft.
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">7 (−2)</td>
-<td align="center">13 (+1)</td>
-<td align="center">10 (+0)</td>
-<td align="center">9 (−1)</td>
-<td align="center">11 (+0)</td>
-<td align="center">12 (+1)</td>
-</tr>
-</tbody>
-</table>
-
-**Skills** Perception +2, Stealth +3 Damage Vulnerabilities bludgeoning, fire
-
-**Damage Immunities** cold, poison
-
-**Condition Immunities** poisoned
-
-**Senses** darkvision 60 ft., passive Perception 12
-
-**Languages** Aquan, Auran
-
-**Challenge** 1/2 (100 XP)
-
-***Death Burst.*** When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 1d8) slashing damage on a failed save, or half as much damage on a successful one.
-
-***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
-
-***Innate Spellcasting (1/Day).*** The mephit can innately cast [*fog cloud*](#fog-cloud), requiring no material components. Its innate spellcasting ability is Charisma.
-
-##### Actions
-
-***Claws.** Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
-
-***Frost Breath (Recharge 6).*** The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 2d4) cold damage on a failed save, or half as much damage on a successful one.
-
-#### Magma Mephit
-
-*Small elemental, neutral evil*
-
-**Armor Class** 11
-
-**Hit Points** 22 (5d6 + 5)
-
-**Speed** 30 ft., fly 30 ft.
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">8 (−1)</td>
-<td align="center">12 (+1)</td>
-<td align="center">12 (+1)</td>
-<td align="center">7 (−2)</td>
-<td align="center">10 (+0)</td>
-<td align="center">10 (+0)</td>
-</tr>
-</tbody>
-</table>
-
-**Skills** Stealth +3
-
-**Damage Vulnerabilities** cold
-
-**Damage Immunities** fire, poison
-
-**Condition Immunities** poisoned
-
-**Senses** darkvision 60 ft., passive Perception 10
-
-**Languages** Ignan, Terran
-
-**Challenge** 1/2 (100 XP)
-
-***Death Burst.*** When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
-
-***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
-
-***Innate Spellcasting (1/Day).*** The mephit can innately cast [*heat metal*](#heat-metal) (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.
-
-##### Actions
-
-***Claws.** Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.
-
-***Fire Breath (Recharge 6).*** The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
-
-#### Steam Mephit
-
-*Small elemental, neutral evil*
-
-**Armor Class** 10
-
-**Hit Points** 21 (6d6)
-
-**Speed** 30 ft., fly 30 ft.
-
-<table style="width:83%;">
-<colgroup>
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="center">STR</th>
-<th align="center">DEX</th>
-<th align="center">CON</th>
-<th align="center">INT</th>
-<th align="center">WIS</th>
-<th align="center">CHA</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">5 (−3)</td>
-<td align="center">11 (+0)</td>
-<td align="center">10 (+0)</td>
-<td align="center">11 (+0)</td>
-<td align="center">10 (+0)</td>
-<td align="center">12 (+1)</td>
-</tr>
-</tbody>
-</table>
-
-**Damage Immunities** fire, poison
-
-**Condition Immunities** poisoned
-
-**Senses** darkvision 60 ft., passive Perception 10
-
-**Languages** Aquan, Ignan
-
-**Challenge** 1/4 (50 XP)
-
-***Death Burst.*** When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.
-
-***Innate Spellcasting (1/Day).*** The mephit can innately cast [*blur*](#blur), requiring no material components. Its innate spellcasting ability is Charisma.
-
-##### Actions
-
-***Claws.** Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:* 2 (1d4) slashing damage plus 2 (1d4) fire damage.
-
-***Steam Breath (Recharge 6).*** The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.
 
 ### Mummies
 

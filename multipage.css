@@ -1,0 +1,240 @@
+/* Base styles (over Normalize.css) */
+html {
+  margin: 1em;
+  font-family: Alegreya, Georgia, Palatino, serif;
+}
+
+a {
+  color: darkred;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: darkred;
+  margin-bottom: 0.25em;
+}
+
+header h1 {
+  font-size: 2.25em;
+  text-align: center;
+  border-bottom: 2px burlywood solid;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid burlywood;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+/* Sidebar styles (as blockquotes) */
+blockquote {
+  background-color: beige;
+  padding: 0.5em;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+blockquote h4 {
+  margin-top: 0;
+}
+
+blockquote p,
+blockquote ol,
+blockquote ul {
+  margin-bottom: 0;
+}
+
+/* Table styles */
+table {
+  margin-top: 0.5em;
+  width: 100% !important;
+  max-width: 750px !important;
+  border-bottom: 1px solid burlywood;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+tr:first-child{
+  border-top: 1px solid burlywood;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+
+tr.header {
+  background-color: white;
+}
+
+td,
+th {
+  padding: 0.25em 0.5em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+nav#TOC {
+  padding-top: 1em;
+}
+
+nav#pagenav {
+  display: block;
+  padding: 1em 0;
+  float: none;
+}
+
+/* TOC collapsing list styles */
+nav ul {
+  padding-left: 1em;
+}
+
+nav ul li {
+  cursor: auto;
+  list-style-type: none;
+}
+
+nav ul li::before {
+  content: ' ';
+  padding-left: 2em;
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen,
+nav ul li.collapsibleListClosed {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+nav ul li.collapsibleListOpen {
+  margin-left: 1px;
+}
+
+nav ul li.collapsibleListOpen::before {
+  content: '▼ ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListClosed::before {
+  content: '► ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen::before,
+nav ul li.collapsibleListClosed::before {
+  padding-left: 1em;
+}
+
+nav ul li a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a.hoverbutt {
+  position: fixed;
+  background-color: rgba(222,184,135,0.5);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+  font-weight: bold;
+  top: 1em;
+  width: 2em;
+  height: 2em;
+}
+
+a#goToTop {
+  right: 1em;
+}
+
+a#goToIndex {
+  right: 3.5em;
+}
+
+/* Stat block styles */
+.creature-statblock {
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+.creature-statblock table {
+  width: auto !important;
+}
+
+.creature-statblock h5 {
+  color: black;
+  border-bottom: 1px solid burlywood;
+}
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+  table {
+    font-size: 0.8em;
+  }
+
+  .creature-statblock table {
+    font-size: 1em;
+  }
+  
+  a.pagination {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 781px) {
+  nav#pagenav {
+    width: 100%;
+    height: 3em;
+  }
+  
+  a#next-page {
+    float: right;
+  }
+
+  a#previous-page {
+    float: left;
+  }
+}
+
+/* Pagination */
+a.pagination {
+  padding: 1em;
+  background-color: beige;
+  border: 1px solid burlywood;
+}
+
+a#previous-page::before {
+  content: "\21da\00a0";
+}
+
+a#next-page::after {
+  content: "\00a0\21db";
+}
+
+a#next-page {
+  text-align: right;
+}
+
+/* Footer */
+footer {
+  padding-top: 1em;
+  margin-top: 1em;
+  border-top: 1px solid burlywood;
+  text-align: center;
+}
