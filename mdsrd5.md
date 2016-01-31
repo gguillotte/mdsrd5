@@ -37167,6 +37167,264 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Spear (Humanoid Form Only).** Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage, or 6 1d8 + 2) piercing damage if used with two hands to make a melee attack.
 
+### Mephits
+
+#### Dust Mephit
+
+*Small elemental, neutral evil*
+
+**Armor Class** 12
+
+**Hit Points** 17 (5d6)
+
+**Speed** 30 ft., fly 30 ft.
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">5 (−3)</td>
+<td align="center">14 (+2)</td>
+<td align="center">10 (+0)</td>
+<td align="center">9 (−1)</td>
+<td align="center">11 (+0)</td>
+<td align="center">10 (+0)</td>
+</tr>
+</tbody>
+</table>
+
+**Skills** Perception +2, Stealth +4 Damage Vulnerabilities fire
+
+**Damage Immunities** poison
+
+**Condition Immunities** poisoned
+
+**Senses** darkvision 60 ft., passive Perception 12
+
+**Languages** Auran, Terran
+
+**Challenge** 1/2 (100 XP)
+
+***Death Burst.*** When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.
+
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*sleep*](#sleep), requiring no material components. Its innate spellcasting ability is Charisma.
+
+##### Actions
+
+***Claws.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (1d4 + 2) slashing damage.
+
+***Blinding Breath (Recharge 6).*** The mephit exhales a 15-foot cone of blinding dust. Each creature in that area must succeed on a DC 10 Dexterity saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+#### Ice Mephit
+
+*Small elemental, neutral evil*
+
+**Armor Class** 11
+
+**Hit Points** 21 (6d6)
+
+**Speed** 30 ft., fly 30 ft.
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">7 (−2)</td>
+<td align="center">13 (+1)</td>
+<td align="center">10 (+0)</td>
+<td align="center">9 (−1)</td>
+<td align="center">11 (+0)</td>
+<td align="center">12 (+1)</td>
+</tr>
+</tbody>
+</table>
+
+**Skills** Perception +2, Stealth +3 Damage Vulnerabilities bludgeoning, fire
+
+**Damage Immunities** cold, poison
+
+**Condition Immunities** poisoned
+
+**Senses** darkvision 60 ft., passive Perception 12
+
+**Languages** Aquan, Auran
+
+**Challenge** 1/2 (100 XP)
+
+***Death Burst.*** When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 1d8) slashing damage on a failed save, or half as much damage on a successful one.
+
+***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
+
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*fog cloud*](#fog-cloud), requiring no material components. Its innate spellcasting ability is Charisma.
+
+##### Actions
+
+***Claws.** Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
+
+***Frost Breath (Recharge 6).*** The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 2d4) cold damage on a failed save, or half as much damage on a successful one.
+
+#### Magma Mephit
+
+*Small elemental, neutral evil*
+
+**Armor Class** 11
+
+**Hit Points** 22 (5d6 + 5)
+
+**Speed** 30 ft., fly 30 ft.
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">8 (−1)</td>
+<td align="center">12 (+1)</td>
+<td align="center">12 (+1)</td>
+<td align="center">7 (−2)</td>
+<td align="center">10 (+0)</td>
+<td align="center">10 (+0)</td>
+</tr>
+</tbody>
+</table>
+
+**Skills** Stealth +3
+
+**Damage Vulnerabilities** cold
+
+**Damage Immunities** fire, poison
+
+**Condition Immunities** poisoned
+
+**Senses** darkvision 60 ft., passive Perception 10
+
+**Languages** Ignan, Terran
+
+**Challenge** 1/2 (100 XP)
+
+***Death Burst.*** When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
+
+***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
+
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*heat metal*](#heat-metal) (spell save DC 10), requiring no material components. Its innate spellcasting ability is Charisma.
+
+##### Actions
+
+***Claws.** Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) fire damage.
+
+***Fire Breath (Recharge 6).*** The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
+
+#### Steam Mephit
+
+*Small elemental, neutral evil*
+
+**Armor Class** 10
+
+**Hit Points** 21 (6d6)
+
+**Speed** 30 ft., fly 30 ft.
+
+<table style="width:83%;">
+<colgroup>
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">STR</th>
+<th align="center">DEX</th>
+<th align="center">CON</th>
+<th align="center">INT</th>
+<th align="center">WIS</th>
+<th align="center">CHA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">5 (−3)</td>
+<td align="center">11 (+0)</td>
+<td align="center">10 (+0)</td>
+<td align="center">11 (+0)</td>
+<td align="center">10 (+0)</td>
+<td align="center">12 (+1)</td>
+</tr>
+</tbody>
+</table>
+
+**Damage Immunities** fire, poison
+
+**Condition Immunities** poisoned
+
+**Senses** darkvision 60 ft., passive Perception 10
+
+**Languages** Aquan, Ignan
+
+**Challenge** 1/4 (50 XP)
+
+***Death Burst.*** When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.
+
+***Innate Spellcasting (1/Day).*** The mephit can innately cast [*blur*](#blur), requiring no material components. Its innate spellcasting ability is Charisma.
+
+##### Actions
+
+***Claws.** Melee Weapon Attack:* +2 to hit, reach 5 ft., one creature. *Hit:* 2 (1d4) slashing damage plus 2 (1d4) fire damage.
+
+***Steam Breath (Recharge 6).*** The mephit exhales a 15-foot cone of scalding steam. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 4 (1d8) fire damage on a failed save, or half as much damage on a successful one.
+
 ### Mummies
 
 #### Mummy
