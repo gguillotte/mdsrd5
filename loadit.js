@@ -1,1 +1,0 @@
-  (function(r,u,n){function x(){n=n&&n()}r[u]?(document[u]('DOMContentLoaded',x,0),r[u]('load',x,0)):r.attachEvent('onload',x)})(window,'addEventListener',function(){CollapsibleLists.applyTo(document.querySelector('#TOC ul'))});
