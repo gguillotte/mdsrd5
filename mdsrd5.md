@@ -29847,7 +29847,9 @@ The tarrasque can take 3 legendary actions, choosing from the options below. Onl
 </tbody>
 </table>
 
-**Damage Resistances** bludgeoning, piercing Damage Vulnerabilities fire
+**Damage Resistances** bludgeoning, piercing
+
+**Damage Vulnerabilities** fire
 
 **Senses** passive Perception 13
 
@@ -37210,7 +37212,9 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 </tbody>
 </table>
 
-**Skills** Perception +2, Stealth +4 Damage Vulnerabilities fire
+**Skills** Perception +2, Stealth +4
+
+**Damage Vulnerabilities** fire
 
 **Damage Immunities** poison
 
@@ -37273,7 +37277,9 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 </tbody>
 </table>
 
-**Skills** Perception +2, Stealth +3 Damage Vulnerabilities bludgeoning, fire
+**Skills** Perception +2, Stealth +3
+
+**Damage Vulnerabilities** bludgeoning, fire
 
 **Damage Immunities** cold, poison
 
