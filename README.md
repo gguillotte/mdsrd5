@@ -44,6 +44,29 @@ References to protected spells are replaced with spell names from Open Game Cont
 Release notes
 -------------
 
+### 0.5 (2016-01-31)
+
+Added DOCX and paginated HTML formats.
+
+#### New content
+
+-   Added a paginated version, viewable at <https://gguillotte.github.io/mdsrd5/paged/>.
+-   Added a Microsoft Word DOCX version.
+
+#### Fixes
+
+-   Fixed missing boldfacing and line breaks in the descriptions of the treant and two mephits.
+-   Fixed more corrupted hyphens in the monster descriptions.
+
+#### Known issues
+
+-   Many internal links in the paginated version are broken.
+-   The DOCX version needs some formatting tweaks, particularly around sidebars.
+-   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+
 ### 0.4.2 (2016-01-26)
 
 Fixed some lingering typos inherited from the source material, removed another piece of protected content, and added links.
@@ -57,13 +80,6 @@ Fixed some lingering typos inherited from the source material, removed another p
 -   Fixed a typo from the source document in the pit trap description.
 -   Fixed hyphens corrupted by the source document's poor text encoding in several monster descriptions.
 -   Removed a reference to a protected creature from the Monster Construction page.
-
-#### Known issues
-
--   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. As an alternative, try the epub version, which has the same content and formatting, is styled for vertical page orientations, and is handled better by ePub readers than the single-page document by browsers.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to bugs with the conversion software.
 
 ### 0.4.1 (2016-01-25)
 
