@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-<!-- Remote and external CSS -->
-<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Alegreya%20Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-<!-- /Remote and external CSS -->
 
-<style type="text/css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+          <title></title>
+            <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+      <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya%20Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+
+    <style type="text/css">
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 /**
@@ -442,9 +442,9 @@ td,
 th {
   padding: 0;
 }
-</style>
+    </style>
 
-<style type="text/css">
+    <style type="text/css">
 /* Base styles (over Normalize.css) */
 html {
   margin: 1em;
@@ -630,9 +630,9 @@ footer {
   border-top: 1px solid burlywood;
   text-align: center;
 }
-</style>
+    </style>
 
-<script type="text/javascript">
+    <script type="text/javascript">
 /*! Jets.js - v0.6.0 - 2015-12-15
 * http://NeXTs.github.com/Jets.js/
 * Copyright (c) 2015 Denis Lukov; Licensed MIT
@@ -651,8 +651,8 @@ c,b){return b.indexOf(a)==c}):[c],b="AND"==this.options.searchSelectorMode,d=[],
 c.innerText)||""},_getContentTags:function(c){return Array.prototype.slice.call(this.content_tag).reduce(function(a,b){return a.concat(Array.prototype.slice.call(b.querySelectorAll(c||":scope > *")))},[])},_setJets:function(c,a){for(var b=this,d=b._getContentTags(a?"":c),e,h=0,f;f=d[h];h++)if(!f.hasAttribute("data-jets")||a)e=this.options.manualContentHandling?this.options.manualContentHandling(f):b.options.columns&&b.options.columns.length?b.options.columns.map(function(a){return b._getText(f.children[a])}).join(" "):
 b._getText(f),f.setAttribute("data-jets",b.replaceDiacritics(e.trim().replace(/\s+/g," ").toLowerCase()))},replaceDiacritics:function(c){var a=this.options.diacriticsMap,b;for(b in a)if(a.hasOwnProperty(b))for(var d=0,e=a[b].length;d<e;d++)c=c.replace(new RegExp(a[b][d],"g"),b);return c},update:function(c){this._setJets(":scope > :not([data-jets])",c)},_destroy:function(){this.styleTag.parentNode&&document.head.removeChild(this.styleTag);for(var c=this._getContentTags(),a=0,b;b=c[a];a++)b.removeAttribute("data-jets")}};
 (function(c,a){try{c.querySelector(":scope body")}catch(b){["querySelector","querySelectorAll"].forEach(function(b){var e=a[b];a[b]=function(a){if(/(^|,)\s*:scope/.test(a)){var f=this.id;this.id="ID_"+Date.now();a=a.replace(/((^|,)\s*):scope/g,"$1#"+this.id);a=c[b](a);this.id=f;return a}return e.call(this,a)}})}})(window.document,Element.prototype);return g});
-</script>
-<script type="text/javascript">
+    </script>
+    <script type="text/javascript">
 /*
 CollapsibleLists.js
 An object allowing lists to dynamically expand and collapse
@@ -662,21 +662,31 @@ http://creativecommons.org/publicdomain/zero/1.0/legalcode
 */
 
 var CollapsibleLists=new function(){function e(e){return function(a){a||(a=window.event);for(var n=a.target?a.target:a.srcElement;"LI"!=n.nodeName;)n=n.parentNode;n==e&&t(e)}}function t(e){for(var t=e.className.match(/(^| )collapsibleListClosed( |$)/),a=e.getElementsByTagName("ul"),n=0;n<a.length;n++){for(var l=a[n];"LI"!=l.nodeName;)l=l.parentNode;l==e&&(a[n].style.display=t?"block":"none")}e.className=e.className.replace(/(^| )collapsibleList(Open|Closed)( |$)/,""),a.length>0&&(e.className+=" collapsibleList"+(t?"Open":"Closed"))}this.apply=function(e){for(var t=document.getElementsByTagName("ul"),a=0;a<t.length;a++)if(t[a].className.match(/(^| )collapsibleList( |$)/)&&(this.applyTo(t[a],!0),!e))for(var n=t[a].getElementsByTagName("ul"),l=0;l<n.length;l++)n[l].className+=" collapsibleList"},this.applyTo=function(a,n){for(var l=a.getElementsByTagName("li"),s=0;s<l.length;s++)n&&a!=l[s].parentNode||(l[s].addEventListener?l[s].addEventListener("mousedown",function(e){e.preventDefault()},!1):l[s].attachEvent("onselectstart",function(){event.returnValue=!1}),l[s].addEventListener?l[s].addEventListener("click",e(l[s]),!1):l[s].attachEvent("onclick",e(l[s])),t(l[s]))}};
-</script>
-<script type="text/javascript">
+    </script>
+    <script type="text/javascript">
   (function(r,u,n){function x(){n=n&&n()}r[u]?(document[u]('DOMContentLoaded',x,0),r[u]('load',x,0)):r.attachEvent('onload',x)})(window,'addEventListener',function(){CollapsibleLists.applyTo(document.querySelector('#TOC ul'))});
-</script>
-</head>
-<body>
-<nav id="top"><a id="goToTop" href="#top">^</a></nav>
-<header>
-<h1>The Markdown SRD5 (HTML output)</h1>
-<p>Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="#legal-information">Open Gaming License (OGL).</a></p>
-<p>Also available in <a href="https://gguillotte.github.io/mdsrd5/paged/">paginated HTML</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.docx">DOCX</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">ePub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub.</a></p>
-</header>
-<nav id="TOC" class="treeView">
-<p>Search table of contents:</p>
-<input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})">
+    </script>
+  </head>
+
+  <body>
+    <nav id="top">
+      <a id="goToTop" href="#top">^</a>
+    </nav>
+
+    <header>
+      <h1>The Markdown SRD5 (HTML output)</h1>
+      <p>
+        Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="#legal-information">Open Gaming License (OGL).</a>
+      </p>
+
+      <p>
+        Also available in <a href="https://gguillotte.github.io/mdsrd5/">single-page HTML</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.docx">DOCX</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.icml">InCopy Markup Language</a>, <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.epub">ePub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/blob/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub</a>.
+      </p>
+    </header>
+    <nav id="TOC" class="treeView">
+      <p>
+        Search table of contents: <input type="search" id="jetsSearch" onchange="var jets = new Jets({searchTag: '#jetsSearch',contentTag: '#TOC ul'})" />
+      </p>
 <ul>
 <li><a href="#chapter-legal-information">Legal Information</a></li>
 <li><a href="#chapter-races">Races</a><ul>
@@ -3283,7 +3293,7 @@ var CollapsibleLists=new function(){function e(e){return function(a){a||(a=windo
 </ul></li>
 </ul></li>
 </ul>
-</nav>
+    </nav>
 <section id="chapter-legal-information" class="level1">
 <h1>Legal Information</h1>
 <p>All rules content in this document is Copyright 2016 Wizards of the Coast and is used here under their declaration of it as Open Game Content in the System Reference Document 5.0, as cited in Section 15 of this reproduction of the license. Terms original to The Markdown SRD5, including hooked hulk, eyestalker, fey plane, shadow plane, Primordial Chaos, and Orb of the Wyrm, are Open Game Content as described in Section 1(d) of the License. The terms of the Open Gaming License Version 1.0a are as follows:</p>
@@ -40859,10 +40869,12 @@ Effect</th>
 </section>
 </section>
 </section>
-</body>
-<footer>
-  <div>
-    <a href="#legal-information">Open Gaming License</a>
-  </div>
-</footer>
+  </body>
+
+  <footer>
+    <p>
+      <a href="#legal-information">Open Gaming License</a>
+    </p>
+  </footer>
+
 </html>
