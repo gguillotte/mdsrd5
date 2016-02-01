@@ -57,10 +57,11 @@ Added DOCX and paginated HTML formats.
 
 -   Fixed missing boldfacing and line breaks in the descriptions of the treant and two mephits.
 -   Fixed more corrupted hyphens in the monster descriptions.
+-   Adjusted the organization of chapters and topics.
 
 #### Known issues
 
--   Many internal links in the paginated version are broken.
+-   Many internal links in the paginated version are broken, and navigation is generally poor.
 -   The DOCX version needs some formatting tweaks, particularly around sidebars.
 -   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
 -   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
