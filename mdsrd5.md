@@ -77,7 +77,7 @@ Characters of most races are Medium, a size category including creatures that ar
 
 ### Speed
 
-Your speed determines how far you can move when traveling ("Adventuring") and fighting ("Combat").
+Your speed determines how far you can move when traveling (see "[Adventuring](#chapter-adventuring)") and fighting (see "[Combat](#chapter-combat)").
 
 ### Languages
 
@@ -664,7 +664,7 @@ You have advantage on Dexterity saving throws against effects that you can see, 
 
 ### Primal Path
 
-At 3rd level, you choose a path (see "[Barbarian Paths](#barbarian-paths)") that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.
+At 3rd level, you choose a path (see "[Barbarian Paths](#section-barbarian-paths)") that shapes the nature of your rage. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.
 
 ### Ability Score Improvement
 
@@ -717,7 +717,7 @@ For some barbarians, rage is a means to an end—that end being violence. The Pa
 
 #### Frenzy
 
-Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (see "[Conditions](#conditions)").
+Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion (see "[Conditions](#section-conditions)").
 
 #### Mindless Rage
 
@@ -1271,7 +1271,7 @@ You can cast any bard spell you know as a ritual if that spell has the ritual ta
 
 #### Spellcasting Focus
 
-You can use a musical instrument (see "[Equipment](#equipment-13)") as a spellcasting focus for your bard spells.
+You can use a musical instrument (see "[Equipment](#chapter-equipment)") as a spellcasting focus for your bard spells.
 
 ### Bardic Inspiration
 
@@ -1295,7 +1295,7 @@ The extra hit points increase when you reach certain levels in this class: to 1d
 
 ### Bard College
 
-At 3rd level, you delve into the advanced techniques of a bard college (see "[Bard Colleges](#bard-colleges)") of your choice. Your choice grants you features at 3rd level and again at 6th and 14th level.
+At 3rd level, you delve into the advanced techniques of a bard college (see "[Bard Colleges](#section-bard-colleges)") of your choice. Your choice grants you features at 3rd level and again at 6th and 14th level.
 
 ### Expertise
 
@@ -1867,11 +1867,11 @@ You can cast a cleric spell as a ritual if that spell has the ritual tag and you
 
 #### Spellcasting Focus
 
-You can use a holy symbol (see "[Equipment](#equipment-13)") as a spellcasting focus for your cleric spells.
+You can use a holy symbol (see "[Equipment](#chapter-equipment)") as a spellcasting focus for your cleric spells.
 
 ### Divine Domain
 
-Choose one domain (see "[Domains](#domains)") related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
+Choose one domain (see "[Domains](#section-domains)") related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.
 
 #### Domain Spells
 
@@ -1956,7 +1956,7 @@ Domains
 
 ### Life Domain
 
-The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life (see [Pantheons](#pantheons)) promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Isis, The Daghdha, and Demeter), sun gods (such as Belenus, Frey, and Re-Horakhty), gods of healing or endurance (such as Apollo, Lugh, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Frigga).
+The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life (see [Pantheons](#chapter-pantheons)) promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Isis, The Daghdha, and Demeter), sun gods (such as Belenus, Frey, and Re-Horakhty), gods of healing or endurance (such as Apollo, Lugh, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Frigga).
 
 <table style="width:89%;">
 <caption>Life Domain Spells</caption>
@@ -2537,7 +2537,7 @@ You can cast a druid spell as a ritual if that spell has the ritual tag and you 
 
 #### Spellcasting Focus
 
-You can use a druidic focus (see [Equipment](#equipment-14)) as a spellcasting focus for your druid spells.
+You can use a druidic focus (see "[Equipment](#chapter-equipment)") as a spellcasting focus for your druid spells.
 
 ### Wild Shape
 
@@ -2595,7 +2595,7 @@ While you are transformed, the following rules apply:
 
 ### Druid Circle
 
-At 2nd level, you choose to identify with a circle of druids (see [Druid Circles](#druid-circles)). Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+At 2nd level, you choose to identify with a circle of druids (see "[Druid Circles](#section-druid-circles)"). Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
 ### Timeless Body
 
@@ -2625,7 +2625,7 @@ Additionally, you can ignore the verbal and somatic components of your druid spe
 
 > #### Druids and the Gods
 >
-> Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in the "[Pantheons](#pantheons)" section include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.
+> Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in the "[Pantheons](#chapter-pantheons)" section include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.
 
 Druid Circles
 -------------
@@ -3082,7 +3082,7 @@ Starting at 2nd level, you can push yourself beyond your normal limits for a mom
 
 ### Martial Archetype
 
-At 3rd level, you choose an archetype (see [Martial Archetypes](#martial-archetypes)) that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+At 3rd level, you choose an archetype (see [Martial Archetypes](#section-martial-archetypes)) that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
 ### Ability Score Improvement
 
@@ -3400,7 +3400,7 @@ At 9th level, you gain the ability to move along vertical surfaces and across li
 
 ### Monastic Tradition
 
-When you reach 3rd level, you commit yourself to a monastic tradition (see [Monastic Traditions](#monastic-traditions)). Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
+When you reach 3rd level, you commit yourself to a monastic tradition (see [Monastic Traditions](#section-monastic-traditions)). Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
 
 ### Deflect Missiles
 
@@ -3941,7 +3941,7 @@ By 3rd level, the divine magic flowing through you makes you immune to disease.
 
 ### Sacred Oath
 
-When you reach 3rd level, you swear the oath (see [Sacred Oaths](#sacred-oaths)) that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose a sacred oath.
+When you reach 3rd level, you swear the oath (see [Sacred Oaths](#section-sacred-oaths)) that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose a sacred oath.
 
 Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
 
@@ -4559,7 +4559,7 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 ### Ranger Archetype
 
-At 3rd level, you choose an archetype (see [Ranger Archetypes](#ranger-archetypes)) that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
+At 3rd level, you choose an archetype (see [Ranger Archetypes](#section-ranger-archetypes)) that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
 
 ### Primeval Awareness
 
@@ -4846,7 +4846,7 @@ Starting at 2nd level, your quick thinking and agility allow you to move and act
 
 ### Roguish Archetype
 
-At 3rd level, you choose an archetype (see [Roguish Archetypes](#roguish-archetypes)) that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+At 3rd level, you choose an archetype (see [Roguish Archetypes](#section-roguish-archetypes)) that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
 
 ### Ability Score Improvement
 
@@ -5179,7 +5179,7 @@ You can use an arcane focus as a spellcasting focus for your sorcerer spells.
 
 ### Sorcerous Origin
 
-Choose a sorcerous origin (see [Sorcerous Origins](#sorcerous-origins)), which describes the source of your innate magical power.
+Choose a sorcerous origin (see [Sorcerous Origins](#section-sorcerous-origins)), which describes the source of your innate magical power.
 
 Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
 
@@ -5768,7 +5768,7 @@ You can use an arcane focus as a spellcasting focus for your warlock spells.
 
 ### Eldritch Invocations
 
-In your study of occult lore, you have unearthed eldritch invocations (see [Eldritch Invocations](#eldritch-invocations-1)), fragments of forbidden knowledge that imbue you with an abiding magical ability.
+In your study of occult lore, you have unearthed eldritch invocations (see [Eldritch Invocations](#section-eldritch-invocations)), fragments of forbidden knowledge that imbue you with an abiding magical ability.
 
 At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
 
@@ -6608,7 +6608,7 @@ For example, if you're a 4th-level wizard, you can recover up to two levels wort
 
 ### Arcane Tradition
 
-When you reach 2nd level, you choose an arcane tradition, shaping your practice of a school of magic (see "[Arcane Traditions](#arcane-traditions)").
+When you reach 2nd level, you choose an arcane tradition, shaping your practice of a school of magic (see "[Arcane Traditions](#section-arcane-traditions)").
 
 Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
 
@@ -7065,7 +7065,7 @@ At the beginning of every combat, you roll initiative by making a Dexterity chec
 >
 > ***Passive Perception.*** When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.
 >
-> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see [Adventuring](#adventuring)).
+> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see [Adventuring](#chapter-adventuring)).
 
 ### Constitution
 
@@ -7979,15 +7979,15 @@ Backgrounds provide both concrete benefits (features, proficiencies, and languag
 
 #### Proficiencies
 
-Each background gives a character proficiency in two skills (see "[Using Ability Scores](#using-ability-scores)").
+Each background gives a character proficiency in two skills (see "[Using Ability Scores](#chapter-using-ability-scores)").
 
-In addition, most backgrounds give a character proficiency with one or more tools (see "[Equipment](#equipment-13)").
+In addition, most backgrounds give a character proficiency with one or more tools (see "[Equipment](#chapter-equipment)").
 
 If a character would gain the same proficiency from two different sources, he or she can choose a different proficiency of the same kind (skill or tool) instead.
 
 #### Languages
 
-Some backgrounds also allow characters to learn additional languages beyond those given by race (see "[Languages](#languages-2)").
+Some backgrounds also allow characters to learn additional languages beyond those given by race (see "[Languages](#section-languages)").
 
 #### Equipment
 
@@ -8005,7 +8005,7 @@ You might want to tweak some of the features of a background so it better fits y
 
 You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric—performing sacred rites is not the same thing as channeling divine power.
 
-Choose a god, a pantheon of gods, or some other quasi-divine being from among those listed in "[Pantheons](#pantheons)" or those specified by your GM, and work with your GM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.
+Choose a god, a pantheon of gods, or some other quasi-divine being from among those listed in "[Pantheons](#chapter-pantheons)" or those specified by your GM, and work with your GM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.
 
 **Skill Proficiencies:** Insight, Religion
 
@@ -8836,7 +8836,7 @@ While traveling, a group of adventurers can move at a normal, fast, or slow pace
 
 ***Forced March.*** The Travel Pace table assumes that characters travel for 8 hours in day. They can push on beyond that limit, at the risk of exhaustion.
 
-For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see "[Conditions](#conditions)").
+For each additional hour of travel beyond 8 hours, the characters cover the distance shown in the Hour column for their pace, and each character must make a Constitution saving throw at the end of the hour. The DC is 10 + 1 for each hour past 8 hours. On a failed saving throw, a character suffers one level of exhaustion (see "[Conditions](#section-conditions)").
 
 ***Mounts and Vehicles.*** For short spans of time (up to an hour), many animals move much faster than humanoids. A mounted character can ride at a gallop for about an hour, covering twice the usual distance for a fast pace. If fresh mounts are available every 8 to 10 miles, characters can cover larger distances at this pace, but this is very rare except in densely populated areas.
 
@@ -8942,7 +8942,7 @@ The most fundamental tasks of adventuring—noticing danger, finding hidden obje
 
 A given area might be lightly or heavily obscured. In a **lightly obscured** area, such as dim light, patchy fog, or moderate foliage, creatures have disadvantage on Wisdom (Perception) checks that rely on sight.
 
-A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see "[Conditions](#conditions)") when trying to see something in that area.
+A **heavily obscured** area—such as darkness, opaque fog, or dense foliage—blocks vision entirely. A creature effectively suffers from the blinded condition (see "[Conditions](#section-conditions)") when trying to see something in that area.
 
 The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and darkness.
 
@@ -8966,7 +8966,7 @@ A creature with truesight can, out to a specific range, see in normal and magica
 
 ### Food and Water
 
-Characters who don't eat or drink suffer the effects of exhaustion (see [Conditions](#conditions)). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
+Characters who don't eat or drink suffer the effects of exhaustion (see [Conditions](#section-conditions)). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
 
 #### Food
 
@@ -9981,11 +9981,11 @@ If a tie occurs, the GM decides the order among tied GM-controlled creatures, an
 
 On your turn, you can **move** a distance up to your speed and **take one action**. You decide whether to move first or take your action first. Your speed—sometimes called your walking speed—is noted on your character sheet.
 
-The most common actions you can take are described in the "[Actions in Combat](#actions-in-combat)" section later in this chapter. Many class features and other abilities provide additional options for your action.
+The most common actions you can take are described in the "[Actions in Combat](#section-actions-in-combat)" section later in this chapter. Many class features and other abilities provide additional options for your action.
 
 The "Movement and Position" section gives the rules for your move.
 
-You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in "[Actions in Combat](#actions-in-combat)".
+You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking the Dodge or Ready action, as described in "[Actions in Combat](#section-actions-in-combat)".
 
 #### Bonus Actions
 
@@ -10042,7 +10042,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are exa
 
 ### Being Prone
 
-Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone (see [Conditions](#conditions)).
+Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone (see [Conditions](#section-conditions)).
 
 You can **drop prone** without using any of your speed. **Standing up** takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
 
@@ -10153,7 +10153,7 @@ When you describe an action not detailed elsewhere in the rules, the GM tells yo
 
 The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.
 
-With this action, you make one melee or ranged attack. See the "[Making an Attack](#making-an-attack)" section for the rules that govern attacks.
+With this action, you make one melee or ranged attack. See the "[Making an Attack](#section-making-an-attack)" section for the rules that govern attacks.
 
 Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action.
 
@@ -10173,7 +10173,7 @@ If you take the Disengage action, your movement doesn't provoke opportunity atta
 
 ### Dodge
 
-When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (see "[Conditions](#conditions)") or if your speed drops to 0.
+When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (see "[Conditions](#section-conditions)") or if your speed drops to 0.
 
 ### Help
 
@@ -10284,7 +10284,7 @@ If either weapon has the thrown property, you can throw the weapon, instead of m
 
 When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.
 
-The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see "[Conditions](#conditions)"). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you succeed, you subject the target to the grappled condition (see "[Conditions](#section-conditions)"). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
 ***Escaping a Grapple.*** A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
 
@@ -10402,7 +10402,7 @@ For example, a cleric with a maximum of 12 hit points currently has 6 hit points
 
 #### Falling Unconscious
 
-If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see "[Conditions](#conditions)"). This unconsciousness ends if you regain any hit points.
+If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see "[Conditions](#section-conditions)"). This unconsciousness ends if you regain any hit points.
 
 #### Death Saving Throws
 
@@ -10494,7 +10494,7 @@ What Is a Spell?
 
 A spell is a discrete magical effect, a single shaping of the magical energies that suffuse the multiverse into a specific, limited expression. In casting a spell, a character carefully plucks at the invisible strands of raw magic suffusing the world, pins them in place in a particular pattern, sets them vibrating in a specific way, and then releases them to unleash the desired effect—in most cases, all in the span of seconds.
 
-Spells can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove conditions (see "[Conditions](#conditions)"), drain life energy away, and restore life to the dead.
+Spells can be versatile tools, weapons, or protective wards. They can deal damage or undo it, impose or remove conditions (see "[Conditions](#section-conditions)"), drain life energy away, and restore life to the dead.
 
 Uncounted thousands of spells have been created over the course of the multiverse's history, and many of them are long forgotten. Some might yet lie recorded in crumbling spellbooks hidden in ancient ruins or trapped in the minds of dead gods. Or they might someday be reinvented by a character who has amassed enough power and wisdom to do so.
 
@@ -10609,7 +10609,7 @@ Spellcasting gestures might include a forceful gesticulation or an intricate set
 
 #### Material (M)
 
-Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a **component pouch** or a **spellcasting focus** (see "[Equipment](#equipment-13)") in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
+Casting some spells requires particular objects, specified in parentheses in the component entry. A character can use a **component pouch** or a **spellcasting focus** (see "[Equipment](#chapter-equipment)") in place of the components specified for a spell. But if a cost is indicated for a component, a character must have that specific component before he or she can cast the spell.
 
 If a spell states that a material component is consumed by the spell, the caster must provide this component for each casting of the spell.
 
@@ -17940,7 +17940,7 @@ This section describes items that have special rules or require further explanat
 
 ***Healer's Kit.*** This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check.
 
-***Holy Symbol.*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. The "[Pantheons](#pantheons)" section lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+***Holy Symbol.*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. The "[Pantheons](#chapter-pantheons)" section lists the symbols commonly associated with many gods in the multiverse. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
 
 ***Holy Water.*** As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage.
 
@@ -18829,7 +18829,7 @@ A tool helps you to do something you couldn't otherwise do, such as craft or rep
 </tbody>
 </table>
 
-\* See the "[Mounts and Vehicles](#mounts-and-vehicles)" section.
+\* See the "[Mounts and Vehicles](#section-mounts-and-vehicles)" section.
 
 ***Artisan's Tools.*** These special tools include the items needed to pursue a craft or trade. The table shows examples of the most common types of tools, each providing items related to a single craft. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.
 
@@ -24239,7 +24239,7 @@ Monster Construction
 
 ### Size
 
-A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. see [Movement and Position](#movement-and-position) for more information on creature size and space.
+A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. see [Movement and Position](#section-movement-and-position) for more information on creature size and space.
 
 <table style="width:78%;">
 <caption>Size Categories</caption>
@@ -24333,7 +24333,7 @@ A monster might have one or more tags appended to its type, in parentheses. For 
 
 #### Alignment
 
-A monster's alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas a neutral monster might be willing to negotiate. see [Alignment](#alignment-3) for descriptions of the different alignments.
+A monster's alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas a neutral monster might be willing to negotiate. see [Alignment](#section-alignment) for descriptions of the different alignments.
 
 The alignment specified in a monster's stat block is the default. Feel free to depart from it and change a monster's alignment to suit the needs of your campaign. If you want a good-aligned green dragon or an evil storm giant, there's nothing stopping you.
 
@@ -24347,7 +24347,7 @@ A monster that wears armor or carries a shield has an Armor Class (AC) that take
 
 ### Hit Points
 
-A monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see [Damage and Healing](#damage-and-healing).
+A monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see [Damage and Healing](#section-damage-and-healing).
 
 A monster's hit points are presented both as a die expression and as an average number. For example, a monster with 2d8 hit points has 9 hit points on average (2 × 4 1/2).
 
@@ -24405,7 +24405,7 @@ A monster's Constitution modifier also affects the number of hit points it has. 
 
 ### Speed
 
-A monster's speed tells you how far it can move on its turn. For more information on speed, see [Movement and Position](#movement-and-position).
+A monster's speed tells you how far it can move on its turn. For more information on speed, see [Movement and Position](#section-movement-and-position).
 
 All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.
 
@@ -24421,7 +24421,7 @@ A monster that has a climbing speed can use all or part of its movement to move 
 
 #### Fly
 
-A monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to hover, which makes them hard to knock out of the air (see [Movement and Position](#movement-and-position) for rules on flying). Such a monster stops hovering when it dies.
+A monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to hover, which makes them hard to knock out of the air (see [Movement and Position](#section-movement-and-position) for rules on flying). Such a monster stops hovering when it dies.
 
 #### Swim
 
@@ -24429,7 +24429,7 @@ A monster that has a swimming speed doesn't need to spend extra movement to swim
 
 ### Ability Scores
 
-Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see [Using Ability Scores](#using-ability-scores).
+Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see [Using Ability Scores](#chapter-using-ability-scores).
 
 ### Saving Throws
 
@@ -24603,7 +24603,7 @@ A skill bonus is the sum of a monster's relevant ability modifier and its profic
 >
 > For example, a hill giant typically wears hide armor and wields a greatclub. You could equip a hill giant with chain mail and a greataxe instead, and assume the giant is proficient with both, one or the other, or neither.
 >
-> See the "[Armor](#armor)" and "[Weapons](#weapons)" sections for rules on using armor or weapons without proficiency.
+> See the "[Armor](#section-armor)" and "[Weapons](#section-weapons)" sections for rules on using armor or weapons without proficiency.
 
 ### Vulnerabilities, Resistances, and Immunities
 
@@ -24827,7 +24827,7 @@ A monster's innate spells can't be swapped out with other spells. If a monster's
 
 #### Spellcasting
 
-A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (see [Spellcasting](#spellcasting-9)). The spellcaster level is also used for any cantrips included in the feature.
+A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (see [Spellcasting](#chapter-spellcasting)). The spellcaster level is also used for any cantrips included in the feature.
 
 The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the Divine Domain feature of the cleric or the Druid Circle feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.
 
@@ -24841,11 +24841,11 @@ A monster that casts spells using only the power of its mind has the psionics ta
 
 ### Actions
 
-When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action (see [Actions in Combat](#actions-in-combat)).
+When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action (see [Actions in Combat](#section-actions-in-combat)).
 
 #### Melee and Ranged Attacks
 
-The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the "weapon" might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see [Making an Attack](#making-an-attack).
+The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the "weapon" might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see [Making an Attack](#section-making-an-attack).
 
 ***Creature vs. Target.*** The target of a melee or ranged attack is usually either one creature or one target, the difference being that a "target" can be a creature or an object.
 
@@ -44148,7 +44148,7 @@ Customizing NPCs
 
 There are many easy ways to customize the NPCs in this section for your home campaign.
 
-***Racial Traits.*** You can add racial traits to an NPC. For example, a halfling druid might have a speed of 25 feet and the Lucky trait. Adding racial traits to an NPC doesn't alter its challenge rating. For more on racial traits, see "[Races](#races)".
+***Racial Traits.*** You can add racial traits to an NPC. For example, a halfling druid might have a speed of 25 feet and the Lucky trait. Adding racial traits to an NPC doesn't alter its challenge rating. For more on racial traits, see "[Races](#chapter-races)".
 
 ***Spell Swaps.*** One way to customize an NPC spellcaster is to replace one or more of its spells. You can substitute any spell on the NPC's spell list with a different spell of the same level from the same spell list. Swapping spells in this manner doesn't alter an NPC's challenge rating.
 
