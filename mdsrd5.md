@@ -1956,7 +1956,7 @@ Domains
 
 ### Life Domain
 
-The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life (see [Pantheons](#chapter-pantheons)) promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Isis, The Daghdha, and Demeter), sun gods (such as Belenus, Frey, and Re-Horakhty), gods of healing or endurance (such as Apollo, Lugh, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Frigga).
+The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life (see "[Pantheons](#chapter-pantheons)") promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Isis, The Daghdha, and Demeter), sun gods (such as Belenus, Frey, and Re-Horakhty), gods of healing or endurance (such as Apollo, Lugh, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Frigga).
 
 <table style="width:89%;">
 <caption>Life Domain Spells</caption>
@@ -3082,7 +3082,7 @@ Starting at 2nd level, you can push yourself beyond your normal limits for a mom
 
 ### Martial Archetype
 
-At 3rd level, you choose an archetype (see [Martial Archetypes](#section-martial-archetypes)) that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+At 3rd level, you choose an archetype (see "[Martial Archetypes](#section-martial-archetypes)") that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
 
 ### Ability Score Improvement
 
@@ -3400,7 +3400,7 @@ At 9th level, you gain the ability to move along vertical surfaces and across li
 
 ### Monastic Tradition
 
-When you reach 3rd level, you commit yourself to a monastic tradition (see [Monastic Traditions](#section-monastic-traditions)). Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
+When you reach 3rd level, you commit yourself to a monastic tradition (see "[Monastic Traditions](#section-monastic-traditions)"). Your tradition grants you features at 3rd level and again at 6th, 11th, and 17th level.
 
 ### Deflect Missiles
 
@@ -3941,7 +3941,7 @@ By 3rd level, the divine magic flowing through you makes you immune to disease.
 
 ### Sacred Oath
 
-When you reach 3rd level, you swear the oath (see [Sacred Oaths](#section-sacred-oaths)) that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose a sacred oath.
+When you reach 3rd level, you swear the oath (see "[Sacred Oaths](#section-sacred-oaths)") that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose a sacred oath.
 
 Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
 
@@ -4559,7 +4559,7 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 ### Ranger Archetype
 
-At 3rd level, you choose an archetype (see [Ranger Archetypes](#section-ranger-archetypes)) that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
+At 3rd level, you choose an archetype (see "[Ranger Archetypes](#section-ranger-archetypes)") that you strive to emulate. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.
 
 ### Primeval Awareness
 
@@ -4846,7 +4846,7 @@ Starting at 2nd level, your quick thinking and agility allow you to move and act
 
 ### Roguish Archetype
 
-At 3rd level, you choose an archetype (see [Roguish Archetypes](#section-roguish-archetypes)) that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+At 3rd level, you choose an archetype (see "[Roguish Archetypes](#section-roguish-archetypes)") that you emulate in the exercise of your rogue abilities. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
 
 ### Ability Score Improvement
 
@@ -5179,7 +5179,7 @@ You can use an arcane focus as a spellcasting focus for your sorcerer spells.
 
 ### Sorcerous Origin
 
-Choose a sorcerous origin (see [Sorcerous Origins](#section-sorcerous-origins)), which describes the source of your innate magical power.
+Choose a sorcerous origin (see "[Sorcerous Origins](#section-sorcerous-origins)"), which describes the source of your innate magical power.
 
 Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.
 
@@ -5768,7 +5768,7 @@ You can use an arcane focus as a spellcasting focus for your warlock spells.
 
 ### Eldritch Invocations
 
-In your study of occult lore, you have unearthed eldritch invocations (see [Eldritch Invocations](#section-eldritch-invocations)), fragments of forbidden knowledge that imbue you with an abiding magical ability.
+In your study of occult lore, you have unearthed eldritch invocations (see "[Eldritch Invocations](#section-eldritch-invocations)"), fragments of forbidden knowledge that imbue you with an abiding magical ability.
 
 At 2nd level, you gain two eldritch invocations of your choice. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
 
@@ -7065,7 +7065,7 @@ At the beginning of every combat, you roll initiative by making a Dexterity chec
 >
 > ***Passive Perception.*** When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14.
 >
-> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see [Adventuring](#chapter-adventuring)).
+> ***What Can You See?*** One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured (see "[Adventuring](#chapter-adventuring)").
 
 ### Constitution
 
@@ -8966,7 +8966,7 @@ A creature with truesight can, out to a specific range, see in normal and magica
 
 ### Food and Water
 
-Characters who don't eat or drink suffer the effects of exhaustion (see [Conditions](#section-conditions)). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
+Characters who don't eat or drink suffer the effects of exhaustion (see "[Conditions](#section-conditions)"). Exhaustion caused by lack of food or water can't be removed until the character eats and drinks the full required amount.
 
 #### Food
 
@@ -10042,7 +10042,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are exa
 
 ### Being Prone
 
-Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone (see [Conditions](#section-conditions)).
+Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone (see "[Conditions](#section-conditions)").
 
 You can **drop prone** without using any of your speed. **Standing up** takes more effort; doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
 
@@ -19694,7 +19694,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 ***Ammunition.*** You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
 
-If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see [Improvised Weapons](#improvised-weapons) later in the section). A sling must be loaded to deal any damage when used in this way.
+If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "[Improvised Weapons](#improvised-weapons)" later in the section). A sling must be loaded to deal any damage when used in this way.
 
 ***Finesse.*** When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.
 
@@ -19708,7 +19708,7 @@ If you use a weapon that has the ammunition property to make a melee attack, you
 
 ***Reach.*** This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it.
 
-***Special.*** A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see [Special Weapons](#special-weapons) later in this section).
+***Special.*** A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "[Special Weapons](#special-weapons)" later in this section).
 
 ***Thrown.*** If a weapon has the thrown property, you can throw the weapon to make a ranged attack. If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property.
 
@@ -24239,7 +24239,7 @@ Monster Construction
 
 ### Size
 
-A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. see [Movement and Position](#section-movement-and-position) for more information on creature size and space.
+A monster can be Tiny, Small, Medium, Large, Huge, or Gargantuan. The Size Categories table shows how much space a creature of a particular size controls in combat. see "[Movement and Position](#section-movement-and-position)" for more information on creature size and space.
 
 <table style="width:78%;">
 <caption>Size Categories</caption>
@@ -24333,7 +24333,7 @@ A monster might have one or more tags appended to its type, in parentheses. For 
 
 #### Alignment
 
-A monster's alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas a neutral monster might be willing to negotiate. see [Alignment](#section-alignment) for descriptions of the different alignments.
+A monster's alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas a neutral monster might be willing to negotiate. see "[Alignment](#section-alignment)" for descriptions of the different alignments.
 
 The alignment specified in a monster's stat block is the default. Feel free to depart from it and change a monster's alignment to suit the needs of your campaign. If you want a good-aligned green dragon or an evil storm giant, there's nothing stopping you.
 
@@ -24347,7 +24347,7 @@ A monster that wears armor or carries a shield has an Armor Class (AC) that take
 
 ### Hit Points
 
-A monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see [Damage and Healing](#section-damage-and-healing).
+A monster usually dies or is destroyed when it drops to 0 hit points. For more on hit points, see "[Damage and Healing](#section-damage-and-healing)".
 
 A monster's hit points are presented both as a die expression and as an average number. For example, a monster with 2d8 hit points has 9 hit points on average (2 × 4 1/2).
 
@@ -24405,7 +24405,7 @@ A monster's Constitution modifier also affects the number of hit points it has. 
 
 ### Speed
 
-A monster's speed tells you how far it can move on its turn. For more information on speed, see [Movement and Position](#section-movement-and-position).
+A monster's speed tells you how far it can move on its turn. For more information on speed, see "[Movement and Position](#section-movement-and-position)".
 
 All creatures have a walking speed, simply called the monster's speed. Creatures that have no form of ground-based locomotion have a walking speed of 0 feet.
 
@@ -24421,7 +24421,7 @@ A monster that has a climbing speed can use all or part of its movement to move 
 
 #### Fly
 
-A monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to hover, which makes them hard to knock out of the air (see [Movement and Position](#section-movement-and-position) for rules on flying). Such a monster stops hovering when it dies.
+A monster that has a flying speed can use all or part of its movement to fly. Some monsters have the ability to hover, which makes them hard to knock out of the air (see "[Movement and Position](#section-movement-and-position)" for rules on flying). Such a monster stops hovering when it dies.
 
 #### Swim
 
@@ -24429,7 +24429,7 @@ A monster that has a swimming speed doesn't need to spend extra movement to swim
 
 ### Ability Scores
 
-Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see [Using Ability Scores](#chapter-using-ability-scores).
+Every monster has six ability scores (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma) and corresponding modifiers. For more information on ability scores and how they're used in play, see "[Using Ability Scores](#chapter-using-ability-scores)".
 
 ### Saving Throws
 
@@ -24827,7 +24827,7 @@ A monster's innate spells can't be swapped out with other spells. If a monster's
 
 #### Spellcasting
 
-A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (see [Spellcasting](#chapter-spellcasting)). The spellcaster level is also used for any cantrips included in the feature.
+A monster with the Spellcasting special trait has a spellcaster level and spell slots, which it uses to cast its spells of 1st level and higher (see "[Spellcasting](#chapter-spellcasting)"). The spellcaster level is also used for any cantrips included in the feature.
 
 The monster has a list of spells known or prepared from a specific class. The list might also include spells from a feature in that class, such as the Divine Domain feature of the cleric or the Druid Circle feature of the druid. The monster is considered a member of that class when attuning to or using a magic item that requires membership in the class or access to its spell list.
 
@@ -24841,11 +24841,11 @@ A monster that casts spells using only the power of its mind has the psionics ta
 
 ### Actions
 
-When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action (see [Actions in Combat](#section-actions-in-combat)).
+When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action (see "[Actions in Combat](#section-actions-in-combat)").
 
 #### Melee and Ranged Attacks
 
-The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the "weapon" might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see [Making an Attack](#section-making-an-attack).
+The most common actions that a monster will take in combat are melee and ranged attacks. These can be spell attacks or weapon attacks, where the "weapon" might be a manufactured item or a natural weapon, such as a claw or tail spike. For more information on different kinds of attacks, see "[Making an Attack](#section-making-an-attack)".
 
 ***Creature vs. Target.*** The target of a melee or ranged attack is usually either one creature or one target, the difference being that a "target" can be a creature or an object.
 
