@@ -1,0 +1,153 @@
+/* Base styles (over Normalize.css) */
+html {
+  margin: 1em;
+  font-family: Alegreya, Georgia, Palatino, serif;
+}
+
+a {
+  color: darkred;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: darkred;
+  margin-bottom: 0.25em;
+}
+
+header h1 {
+  font-size: 2.25em;
+  text-align: center;
+  border-bottom: 2px burlywood solid;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid burlywood;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+/* Sidebar styles (as blockquotes) */
+blockquote {
+  background-color: beige;
+  padding: 0.5em;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+blockquote h4 {
+  margin-top: 0;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* Table styles */
+table {
+  margin-top: 0.5em;
+  width: 100% !important;
+  max-width: 750px !important;
+  border-bottom: 1px solid burlywood;
+}
+
+tr:first-child{
+  border-top: 1px solid burlywood;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+
+tr.header {
+  background-color: white;
+}
+
+td, th {
+  padding: 0 0.5em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+/* TOC collapsing list styles */
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  cursor: auto;
+  list-style-type: none;
+}
+
+nav ul li::before {
+  content: ' ';
+  padding-left: 2em;
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen,
+nav ul li.collapsibleListClosed {
+  cursor: pointer;
+  list-style-type: none;
+}
+
+nav ul li.collapsibleListOpen {
+  margin-left: 1px;
+}
+
+nav ul li.collapsibleListOpen::before {
+  content: '▼ ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListClosed::before {
+  content: '► ';
+  font-size: 0.75em;
+}
+
+nav ul li.collapsibleListOpen::before,
+nav ul li.collapsibleListClosed::before {
+  padding-left: 1em;
+}
+
+nav ul li a {
+  color: darkred;
+  text-decoration: none;
+}
+
+a#goToTop {
+  position: fixed;
+  right: 1em;
+  top: 1em;
+  width: 2em;
+  height: 2em;
+  background-color: rgba(80,0,0,0.2);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+  font-weight: bold;
+}
+
+/* Stat block styles */
+.creature-statblock {
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+.creature-statblock table {
+  width: auto !important;
+}

@@ -1,0 +1,157 @@
+/* Font styles */
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: normal;
+  src:url("AlegreyaSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: bold;
+  src:url("AlegreyaSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: italic;
+  font-weight: normal;
+  src:url("AlegreyaSans-Italic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: italic;
+  font-weight: bold;
+  src:url("AlegreyaSans-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: normal;
+  src:url("Alegreya-Regular.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: bold;
+  src:url("Alegreya-Bold.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: normal;
+  src:url("Alegreya-Italic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: bold;
+  src:url("Alegreya-BoldItalic.otf");
+}
+
+/* Base styles */
+html {
+  font-family: Alegreya, Georgia, Palatino, serif;
+}
+
+a {
+  color: darkred;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: darkred;
+  margin-bottom: 0.25em;
+}
+
+header h1 {
+  font-size: 2.25em;
+  text-align: center;
+  border-bottom: 2px burlywood solid;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid burlywood;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+/* Sidebar styles (as blockquotes) */
+blockquote {
+  background-color: beige;
+  padding: 0.5em;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+blockquote h4 {
+  margin-top: 0;
+}
+
+blockquote p,
+blockquote ol,
+blockquote ul {
+  margin-bottom: 0;
+}
+
+/* Table styles */
+table {
+  font-size: 0.75em;
+  margin-top: 0.5em;
+  width: 100% !important;
+  max-width: 750px !important;
+  border-bottom: 1px solid burlywood;
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+
+tr.header {
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
+  background-color: white;
+}
+
+td,
+th {
+  padding: 0 0.5em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+/* Stat block styles */
+.creature-statblock {
+  font-family: "Alegreya Sans", Helvetica, Arial, sans;
+}
+
+.creature-statblock table {
+  width: auto !important;
+}

@@ -1,0 +1,173 @@
+/* Font styles
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: normal;
+  src:url("../otf/AlegreyaSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: normal;
+  font-weight: bold;
+  src:url("../otf/AlegreyaSans-Bold.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: italic;
+  font-weight: normal;
+  src:url("../otf/AlegreyaSans-Italic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya Sans";
+  font-style: italic;
+  font-weight: bold;
+  src:url("../otf/AlegreyaSans-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: normal;
+  src:url("../otf/Alegreya-Regular.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: normal;
+  font-weight: bold;
+  src:url("../otf/Alegreya-Bold.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: normal;
+  src:url("../otf/Alegreya-Italic.otf");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  font-style: italic;
+  font-weight: bold;
+  src:url("../otf/Alegreya-BoldItalic.otf");
+}
+*/
+/* Base styles (over Normalize.css) */
+body {
+  font-family: Georgia, Palatino, serif;
+  font-size: 9pt;
+  line-height: 1.25;
+}
+
+a {
+  color: darkred;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Palatino, serif;
+  color: darkred;
+  margin-bottom: 0.25em;
+}
+
+header h1 {
+  font-size: 2.25em;
+  text-align: center;
+  border-bottom: 2px burlywood solid;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid burlywood;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+/* Sidebar styles (as blockquotes) */
+blockquote {
+  background-color: beige;
+  padding: 0.5em;
+  font-family: Helvetica, Arial, sans;
+}
+
+blockquote h4 {
+  margin-top: 0;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* Table styles */
+table {
+  font-family: Helvetica, Arial, sans;
+  margin-top: 0.5em;
+  width: 100% !important;
+  max-width: 750px !important;
+  border-bottom: 1px solid burlywood;
+}
+
+th {
+  border-top: 1px solid burlywood;
+  border-bottom: 1px solid burlywood;
+}
+
+tr:nth-child(even) {
+  background-color: beige;
+}
+
+tr.header {
+  background-color: white;
+}
+
+td, th {
+  padding: 0 0.5em;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-size: 1.25em;
+}
+
+/* PDF-specific */
+tfoot {
+  display: table-row-group;
+}
+
+tr {
+  page-break-inside: avoid;
+}
+
+/* Stat block styles */
+.creature-statblock,
+.creature-statblock h1,
+.creature-statblock h2,
+.creature-statblock h3,
+.creature-statblock h4,
+.creature-statblock h5 {
+  font-family: Helvetica, Arial, sans !important;
+}
+
+.creature-statblock table {
+  width: auto !important;
+}
