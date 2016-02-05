@@ -1,0 +1,213 @@
+<html>
+
+  <head>
+  
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.dynatable.js" type="text/javascript"></script>
+    <script src="mdsrd5_spells.js" type="text/javascript"></script>
+<!--    <script src="zot.js" type="text/javascript"></script> -->
+    <link rel="stylesheet" href="jquery.dynatable.css">
+    
+    <script type="text/javascript">
+      var spells = magic.spells;
+      
+      function spellAttributeWriter(record) {
+        // `this` is the column object in settings.columns
+        // TODO: automatically convert common types, such as arrays and objects, to string
+        var this_record = record[this.id];
+        var object_output = "";
+        var this_record_type = $.type(this_record);
+        if ( this_record_type === 'array' ) {
+          return this_record.join(', ');
+        } else if ( this_record === false ) {
+          return '--';
+        } else if ( this_record === true ) {
+          return '(ritual)';
+        } else if ( this_record_type === 'object' ) {
+          $.each(this_record, function(key, value) {
+            if ( ( value !== null ) && ( value !== false ) ) {
+              if ( $.type(value) === 'array' ) {
+                object_output += value.join(', ') + ' ';
+              } else if ( key === 'materials' ) {
+                object_output += '(' + value + ')';
+              } else if ( ( key == 'concentration' ) && ( value == true ) ) {
+                object_output = 'Concentration, up to ' + object_output + ' ';
+              } else {
+                object_output += value + ' ';
+              }
+            }
+          });
+          return object_output;
+        } else if ( this.label === 'Name' ) {
+          return '<a href="' + record.url + '">' + record.name + '</a>';
+        } else {
+          return this_record;
+        }
+      };
+
+      $( document ).ready(function() {
+        $('#results_table')
+          .bind('dynatable:init', function(e, dynatable) {
+            dynatable.queries.functions['query_classes'] = function(spell, queryValue) {
+              var is_class = spell.classes.filter(function(classes) { return classes.includes(queryValue); });
+              return is_class == queryValue;
+            };
+            dynatable.queries.functions['query_castingTime'] = function(spell, queryValue) {
+              var casting_time_unit = spell.castingTime.unit;
+              return casting_time_unit.includes(queryValue);
+            };
+            dynatable.queries.functions['query_duration'] = function(spell, queryValue) {
+              var duration_unit = spell.duration.unit;
+              return duration_unit.includes(queryValue);
+            };
+            dynatable.queries.functions['query_components'] = function(spell, queryValue) {
+              var components = spell.components.types.join();
+              return components.includes(queryValue);
+            };
+            dynatable.queries.functions['query_concentration'] = function(spell, queryValue) {
+              var requires_concentration = spell.duration.concentration;
+              return requires_concentration == queryValue;
+            };
+          })
+          .dynatable({
+            dataset: {
+              records: spells
+            },
+            writers: {
+              _attributeWriter: spellAttributeWriter
+            },
+            inputs: {
+              queryEvent: 'blur change keyup',
+              queries: $('.updates_table')
+            }
+          });
+      });
+    </script>
+    
+  </head>
+
+  <body>
+
+    <div id="query_selectors">
+      <div>
+        <label>Classes</label>
+        <select id="query_classes" class="updates_table" name="query_classes">
+          <option></option>
+          <option>Bard</option>
+          <option>Cleric</option>
+          <option>Druid</option>
+          <option>Paladin</option>
+          <option>Ranger</option>
+          <option>Sorcerer</option>
+          <option>Warlock</option>
+          <option>Wizard</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Level</label>
+        <select id="level" class="updates_table" name="level">
+          <option></option>
+          <option value="0">Cantrip</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+      </div>
+
+      <div>
+        <label>School</label>
+        <select id="school" class="updates_table" name="school">
+          <option></option>
+          <option value="abjuration">Abjuration</option>
+          <option value="conjuration">Conjuration</option>
+          <option value="divination">Divination</option>
+          <option value="enchantment">Enchantment</option>
+          <option value="evocation">Evocation</option>
+          <option value="illusion">Illusion</option>
+          <option value="necromancy">Necromancy</option>
+          <option value="transmutation">Transmutation</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Ritual</label>
+        <select id="ritual" class="updates_table" name="ritual">
+          <option></option>
+          <option value="1">True</option>
+          <option value="0">False</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Casting time</label>
+        <select id="query_castingTime" class="updates_table" name="query_castingTime">
+          <option></option>
+          <option>Instantaneous</option>
+          <option value="action">Actions</option>
+          <option value="minute">Minutes</option>
+          <option value="hour">Hours</option>
+          <option value="day">Days</option>
+          <option>Until dispelled</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Component types</label>
+        <select id="query_components" class="updates_table" name="query_components">
+          <option></option>
+          <option value="V">Verbal</option>
+          <option value="S">Somatic</option>
+          <option value="M">Material</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Duration</label>
+        <select id="query_duration" class="updates_table" name="query_duration">
+          <option></option>
+          <option>Instantaneous</option>
+          <option value="round">Rounds</option>
+          <option value="minute">Minutes</option>
+          <option value="hour">Hours</option>
+          <option value="day">Days</option>
+          <option value="triggered">Until triggered</option>
+          <option value="dispelled">Until dispelled</option>
+          <option>Special</option>
+        </select>
+      </div>
+      
+      <div>
+        <label>Concetration</label>
+        <select id="query_concentration" class="updates_table" name="query_concentration">
+          <option></option>
+          <option value="1">True</option>
+          <option value="0">False</option>
+        </select>
+      </div>
+    </div>
+
+    <table id="results_table">
+      <thead>
+        <th>Name</th>
+        <th>Classes</th>
+        <th>Level</th>
+        <th>School</th>
+        <th>Ritual</th>
+        <th>Casting Time</th>
+        <th>Components</th>
+        <th>Duration</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+  </body>
+  
+</html>
