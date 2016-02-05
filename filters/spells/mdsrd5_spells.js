@@ -25,7 +25,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Acid_Arrow.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Acid_Arrow.htm"
     },
     {
       "name": "Acid Splash",
@@ -52,7 +52,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Acid_Splash.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Acid_Splash.htm"
     },
     {
       "name": "Aid",
@@ -80,7 +80,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Aid.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Aid.htm"
     },
     {
       "name": "Alarm",
@@ -108,7 +108,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Alarm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Alarm.htm"
     },
     {
       "name": "Alter Self",
@@ -135,7 +135,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Alter_Self.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Alter_Self.htm"
     },
     {
       "name": "Animal Messenger",
@@ -164,7 +164,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Animal_Messenger.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Animal_Messenger.htm"
     },
     {
       "name": "Animal Shapes",
@@ -190,7 +190,7 @@ var magic = {
         "unit": "hours",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Animal_Shapes.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Animal_Shapes.htm"
     },
     {
       "name": "Animate Dead",
@@ -218,7 +218,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Animate_Dead.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Animate_Dead.htm"
     },
     {
       "name": "Animate Objects",
@@ -245,7 +245,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Animate_Objects.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Animate_Objects.htm"
     },
     {
       "name": "Antilife Shell",
@@ -271,7 +271,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Antilife_Shell.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Antilife_Shell.htm"
     },
     {
       "name": "Antimagic Field",
@@ -299,7 +299,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Antimagic_Field.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Antimagic_Field.htm"
     },
     {
       "name": "Antipathy/Sympathy",
@@ -327,7 +327,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Antipathy_Sympathy.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Antipathy_Sympathy.htm"
     },
     {
       "name": "Arcane Eye",
@@ -354,7 +354,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Arcane_Eye.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Arcane_Eye.htm"
     },
     {
       "name": "Arcane Hand",
@@ -381,7 +381,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Arcane_Hand.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Arcane_Hand.htm"
     },
     {
       "name": "Arcane Lock",
@@ -408,7 +408,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Arcane_Lock.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Arcane_Lock.htm"
     },
     {
       "name": "Arcane Sword",
@@ -436,7 +436,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Arcane_Sword.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Arcane_Sword.htm"
     },
     {
       "name": "Arcanist's Magic Aura",
@@ -463,7 +463,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Arcanist's_Magic_Aura.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Arcanist's_Magic_Aura.htm"
     },
     {
       "name": "Astral Projection",
@@ -492,7 +492,7 @@ var magic = {
         "unit": "Special",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Astral_Projection.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Astral_Projection.htm"
     },
     {
       "name": "Augury",
@@ -519,7 +519,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Augury.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Augury.htm"
     },
     {
       "name": "Awaken",
@@ -547,7 +547,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Awaken.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Awaken.htm"
     },
     {
       "name": "Bane",
@@ -575,7 +575,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Bane.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Bane.htm"
     },
     {
       "name": "Banishment",
@@ -606,7 +606,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Banishment.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Banishment.htm"
     },
     {
       "name": "Barkskin",
@@ -634,7 +634,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Barkskin.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Barkskin.htm"
     },
     {
       "name": "Beacon of Hope",
@@ -660,7 +660,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Beacon_of_Hope.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Beacon_of_Hope.htm"
     },
     {
       "name": "Bestow Curse",
@@ -688,7 +688,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Bestow_Curse.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Bestow_Curse.htm"
     },
     {
       "name": "Black Tentacles",
@@ -715,7 +715,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Black_Tentacles.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Black_Tentacles.htm"
     },
     {
       "name": "Blade Barrier",
@@ -741,7 +741,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Blade_Barrier.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Blade_Barrier.htm"
     },
     {
       "name": "Bless",
@@ -769,7 +769,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Bless.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Bless.htm"
     },
     {
       "name": "Blight",
@@ -798,7 +798,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Blight.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Blight.htm"
     },
     {
       "name": "Blindness/Deafness",
@@ -826,7 +826,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Blindness_Deafness.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Blindness_Deafness.htm"
     },
     {
       "name": "Blink",
@@ -853,7 +853,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Blink.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Blink.htm"
     },
     {
       "name": "Blur",
@@ -879,7 +879,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Blur.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Blur.htm"
     },
     {
       "name": "Burning Hands",
@@ -906,7 +906,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Burning_Hands.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Burning_Hands.htm"
     },
     {
       "name": "Call Lightning",
@@ -932,7 +932,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Call_Lightning.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Call_Lightning.htm"
     },
     {
       "name": "Calm Emotions",
@@ -959,7 +959,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Calm_Emotions.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Calm_Emotions.htm"
     },
     {
       "name": "Chain Lightning",
@@ -987,7 +987,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Chain_Lightning.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Chain_Lightning.htm"
     },
     {
       "name": "Charm Person",
@@ -1017,7 +1017,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Charm_Person.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Charm_Person.htm"
     },
     {
       "name": "Chill Touch",
@@ -1045,7 +1045,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Chill_Touch.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Chill_Touch.htm"
     },
     {
       "name": "Circle of Death",
@@ -1074,7 +1074,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Circle_of_Death.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Circle_of_Death.htm"
     },
     {
       "name": "Clairvoyance",
@@ -1104,7 +1104,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Clairvoyance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Clairvoyance.htm"
     },
     {
       "name": "Clone",
@@ -1131,7 +1131,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Clone.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Clone.htm"
     },
     {
       "name": "Cloudkill",
@@ -1158,7 +1158,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Cloudkill.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Cloudkill.htm"
     },
     {
       "name": "Color Spray",
@@ -1186,7 +1186,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Color_Spray.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Color_Spray.htm"
     },
     {
       "name": "Command",
@@ -1212,7 +1212,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Command.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Command.htm"
     },
     {
       "name": "Commune",
@@ -1241,7 +1241,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Commune.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Commune.htm"
     },
     {
       "name": "Commune with Nature",
@@ -1268,7 +1268,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Commune_with_Nature.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Commune_with_Nature.htm"
     },
     {
       "name": "Comprehend Languages",
@@ -1298,7 +1298,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Comprehend_Languages.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Comprehend_Languages.htm"
     },
     {
       "name": "Cone of Cold",
@@ -1326,7 +1326,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Cone_of_Cold.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Cone_of_Cold.htm"
     },
     {
       "name": "Confusion",
@@ -1356,7 +1356,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Confusion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Confusion.htm"
     },
     {
       "name": "Conjure Animals",
@@ -1383,7 +1383,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Animals.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Animals.htm"
     },
     {
       "name": "Conjure Celestial",
@@ -1409,7 +1409,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Celestial.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Celestial.htm"
     },
     {
       "name": "Conjure Elemental",
@@ -1437,7 +1437,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Elemental.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Elemental.htm"
     },
     {
       "name": "Conjure Fey",
@@ -1464,7 +1464,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Fey.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Fey.htm"
     },
     {
       "name": "Conjure Minor Elementals",
@@ -1491,7 +1491,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Minor_Elementals.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Minor_Elementals.htm"
     },
     {
       "name": "Conjure Woodland Beings",
@@ -1519,7 +1519,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Conjure_Woodland_Beings.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Conjure_Woodland_Beings.htm"
     },
     {
       "name": "Contact Other Plane",
@@ -1545,7 +1545,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Contact_Other_Plane.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Contact_Other_Plane.htm"
     },
     {
       "name": "Contagion",
@@ -1571,7 +1571,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Contagion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Contagion.htm"
     },
     {
       "name": "Contingency",
@@ -1598,7 +1598,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Contingency.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Contingency.htm"
     },
     {
       "name": "Continual Flame",
@@ -1626,7 +1626,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Continual_Flame.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Continual_Flame.htm"
     },
     {
       "name": "Control Water",
@@ -1655,7 +1655,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Control_Water.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Control_Water.htm"
     },
     {
       "name": "Control Weather",
@@ -1684,7 +1684,7 @@ var magic = {
         "unit": "hours",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Control_Weather.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Control_Weather.htm"
     },
     {
       "name": "Create Food and Water",
@@ -1711,7 +1711,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Create_Food_and_Water.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Create_Food_and_Water.htm"
     },
     {
       "name": "Create Undead",
@@ -1740,7 +1740,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Create_Undead.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Create_Undead.htm"
     },
     {
       "name": "Create or Destroy Water",
@@ -1768,7 +1768,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Create_or_Destroy_Water.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Create_or_Destroy_Water.htm"
     },
     {
       "name": "Creation",
@@ -1796,7 +1796,7 @@ var magic = {
         "unit": "Special",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Creation.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Creation.htm"
     },
     {
       "name": "Cure Wounds",
@@ -1829,7 +1829,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Cure_Wounds.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Cure_Wounds.htm"
     },
     {
       "name": "Dancing Lights",
@@ -1858,7 +1858,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Dancing_Lights.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dancing_Lights.htm"
     },
     {
       "name": "Darkness",
@@ -1886,7 +1886,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Darkness.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Darkness.htm"
     },
     {
       "name": "Darkvision",
@@ -1916,7 +1916,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Darkvision.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Darkvision.htm"
     },
     {
       "name": "Daylight",
@@ -1946,7 +1946,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Daylight.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Daylight.htm"
     },
     {
       "name": "Death Ward",
@@ -1973,7 +1973,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Death_Ward.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Death_Ward.htm"
     },
     {
       "name": "Delayed Blast Fireball",
@@ -2001,7 +2001,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Delayed_Blast_Fireball.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Delayed_Blast_Fireball.htm"
     },
     {
       "name": "Demiplane",
@@ -2027,7 +2027,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Demiplane.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Demiplane.htm"
     },
     {
       "name": "Detect Evil and Good",
@@ -2054,7 +2054,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Detect_Evil_and_Good.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Detect_Evil_and_Good.htm"
     },
     {
       "name": "Detect Magic",
@@ -2086,7 +2086,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Detect_Magic.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Detect_Magic.htm"
     },
     {
       "name": "Detect Poison and Disease",
@@ -2116,7 +2116,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Detect_Poison_and_Disease.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Detect_Poison_and_Disease.htm"
     },
     {
       "name": "Detect Thoughts",
@@ -2145,7 +2145,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Detect_Thoughts.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Detect_Thoughts.htm"
     },
     {
       "name": "Dimension Door",
@@ -2173,7 +2173,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Dimension_Door.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dimension_Door.htm"
     },
     {
       "name": "Disguise Self",
@@ -2201,7 +2201,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Disguise_Self.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Disguise_Self.htm"
     },
     {
       "name": "Disintegrate",
@@ -2229,7 +2229,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Disintegrate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Disintegrate.htm"
     },
     {
       "name": "Dispel Evil and Good",
@@ -2257,7 +2257,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Dispel_Evil_and_Good.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dispel_Evil_and_Good.htm"
     },
     {
       "name": "Dispel Magic",
@@ -2289,7 +2289,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Dispel_Magic.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dispel_Magic.htm"
     },
     {
       "name": "Divination",
@@ -2316,7 +2316,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Divination.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Divination.htm"
     },
     {
       "name": "Divine Favor",
@@ -2342,7 +2342,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Divine_Favor.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Divine_Favor.htm"
     },
     {
       "name": "Divine Word",
@@ -2367,7 +2367,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Divine_Word.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Divine_Word.htm"
     },
     {
       "name": "Dominate Beast",
@@ -2394,7 +2394,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Dominate_Beast.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dominate_Beast.htm"
     },
     {
       "name": "Dominate Monster",
@@ -2423,7 +2423,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Dominate_Monster.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dominate_Monster.htm"
     },
     {
       "name": "Dominate Person",
@@ -2451,7 +2451,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Dominate_Person.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dominate_Person.htm"
     },
     {
       "name": "Dream",
@@ -2480,7 +2480,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Dream.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Dream.htm"
     },
     {
       "name": "Earthquake",
@@ -2509,7 +2509,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Earthquake.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Earthquake.htm"
     },
     {
       "name": "Enhance Ability",
@@ -2539,7 +2539,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Enhance_Ability.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Enhance_Ability.htm"
     },
     {
       "name": "Enlarge/Reduce",
@@ -2567,7 +2567,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Enlarge_Reduce.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Enlarge_Reduce.htm"
     },
     {
       "name": "Entangle",
@@ -2593,7 +2593,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Entangle.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Entangle.htm"
     },
     {
       "name": "Enthrall",
@@ -2620,7 +2620,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Enthrall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Enthrall.htm"
     },
     {
       "name": "Etherealness",
@@ -2650,7 +2650,7 @@ var magic = {
         "unit": "Up to 8 hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Etherealness.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Etherealness.htm"
     },
     {
       "name": "Expeditious Retreat",
@@ -2678,7 +2678,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Expeditious_Retreat.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Expeditious_Retreat.htm"
     },
     {
       "name": "Eyebite",
@@ -2707,7 +2707,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Eyebite.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Eyebite.htm"
     },
     {
       "name": "Fabricate",
@@ -2733,7 +2733,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Fabricate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fabricate.htm"
     },
     {
       "name": "Faerie Fire",
@@ -2759,7 +2759,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Faerie_Fire.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Faerie_Fire.htm"
     },
     {
       "name": "Faithful Hound",
@@ -2786,7 +2786,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Faithful_Hound.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Faithful_Hound.htm"
     },
     {
       "name": "False Life",
@@ -2814,7 +2814,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/False_Life.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/False_Life.htm"
     },
     {
       "name": "Fear",
@@ -2844,7 +2844,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Fear.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fear.htm"
     },
     {
       "name": "Feather Fall",
@@ -2872,7 +2872,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Feather_Fall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Feather_Fall.htm"
     },
     {
       "name": "Feeblemind",
@@ -2902,7 +2902,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Feeblemind.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Feeblemind.htm"
     },
     {
       "name": "Find Steed",
@@ -2928,7 +2928,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Find_Steed.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Find_Steed.htm"
     },
     {
       "name": "Find Traps",
@@ -2956,7 +2956,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Find_Traps.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Find_Traps.htm"
     },
     {
       "name": "Find the Path",
@@ -2985,7 +2985,7 @@ var magic = {
         "unit": "day",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Find_the_Path.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Find_the_Path.htm"
     },
     {
       "name": "Finger of Death",
@@ -3013,7 +3013,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Finger_of_Death.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Finger_of_Death.htm"
     },
     {
       "name": "Fire Shield",
@@ -3040,7 +3040,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Fire_Shield.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fire_Shield.htm"
     },
     {
       "name": "Fire Storm",
@@ -3068,7 +3068,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Fire_Storm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fire_Storm.htm"
     },
     {
       "name": "Fireball",
@@ -3096,7 +3096,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Fireball.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fireball.htm"
     },
     {
       "name": "Flame Blade",
@@ -3123,7 +3123,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Flame_Blade.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Flame_Blade.htm"
     },
     {
       "name": "Flame Strike",
@@ -3150,7 +3150,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Flame_Strike.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Flame_Strike.htm"
     },
     {
       "name": "Flaming Sphere",
@@ -3178,7 +3178,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Flaming_Sphere.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Flaming_Sphere.htm"
     },
     {
       "name": "Flesh to Stone",
@@ -3206,7 +3206,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Flesh_to_Stone.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Flesh_to_Stone.htm"
     },
     {
       "name": "Floating Disk",
@@ -3233,7 +3233,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Floating_Disk.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Floating_Disk.htm"
     },
     {
       "name": "Fly",
@@ -3262,7 +3262,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Fly.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fly.htm"
     },
     {
       "name": "Fog Cloud",
@@ -3291,7 +3291,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Fog_Cloud.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Fog_Cloud.htm"
     },
     {
       "name": "Forbiddance",
@@ -3318,7 +3318,7 @@ var magic = {
         "unit": "day",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Forbiddance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Forbiddance.htm"
     },
     {
       "name": "Forcecage",
@@ -3347,7 +3347,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Forcecage.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Forcecage.htm"
     },
     {
       "name": "Foresight",
@@ -3377,7 +3377,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Foresight.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Foresight.htm"
     },
     {
       "name": "Freedom of Movement",
@@ -3407,7 +3407,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Freedom_of_Movement.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Freedom_of_Movement.htm"
     },
     {
       "name": "Freezing Sphere",
@@ -3434,7 +3434,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Freezing_Sphere.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Freezing_Sphere.htm"
     },
     {
       "name": "Gaseous Form",
@@ -3463,7 +3463,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Gaseous_Form.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Gaseous_Form.htm"
     },
     {
       "name": "Gate",
@@ -3492,7 +3492,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Gate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Gate.htm"
     },
     {
       "name": "Geas",
@@ -3521,7 +3521,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Geas.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Geas.htm"
     },
     {
       "name": "Gentle Repose",
@@ -3549,7 +3549,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Gentle_Repose.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Gentle_Repose.htm"
     },
     {
       "name": "Giant Insect",
@@ -3575,7 +3575,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Giant_Insect.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Giant_Insect.htm"
     },
     {
       "name": "Glibness",
@@ -3601,7 +3601,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Glibness.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Glibness.htm"
     },
     {
       "name": "Globe of Invulnerability",
@@ -3629,7 +3629,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Globe_of_Invulnerability.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Globe_of_Invulnerability.htm"
     },
     {
       "name": "Glyph of Warding",
@@ -3658,7 +3658,7 @@ var magic = {
         "unit": "Until dispelled or triggered",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Glyph_of_Warding.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Glyph_of_Warding.htm"
     },
     {
       "name": "Grease",
@@ -3685,7 +3685,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Grease.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Grease.htm"
     },
     {
       "name": "Greater Invisibility",
@@ -3713,7 +3713,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Greater_Invisibility.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Greater_Invisibility.htm"
     },
     {
       "name": "Greater Restoration",
@@ -3742,7 +3742,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Greater_Restoration.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Greater_Restoration.htm"
     },
     {
       "name": "Guards and Wards",
@@ -3770,7 +3770,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Guards_and_Wards.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Guards_and_Wards.htm"
     },
     {
       "name": "Guidance",
@@ -3797,7 +3797,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Guidance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Guidance.htm"
     },
     {
       "name": "Guiding Bolt",
@@ -3823,7 +3823,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Guiding_Bolt.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Guiding_Bolt.htm"
     },
     {
       "name": "Gust of Wind",
@@ -3852,7 +3852,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Gust_of_Wind.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Gust_of_Wind.htm"
     },
     {
       "name": "Hallow",
@@ -3879,7 +3879,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Hallow.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hallow.htm"
     },
     {
       "name": "Hallucinatory Terrain",
@@ -3909,7 +3909,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Hallucinatory_Terrain.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hallucinatory_Terrain.htm"
     },
     {
       "name": "Harm",
@@ -3935,7 +3935,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Harm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Harm.htm"
     },
     {
       "name": "Haste",
@@ -3963,7 +3963,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Haste.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Haste.htm"
     },
     {
       "name": "Heal",
@@ -3996,7 +3996,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Heal.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Heal.htm"
     },
     {
       "name": "Healing Word",
@@ -4024,7 +4024,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Healing_Word.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Healing_Word.htm"
     },
     {
       "name": "Heat Metal",
@@ -4052,7 +4052,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Heat_Metal.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Heat_Metal.htm"
     },
     {
       "name": "Heroes' Feast",
@@ -4080,7 +4080,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Heroes'_Feast.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Heroes'_Feast.htm"
     },
     {
       "name": "Heroism",
@@ -4107,7 +4107,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Heroism.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Heroism.htm"
     },
     {
       "name": "Hideous Laughter",
@@ -4135,7 +4135,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Hideous_Laughter.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hideous_Laughter.htm"
     },
     {
       "name": "Hold Monster",
@@ -4165,7 +4165,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Hold_Monster.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hold_Monster.htm"
     },
     {
       "name": "Hold Person",
@@ -4197,7 +4197,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Hold_Person.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hold_Person.htm"
     },
     {
       "name": "Holy Aura",
@@ -4224,7 +4224,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Holy_Aura.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Holy_Aura.htm"
     },
     {
       "name": "Hypnotic Pattern",
@@ -4253,7 +4253,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Hypnotic_Pattern.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Hypnotic_Pattern.htm"
     },
     {
       "name": "Ice Storm",
@@ -4282,7 +4282,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Ice_Storm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Ice_Storm.htm"
     },
     {
       "name": "Identify",
@@ -4310,7 +4310,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Identify.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Identify.htm"
     },
     {
       "name": "Illusory Script",
@@ -4338,7 +4338,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Illusory_Script.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Illusory_Script.htm"
     },
     {
       "name": "Imprisonment",
@@ -4366,7 +4366,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Imprisonment.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Imprisonment.htm"
     },
     {
       "name": "Incendiary Cloud",
@@ -4393,7 +4393,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Incendiary_Cloud.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Incendiary_Cloud.htm"
     },
     {
       "name": "Inflict Wounds",
@@ -4419,7 +4419,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Inflict_Wounds.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Inflict_Wounds.htm"
     },
     {
       "name": "Insect Plague",
@@ -4448,7 +4448,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Insect_Plague.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Insect_Plague.htm"
     },
     {
       "name": "Instant Summons",
@@ -4475,7 +4475,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Instant_Summons.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Instant_Summons.htm"
     },
     {
       "name": "Invisibility",
@@ -4511,7 +4511,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Invisibility.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Invisibility.htm"
     },
     {
       "name": "Irresistible Dance",
@@ -4537,7 +4537,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Irresistible_Dance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Irresistible_Dance.htm"
     },
     {
       "name": "Jump",
@@ -4567,7 +4567,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Jump.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Jump.htm"
     },
     {
       "name": "Knock",
@@ -4594,7 +4594,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Knock.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Knock.htm"
     },
     {
       "name": "Legend Lore",
@@ -4623,7 +4623,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Legend_Lore.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Legend_Lore.htm"
     },
     {
       "name": "Lesser Restoration",
@@ -4653,7 +4653,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Lesser_Restoration.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Lesser_Restoration.htm"
     },
     {
       "name": "Levitate",
@@ -4681,7 +4681,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Levitate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Levitate.htm"
     },
     {
       "name": "Light",
@@ -4711,7 +4711,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Light.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Light.htm"
     },
     {
       "name": "Lightning Bolt",
@@ -4739,7 +4739,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Lightning_Bolt.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Lightning_Bolt.htm"
     },
     {
       "name": "Locate Animals or Plants",
@@ -4768,7 +4768,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Locate_Animals_or_Plants.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Locate_Animals_or_Plants.htm"
     },
     {
       "name": "Locate Creature",
@@ -4800,7 +4800,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Locate_Creature.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Locate_Creature.htm"
     },
     {
       "name": "Locate Object",
@@ -4832,7 +4832,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Locate_Object.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Locate_Object.htm"
     },
     {
       "name": "Longstrider",
@@ -4862,7 +4862,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Longstrider.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Longstrider.htm"
     },
     {
       "name": "Mage Armor",
@@ -4890,7 +4890,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mage_Armor.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mage_Armor.htm"
     },
     {
       "name": "Mage Hand",
@@ -4919,7 +4919,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mage_Hand.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mage_Hand.htm"
     },
     {
       "name": "Magic Circle",
@@ -4949,7 +4949,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Magic_Circle.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magic_Circle.htm"
     },
     {
       "name": "Magic Jar",
@@ -4976,7 +4976,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Magic_Jar.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magic_Jar.htm"
     },
     {
       "name": "Magic Missile",
@@ -5003,7 +5003,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Magic_Missile.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magic_Missile.htm"
     },
     {
       "name": "Magic Mouth",
@@ -5031,7 +5031,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Magic_Mouth.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magic_Mouth.htm"
     },
     {
       "name": "Magic Weapon",
@@ -5058,7 +5058,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Magic_Weapon.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magic_Weapon.htm"
     },
     {
       "name": "Magnificent Mansion",
@@ -5086,7 +5086,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Magnificent_Mansion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Magnificent_Mansion.htm"
     },
     {
       "name": "Major Image",
@@ -5116,7 +5116,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Major_Image.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Major_Image.htm"
     },
     {
       "name": "Mass Cure Wounds",
@@ -5144,7 +5144,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mass_Cure_Wounds.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mass_Cure_Wounds.htm"
     },
     {
       "name": "Mass Heal",
@@ -5171,7 +5171,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mass_Heal.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mass_Heal.htm"
     },
     {
       "name": "Mass Healing Word",
@@ -5196,7 +5196,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mass_Healing_Word.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mass_Healing_Word.htm"
     },
     {
       "name": "Mass Suggestion",
@@ -5225,7 +5225,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mass_Suggestion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mass_Suggestion.htm"
     },
     {
       "name": "Maze",
@@ -5251,7 +5251,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Maze.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Maze.htm"
     },
     {
       "name": "Meld into Stone",
@@ -5278,7 +5278,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Meld_into_Stone.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Meld_into_Stone.htm"
     },
     {
       "name": "Mending",
@@ -5309,7 +5309,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mending.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mending.htm"
     },
     {
       "name": "Message",
@@ -5338,7 +5338,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Message.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Message.htm"
     },
     {
       "name": "Meteor Swarm",
@@ -5365,7 +5365,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Meteor_Swarm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Meteor_Swarm.htm"
     },
     {
       "name": "Mind Blank",
@@ -5392,7 +5392,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mind_Blank.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mind_Blank.htm"
     },
     {
       "name": "Minor Illusion",
@@ -5421,7 +5421,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Minor_Illusion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Minor_Illusion.htm"
     },
     {
       "name": "Mirage Arcane",
@@ -5449,7 +5449,7 @@ var magic = {
         "unit": "days",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mirage_Arcane.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mirage_Arcane.htm"
     },
     {
       "name": "Mirror Image",
@@ -5477,7 +5477,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Mirror_Image.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mirror_Image.htm"
     },
     {
       "name": "Mislead",
@@ -5503,7 +5503,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Mislead.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Mislead.htm"
     },
     {
       "name": "Misty Step",
@@ -5530,7 +5530,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Misty_Step.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Misty_Step.htm"
     },
     {
       "name": "Modify Memory",
@@ -5557,7 +5557,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Modify_Memory.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Modify_Memory.htm"
     },
     {
       "name": "Moonbeam",
@@ -5584,7 +5584,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Moonbeam.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Moonbeam.htm"
     },
     {
       "name": "Move Earth",
@@ -5613,7 +5613,7 @@ var magic = {
         "unit": "hours",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Move_Earth.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Move_Earth.htm"
     },
     {
       "name": "Nondetection",
@@ -5642,7 +5642,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Nondetection.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Nondetection.htm"
     },
     {
       "name": "Pass without Trace",
@@ -5670,7 +5670,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Pass_without_Trace.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Pass_without_Trace.htm"
     },
     {
       "name": "Passwall",
@@ -5697,7 +5697,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Passwall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Passwall.htm"
     },
     {
       "name": "Phantasmal Killer",
@@ -5723,7 +5723,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Phantasmal_Killer.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Phantasmal_Killer.htm"
     },
     {
       "name": "Phantom Steed",
@@ -5749,7 +5749,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Phantom_Steed.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Phantom_Steed.htm"
     },
     {
       "name": "Planar Ally",
@@ -5775,7 +5775,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Planar_Ally.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Planar_Ally.htm"
     },
     {
       "name": "Planar Binding",
@@ -5805,7 +5805,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Planar_Binding.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Planar_Binding.htm"
     },
     {
       "name": "Plane Shift",
@@ -5836,7 +5836,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Plane_Shift.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Plane_Shift.htm"
     },
     {
       "name": "Plant Growth",
@@ -5864,7 +5864,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Plant_Growth.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Plant_Growth.htm"
     },
     {
       "name": "Polymorph",
@@ -5895,7 +5895,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Polymorph.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Polymorph.htm"
     },
     {
       "name": "Power Word Kill",
@@ -5923,7 +5923,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Power_Word_Kill.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Power_Word_Kill.htm"
     },
     {
       "name": "Power Word Stun",
@@ -5951,7 +5951,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Power_Word_Stun.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Power_Word_Stun.htm"
     },
     {
       "name": "Prayer of Healing",
@@ -5976,7 +5976,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Prayer_of_Healing.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Prayer_of_Healing.htm"
     },
     {
       "name": "Prestidigitation",
@@ -6005,7 +6005,7 @@ var magic = {
         "unit": "Up to 1 hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Prestidigitation.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Prestidigitation.htm"
     },
     {
       "name": "Prismatic Spray",
@@ -6032,7 +6032,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Prismatic_Spray.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Prismatic_Spray.htm"
     },
     {
       "name": "Prismatic Wall",
@@ -6058,7 +6058,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Prismatic_Wall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Prismatic_Wall.htm"
     },
     {
       "name": "Private Sanctum",
@@ -6085,7 +6085,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Private_Sanctum.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Private_Sanctum.htm"
     },
     {
       "name": "Produce Flame",
@@ -6111,7 +6111,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Produce_Flame.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Produce_Flame.htm"
     },
     {
       "name": "Programmed Illusion",
@@ -6139,7 +6139,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Programmed_Illusion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Programmed_Illusion.htm"
     },
     {
       "name": "Project Image",
@@ -6167,7 +6167,7 @@ var magic = {
         "unit": "day",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Project_Image.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Project_Image.htm"
     },
     {
       "name": "Protection from Energy",
@@ -6197,7 +6197,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Protection_from_Energy.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Protection_from_Energy.htm"
     },
     {
       "name": "Protection from Evil and Good",
@@ -6227,7 +6227,7 @@ var magic = {
         "unit": "",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Protection_from_Evil_and_Good.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Protection_from_Evil_and_Good.htm"
     },
     {
       "name": "Protection from Poison",
@@ -6256,7 +6256,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Protection_from_Poison.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Protection_from_Poison.htm"
     },
     {
       "name": "Purify Food and Drink",
@@ -6284,7 +6284,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Purify_Food_and_Drink.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Purify_Food_and_Drink.htm"
     },
     {
       "name": "Raise Dead",
@@ -6313,7 +6313,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Raise_Dead.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Raise_Dead.htm"
     },
     {
       "name": "Ray of Enfeeblement",
@@ -6340,7 +6340,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Ray_of_Enfeeblement.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Ray_of_Enfeeblement.htm"
     },
     {
       "name": "Ray of Frost",
@@ -6367,7 +6367,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Ray_of_Frost.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Ray_of_Frost.htm"
     },
     {
       "name": "Regenerate",
@@ -6396,7 +6396,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Regenerate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Regenerate.htm"
     },
     {
       "name": "Reincarnate",
@@ -6423,7 +6423,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Reincarnate.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Reincarnate.htm"
     },
     {
       "name": "Remove Curse",
@@ -6452,7 +6452,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Remove_Curse.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Remove_Curse.htm"
     },
     {
       "name": "Resilient Sphere",
@@ -6479,7 +6479,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Resilient_Sphere.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Resilient_Sphere.htm"
     },
     {
       "name": "Resistance",
@@ -6507,7 +6507,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Resistance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Resistance.htm"
     },
     {
       "name": "Resurrection",
@@ -6537,7 +6537,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Resurrection.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Resurrection.htm"
     },
     {
       "name": "Reverse Gravity",
@@ -6566,7 +6566,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Reverse_Gravity.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Reverse_Gravity.htm"
     },
     {
       "name": "Revivify",
@@ -6594,7 +6594,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Revivify.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Revivify.htm"
     },
     {
       "name": "Rope Trick",
@@ -6621,7 +6621,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Rope_Trick.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Rope_Trick.htm"
     },
     {
       "name": "Sacred Flame",
@@ -6647,7 +6647,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sacred_Flame.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sacred_Flame.htm"
     },
     {
       "name": "Sanctuary",
@@ -6674,7 +6674,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sanctuary.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sanctuary.htm"
     },
     {
       "name": "Scorching Ray",
@@ -6701,7 +6701,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Scorching_Ray.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Scorching_Ray.htm"
     },
     {
       "name": "Scrying",
@@ -6732,7 +6732,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Scrying.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Scrying.htm"
     },
     {
       "name": "Secret Chest",
@@ -6759,7 +6759,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Secret_Chest.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Secret_Chest.htm"
     },
     {
       "name": "See Invisibility",
@@ -6788,7 +6788,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/See_Invisibility.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/See_Invisibility.htm"
     },
     {
       "name": "Seeming",
@@ -6816,7 +6816,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Seeming.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Seeming.htm"
     },
     {
       "name": "Sending",
@@ -6845,7 +6845,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sending.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sending.htm"
     },
     {
       "name": "Sequester",
@@ -6872,7 +6872,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sequester.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sequester.htm"
     },
     {
       "name": "Shapechange",
@@ -6900,7 +6900,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Shapechange.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shapechange.htm"
     },
     {
       "name": "Shatter",
@@ -6930,7 +6930,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Shatter.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shatter.htm"
     },
     {
       "name": "Shield",
@@ -6960,7 +6960,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Shield.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shield.htm"
     },
     {
       "name": "Shield of Faith",
@@ -6988,7 +6988,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Shield_of_Faith.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shield_of_Faith.htm"
     },
     {
       "name": "Shillelagh",
@@ -7015,7 +7015,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Shillelagh.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shillelagh.htm"
     },
     {
       "name": "Shocking Grasp",
@@ -7042,7 +7042,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Shocking_Grasp.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Shocking_Grasp.htm"
     },
     {
       "name": "Silence",
@@ -7070,7 +7070,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Silence.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Silence.htm"
     },
     {
       "name": "Silent Image",
@@ -7099,7 +7099,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Silent_Image.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Silent_Image.htm"
     },
     {
       "name": "Simulacrum",
@@ -7126,7 +7126,7 @@ var magic = {
         "unit": "Until dispelled",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Simulacrum.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Simulacrum.htm"
     },
     {
       "name": "Sleep",
@@ -7155,7 +7155,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sleep.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sleep.htm"
     },
     {
       "name": "Sleet Storm",
@@ -7184,7 +7184,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Sleet_Storm.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sleet_Storm.htm"
     },
     {
       "name": "Slow",
@@ -7212,7 +7212,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Slow.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Slow.htm"
     },
     {
       "name": "Speak with Animals",
@@ -7240,7 +7240,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Speak_with_Animals.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Speak_with_Animals.htm"
     },
     {
       "name": "Speak with Dead",
@@ -7268,7 +7268,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Speak_with_Dead.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Speak_with_Dead.htm"
     },
     {
       "name": "Speak with Plants",
@@ -7296,7 +7296,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Speak_with_Plants.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Speak_with_Plants.htm"
     },
     {
       "name": "Spider Climb",
@@ -7325,7 +7325,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Spider_Climb.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Spider_Climb.htm"
     },
     {
       "name": "Spike Growth",
@@ -7353,7 +7353,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Spike_Growth.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Spike_Growth.htm"
     },
     {
       "name": "Spirit Guardians",
@@ -7380,7 +7380,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Spirit_Guardians.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Spirit_Guardians.htm"
     },
     {
       "name": "Spiritual Weapon",
@@ -7406,7 +7406,7 @@ var magic = {
         "unit": "minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Spiritual_Weapon.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Spiritual_Weapon.htm"
     },
     {
       "name": "Stinking Cloud",
@@ -7435,7 +7435,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Stinking_Cloud.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Stinking_Cloud.htm"
     },
     {
       "name": "Stone Shape",
@@ -7464,7 +7464,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Stone_Shape.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Stone_Shape.htm"
     },
     {
       "name": "Stoneskin",
@@ -7494,7 +7494,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Stoneskin.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Stoneskin.htm"
     },
     {
       "name": "Storm of Vengeance",
@@ -7520,7 +7520,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Storm_of_Vengeance.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Storm_of_Vengeance.htm"
     },
     {
       "name": "Suggestion",
@@ -7549,7 +7549,7 @@ var magic = {
         "unit": "hours",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Suggestion.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Suggestion.htm"
     },
     {
       "name": "Sunbeam",
@@ -7578,7 +7578,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Sunbeam.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sunbeam.htm"
     },
     {
       "name": "Sunburst",
@@ -7607,7 +7607,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Sunburst.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Sunburst.htm"
     },
     {
       "name": "Symbol",
@@ -7636,7 +7636,7 @@ var magic = {
         "unit": "Until dispelled or triggered",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Symbol.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Symbol.htm"
     },
     {
       "name": "Telekinesis",
@@ -7663,7 +7663,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Telekinesis.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Telekinesis.htm"
     },
     {
       "name": "Telepathic Bond",
@@ -7690,7 +7690,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Telepathic_Bond.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Telepathic_Bond.htm"
     },
     {
       "name": "Teleport",
@@ -7717,7 +7717,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Teleport.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Teleport.htm"
     },
     {
       "name": "Teleportation Circle",
@@ -7745,7 +7745,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Teleportation_Circle.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Teleportation_Circle.htm"
     },
     {
       "name": "Thaumaturgy",
@@ -7770,7 +7770,7 @@ var magic = {
         "unit": "Up to 1 minute",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Thaumaturgy.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Thaumaturgy.htm"
     },
     {
       "name": "Thunderwave",
@@ -7799,7 +7799,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Thunderwave.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Thunderwave.htm"
     },
     {
       "name": "Time Stop",
@@ -7825,7 +7825,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Time_Stop.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Time_Stop.htm"
     },
     {
       "name": "Tiny Hut",
@@ -7853,7 +7853,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Tiny_Hut.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Tiny_Hut.htm"
     },
     {
       "name": "Tongues",
@@ -7883,7 +7883,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Tongues.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Tongues.htm"
     },
     {
       "name": "Transport via Plants",
@@ -7909,7 +7909,7 @@ var magic = {
         "unit": "round",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Transport_via_Plants.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Transport_via_Plants.htm"
     },
     {
       "name": "Tree Stride",
@@ -7936,7 +7936,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Tree_Stride.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Tree_Stride.htm"
     },
     {
       "name": "True Polymorph",
@@ -7965,7 +7965,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/True_Polymorph.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/True_Polymorph.htm"
     },
     {
       "name": "True Resurrection",
@@ -7993,7 +7993,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/True_Resurrection.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/True_Resurrection.htm"
     },
     {
       "name": "True Seeing",
@@ -8024,7 +8024,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/True_Seeing.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/True_Seeing.htm"
     },
     {
       "name": "True Strike",
@@ -8052,7 +8052,7 @@ var magic = {
         "unit": "round",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/True_Strike.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/True_Strike.htm"
     },
     {
       "name": "Unseen Servant",
@@ -8081,7 +8081,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Unseen_Servant.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Unseen_Servant.htm"
     },
     {
       "name": "Vampiric Touch",
@@ -8108,7 +8108,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Vampiric_Touch.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Vampiric_Touch.htm"
     },
     {
       "name": "Wall of Fire",
@@ -8137,7 +8137,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wall_of_Fire.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wall_of_Fire.htm"
     },
     {
       "name": "Wall of Force",
@@ -8164,7 +8164,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wall_of_Force.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wall_of_Force.htm"
     },
     {
       "name": "Wall of Ice",
@@ -8191,7 +8191,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wall_of_Ice.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wall_of_Ice.htm"
     },
     {
       "name": "Wall of Stone",
@@ -8220,7 +8220,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wall_of_Stone.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wall_of_Stone.htm"
     },
     {
       "name": "Wall of Thorns",
@@ -8247,7 +8247,7 @@ var magic = {
         "unit": "minutes",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wall_of_Thorns.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wall_of_Thorns.htm"
     },
     {
       "name": "Warding Bond",
@@ -8274,7 +8274,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Warding_Bond.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Warding_Bond.htm"
     },
     {
       "name": "Water Breathing",
@@ -8304,7 +8304,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Water_Breathing.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Water_Breathing.htm"
     },
     {
       "name": "Water Walk",
@@ -8334,7 +8334,7 @@ var magic = {
         "unit": "hour",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Water_Walk.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Water_Walk.htm"
     },
     {
       "name": "Web",
@@ -8362,7 +8362,7 @@ var magic = {
         "unit": "hour",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Web.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Web.htm"
     },
     {
       "name": "Weird",
@@ -8388,7 +8388,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Weird.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Weird.htm"
     },
     {
       "name": "Wind Walk",
@@ -8415,7 +8415,7 @@ var magic = {
         "unit": "hours",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Wind_Walk.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wind_Walk.htm"
     },
     {
       "name": "Wind Wall",
@@ -8443,7 +8443,7 @@ var magic = {
         "unit": "minute",
         "concentration": true
       },
-      "url": "/mdsrd5/paged/Wind_Wall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wind_Wall.htm"
     },
     {
       "name": "Wish",
@@ -8469,7 +8469,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Wish.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Wish.htm"
     },
     {
       "name": "Word of Recall",
@@ -8494,7 +8494,7 @@ var magic = {
         "unit": "Instantaneous",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Word_of_Recall.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Word_of_Recall.htm"
     },
     {
       "name": "Zone of Truth",
@@ -8522,7 +8522,7 @@ var magic = {
         "unit": "minutes",
         "concentration": false
       },
-      "url": "/mdsrd5/paged/Zone_of_Truth.htm"
+      "url": "/mdsrd5/paged/spell_descriptions/Zone_of_Truth.htm"
     }
   ]
 }
