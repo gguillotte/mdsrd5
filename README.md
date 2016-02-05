@@ -44,6 +44,30 @@ References to protected spells are replaced with spell names from Open Game Cont
 Release notes
 -------------
 
+### 0.6 (2016-02-05)
+
+Adds JSON for spells, classes in spell descriptions, and a (very rudimentary) spell filter page.
+
+#### New content
+
+-   Spell descriptions now list each class that has the spell on its spell list.
+-   Spell data is now available in JSON format.
+-   A rudimentary spell filter is available at <https://gguillotte.github.io/mdsrd5/filters/spells/>.
+
+#### Fixes
+
+-   Small formatting fixes, like quotation marks around section and chapter references.
+
+#### Known issues
+
+-   Navigation in the paginated HTML version is generally poor.
+-   Spell classes need proofing, as some classes wound up listed twice.
+-   The DOCX version needs some formatting tweaks, particularly around sidebars.
+-   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+
 ### 0.5.1 (2016-01-31)
 
 Fixed many links in both the single-page and paginated HTML documents.
@@ -52,15 +76,9 @@ Fixed many links in both the single-page and paginated HTML documents.
 
 -   Many internal links in the paginated version are fixed, and reference links in the Markdown versions should easier to use.
 
-#### Known issues
+#### Known issues (since fixed)
 
--   Navigation in the paginated HTML version is generally poor.
--   The *dominate monster* spell might render poorly in some browsers.
--   The DOCX version needs some formatting tweaks, particularly around sidebars.
--   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+-   A few spells rendered poorly in some browsers.
 
 ### 0.5 (2016-01-31)
 
@@ -229,4 +247,4 @@ Initial release, containing all content except the Monsters and Magic Items sect
 Credits and software licenses
 -----------------------------
 
-The HTML versions use [Jets.js](https://jets.js.org) ([MIT license](https://opensource.org/licenses/MIT)) by Denis Lukov for TOC search, and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) ([CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/legalcode)) by Stephen Morley. The HTML and ePub versions use the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2011 and 2013 by Juan Pablo del Peral. See LICENSING.md and the other licensing files in this repo for details.
+The HTML versions use [Jets.js](https://jets.js.org) ([MIT license](https://opensource.org/licenses/MIT)) by Denis Lukov for TOC search, and [CollapsibleLists.js](http://code.stephenmorley.org/javascript/collapsible-lists/) ([CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0/legalcode)) by Stephen Morley. The filters use [Dynatable](http://www.dynatable.com) by [Alfa Jango](https://www.alfajango.com/), under the [GNU Affero GPL](http://www.gnu.org/licenses/agpl.txt). The HTML and ePub versions use the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2011 and 2013 by Juan Pablo del Peral. See LICENSING.md and the other licensing files in this repo for details.
