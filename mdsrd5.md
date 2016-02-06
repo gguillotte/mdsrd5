@@ -13344,7 +13344,7 @@ Using any material created by this spell as another spell's material component c
 
 *1st-level evocation*
 
-**Classes:** [Bard](#section-bard), [Bard](#section-bard), [Cleric](#section-cleric), [Cleric](#section-cleric), [Druid](#section-druid), [Druid](#section-druid), [Paladin](#section-paladin), [Ranger](#section-ranger)
+**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Druid](#section-druid), [Paladin](#section-paladin), [Ranger](#section-ranger)
 
 **Casting Time:** 1 action
 
@@ -14946,7 +14946,7 @@ When the spell ends, the target can't move or take actions until after its next 
 
 *6th-level evocation*
 
-**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Cleric](#section-cleric), [Cleric](#section-cleric), [Cleric](#section-cleric), [Cleric](#section-cleric), [Druid](#section-druid), [Druid](#section-druid)
+**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Druid](#section-druid)
 
 **Casting Time:** 1 action
 
@@ -14964,7 +14964,7 @@ Choose a creature that you can see within range. A surge of positive energy wash
 
 *1st-level evocation*
 
-**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Cleric](#section-cleric), [Druid](#section-druid)
+**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Druid](#section-druid)
 
 **Casting Time:** 1 bonus action
 
