@@ -1803,10 +1803,7 @@ var magic = {
       "level": 1,
       "classes": [
           "Bard",
-          "Bard",
           "Cleric",
-          "Cleric",
-          "Druid",
           "Druid",
           "Paladin",
           "Ranger"
@@ -3971,11 +3968,6 @@ var magic = {
       "classes": [
           "Bard",
           "Cleric",
-          "Cleric",
-          "Cleric",
-          "Cleric",
-          "Cleric",
-          "Druid",
           "Druid"
       ],
       "school": "evocation",
@@ -4003,7 +3995,6 @@ var magic = {
       "level": 1,
       "classes": [
           "Bard",
-          "Cleric",
           "Cleric",
           "Druid"
       ],
