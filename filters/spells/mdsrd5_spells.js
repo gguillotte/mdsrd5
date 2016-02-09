@@ -225,7 +225,8 @@ var magic = {
       "level": 5,
       "classes": [
           "Bard",
-          "Sorcerer"
+          "Sorcerer",
+          "Wizard"
       ],
       "school": "transmutation",
       "ritual": false,
@@ -1218,9 +1219,7 @@ var magic = {
       "name": "Commune",
       "level": 5,
       "classes": [
-          "Cleric",
-          "Druid",
-          "Ranger"
+          "Cleric"
       ],
       "school": "divination",
       "ritual": true,
@@ -3966,7 +3965,6 @@ var magic = {
       "name": "Heal",
       "level": 6,
       "classes": [
-          "Bard",
           "Cleric",
           "Druid"
       ],
@@ -4473,14 +4471,8 @@ var magic = {
       "level": 2,
       "classes": [
           "Bard",
-          "Bard",
-          "Bard",
-          "Sorcerer",
-          "Sorcerer",
           "Sorcerer",
           "Warlock",
-          "Wizard",
-          "Wizard",
           "Wizard"
       ],
       "school": "illusion",
@@ -4680,7 +4672,6 @@ var magic = {
       "classes": [
           "Bard",
           "Cleric",
-          "Druid",
           "Sorcerer",
           "Wizard"
       ],
@@ -5141,7 +5132,6 @@ var magic = {
       "name": "Mass Heal",
       "level": 9,
       "classes": [
-          "Cleric",
           "Cleric"
       ],
       "school": "evocation",
@@ -5864,7 +5854,6 @@ var magic = {
           "Bard",
           "Druid",
           "Sorcerer",
-          "Warlock",
           "Wizard"
       ],
       "school": "transmutation",
@@ -6505,9 +6494,7 @@ var magic = {
       "level": 7,
       "classes": [
           "Bard",
-          "Cleric",
-          "Cleric",
-          "Druid"
+          "Cleric"
       ],
       "school": "necromancy",
       "ritual": false,
@@ -6927,10 +6914,7 @@ var magic = {
       "name": "Shield",
       "level": 1,
       "classes": [
-          "Cleric",
-          "Paladin",
           "Sorcerer",
-          "Wizard",
           "Wizard"
       ],
       "school": "abjuration",
