@@ -59,6 +59,7 @@ Cleaned up several spell descriptions and improved the spell filter.
 #### Fixed
 
 -   Reduced the class duplication in some spell descriptions.
+-   Fixed incorrect classes in some spell descriptions, to match the spell lists.
 
 #### Known issues
 
@@ -86,6 +87,7 @@ Adds JSON for spells, classes in spell descriptions, and a (very rudimentary) sp
 #### Known issues (since resolved)
 
 -   Some classes were listed twice in spell descriptions.
+-   Several spells had incorrect classes listed in the spell descriptions.
 
 ### 0.5.1 (2016-01-31)
 

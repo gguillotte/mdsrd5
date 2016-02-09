@@ -11857,7 +11857,7 @@ The creature is under your control for 24 hours, after which it stops obeying an
 
 *5th-level transmutation*
 
-**Classes:** [Bard](#section-bard), [Sorcerer](#section-sorcerer)
+**Classes:** [Bard](#section-bard), [Sorcerer](#section-sorcerer), [Wizard](#section-wizard)
 
 **Casting Time:** 1 action
 
@@ -12681,7 +12681,7 @@ Some typical commands and their effects follow. You might issue a command other 
 
 *5th-level divination (ritual)*
 
-**Classes:** [Cleric](#section-cleric), [Druid](#section-druid), [Ranger](#section-ranger)
+**Classes:** [Cleric](#section-cleric)
 
 **Casting Time:** 1 minute
 
@@ -14946,7 +14946,7 @@ When the spell ends, the target can't move or take actions until after its next 
 
 *6th-level evocation*
 
-**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Druid](#section-druid)
+**Classes:** [Cleric](#section-cleric), [Druid](#section-druid)
 
 **Casting Time:** 1 action
 
@@ -15308,7 +15308,7 @@ If another creature is holding or carrying the item, crushing the sapphire doesn
 
 *2nd-level illusion*
 
-**Classes:** [Bard](#section-bard), [Bard](#section-bard), [Bard](#section-bard), [Sorcerer](#section-sorcerer), [Sorcerer](#section-sorcerer), [Sorcerer](#section-sorcerer), [Warlock](#section-warlock), [Wizard](#section-wizard), [Wizard](#section-wizard), [Wizard](#section-wizard)
+**Classes:** [Bard](#section-bard), [Sorcerer](#section-sorcerer), [Warlock](#section-warlock), [Wizard](#section-wizard)
 
 **Casting Time:** 1 action
 
@@ -15436,7 +15436,7 @@ When the spell ends, the target floats gently to the ground if it is still aloft
 
 *Evocation cantrip*
 
-**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Druid](#section-druid), [Sorcerer](#section-sorcerer), [Wizard](#section-wizard)
+**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Sorcerer](#section-sorcerer), [Wizard](#section-wizard)
 
 **Casting Time:** 1 action
 
@@ -15754,7 +15754,7 @@ A wave of healing energy washes out from a point of your choice within range. Ch
 
 *9th-level evocation*
 
-**Classes:** [Cleric](#section-cleric), [Cleric](#section-cleric)
+**Classes:** [Cleric](#section-cleric)
 
 **Casting Time:** 1 action
 
@@ -16274,7 +16274,7 @@ If you cast this spell over 8 hours, you enrich the land. All plants in a half-m
 
 *4th-level transmutation*
 
-**Classes:** [Bard](#section-bard), [Druid](#section-druid), [Sorcerer](#section-sorcerer), [Warlock](#section-warlock), [Wizard](#section-wizard)
+**Classes:** [Bard](#section-bard), [Druid](#section-druid), [Sorcerer](#section-sorcerer), [Wizard](#section-wizard)
 
 **Casting Time:** 1 action
 
@@ -16827,7 +16827,7 @@ You touch one willing creature. Once before the spell ends, the target can roll 
 
 *7th-level necromancy*
 
-**Classes:** [Bard](#section-bard), [Cleric](#section-cleric), [Cleric](#section-cleric), [Druid](#section-druid)
+**Classes:** [Bard](#section-bard), [Cleric](#section-cleric)
 
 **Casting Time:** 1 hour
 
@@ -17183,7 +17183,7 @@ A nonmagical object that isn't being worn or carried also takes the damage if it
 
 *1st-level abjuration*
 
-**Classes:** [Cleric](#section-cleric), [Paladin](#section-paladin), [Sorcerer](#section-sorcerer), [Wizard](#section-wizard), [Wizard](#section-wizard)
+**Classes:** [Sorcerer](#section-sorcerer), [Wizard](#section-wizard)
 
 **Casting Time:** 1 reaction, which you take when you are hit by an attack or targeted by the [*magic missile*](#magic-missile) spell
 
