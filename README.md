@@ -1,7 +1,9 @@
 mdsrd5: The Markdown SRD5
 =========================
 
-The `mdsrd5.md` file in this repo is **The Markdown SRD5**, converted from the [original System Reference Document 5.0 PDF](http://dnd.wizards.com/articles/features/systems-reference-document-srd) (copyright 2016 Wizards of the Coast; see LICENSING.md) to GitHub Flavored Markdown via Pandoc, some clunky scripting, and a bit of text filtering. This is made possible by the [Open Gaming License](./LICENSING.md). You can view and save a single-page, offline-friendly HTML version at <http://gguillotte.github.io/mdsrd5/>, as well as the same content converted to other formats in this repo.
+Also available in [single-page, offline-friendly HTML](https://gguillotte.github.io/mdsrd5/), [paged HTML](https://gguillotte.github.io/mdsrd5/paged), PDF, ePub, and more. Also see the [interactive spell filter](https://gguillotte.github.io/mdsrd5/filters/spells) and the [JSON that powers it](https://gguillotte.github.io/mdsrd5/filters/spells/mdsrd5_spells.json).
+
+The `mdsrd5.md` file in this repo is **The Markdown SRD5**, converted from the [original System Reference Document 5.0 PDF](http://dnd.wizards.com/articles/features/systems-reference-document-srd) (copyright 2016 Wizards of the Coast; see LICENSING.md) to GitHub Flavored Markdown via Pandoc, some clunky scripting, and a bit of text filtering. This is made possible by the [Open Gaming License](./LICENSING.md). 
 
 I've got a few goals for this project:
 
@@ -41,8 +43,31 @@ References to protected spells are replaced with spell names from Open Game Cont
 -   *charm animal* (ranger)
 -   *stabilize* (androsphinx)
 
+As of 0.4.2, I think I've rooted out most of the protected content. **Under the OGL, it is *your* responsibility to confirm you are not using protected content when using or citing Open Game Content.**
+
 Release notes
 -------------
+
+### 0.6.1 (2016-02-08)
+
+Cleaned up several spell descriptions and improved the spell filter.
+
+#### New content
+
+-   The spell filter's styles line up with the rest of the HTML versions, and looks better on mobile.
+
+#### Fixed
+
+-   Reduced the class duplication in some spell descriptions.
+
+#### Known issues
+
+-   Navigation in the paginated HTML version is generally poor.
+-   The DOCX version needs some formatting tweaks, particularly around sidebars.
+-   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
 
 ### 0.6 (2016-02-05)
 
@@ -58,15 +83,9 @@ Adds JSON for spells, classes in spell descriptions, and a (very rudimentary) sp
 
 -   Small formatting fixes, like quotation marks around section and chapter references.
 
-#### Known issues
+#### Known issues (since resolved)
 
--   Navigation in the paginated HTML version is generally poor.
--   Spell classes need proofing, as some classes wound up listed twice.
--   The DOCX version needs some formatting tweaks, particularly around sidebars.
--   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+-   Some classes were listed twice in spell descriptions.
 
 ### 0.5.1 (2016-01-31)
 
