@@ -60,6 +60,10 @@ In addition to the terms above, rules for the following terms or concepts in thi
 Release notes
 -------------
 
+### 0.6.2 (2016-02-10)
+
+Fixed missing ACs and AC modifiers in the Armor table, and some formatting in monster descriptions.
+
 ### 0.6.1 (2016-02-08)
 
 Cleaned up several spell descriptions and improved the spell filter.
