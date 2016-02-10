@@ -45,6 +45,18 @@ References to protected spells are replaced with spell names from Open Game Cont
 
 As of 0.4.2, I think I've rooted out most of the protected content. **Under the OGL, it is *your* responsibility to confirm you are not using protected content when using or citing Open Game Content.**
 
+### Rules omitted from the source
+
+In addition to the terms above, rules for the following terms or concepts in this system were omitted from the SRD and therefore are intentionally not covered or explained. **If you're using this SRD to create content, be aware that the following concepts do not have Open Game Content to support them. This list is, and might never be, comprehensive.**
+
+-   **Magic item attunement.** Magic items list whether they require attunement, but the attunement process is not Open Game Content.
+-   **Domain descriptors in spells.** The SRD includes a single domain. Spells in the SRD might be part of one or more domains in this system, but only one of those domains was released as Open Game Content.
+-   **Artifact properties.** The Orb of the Wyrm has random properties, but the table describes random properties and the process for selecting them is not Open Game Content.
+-   **Treasure tables.**
+-   **Most class options (including feats) and sub-races.**
+-   **Cavalier die mechanics.** The cavalier's unique rules are not Open Game Content.
+-   **Shield bashes.** Rules for players who use a shield as a weapon, and statistics for player shields that can be used as weapons, are not Open Game Content. However, the gladiator NPC and lizardfolk creature use shields as weapons and include the minimum statistics necessary for a GM to make attacks with shields.
+
 Release notes
 -------------
 

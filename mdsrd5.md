@@ -20135,7 +20135,7 @@ Armor
 <tr class="even">
 <td align="left">Ring mail</td>
 <td align="right">30 gp</td>
-<td align="left"></td>
+<td align="left">14</td>
 <td align="left">—</td>
 <td align="left">Disadvantage</td>
 <td align="center">40 lb.</td>
@@ -20143,7 +20143,7 @@ Armor
 <tr class="odd">
 <td align="left">Chain mail</td>
 <td align="right">75 gp</td>
-<td align="left"></td>
+<td align="left">16</td>
 <td align="left">Str 13</td>
 <td align="left">Disadvantage</td>
 <td align="center">55 lb.</td>
@@ -20151,7 +20151,7 @@ Armor
 <tr class="even">
 <td align="left">Splint</td>
 <td align="right">200 gp</td>
-<td align="left"></td>
+<td align="left">17</td>
 <td align="left">Str 15</td>
 <td align="left">Disadvantage</td>
 <td align="center">60 lb.</td>
@@ -20159,7 +20159,7 @@ Armor
 <tr class="odd">
 <td align="left">Plate</td>
 <td align="right">1,500 gp</td>
-<td align="left"></td>
+<td align="left">18</td>
 <td align="left">Str 15</td>
 <td align="left">Disadvantage</td>
 <td align="center">65 lb.</td>
@@ -20175,7 +20175,7 @@ Armor
 <tr class="odd">
 <td align="left">Shield</td>
 <td align="right">10 gp</td>
-<td align="left"></td>
+<td align="left">+2</td>
 <td align="left">—</td>
 <td align="left">—</td>
 <td align="center">6 lb.</td>
