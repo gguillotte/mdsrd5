@@ -51,7 +51,7 @@ In addition to the terms above, rules for the following terms or concepts in thi
 
 -   **Magic item attunement.** Magic items list whether they require attunement, but the attunement process is not Open Game Content.
 -   **Domain descriptors in spells.** The SRD includes a single domain. Spells in the SRD might be part of one or more domains in this system, but only one of those domains was released as Open Game Content.
--   **Artifact properties.** The Orb of the Wyrm has random properties, but the table describes random properties and the process for selecting them is not Open Game Content.
+-   **Artifact properties.** The Orb of the Wyrm has random properties, but the table describing random properties and the process for selecting them is not Open Game Content.
 -   **Treasure tables.**
 -   **Most class options (including feats) and sub-races.**
 -   **Cavalier die mechanics.** The cavalier's unique rules are not Open Game Content.
