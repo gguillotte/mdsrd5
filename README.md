@@ -47,7 +47,7 @@ As of 0.4.2, I think I've rooted out most of the protected content. **Under the 
 
 ### Rules omitted from the source
 
-In addition to the terms above, rules for the following terms or concepts in this system were omitted from the SRD and therefore are intentionally not covered or explained. **If you're using this SRD to create content, be aware that the following concepts do not have Open Game Content to support them. This list is *not*, and might *never be*, comprehensive.**
+In addition to the terms above, rules for the following terms or concepts in this system were omitted from the SRD and therefore are intentionally not covered or explained. **If you're using this SRD to create content, be aware that the following concepts do not have official first-party Open Game Content to support them. This list is *not*, and might *never be*, comprehensive.**
 
 -   **Magic item attunement.** Magic items list whether they require attunement, but the attunement process is not Open Game Content.
 -   **Domain descriptors in spells.** The SRD includes a single domain. Spells in the SRD might be part of one or more domains in this system, but only one of those domains was released as Open Game Content.
