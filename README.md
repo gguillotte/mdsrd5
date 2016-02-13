@@ -24,7 +24,7 @@ Generic terms
 
 In several places, protected content must be replaced rather than removed. In these instances, I use the following terms, which I do not claim to own and do not protect as Product Identity:
 
--   hooked hulk
+-   hooked hulk (*guards and wards*)
 -   *eldritch beam* (warlock/eldritch invocation)
 -   eyestalker (*deck of illusions*)
 -   fey plane (planes and monsters)
