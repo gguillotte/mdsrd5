@@ -1,0 +1,182 @@
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>The Markdown SRD5 - Spell Filter</title>
+
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.dynatable.js" type="text/javascript"></script>
+    <script src="mdsrd5_magic_items.js" type="text/javascript"></script>
+
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+    
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../multipage.css">
+    <link rel="stylesheet" href="jquery.dynatable.css">
+
+    <script type="text/javascript">
+      var items = magic.items;
+      
+      function magicItemAttributeWriter(record) {
+        // `this` is the column object in settings.columns
+        // TODO: automatically convert common types, such as arrays and objects, to string
+        var this_record = record[this.id];
+        var object_output = "";
+        var this_record_type = $.type(this_record);
+        if ( this_record === false ) {
+          return '--';
+        } else if ( this_record === true ) {
+          return 'Requires attunement';
+        } else if ( this_record_type === 'object' ) {
+          $.each(this_record, function(key, value) {
+            if ( ( value !== null ) && ( value !== false ) ) {
+              object_output += value + ' ';
+            }
+          }
+        );
+
+        return object_output;
+        } else if ( this.label === 'Name' ) {
+          return '<a href="' + record.url + '">' + record.name + '</a>';
+        } else {
+          return this_record;
+        }
+      };
+
+      $( document ).ready(function() {
+        $('#results_table')
+          .bind('dynatable:init', function(e, dynatable) {
+            dynatable.queries.functions['query_subtype'] = function(magic_item, queryValue) {
+              var magic_item_subtype = magic_item.subtype;
+              return magic_item_subtype.includes(queryValue);
+            };
+            dynatable.queries.functions['query_rarity'] = function(magic_item, queryValue) {
+              var magic_item_rarity = magic_item.rarity;
+              if ( magic_item_rarity == queryValue ) {
+                return true;
+              } else if ( (magic_item_rarity.includes(", ")) || (magic_item_rarity.includes(" or ")) || (queryValue == "varies") ) {
+                return magic_item_rarity.includes(queryValue);
+              } else { return false; }
+            };
+            dynatable.queries.functions['query_attunement'] = function(magic_item, queryValue) {
+              var requires_attunement = magic_item.attunement;
+              return requires_attunement == queryValue;
+            };
+          })
+          .dynatable({
+            dataset: {
+              records: items
+            },
+            writers: {
+              _attributeWriter: magicItemAttributeWriter
+            },
+            inputs: {
+              queryEvent: 'blur change keyup',
+              queries: $('.updates_table')
+            }
+          });
+      });
+    </script>
+    
+  </head>
+
+  <body>
+
+    <header>
+      <h1>The Markdown SRD5</h1>
+      <h2>Magic Item Filter</h2>
+    </header>
+
+    <section id="query_selectors">
+      <div class="query_selector" id="query_selectors_type">
+        <label>Type: </label>
+        <select id="type" class="updates_table" name="type">
+          <option></option>
+          <option>Armor</option>
+          <option>Potion</option>
+          <option>Ring</option>
+          <option>Rod</option>
+          <option>Scroll</option>
+          <option>Staff</option>
+          <option>Wand</option>
+          <option>Weapon</option>
+          <option>Wondrous item</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_subtype">
+        <label>Subtype: </label>
+        <select id="query_subtype" class="updates_table" name="query_subtype">
+          <option></option>
+          <option value="0">Armor</option>
+          <option value="light">Light</option>
+          <option value="medium">Medium</option>
+          <option value="heavy">Heavy</option>
+          <option value="shield">Shield</option>
+          <option value="studded leather">Studded leather</option>
+          <option value="chain shirt">Chain shirt</option>
+          <option value="plate">Plate</option>
+          <option value="but not hide">Not hide</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_rarity">
+        <label>Rarity: </label>
+        <select id="query_rarity" class="updates_table" name="query_rarity">
+          <option></option>
+          <option value="common">Common</option>
+          <option value="uncommon">Uncommon</option>
+          <option value="rare">Rare</option>
+          <option value="very rare">Very Rare</option>
+          <option value="legendary">Legendary</option>
+          <option value="varies">Varies</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_ritual">
+        <label>Requires attunement: </label>
+        <select id="attunement" class="updates_table" name="attunement">
+          <option></option>
+          <option value="1">True</option>
+          <option value="0">False</option>
+        </select>
+      </div>
+
+    <section id="results">
+      <table id="results_table">
+        <thead>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Subtype</th>
+          <th>Rarity</th>
+          <th>Attunement</th>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+
+      <p>
+        Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="/mdsrd5/paged/Legal_Information.htm">Open Gaming License (OGL)</a>.
+      </p>
+      <p>
+      Also available in <a href="https://gguillotte.github.io/mdsrd5/">single-page HTML</a>, <a href="https://gguillotte.github.io/mdsrd5/paged/">paginated HTML</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.docx">DOCX</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.icml">InCopy Markup Language</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.epub">ePub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub</a>.
+      </p>
+
+    </footer>
+
+  </body>
+ 
+</html>
