@@ -56,9 +56,35 @@ In addition to the terms above, rules for the following terms or concepts in thi
 -   **Most class options (including feats) and sub-races.**
 -   **Cavalier die mechanics.** The cavalier's unique rules are not Open Game Content.
 -   **Shield bashes.** Rules for players who use a shield as a weapon, and statistics for player shields that can be used as weapons, are not Open Game Content. However, the gladiator NPC and lizardfolk creature use shields as weapons and include the minimum statistics necessary for a GM to make attacks with shields.
+-   The spells ***compulsion*** (eldritch invocations), ***counterspell*** (archmage), ***fire bolt*** (archmage, mage), ***goodberry*** (dryad), and ***sphere of annihilation*** (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
 
 Release notes
 -------------
+
+### 0.7 (2016-02-16)
+
+Added JSON for magic items and a magic item filter.
+
+#### Fixed
+
+-   Removed extraneous casting time options from the spell filter.
+
+#### New content
+
+-   Structured [magic items in JSON format](https://gguillotte.github.io/mdsrd5/mdsrd5_magic_items.json), listing each item's name, type, subtype, rarity, and whether it requires attunement, as well as the relative URL to the paged HTML document.
+-   A [magic item filter](https://gguillotte.github.io/mdsrd5/filters/magic_items/) that lets you interactively search, sort, and filter magic items by these traits.
+-   Links to chapters and sections refer to custom IDs that are more unique and stable than the automatically generated IDs. This adds some Pandoc-specific markup to the Markdown source.
+
+#### Known issues
+
+-   The spell JSON omits descriptions.
+-   The magic item JSON omits descriptions and attunement details.
+-   The magic item filter shows *giant slayer* when filtering by any axe, but not when filtering by any sword.
+-   Navigation in the paginated HTML version is generally poor.
+-   The DOCX version needs some formatting tweaks, particularly around sidebars.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
 
 ### 0.6.2 (2016-02-10)
 
@@ -76,15 +102,6 @@ Cleaned up several spell descriptions and improved the spell filter.
 
 -   Reduced the class duplication in some spell descriptions.
 -   Fixed incorrect classes in some spell descriptions, to match the spell lists.
-
-#### Known issues
-
--   Navigation in the paginated HTML version is generally poor.
--   The DOCX version needs some formatting tweaks, particularly around sidebars.
--   The spells *compulsion* (eldritch invocations), *counterspell* (archmage), *fire bolt* (archmage, mage), *goodberry* (dryad), and *sphere of annihilation* (traps) remain unlinked because rules for them in this system were not released in the reference document and are not Open Game Content. The spells' names remain in this SRD because the terms were declared as Open Game Content elsewhere in this system's reference document or in a previous reference document.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
 
 ### 0.6 (2016-02-05)
 
@@ -280,6 +297,7 @@ Initial release, containing all content except the Monsters and Magic Items sect
 #### Known issues (since resolved)
 
 -   Magic items weren't yet included.
+-   ACs and AC modifiers for heavy armor and shields were omitted.
 
 Credits and software licenses
 -----------------------------
