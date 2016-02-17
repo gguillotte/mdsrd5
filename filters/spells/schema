@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema#",
+  "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/name",
+      "type": "string"
+    },
+    "level": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/level",
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "classes": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/classes",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/classes/array",
+        "type": "string",
+        "enum": ["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"]
+      },
+      "uniqueItems": true,
+      "additionalItems": false
+    },
+    "school": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/school",
+      "type": "string",
+      "enum": ["abjuration", "conjuration", "divination", "enchantment", "evocation", "illusion", "necromancy", "transumation"]
+    },
+    "ritual": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/ritual",
+      "type": "boolean",
+      "default": false
+    },
+    "castingTime": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/castingTime",
+      "type": "object",
+      "properties": {
+        "value": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/castingTime/value",
+          "type": "integer",
+          "minimum": 1
+        },
+        "unit": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/castingTime/unit",
+          "type": "string",
+          "pattern": "(action|minute|hour)(s)?"
+        }
+      },
+      "additionalProperties": false
+    },
+    "components": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/components",
+      "type": "object",
+      "properties": {
+        "types": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/components/types",
+          "type": "array",
+          "items": [
+            {
+              "type": "string",
+              "enum": ["V", "S", "M"]
+            },
+            {
+              "type": "string",
+              "enum": ["S", "M"]
+            },
+            {
+              "type": "string",
+              "enum": ["M"]
+            }
+          ],
+          "additionalItems": false
+        },
+        "materials": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/components/materials",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "duration": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/duration",
+      "type": "object",
+      "properties": {
+        "value": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/duration/value",
+          "type": "integer"
+        },
+        "unit": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/duration/unit",
+          "type": "string",
+          "enum": ["Instantaneous", "Until dispelled", "Until triggered", "Until dispelled or triggered", "round", "rounds", "minute", "minutes", "hour", "hours", "day", "days", "Special"]
+        },
+        "concentration": {
+          "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/duration/concentration",
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "url": {
+      "id": "https://gguillotte.github.io/mdsrd5/filter/spells/schema/url",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["name", "level", "classes", "school", "castingTime", "components", "duration"]
+}

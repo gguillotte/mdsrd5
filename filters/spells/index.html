@@ -36,7 +36,7 @@
         if ( this_record_type === 'array' ) {
           return this_record.join(', ');
         } else if ( this_record === false ) {
-          return '--';
+          return '&mdash;';
         } else if ( this_record === true ) {
           return '(ritual)';
         } else if ( this_record_type === 'object' ) {
@@ -173,8 +173,6 @@
           <option value="action">Actions</option>
           <option value="minute">Minutes</option>
           <option value="hour">Hours</option>
-          <option value="day">Days</option>
-          <option>Until dispelled</option>
         </select>
       </div>
 

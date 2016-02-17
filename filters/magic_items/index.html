@@ -33,8 +33,8 @@
         var this_record = record[this.id];
         var object_output = "";
         var this_record_type = $.type(this_record);
-        if ( this_record === false ) {
-          return '--';
+        if (( this_record === false ) || ( this_record === "" )) {
+          return '&mdash;';
         } else if ( this_record === true ) {
           return 'Requires attunement';
         } else if ( this_record_type === 'object' ) {
@@ -58,7 +58,13 @@
           .bind('dynatable:init', function(e, dynatable) {
             dynatable.queries.functions['query_subtype'] = function(magic_item, queryValue) {
               var magic_item_subtype = magic_item.subtype;
-              return magic_item_subtype.includes(queryValue);
+              if ( magic_item_subtype == queryValue ) {
+                console.log("direct match");
+                return true;
+              } else if ( ( (queryValue !== "any") && (magic_item_subtype.includes(queryValue) ) ) && ( magic_item_subtype.includes(", ") || magic_item_subtype.includes(" or ") ) ) {
+                console.log("indirect match",queryValue,magic_item_subtype,magic_item.name);
+                return true;
+              } else { return false; console.log("no match"); }
             };
             dynatable.queries.functions['query_rarity'] = function(magic_item, queryValue) {
               var magic_item_rarity = magic_item.rarity;
@@ -119,14 +125,31 @@
         <select id="query_subtype" class="updates_table" name="query_subtype">
           <option></option>
           <option value="0">Armor</option>
-          <option value="light">Light</option>
-          <option value="medium">Medium</option>
-          <option value="heavy">Heavy</option>
-          <option value="shield">Shield</option>
-          <option value="studded leather">Studded leather</option>
-          <option value="chain shirt">Chain shirt</option>
-          <option value="plate">Plate</option>
-          <option value="but not hide">Not hide</option>
+          <option value="light">- Light</option>
+          <option value="medium">- Medium</option>
+          <option value="heavy">- Heavy</option>
+          <option value="shield">- Shield</option>
+          <option value="studded leather">- Studded leather</option>
+          <option value="chain shirt">- Chain shirt</option>
+          <option value="plate">- Plate</option>
+          <option value="but not hide">- Not hide</option>
+          <option></option>
+          <option value="0">Weapon</option>
+          <option value="any">- Any</option>
+          <option value="any ammunition">- Any ammunition</option>
+          <option value="any axe">- Any axe</option>
+          <option value="any sword">- Any sword</option>
+          <option value="any sword that deals slashing damage">  - Any slashing sword</option>
+          <option value="arrow">- Arrow</option>
+          <option value="dagger">- Dagger</option>
+          <option value="javelin">- Javelin</option>
+          <option value="longbow">- Longbow</option>
+          <option value="longsword">- Longsword</option>
+          <option value="mace">- Mace</option>
+          <option value="maul">- Maul</option>
+          <option value="scimitar">- Scimitar</option>
+          <option value="trident">- Trident</option>
+          <option value="warhammer">- Warhammer</option>
         </select>
       </div>
 
