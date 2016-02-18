@@ -25775,9 +25775,9 @@ See "[*deck of many things*](#deck-of-many-things)".
 
 **Challenge** 2 (450 XP)
 
-***Heated Body.*** A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 1d10) fire damage.
+***Heated Body.*** A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.
 
-***Heated Weapons.*** When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage included in the attack).
+***Heated Weapons.*** When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).
 
 ***Illumination.*** The azer sheds bright light in a 10-foot radius and dim light for an additional 10 feet.
 
@@ -26663,7 +26663,7 @@ At will: [*dancing lights*](#dancing-lights)
 
 ***Spider Climb.*** The drider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
-***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ***Web Walker.*** The drider ignores movement restrictions caused by webbing.
 
@@ -26803,7 +26803,7 @@ The dryad can have no more than one humanoid and up to three beasts charmed at a
 
 ***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed.
 
-***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -26872,7 +26872,7 @@ At will: [*dancing lights*](#dancing-lights)
 
 1/day each: [*darkness*](#darkness), [*faerie fire*](#faerie-fire)
 
-***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -26996,7 +26996,7 @@ The creature can repeat the saving throw at the end of each of its turns, ending
 
 **Challenge** 4 (1,100 XP)
 
-***Two Heads.*** The ettin has advantage on Wisdom Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
+***Two Heads.*** The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
 
 ***Wakeful.*** When one of the ettin's heads is asleep, its other head is awake.
 
@@ -27549,7 +27549,7 @@ At will: [*nondetection*](#nondetection) (self only)
 
 **Challenge** 2 (450 XP)
 
-***Keen Sight.*** The griffon has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The griffon has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -27791,7 +27791,7 @@ A target that successfully saves is immune to this harpy's song for the next 24 
 
 **Challenge** 1 (200 XP)
 
-***Keen Sight.*** The hippogriff has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -28092,7 +28092,7 @@ At the end of its turn, it grows two heads for each of its heads that died since
 
 **Challenge** 1/8 (25 XP)
 
-***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ***Pack Tactics.*** The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
@@ -29559,7 +29559,7 @@ If the remorhaz takes 30 damage or more on a single turn from a creature inside 
 
 **Challenge** 11 (7,200 XP)
 
-***Keen Sight.*** The roc has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The roc has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -30091,7 +30091,7 @@ If a non-evil humanoid dies from this attack, a new shadow rises from the corpse
 
 **Hit Points** 22 (5d8)
 
-**Speed** 0 ft., fly 50 ft. hover)
+**Speed** 0 ft., fly 50 ft. (hover)
 
 <table style="width:83%;">
 <colgroup>
@@ -30138,7 +30138,7 @@ If a non-evil humanoid dies from this attack, a new shadow rises from the corpse
 
 ***Incorporeal Movement.*** The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
 
-***Sunlight Sensitivity.*** While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -30203,7 +30203,7 @@ If a non-evil humanoid dies from this attack, a new shadow rises from the corpse
 
 If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.
 
-***Invisibility.*** The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.
+***Invisibility.*** The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.
 
 #### Stirge
 
@@ -30321,7 +30321,7 @@ The stirge can detach itself by spending 5 feet of its movement. It does so afte
 
 The fiend can have only one target charmed at a time. If it charms another, the effect on the previous target ends.
 
-***Draining Kiss.*** The fiend kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 5d10 + 5) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+***Draining Kiss.*** The fiend kisses a creature charmed by it or a willing creature. The target must make a DC 15 Constitution saving throw against this magic, taking 32 (5d10 + 5) psychic damage on a failed save, or half as much damage on a successful one. The target's hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
 
 ***Etherealness.*** The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa.
 
@@ -30528,7 +30528,7 @@ The tarrasque can take 3 legendary actions, choosing from the options below. Onl
 
 **Challenge** 5 (1,800 XP)
 
-***Keen Smell.*** The troll has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The troll has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Regeneration.*** The troll regains 10 hit points at the start of its turn. If the troll takes acid or fire damage, this trait doesn't function at the start of the troll's next turn. The troll dies only if it starts its turn with 0 hit points and doesn't regenerate.
 
@@ -30680,7 +30680,7 @@ The unicorn can take 3 legendary actions, choosing from the options below. Only 
 
 **Challenge** 3 (700 XP)
 
-***Sunlight Sensitivity.*** While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -30698,13 +30698,13 @@ The wight can have no more than twelve zombies under its control at one time.
 
 #### Will-o'-Wisp
 
-*Tiny undead, chaotic evil *
+*Tiny undead, chaotic evil*
 
 **Armor Class** 19
 
 **Hit Points** 22 (9d4)
 
-**Speed** 0 ft., fly 50 ft. hover)
+**Speed** 0 ft., fly 50 ft. (hover)
 
 <table style="width:83%;">
 <colgroup>
@@ -30773,7 +30773,7 @@ The will-o'-wisp can alter the radius as a bonus action.
 
 **Hit Points** 67 (9d8 + 27)
 
-**Speed** 0 ft., fly 60 ft. hover)
+**Speed** 0 ft., fly 60 ft. (hover)
 
 <table style="width:83%;">
 <colgroup>
@@ -30820,7 +30820,7 @@ The will-o'-wisp can alter the radius as a bonus action.
 
 ***Incorporeal Movement.*** The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
 
-***Sunlight Sensitivity.*** While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom Perception) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -31248,7 +31248,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Condition Immunities** blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
 
-**Senses** blindsight 60 ft. blind beyond this radius), passive Perception 6
+**Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 6
 
 **Languages** —
 
@@ -31311,7 +31311,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Condition Immunities** blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
 
-**Senses** blindsight 60 ft. blind beyond this radius), passive Perception 7
+**Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 7
 
 **Languages** —
 
@@ -31370,7 +31370,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Condition Immunities** blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
 
-**Senses** blindsight 60 ft. blind beyond this radius), passive Perception 6
+**Senses** blindsight 60 ft. (blind beyond this radius), passive Perception 6
 
 **Languages** —
 
@@ -31384,7 +31384,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 ##### Actions
 
-***Smother.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage.
+***Smother.** Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller creature. *Hit:* The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (2d6 + 3) bludgeoning damage.
 
 ### Demons
 
@@ -31510,7 +31510,7 @@ The solar can take 3 legendary actions, choosing from the options below. Only on
 
 **Senses** darkvision 60 ft., passive Perception 9
 
-**Languages** Abyssal, telepathy 60 ft. works only with creatures that understand Abyssal)
+**Languages** Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)
 
 **Challenge** 1/4 (50 XP)
 
@@ -34326,7 +34326,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Fire Breath.*** The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 13d6) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath.*** The dragon exhales fire in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.
 
 ***Sleep Breath.*** The dragon exhales sleep gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
 
@@ -34551,7 +34551,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Fire Breath.*** The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 12d6) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath.*** The dragon exhales fire in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.
 
 ***Sleep Breath.*** The dragon exhales sleep gas in a 30-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
 
@@ -34626,7 +34626,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Lightning Breath.*** The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 12d10) lightning damage on a failed save, or half as much damage on a successful one.
+***Lightning Breath.*** The dragon exhales lightning in a 90-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
 
 ***Repulsion Breath.*** The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 19 Strength saving throw. On a failed save, the creature is pushed 60 feet away from the dragon.
 
@@ -34794,7 +34794,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Lightning Breath.*** The dragon exhales lightning in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 3d10) lightning damage on a failed save, or half as much damage on a successful one.
+***Lightning Breath.*** The dragon exhales lightning in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.
 
 ***Repulsion Breath.*** The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the dragon.
 
@@ -34863,7 +34863,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Lightning Breath.*** The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 10d10) lightning damage on a failed save, or half as much damage on a successful one.
+***Lightning Breath.*** The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.
 
 ***Repulsion Breath.*** The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.
 
@@ -34936,7 +34936,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Acid Breath.*** The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 12d8) acid damage on a failed save, or half as much damage on a successful one.
+***Acid Breath.*** The dragon exhales acid in an 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
 
 ***Slowing Breath.*** The dragon exhales gas in a 60-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn.
 
@@ -35021,7 +35021,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 ***Breath Weapons (Recharge 5–6).*** The dragon uses one of the following breath weapons.
 
-***Acid Breath.*** The dragon exhales acid in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 63 14d8) acid damage on a failed save, or half as much damage on a successful one.
+***Acid Breath.*** The dragon exhales acid in an 90-foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 63 (14d8) acid damage on a failed save, or half as much damage on a successful one.
 
 ***Slowing Breath.*** The dragon exhales gas in a 90-foot cone. Each creature in that area must succeed on a DC 22 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn.
 
@@ -35801,7 +35801,7 @@ The dragon can take 3 legendary actions, choosing from the options below. Only o
 
 **Hit Points** 90 (12d10 + 24)
 
-**Speed** 0 ft., fly 90 ft. hover)
+**Speed** 0 ft., fly 90 ft. (hover)
 
 <table style="width:83%;">
 <colgroup>
@@ -36102,7 +36102,7 @@ A creature within 5 feet of the elemental can pull a creature or object out of i
 
 **Condition Immunities** blinded, deafened, frightened
 
-**Senses** blindsight 30 ft. blind beyond this radius), passive Perception 6
+**Senses** blindsight 30 ft. (blind beyond this radius), passive Perception 6
 
 **Languages** —
 
@@ -36488,7 +36488,7 @@ At will: [*detect magic*](#detect-magic)
 
 **Challenge** 9 (5,000 XP)
 
-***Keen Smell.*** The giant has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The giant has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
 
@@ -37156,7 +37156,7 @@ The golem's creator, if within 60 feet of the berserk golem, can try to calm it 
 
 At will: [*dancing lights*](#dancing-lights), [*minor illusion*](#minor-illusion), *string of insults*
 
-***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom Insight) check.
+***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.
 
 ##### Actions
 
@@ -37501,7 +37501,7 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 ***Shapechanger.*** The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
-***Keen Smell.*** The werebear has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The werebear has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -37629,7 +37629,7 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 ***Shapechanger.*** The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
-***Keen Smell.*** The wererat has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The wererat has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -37637,11 +37637,9 @@ A beast, humanoid, giant, or monstrosity can become a half-dragon. It keeps its 
 
 ***Bite (Rat or Hybrid Form Only).** Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
 
-***Shortsword (Humanoid or Hybrid Form Only).** Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 1d6 + 2) piercing damage.
+***Shortsword (Humanoid or Hybrid Form Only).** Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
-***Hand Crossbow (Humanoid or Hybrid Form Only).***
-
-Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
+***Hand Crossbow (Humanoid or Hybrid Form Only).** Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage.
 
 #### Weretiger
 
@@ -37899,7 +37897,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 **Challenge** 1/2 (100 XP)
 
-***Death Burst.*** When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 1d8) slashing damage on a failed save, or half as much damage on a successful one.
+***Death Burst.*** When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 feet of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.
 
 ***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice.
 
@@ -37909,7 +37907,7 @@ Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2
 
 ***Claws.** Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.
 
-***Frost Breath (Recharge 6).*** The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 2d4) cold damage on a failed save, or half as much damage on a successful one.
+***Frost Breath (Recharge 6).*** The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one.
 
 #### Magma Mephit
 
@@ -38893,7 +38891,7 @@ Cantrips (at will): [*sacred flame*](#sacred-flame), *stabilize*, [*thaumaturgy*
 
 ***Second Roar.*** Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-***Third Roar.*** Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.
+***Third Roar.*** Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone.
 
 ##### Legendary Actions
 
@@ -39630,7 +39628,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 **Challenge** 0 (10 XP)
 
-***Keen Smell.*** The badger has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The badger has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -39685,7 +39683,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 ***Echolocation.*** The bat can't use its blindsight while deafened.
 
-***Keen Hearing.*** The bat has advantage on Wisdom Perception) checks that rely on hearing.
+***Keen Hearing.*** The bat has advantage on Wisdom (Perception) checks that rely on hearing.
 
 ##### Actions
 
@@ -39740,7 +39738,7 @@ An **axe beak** is a tall flightless bird with strong legs and a heavy, wedge-sh
 
 **Challenge** 1/2 (100 XP)
 
-***Keen Smell.*** The bear has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The bear has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -39858,7 +39856,7 @@ A **blink dog** takes its name from its ability to blink in and out of existence
 
 **Challenge** 1/8 (25 XP)
 
-***Keen Sight.*** The hawk has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The hawk has advantage on Wisdom (Perception) checks that rely on sight.
 
 ***Pack Tactics.*** The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
@@ -39972,7 +39970,7 @@ Taking its name from its crimson feathers and aggressive nature, the blood hawk 
 
 **Challenge** 1 (200 XP)
 
-***Keen Smell.*** The bear has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The bear has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -40082,7 +40080,7 @@ Taking its name from its crimson feathers and aggressive nature, the blood hawk 
 
 **Challenge** 0 (10 XP)
 
-***Keen Smell.*** The cat has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The cat has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -40300,7 +40298,7 @@ Taking its name from its crimson feathers and aggressive nature, the blood hawk 
 
 **Challenge** 1 (200 XP)
 
-***Two-Headed.*** The dog has advantage on Wisdom Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.
+***Two-Headed.*** The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious.
 
 ##### Actions
 
@@ -40518,7 +40516,7 @@ A **death dog** is an ugly two-headed hound that roams plains, and deserts. Hate
 
 **Challenge** 0 (10 XP)
 
-***Keen Sight.*** The eagle has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The eagle has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -40848,7 +40846,7 @@ A **frog** has no effective attacks. It feeds on small insects and typically dwe
 
 **Challenge** 1/4 (50 XP)
 
-***Keen Smell.*** The badger has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The badger has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -40907,7 +40905,7 @@ A **frog** has no effective attacks. It feeds on small insects and typically dwe
 
 ***Echolocation.*** The bat can't use its blindsight while deafened.
 
-***Keen Hearing.*** The bat has advantage on Wisdom Perception) checks that rely on hearing.
+***Keen Hearing.*** The bat has advantage on Wisdom (Perception) checks that rely on hearing.
 
 ##### Actions
 
@@ -41237,7 +41235,7 @@ A **frog** has no effective attacks. It feeds on small insects and typically dwe
 
 **Challenge** 1 (200 XP)
 
-***Keen Sight.*** The eagle has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The eagle has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -41407,6 +41405,8 @@ A **giant fire beetle** is a nocturnal creature that takes its name from a pair 
 **Senses** darkvision 60 ft., passive Perception 10
 
 **Languages** —
+
+**Challenge** — (0 XP)
 
 See "[*figurine of wondrous power*](#figurine-of-wondrous-power)".
 
@@ -41854,7 +41854,7 @@ A **giant lizard** can be ridden or used as a draft animal. Lizardfolk also keep
 
 **Challenge** 1/8 (25 XP)
 
-***Keen Smell.*** The rat has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The rat has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Pack Tactics.*** The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
@@ -42495,7 +42495,7 @@ Smaller than a giant spider, a **giant wolf spider** hunts prey across open grou
 
 **Challenge** 0 (10 XP)
 
-***Keen Sight.*** The hawk has advantage on Wisdom Perception) checks that rely on sight.
+***Keen Sight.*** The hawk has advantage on Wisdom (Perception) checks that rely on sight.
 
 ##### Actions
 
@@ -42725,7 +42725,7 @@ Smaller than a giant shark but larger and fiercer than a reef shark, a **hunter 
 
 ***Hold Breath.*** The whale can hold its breath for 30 minutes.
 
-***Keen Hearing.*** The whale has advantage on Wisdom Perception) checks that rely on hearing.
+***Keen Hearing.*** The whale has advantage on Wisdom (Perception) checks that rely on hearing.
 
 ##### Actions
 
@@ -42780,7 +42780,7 @@ Smaller than a giant shark but larger and fiercer than a reef shark, a **hunter 
 
 **Challenge** 1 (200 XP)
 
-***Keen Smell.*** The lion has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The lion has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Pack Tactics.*** The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't incapacitated.
 
@@ -43183,7 +43183,7 @@ Mastiffs are impressive hounds prized by humanoids for their loyalty and keen se
 
 **Challenge** 1/4 (50 XP)
 
-***Keen Smell.*** The panther has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The panther has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Pounce.*** If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.
 
@@ -43354,7 +43354,7 @@ A **phase spider** possesses the magical ability to phase in and out of the Ethe
 
 **Challenge** 2 (450 XP)
 
-***Keen Smell.*** The bear has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The bear has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -43519,7 +43519,7 @@ A **quipper** is a carnivorous fish with sharp teeth. Quippers can adapt to any 
 
 **Challenge** 0 (10 XP)
 
-***Keen Smell.*** The rat has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The rat has advantage on Wisdom (Perception) checks that rely on smell.
 
 ##### Actions
 
@@ -43686,7 +43686,7 @@ Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow wat
 
 **Challenge** 2 (450 XP)
 
-***Charge.*** If the rhinoceros moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
+***Charge.*** If the rhinoceros moves at least 20 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.
 
 ##### Actions
 
@@ -43792,7 +43792,7 @@ Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow wat
 
 **Challenge** 2 (450 XP)
 
-***Keen Smell.*** The tiger has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The tiger has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Pounce.*** If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
 
@@ -43959,7 +43959,7 @@ Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow wat
 
 ##### Actions
 
-***Bite.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 1d4) poison damage.
+***Bite.** Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.
 
 #### Swarm of Bats
 
@@ -44014,7 +44014,7 @@ Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow wat
 
 ***Echolocation.*** The swarm can't use its blindsight while deafened.
 
-***Keen Hearing.*** The swarm has advantage on Wisdom Perception) checks that rely on hearing.
+***Keen Hearing.*** The swarm has advantage on Wisdom (Perception) checks that rely on hearing.
 
 ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points.
 
@@ -44274,7 +44274,7 @@ A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and n
 
 **Challenge** 1/4 (50 XP)
 
-***Keen Smell.*** The swarm has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The swarm has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.
 
@@ -44390,7 +44390,7 @@ A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and n
 
 **Challenge** 1 (200 XP)
 
-***Keen Smell.*** The tiger has advantage on Wisdom Perception) checks that rely on smell.
+***Keen Smell.*** The tiger has advantage on Wisdom (Perception) checks that rely on smell.
 
 ***Pounce.*** If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action.
 
@@ -44628,7 +44628,7 @@ A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and n
 
 ***Cold Breath (Recharge 5–6).*** The wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.
 
-The arctic-dwelling **winter wolf** is as large as a dire wolf but has snow-white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves')deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversations.
+The arctic-dwelling **winter wolf** is as large as a dire wolf but has snow-white fur and pale blue eyes. Frost giants use these evil creatures as guards and hunting companions, putting the wolves' deadly breath weapon to use against their foes. Winter wolves communicate with one another using growls and barks, but they speak Common and Giant well enough to follow simple conversations.
 
 #### Wolf
 
