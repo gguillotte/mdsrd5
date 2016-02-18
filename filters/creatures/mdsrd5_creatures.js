@@ -1,0 +1,1444 @@
+var creatures = {
+  "creatures": [
+    {
+        "name": "Ape",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Awakened Shrub",
+        "size": "Small",
+        "type": "plant",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Awakened Tree",
+        "size": "Huge",
+        "type": "plant",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Axe Beak",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Baboon",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Badger",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Bat",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Black Bear",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Blink Dog",
+        "size": "Medium",
+        "type": "fey",
+        "subtype": "",
+        "alignment": {
+            "ethics": "lawful",
+            "morality": "good"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Blood Hawk",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Boar",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Brown Bear",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Camel",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Cat",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Constrictor Snake",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Crab",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Crocodile",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Death Dog",
+        "size": "Medium",
+        "type": "monstrosity",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Deer",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Dire Wolf",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Draft Horse",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Eagle",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Elephant",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "4",
+            "value": 4,
+            "xp": 1100
+        }
+    },
+    {
+        "name": "Elk",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Flying Snake",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Frog",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 0
+        }
+    },
+    {
+        "name": "Giant Ape",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "7",
+            "value": 7,
+            "xp": 2900
+        }
+    },
+    {
+        "name": "Giant Badger",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Bat",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Boar",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Giant Centipede",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Constrictor Snake",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Giant Crab",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Giant Crocodile",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "5",
+            "value": 5,
+            "xp": 1800
+        }
+    },
+    {
+        "name": "Giant Eagle",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Elk",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Giant Fire Beetle",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Giant Fly",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "none",
+            "value": 0,
+            "xp": 0
+        }
+    },
+    {
+        "name": "Giant Frog",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Goat",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Giant Hyena",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Lizard",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Octopus",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Owl",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Poisonous Snake",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Giant Rat",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Giant Scorpion",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "3",
+            "value": 3,
+            "xp": 700
+        }
+    },
+    {
+        "name": "Giant Sea Horse",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Giant Shark",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "5",
+            "value": 5,
+            "xp": 1800
+        }
+    },
+    {
+        "name": "Giant Spider",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Toad",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Vulture",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Giant Wasp",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Giant Weasel",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Giant Wolf Spider",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Goat",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Hawk",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Hunter Shark",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Hyena",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Jackal",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Killer Whale",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "3",
+            "value": 3,
+            "xp": 700
+        }
+    },
+    {
+        "name": "Lion",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Lizard",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Mammoth",
+        "size": "Huge",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "6",
+            "value": 6,
+            "xp": 2300
+        }
+    },
+    {
+        "name": "Mastiff",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Mule",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Octopus",
+        "size": "Small",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Owl",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Panther",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Phase Spider",
+        "size": "Large",
+        "type": "monstrosity",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "3",
+            "value": 3,
+            "xp": 700
+        }
+    },
+    {
+        "name": "Poisonous Snake",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Polar Bear",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Pony",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/8",
+            "value": .12,
+            "xp": 25
+        }
+    },
+    {
+        "name": "Quipper",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Rat",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Raven",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Reef Shark",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Rhinoceros",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Riding Horse",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Saber-Toothed Tiger",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Scorpion",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Sea Horse",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 0
+        }
+    },
+    {
+        "name": "Spider",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Swarm of Bats",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Swarm of Insects",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Swarm of Poisonous Snakes",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "2",
+            "value": 2,
+            "xp": 450
+        }
+    },
+    {
+        "name": "Swarm of Quippers",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Swarm of Rats",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Swarm of Ravens",
+        "size": "Medium",
+        "type": "swarm of Tiny beasts",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Tiger",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1",
+            "value": 1,
+            "xp": 200
+        }
+    },
+    {
+        "name": "Vulture",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Warhorse",
+        "size": "Large",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    },
+    {
+        "name": "Weasel",
+        "size": "Tiny",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "0",
+            "value": 0,
+            "xp": 10
+        }
+    },
+    {
+        "name": "Winter Wolf",
+        "size": "Large",
+        "type": "monstrosity",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "3",
+            "value": 3,
+            "xp": 700
+        }
+    },
+    {
+        "name": "Wolf",
+        "size": "Medium",
+        "type": "beast",
+        "subtype": "",
+        "alignment": {
+            "ethics": "unaligned",
+            "morality": "unaligned"
+        },
+        "challenge": {
+            "display": "1/4",
+            "value": .25,
+            "xp": 50
+        }
+    },
+    {
+        "name": "Worg",
+        "size": "Large",
+        "type": "monstrosity",
+        "subtype": "",
+        "alignment": {
+            "ethics": "neutral",
+            "morality": "neutral"
+        },
+        "challenge": {
+            "display": "1/2",
+            "value": .50,
+            "xp": 100
+        }
+    }
+  ]
+}

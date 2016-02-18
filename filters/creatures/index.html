@@ -1,0 +1,273 @@
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>The Markdown SRD5 - Creature Filter</title>
+
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.dynatable.js" type="text/javascript"></script>
+    <script src="mdsrd5_creatures.js" type="text/javascript"></script>
+
+    <!-- Remote and external CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+    <!-- /Remote and external CSS -->
+    
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../multipage.css">
+    <link rel="stylesheet" href="jquery.dynatable.css">
+
+    <script type="text/javascript">
+      var these_creatures = creatures.creatures;
+      
+      function creatureAttributeWriter(record) {
+        // `this` is the column object in settings.columns
+        // TODO: automatically convert common types, such as arrays and objects, to string
+        var this_record = record[this.id];
+        var object_output = "";
+        var this_record_type = $.type(this_record);
+        if ( this_record === "" ) {
+          return '&mdash;';
+        } else if ( this_record_type === 'object' ) {
+          if ( this.id === 'alignment' ) {
+            $.each(this_record, function(key, value) {
+              if ( value === 'unaligned' ) {
+                object_output = 'unaligned';
+              } else if ( ( value === 'neutral' ) && ( object_output === 'neutral ' ) ) {
+                object_output = 'neutral';
+              } else {
+                object_output += value + ' '
+              }
+            } )
+          } else if ( this.id === 'challenge' ) {
+            object_output = this_record.display;
+          }
+          
+          if ( object_output === 'any any ') {
+            return 'any';
+          } else {
+            return object_output;
+          }
+        /* } else if ( this.label === 'Name' ) {
+          return '<a href="' + record.url + '">' + record.name + '</a>'; */
+        } else if ( this.id === 'xp' ) {
+          return record['challenge'].xp;
+        } else {
+          return this_record;
+        }
+      };
+
+      $( document ).ready(function() {
+        $('#results_table')
+          .bind('dynatable:init', function(e, dynatable) {
+            dynatable.queries.functions['query_subtype'] = function(creature, queryValue) {
+              var creature_subtype = creature.subtype;
+              if ( creature_subtype == queryValue ) {
+                return true;
+              } else if ( ( (creature_subtype.includes(queryValue) ) ) && ( creature_subtype.includes(", ") ) ) {
+                return true;
+              } else { return false; }
+            };
+            dynatable.queries.functions['query_ethics'] = function(creature, queryValue) {
+              var creature_ethics = creature.alignment.ethics;
+              if ( creature_ethics === queryValue ) {
+                return true;
+              } else if ( creature_ethics === 'any' ) {
+                return true;
+              } else { return false; }
+            };
+            dynatable.queries.functions['query_morality'] = function(creature, queryValue) {
+              var creature_morality = creature.alignment.morality;
+              if ( creature_morality === queryValue ) {
+                return true;
+              } else if ( ( queryValue === 'non-good' ) && ( creature_morality !== 'good' ) ) {
+                return true;
+              } else { return false; }
+            };
+            dynatable.queries.functions['query_challenge'] = function(creature, queryValue) {
+              var creature_challenge = creature.challenge.display;
+              if ( creature_challenge === queryValue ) {
+                return true;
+              } else { return false; }
+            };
+          })
+          .dynatable({
+            dataset: {
+              records: these_creatures
+            },
+            writers: {
+              _attributeWriter: creatureAttributeWriter
+            },
+            inputs: {
+              queryEvent: 'blur change keyup',
+              queries: $('.updates_table')
+            }
+          });
+      });
+    </script>
+    
+  </head>
+
+  <body>
+
+    <header>
+      <h1>The Markdown SRD5</h1>
+      <h2>Creature Filter</h2>
+    </header>
+
+    <section id="query_selectors">
+      <div class="query_selector" id="query_selectors_size">
+        <label>Size: </label>
+        <select id="size" class="updates_table" name="size">
+          <option></option>
+          <!-- <option>Gargantuan</option> -->
+          <option>Huge</option>
+          <option>Large</option>
+          <option>Medium</option>
+          <option>Small</option>
+          <option>Tiny</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_type">
+        <label>Type: </label>
+        <select id="type" class="updates_table" name="type">
+          <option></option>
+          <!-- <option value="aberration">Aberration</option> -->
+          <option value="beast">Beast</option>
+          <!-- <option value="celestial">Celestial</option>
+          <option value="construct">Construct</option>
+          <option value="dragon">Dragon</option>
+          <option value="elemental">Elemental</option> -->
+          <option value="fey">Fey</option>
+          <!-- <option value="fiend">Fiend</option>
+          <option value="giant">Giant</option>
+          <option value="humanoid">Humanoid</option> -->
+          <option value="monstrosity">Monstrosity</option>
+          <!-- <option value="ooze">Ooze</option> -->
+          <option value="plant">Plant</option>
+          <option value="swarm of Tiny beasts">Swarm of Tiny beasts</option>
+          <!-- <option value="undead">Undead</option> -->
+        </select>
+      </div>
+      <!--
+      <div class="query_selector" id="query_selectors_subtype">
+        <label>Subtype: </label>
+        <select id="query_subtype" class="updates_table" name="query_subtype">
+          <option></option>
+          <option value="any race">Any race</option>
+          <option value="demon">Demon</option>
+          <option value="devil">Devil</option>
+          <option value="dwarf">Dwarf</option>
+          <option value="elf">Elf</option>
+          <option value="gnoll">Gnoll</option>
+          <option value="gnome">Gnome</option>
+          <option value="goblinoid">Goblinoid</option>
+          <option value="grimlock">Grimlock</option>
+          <option value="human">Human</option>
+          <option value="kobold">Kobold</option>
+          <option value="lizardfolk">Lizardfolk</option>
+          <option value="merfolk">Merfolk</option>
+          <option value="orc">Orc</option>
+          <option value="sahuagin">Sahuagin</option>
+          <option value="shapechanger">Shapechanger</option>
+          <option value="titan">Titan</option>
+        </select>
+      </div>
+      -->
+      <div class="query_selector" id="query_selectors_ethics">
+        <label>Alignment Ethics: </label>
+        <select id="query_ethics" class="updates_table" name="query_ethics">
+          <option></option>
+          <!-- <option value="chaotic">Chaotic</option> -->
+          <option value="lawful">Lawful</option>
+          <option value="neutral">Neutral</option>
+          <option value="unaligned">Unaligned</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_morality">
+        <label>Alignment Morality: </label>
+        <select id="query_morality" class="updates_table" name="query_morality">
+          <option></option>
+          <!-- <option value="evil">Evil</option> -->
+          <option value="good">Good</option>
+          <option value="neutral">Neutral</option>
+          <option value="non-good">Non-good</option>
+          <option value="unaligned">Unaligned</option>
+        </select>
+      </div>
+
+      <div class="query_selector" id="query_selectors_challenge">
+        <label>Challenge Rating: </label>
+        <select id="query_challenge" class="updates_table" name="query_challenge">
+          <option></option>
+          <option value="none">none</option>
+          <option value="0">0</option>
+          <option value="1/2">1/2</option>
+          <option value="1/4">1/4</option>
+          <option value="1/8">1/8</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="30">30</option>
+        </select>
+      </div>
+
+    <section id="results">
+      <table id="results_table">
+        <thead>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Type</th>
+          <th>Subtype</th>
+          <th>Alignment</th>
+          <th>Challenge</th>
+          <th>XP</th>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+
+      <p>
+        Source: <a href="http://dnd.wizards.com/articles/features/systems-reference-document-srd">The original publisher's website</a>, used here in accordance with the <a href="/mdsrd5/paged/Legal_Information.htm">Open Gaming License (OGL)</a>.
+      </p>
+      <p>
+      Also available in <a href="https://gguillotte.github.io/mdsrd5/">single-page HTML</a>, <a href="https://gguillotte.github.io/mdsrd5/paged/">paginated HTML</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.pdf">bookmarked PDF</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.docx">DOCX</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.icml">InCopy Markup Language</a>, <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.epub">ePub 2</a>, and <a href="https://github.com/gguillotte/mdsrd5/raw/master/mdsrd5.md">Markdown</a> formats. <a href="https://github.com/gguillotte/mdsrd5">Grab a fork on GitHub</a>.
+      </p>
+
+    </footer>
+
+  </body>
+ 
+</html>
