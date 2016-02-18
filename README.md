@@ -61,13 +61,33 @@ In addition to the terms above, rules for the following terms or concepts in thi
 Release notes
 -------------
 
-### 0.7 (2016-02-16)
+### 0.8 (2016-02-18)
 
-Added JSON for magic items and a magic item filter.
+Added basic JSON for monsters and fixed numerous missing punctuation issues in creature and monster descriptions.
+
+#### New content
+
+-   Structured [creatures](https://gguillotte.github.io/mdsrd5/mdsrd5_creatures.json), [monsters](https://gguillotte.github.io/mdsrd5/mdsrd5_monsters.json), and [nonplayer characters](https://gguillotte.github.io/mdsrd5/mdsrd5_nonplayer_characters.json) in JSON format. Monsters are structured by name, size category, type and subtype, alignment (by ethics and morality), and challenge (by challenge rating and XP value).
 
 #### Fixed
 
--   Removed extraneous casting time options from the spell filter.
+-   Closed mismatched parentheses for senses, average damages, and ability checks in creature and monster descriptions. These were leftover from the poor automated conversion of the source PDF's corrupted text.
+
+#### Known issues
+
+-   The monster JSON omits all other monster statistics and descriptions.
+-   The spell JSON omits descriptions and spell effect radius shapes and sizes, as these are not structured in the source data.
+-   The magic item JSON omits descriptions and attunement details, as these are not structured in the source data.
+-   The magic item filter shows *giant slayer* when filtering by any axe, but not when filtering by any sword.
+-   Navigation in the paginated HTML version is generally poor.
+-   The DOCX version needs some formatting tweaks, particularly around sidebars.
+-   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
+-   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
+-   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+
+### 0.7 (2016-02-16)
+
+Added JSON for magic items and a magic item filter.
 
 #### New content
 
@@ -75,16 +95,9 @@ Added JSON for magic items and a magic item filter.
 -   A [magic item filter](https://gguillotte.github.io/mdsrd5/filters/magic_items/) that lets you interactively search, sort, and filter magic items by these traits.
 -   Links to chapters and sections refer to custom IDs that are more unique and stable than the automatically generated IDs. This adds some Pandoc-specific markup to the Markdown source.
 
-#### Known issues
+#### Fixed
 
--   The spell JSON omits descriptions.
--   The magic item JSON omits descriptions and attunement details.
--   The magic item filter shows *giant slayer* when filtering by any axe, but not when filtering by any sword.
--   Navigation in the paginated HTML version is generally poor.
--   The DOCX version needs some formatting tweaks, particularly around sidebars.
--   The single-page HTML document's length causes problems on some mobile browsers, especially on resource-limited devices. Try the ePub and paginated versions as alternatives.
--   Tables are mostly HTML instead of Markdown in this repo, due to the strenuous use of multi-line content in the source material's tables. The Markdown file in this repo is generated from a copy that uses Pandoc's `multiline_tables` extension. Once all content is incorporated and organized, I'll add those source files to this repo.
--   PDF output uses `wkhtmltopdf` for now. The Alegreya font family doesn't embed successfully, it provides inconsistent control over line breaks, and when italicized text follows a space, the space is lost due to `wkhtmltopdf` bugs.
+-   Removed extraneous casting time options from the spell filter.
 
 ### 0.6.2 (2016-02-10)
 
@@ -238,6 +251,7 @@ Adds Monster, Creature, and NPC descriptions.
 
 #### Known issues (since resolved)
 
+-   Parentheses for many creatures' and monsters' senses, average damage values, and ability checks were imbalanced, namely with a closed parentheses but no opening parentheses. This was due to the poor text encoding in the source PDF, which caused readers to either omit spaces or transpose them with parentheses, hyphens, other punctuation, or even other letters.
 -   Due to a processing issue, the list of miscellaneous creatures was included multiple times.
 -   The document width expanded to fit tables on narrow viewports, forcing users to scroll to reach the return-to-top button.
 
