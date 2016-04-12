@@ -5143,7 +5143,301 @@ At 1st level, you know four cantrips of your choice from the sorcerer spell list
 
 #### Spell Slots
 
-The Sorcerer table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
+<table style="width:100%;">
+<caption>Sorcerer Spell Slots per Level</caption>
+<colgroup>
+<col width="10%" />
+<col width="6%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Sorcerer Level</th>
+<th align="left">Spell Level</th>
+<th align="center">1st</th>
+<th align="center">2nd</th>
+<th align="center">3rd</th>
+<th align="center">4th</th>
+<th align="center">5th</th>
+<th align="center">6th</th>
+<th align="center">7th</th>
+<th align="center">8th</th>
+<th align="center">9th</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1st</td>
+<td align="left"></td>
+<td align="center">2</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">2nd</td>
+<td align="left"></td>
+<td align="center">3</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">3rd</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">4th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">5th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">6th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">7th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">8th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">9th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">10th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">11th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">12th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">13th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">14th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">—</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">15th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">—</td>
+</tr>
+<tr class="even">
+<td align="center">16th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">—</td>
+</tr>
+<tr class="odd">
+<td align="center">17th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td align="center">18th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr class="odd">
+<td align="center">19th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr class="even">
+<td align="center">20th</td>
+<td align="left"></td>
+<td align="center">4</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">2</td>
+<td align="center">2</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+</tbody>
+</table>
+
+The Sorcerer Spell Slots per Level table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
 
 For example, if you know the 1st-level spell [*burning hands*](#burning-hands) and have a 1st-level and a 2nd-level spell slot available, you can cast [*burning hands*](#burning-hands) using either slot.
 
@@ -8021,7 +8315,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 
 #### Suggested Characteristics
 
-Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme. d8
+Acolytes are shaped by their experience in temples or other religious communities. Their study of the history and tenets of their faith and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.
 
 <table>
 <colgroup>
@@ -9348,79 +9642,79 @@ Poisons come in the following four types.
 <tr class="header">
 <th align="left">Item</th>
 <th align="left">Type</th>
-<th align="left">Price per Dose</th>
+<th>Price per Dose</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Assassin's blood</td>
 <td align="left">Ingested</td>
-<td align="left">150 gp</td>
+<td>150 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Burnt othur fumes</td>
 <td align="left">Inhaled</td>
-<td align="left">500 gp</td>
+<td>500 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Crawler mucus</td>
 <td align="left">Contact</td>
-<td align="left">200 gp</td>
+<td>200 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Drow poison</td>
 <td align="left">Injury</td>
-<td align="left">200 gp</td>
+<td>200 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Essence of ether</td>
 <td align="left">Inhaled</td>
-<td align="left">300 gp</td>
+<td>300 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Malice</td>
 <td align="left">Inhaled</td>
-<td align="left">250 gp</td>
+<td>250 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Midnight tears</td>
 <td align="left">Ingested</td>
-<td align="left">1,500 gp</td>
+<td>1,500 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Oil of taggit</td>
 <td align="left">Contact</td>
-<td align="left">400 gp</td>
+<td>400 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Pale tincture</td>
 <td align="left">Ingested</td>
-<td align="left">250 gp</td>
+<td>250 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Purple worm poison</td>
 <td align="left">Injury</td>
-<td align="left">2,000 gp</td>
+<td>2,000 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Serpent venom</td>
 <td align="left">Injury</td>
-<td align="left">200 gp</td>
+<td>200 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Torpor</td>
 <td align="left">Ingested</td>
-<td align="left">600 gp</td>
+<td>600 gp</td>
 </tr>
 <tr class="odd">
 <td align="left">Truth serum</td>
 <td align="left">Ingested</td>
-<td align="left">150 gp</td>
+<td>150 gp</td>
 </tr>
 <tr class="even">
 <td align="left">Wyvern poison</td>
 <td align="left">Injury</td>
-<td align="left">1,200 gp</td>
+<td>1,200 gp</td>
 </tr>
 </tbody>
 </table>
@@ -23705,60 +23999,60 @@ You have resistance to one damage type while wearing this ring. The gem in the r
 <thead>
 <tr class="header">
 <th align="center">d10</th>
-<th align="left"></th>
-<th align="left"></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="center">1</td>
-<td align="left">Acid</td>
-<td align="left">Pearl</td>
+<td>Acid</td>
+<td>Pearl</td>
 </tr>
 <tr class="even">
 <td align="center">2</td>
-<td align="left">Cold</td>
-<td align="left">Tourmaline</td>
+<td>Cold</td>
+<td>Tourmaline</td>
 </tr>
 <tr class="odd">
 <td align="center">3</td>
-<td align="left">Fire</td>
-<td align="left">Garnet</td>
+<td>Fire</td>
+<td>Garnet</td>
 </tr>
 <tr class="even">
 <td align="center">4</td>
-<td align="left">Force</td>
-<td align="left">Sapphire</td>
+<td>Force</td>
+<td>Sapphire</td>
 </tr>
 <tr class="odd">
 <td align="center">5</td>
-<td align="left">Lightning</td>
-<td align="left">Citrine</td>
+<td>Lightning</td>
+<td>Citrine</td>
 </tr>
 <tr class="even">
 <td align="center">6</td>
-<td align="left">Necrotic</td>
-<td align="left">Jet</td>
+<td>Necrotic</td>
+<td>Jet</td>
 </tr>
 <tr class="odd">
 <td align="center">7</td>
-<td align="left">Poison</td>
-<td align="left">Amethyst</td>
+<td>Poison</td>
+<td>Amethyst</td>
 </tr>
 <tr class="even">
 <td align="center">8</td>
-<td align="left">Psychic</td>
-<td align="left">Jade</td>
+<td>Psychic</td>
+<td>Jade</td>
 </tr>
 <tr class="odd">
 <td align="center">9</td>
-<td align="left">Radiant</td>
-<td align="left">Topaz</td>
+<td>Radiant</td>
+<td>Topaz</td>
 </tr>
 <tr class="even">
 <td align="center">10</td>
-<td align="left">Thunder</td>
-<td align="left">Spinel</td>
+<td>Thunder</td>
+<td>Spinel</td>
 </tr>
 </tbody>
 </table>
