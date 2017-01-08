@@ -1,3 +1,10 @@
+This project is no longer maintained. For an up-to-date, accessible, searchable SRD, see http://5e.d20srd.org/.
+===============================================================================================================
+
+Previous readme below.
+
+----
+
 mdsrd5: The Markdown SRD5
 =========================
 
